@@ -13,7 +13,8 @@ class ID_Generator:
             if count >num:
                 break
             line = data_file.readline()
-            Id = re_uid.findall(line)
+            #Id = re_uid.findall(line)
+            Id = re_qid.findall(line)
             for _Id in Id:
                 save_file.write(category+str(count)+"\t"+_Id+"\n")
                 count += 1
