@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+<meta charset="utf-8">
+<meta property="wb:webmaster" content="6fb2b4de5a6b35cc" />
+<link rel="icon" 
+      type="image/png" 
+      href="/static/image/get32px.png">
+
+  <title>Readability内容分析算法，和它的那些多语言实现 | @Get社区</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/app.css?v=2014" type="text/css" >
+  <link rel="stylesheet" href="/static/css/jdc.icon.css?v=2014" type="text/css" >
+  <link rel="stylesheet" href="/static/css/jquery.jscrollpane.css" type="text/css" >
+  <link rel="stylesheet" href="/static/css/../components/jquery.atwho/dist/css/jquery.atwho.min.css" type="text/css" >
+  <!--<link rel="stylesheet" href="/static/css/../components/sweetalert/lib/sweet-alert.css" type="text/css" >-->
+  <link rel="stylesheet" href="http://libs.useso.com/js/highlight.js/8.0/styles/solarized_light.min.css" type="text/css" >
+
+
+        <link rel="stylesheet" type="text/css" href="/static/css/yue.css">
+        <link rel="stylesheet" type="text/css" href="/static/css/article-btn.css">
+        <link rel="stylesheet" type="text/css" href="/static/css/imgshare.css">
+        
+<!--[if lt IE 9]>
+      <script src="/static/script/html5.js"></script>
+<![endif]-->
+<!--[if IE 6]>    
+    		<link href="/static/css/ie6.min.css" rel="stylesheet">
+<![endif]-->
+
+<!--
+    <script src="http://lib.sinaapp.com/js/jquery/1.8/jquery.min.js"></script>
+
+     <script src="http://lib.sinaapp.com/js/jquery/2.0.3/jquery-2.0.3.min.js"></script>-->
+     <script src="http://libs.useso.com/js/jquery/2.1.1/jquery.min.js"></script>
+    
+
+    <script src="/static/script/bootstrap.min.js"></script>
+    <script src="/static/script/jquery.jscrollpane.min.js"></script>
+    <script src="/static/script/jquery.mousewheel.js"></script>
+    <script src="/static/script/../components/notifyjs/dist/notify-combined.min.js"></script>
+    <script src="/static/script/../components/jquery.onoff/dist/jquery.onoff.min.js"></script>
+    <script src="/static/script/../components/jquery.atwho/dist/js/jquery.atwho.min.js"></script>
+    <script src="/static/script/../components/Caret.js/dist/jquery.caret.min.js"></script>
+    <!--<script src="/static/script/../components/sweetalert/lib/sweet-alert.min.js"></script>-->
+    <script src="/static/script/../components/jquery-waypoints/waypoints.min.js"></script>
+    <script src="http://libs.useso.com/js/highlight.js/8.0/highlight.min.js"></script>
+    <!--[if IE 6]>    
+         <script src="static/script/ie6.min.js"></script>
+  <![endif]-->
+    <script src="/static/script/app.js"></script>
+    
+            <script type="text/javascript" src="/static/script/jquery.imgshare.js" ></script>
+        <script type="text/javascript" src="/static/script/timeago.js" ></script>
+        <script type="text/javascript" src="/static/script/locales/timeago.zh-cn.js" ></script>
+          </head>    
+<body id="body">
+ 	 <div class="navbar navbar-fixed-top navbar-get" role="navigation" id="theheader">
+      <div class="container clearfix">
+
+          <a class="logo" href="/?c=default"><img src="/static/image/get32px.png"><span class="get">Get</span>社区</a>             <div class="new_message_notice"></div>
+          <!--<span class="exp">每日Get新知识</span>-->
+
+          <div class="navbar-collapse collapse pull-right">
+          <ul class="get-cate-nav">
+            <li class="dropdown   active  ">
+                <button class="btn btn-getnar dropdown-toggle" type="button"  onclick="location='/?c=default'">
+                  新知
+                  <!--<span class="caret"></span>-->
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                  <li class=""><a href="/">全部</a></li>
+                  <li class="" role="presentation"><a href="/?cate=1" role="menuitem" tabindex="-1">技术</a></li>
+                  <li class="" role="presentation"><a href="/?cate=2" role="menuitem" tabindex="-1">设计</a></li>
+                  <li class="" role="presentation"><a href="/?cate=3" role="menuitem" tabindex="-1">产品</a></li>
+                  <li class="" role="presentation"><a href="/?cate=4" role="menuitem" tabindex="-1">创业</a></li>
+                  <li class=""><a href="/?a=kb">我的</a></li>
+                  <li class=""><a href="/?a=feed">我关注的</a></li>
+                  <li class="" ><a href="/?a=submit" target="_blank">+添加新知</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown  ">
+                <button class="btn btn-getnar dropdown-toggle" type="button"  onclick="location='/?c=card'">
+                  卡片流
+                  <!--<span class="caret"></span>-->
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                  <li class=""><a href="/?c=card">我的首页</a></li>
+                  <li class=""><a href="/?c=card&a=explore">随便看看</a></li>
+                                  </ul>
+              </li>
+              <li class="dropdown nosub  ">
+                <button class="btn btn-getnar dropdown-toggle" type="button"  onclick="location='/?c=wiki'">
+                  百科
+                  <!--<span class="caret"></span>-->
+                </button>
+                
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                  <li class=""><a href="/?c=wiki">百科首页</a></li>
+                  <!--<li class=""><a href="/?c=wiki&a=explore">最近更新</a></li>-->
+                </ul>
+              </li>
+              <li class="dropdown nosub  ">
+                <button class="btn btn-getnar dropdown-toggle" type="button"  onclick="location='/?c=forum'">
+                  讨论区
+                  <!--<span class="caret"></span>-->
+                </button>
+                
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                  <li class=""><a href="/?c=forum">首页</a></li>
+                </ul>
+              </li>
+             
+
+              <li class="dropdown nosub   ">
+                <button class="btn btn-getnar dropdown-toggle" type="button"  onclick="location='/?c=gold'">
+                  积分
+                  <!--<span class="caret"></span>-->
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                  <li class=""><a href="/?c=gold&a=task">任务系统</a></li>
+                  <li class=""><a href="/?c=gold&a=shop">礼品兑换</a></li>
+                  <li class=""><a href="/?c=gold&a=top">排行榜单</a></li>
+                  
+                </ul>
+              </li>
+              
+
+
+
+            
+            
+            
+          </ul>  
+          </div>
+
+          
+
+          
+      </div><!-- /.container -->
+</div><!-- /.navbar -->    
+  
+ 
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-xs-12 col-sm-9">
+            
+<div class="get-article-area " id="gacontent">
+<h2 class="green">Readability内容分析算法，和它的那些多语言实现</h2>
+<p class="exp">含PHP、Java、Node版本下载链接</p>
+ <div class="yue top20">
+    <p>从网页中提取出主要内容，一直是一个比较有挑战的算法。Readability是其中一个很不错的实现，它通过遍历Dom对象，通过标签和常用文字的加减权，来重新整合出页面的内容。</p><p><a href="https://code.google.com/p/arc90labs-readability/" target="_blank">JS版本</a>的Readability是最好用的，它可以直接在浏览器完成分析，于是用户还可以人工对分析出来的内容进行修改和校正。</p><p>GET社区的<a href="https://chrome.google.com/webstore/detail/get%E2%98%91-%E6%96%B0%E7%9F%A5%E7%A4%BE%E5%8C%BA/keljakldimocndjaodecgfpkopnbaagm" target="_blank">Chrome插件</a>就使用了这个算法，在你遇到读起来不爽的网页的时候，点一下，世界就清爽了。</p><p>比如Breach浏览器的文档页面，看起来很酷，但是阅读久了会让人泪流不止。</p><p><img alt="Screen Shot 2014-08-20 at 17.02.17.png" src="http://newsget-img.stor.sinaapp.com/53f464b74a0b1.png" data-image-size="1008,789"><br></p><p>但当你点过插件后，这个页面会变成这个样子：</p><p><img alt="Screen Shot 2014-08-20 at 17.05.33.png" src="http://newsget-img.stor.sinaapp.com/53f464ea07f2f.png" data-image-size="855,531"><br></p><p>是不是觉得世界更美好了。</p><p>那么，接下来我们就简单看看这个算法是如何实现的。</p><p>首先，它定义了一系列正则：</p><pre class="lang-js" data-lang="js">regexps: {
+        unlikelyCandidates:    /combx|comment|community|disqus|extra|foot|header|menu|remark|rss|shoutbox|sidebar|sponsor|ad-break|agegate|pagination|pager|popup|tweet|twitter/i,
+        okMaybeItsACandidate:  /and|article|body|column|main|shadow/i,
+        positive:              /article|body|content|entry|hentry|main|page|pagination|post|text|blog|story/i,
+        negative:              /combx|comment|com-|contact|foot|footer|footnote|masthead|media|meta|outbrain|promo|related|scroll|shoutbox|sidebar|sponsor|shopping|tags|tool|widget/i,
+        extraneous:            /print|archive|comment|discuss|e[\-]?mail|share|reply|all|login|sign|single/i,
+        divToPElements:        /&lt;(a|blockquote|dl|div|img|ol|p|pre|table|ul)/i,
+        replaceBrs:            /(&lt;br[^&gt;]*&gt;[ \n\r\t]*){2,}/gi,
+        replaceFonts:          /&lt;(\/?)font[^&gt;]*&gt;/gi,
+        trim:                  /^\s+|\s+$/g,
+        normalize:             /\s{2,}/g,
+        killBreaks:            /(&lt;br\s*\/?&gt;(\s|&amp;nbsp;?)*){1,}/g,
+        videos:                /http:\/\/(www\.)?(youtube|vimeo)\.com/i,
+        skipFootnoteLink:      /^\s*(\[?[a-z0-9]{1,2}\]?|^|edit|citation needed)\s*$/i,
+        nextLink:              /(next|weiter|continue|&gt;([^\|]|$)|»([^\|]|$))/i, // Match: next, continue, &gt;, &gt;&gt;, » but not &gt;|, »| as those usually mean last.
+        prevLink:              /(prev|earl|old|new|&lt;|«)/i
+    },
+</pre><p>可以看到，标签和文字都有加权或降权分组。整个内容分析是通过grabArticle函数来实现的。</p><p>首先开始遍历节点</p><pre class="">for(var nodeIndex = 0; (node = allElements[nodeIndex]); nodeIndex+=1) 
+</pre><p>然后将不像内容的元素去掉</p><pre class="">if (stripUnlikelyCandidates) 
+{
+    var unlikelyMatchString = node.className + node.id;
+    if (
+        (
+            unlikelyMatchString.search(readability.regexps.unlikelyCandidates) !== -1 &amp;&amp;
+            unlikelyMatchString.search(readability.regexps.okMaybeItsACandidate) === -1 &amp;&amp;
+            node.tagName !== "BODY"
+        )
+    )
+    {
+        dbg("Removing unlikely candidate - " + unlikelyMatchString);
+        node.parentNode.removeChild(node);
+        nodeIndex-=1;
+        continue;
+    }               
+}
+</pre><p>将DIV替换为P标签后，再对目标节点进行遍历，进行计分:</p><pre class="">var candidates = [];
+for (var pt=0; pt &lt; nodesToScore.length; pt+=1) {
+    var parentNode      = nodesToScore[pt].parentNode;
+    var grandParentNode = parentNode ? parentNode.parentNode : null;
+    var innerText       = readability.getInnerText(nodesToScore[pt]);
+
+    if(!parentNode || typeof(parentNode.tagName) === 'undefined') {
+        continue;
+    }
+
+    /* If this paragraph is less than 25 characters, don't even count it. */
+    if(innerText.length &lt; 25) {
+        continue; }
+
+    /* Initialize readability data for the parent. */
+    if(typeof parentNode.readability === 'undefined') {
+        readability.initializeNode(parentNode);
+        candidates.push(parentNode);
+    }
+
+    /* Initialize readability data for the grandparent. */
+    if(grandParentNode &amp;&amp; typeof(grandParentNode.readability) === 'undefined' &amp;&amp; typeof(grandParentNode.tagName) !== 'undefined') {
+        readability.initializeNode(grandParentNode);
+        candidates.push(grandParentNode);
+    }
+
+    var contentScore = 0;
+
+    /* Add a point for the paragraph itself as a base. */
+    contentScore+=1;
+
+    /* Add points for any commas within this paragraph */
+    contentScore += innerText.split(',').length;
+    
+    /* For every 100 characters in this paragraph, add another point. Up to 3 points. */
+    contentScore += Math.min(Math.floor(innerText.length / 100), 3);
+    
+    /* Add the score to the parent. The grandparent gets half. */
+    parentNode.readability.contentScore += contentScore;
+
+    if(grandParentNode) {
+        grandParentNode.readability.contentScore += contentScore/2;             
+    }
+}</pre><p>最后根据分值，重新拼接内容</p><pre class="">var articleContent        = document.createElement("DIV");
+if (isPaging) {
+    articleContent.id     = "readability-content";
+}
+var siblingScoreThreshold = Math.max(10, topCandidate.readability.contentScore * 0.2);
+var siblingNodes          = topCandidate.parentNode.childNodes;
+
+
+for(var s=0, sl=siblingNodes.length; s &lt; sl; s+=1) {
+    var siblingNode = siblingNodes[s];
+    var append      = false;
+
+    /**
+     * Fix for odd IE7 Crash where siblingNode does not exist even though this should be a live nodeList.
+     * Example of error visible here: <a href="http://www.esquire.com/features/honesty0707" rel="nofollow">http://www.esquire.com/features/honesty0707</a>
+    **/
+    if(!siblingNode) {
+        continue;
+    }
+
+    dbg("Looking at sibling node: " + siblingNode + " (" + siblingNode.className + ":" + siblingNode.id + ")" + ((typeof siblingNode.readability !== 'undefined') ? (" with score " + siblingNode.readability.contentScore) : ''));
+    dbg("Sibling has score " + (siblingNode.readability ? siblingNode.readability.contentScore : 'Unknown'));
+
+    if(siblingNode === topCandidate)
+    {
+        append = true;
+    }
+
+    var contentBonus = 0;
+    /* Give a bonus if sibling nodes and top candidates have the example same classname */
+    if(siblingNode.className === topCandidate.className &amp;&amp; topCandidate.className !== "") {
+        contentBonus += topCandidate.readability.contentScore * 0.2;
+    }
+
+    if(typeof siblingNode.readability !== 'undefined' &amp;&amp; (siblingNode.readability.contentScore+contentBonus) &gt;= siblingScoreThreshold)
+    {
+        append = true;
+    }
+    
+    if(siblingNode.nodeName === "P") {
+        var linkDensity = readability.getLinkDensity(siblingNode);
+        var nodeContent = readability.getInnerText(siblingNode);
+        var nodeLength  = nodeContent.length;
+        
+        if(nodeLength &gt; 80 &amp;&amp; linkDensity &lt; 0.25)
+        {
+            append = true;
+        }
+        else if(nodeLength &lt; 80 &amp;&amp; linkDensity === 0 &amp;&amp; nodeContent.search(/\.( |$)/) !== -1)
+        {
+            append = true;
+        }
+    }
+
+    if(append) {
+        dbg("Appending node: " + siblingNode);
+
+        var nodeToAppend = null;
+        if(siblingNode.nodeName !== "DIV" &amp;&amp; siblingNode.nodeName !== "P") {
+            /* We have a node that isn't a common block level element, like a form or td tag. Turn it into a div so it doesn't get filtered out later by accident. */
+            
+            dbg("Altering siblingNode of " + siblingNode.nodeName + ' to div.');
+            nodeToAppend = document.createElement("DIV");
+            try {
+                nodeToAppend.id = siblingNode.id;
+                nodeToAppend.innerHTML = siblingNode.innerHTML;
+            }
+            catch(er) {
+                dbg("Could not alter siblingNode to div, probably an IE restriction, reverting back to original.");
+                nodeToAppend = siblingNode;
+                s-=1;
+                sl-=1;
+            }
+        } else {
+            nodeToAppend = siblingNode;
+            s-=1;
+            sl-=1;
+        }
+        
+        /* To ensure a node does not interfere with readability styles, remove its classnames */
+        nodeToAppend.className = "";
+
+        /* Append sibling and subtract from our list because it removes the node when you append to another node */
+        articleContent.appendChild(nodeToAppend);
+    }
+}
+</pre><p>可以看到，里边用到了很多很trick的技巧，比如25字以下的段落不计分。</p><p>整个读下来，还是很有趣的。</p><p>由于Readability解决的需求很通用，于是其他语言的程序员纷纷移植了该算法。</p><ol><li>PHP版本&nbsp;<a href="https://github.com/feelinglucky/php-readability" rel="nofollow">https://github.com/feelinglucky/php-readability</a></li><li>Java版本&nbsp;<a href="https://github.com/wuman/JReadability" rel="nofollow">https://github.com/wuman/JReadability</a></li><li>当然会有Node版本了&nbsp;<a href="https://www.npmjs.org/package/node-readability" rel="nofollow">https://www.npmjs.org/package/node-readability</a></li></ol><p>有了这些东西，我们就可以轻松做出好用的的东西啦~ （ 比如 GET社区就是哈&nbsp;</p></div>
+
+
+
+<div class="sinfo exp">
+
+            本文由 <a href="/1.user" target="_blank">Easy<span aria-hidden="true" class="jdc-jobdeer jdcicon"></span></a> 发表于<img src="/static/image/get32px.png" class="geticon"/>GET
+    
+<!--<p class="exp top10">GET社区由国内首家互联网人才拍卖网站 <a href="http://www.jobdeer.com/?fr=get">JobDeer.com</a> 提供服务器资源</p>-->
+</div>
+    <ul class="get-article-actions">
+        <li><a href="http://snap.kuaijianli.com/imget.php?title=%E3%80%8C+Readability%E5%86%85%E5%AE%B9%E5%88%86%E6%9E%90%E7%AE%97%E6%B3%95%EF%BC%8C%E5%92%8C%E5%AE%83%E7%9A%84%E9%82%A3%E4%BA%9B%E5%A4%9A%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0+%E3%80%8D%E5%90%ABPHP%E3%80%81Java%E3%80%81Node%E7%89%88%E6%9C%AC%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5%E3%80%82+via+%40GET%E7%A4%BE%E5%8C%BA+-+%E9%9D%A2%E6%9C%9D%E7%9F%A5%E8%AF%86%EF%BC%8C%E7%AE%80%E6%B4%81%E9%9B%85%E8%87%B4+%E2%86%92+&url=http%3A%2F%2Fget.jobdeer.com%2F122.gets&source=2843610882&pic=http%3A%2F%2Fsnap.kuaijianli.com%2Fsnaps%2Fa122.png" target="_blank">分享到微博</a></li>
+        <li class="kblink-122"><a href="javascript:add2kb('122','top');" >收藏本文</a></li>
+                    <li class="followlink-1"><a href="javascript:follow('1');void(0);">关注@Easy</a></li>
+            </ul>
+
+        
+        <div class="visible-xs-block wxlast">
+    <center>
+    <img src="/static/image/qrcode.jpg">
+    <p>「GetParty」</p>
+    <p>关注微信号，推送好文章</p>
+    <p>微信中长按图片即可关注</p>
+    <p><a href="/?fr=qrbt" class="btn btn-success">更多精选文章</a></p>
+    </center>
+    </div>
+    
+    <div id="article-122">
+        <a href="javascript:toggle_inline_comment('122','article');void(0);" class="get" name="comment"><span class="jdc-coffee"></span>评论</a>
+        <div class="top20"></div>
+    </div>
+
+    <script>toggle_inline_comment('122','article');
+    $(".timeago").timeago();</script>
+
+<div class="hbox"></div>
+
+</div>
+
+
+
+
+
+
+
+
+<script>
+$( document ).ready(function() {
+
+highlight();
+
+// 支持图片分享到微博
+    setTimeout( function()
+    {
+       $('.get-article-area').imgShare();
+   } , 2000 );
+
+});
+
+</script>
+        </div><!--/span-->
+
+        <div class="hidden-xs col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+           
+
+<script>
+$('.sinfo.exp').waypoint(function(direction) {
+  if( direction == 'down' )
+  {
+    $("#wechat_code").show();
+  }
+
+  if( direction == 'up' )
+  {
+    $("#wechat_code").hide();
+  }
+
+
+},{ offset:'bottom-in-view'});
+</script>
+
+<div id="wechat_code">
+<img src="/static/image/qrcode.jpg"/>
+<p>关注微信号，推送好文章</p>
+</div>        </div><!--/span-->
+      </div><!--/row-->
+
+
+      <div class="get-last"></div>
+
+
+          <div class="get-user-menu">
+        <a href="/?c=weibo&a=login" class="link">微博一键登入</a><span class="top" ><a href="#"><span class="jdc-arrow-up-thick"></span></a></span>
+      </div>
+    
+<div class="modal fade" id="get_float" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+  <div class="modal-dialog">
+  </div>
+</div>
+
+<div id="get_aside" class="clearfix">
+<div class="pull-right"><a href="javascript:hide_aside();void(0);" class="get btn">&times;</a></div>
+<div class="content"><center class="top50"><img src="/static/image/loading.gif"/></center></div>
+</div>
+
+
+
+<div class="bottom-logo hidden-xs">
+  <center>
+        <a href="http://www.jobdeer.com/?fr=get" target="_blank" class="get noselect"><img src="/static/image/bottom_logo.png" class="blogo" title="点我访问详情" id="blogo"/></a>
+        <div class="talk">GET社区由 <a href="http://www.jobdeer.com/?fr=get" target="_blank" class="get">「 JobDeer.com 」互联网人才竞拍</a> 提供</div>
+  </center>
+</div>
+
+
+<div id="shadow_dom"></div>
+
+
+
+
+<script type="text/javascript">
+//emojify.run();
+//$('#get_float').modal();
+
+$(window).scroll( function()
+{
+    var value = $(document).scrollTop();
+    //console.log('in value='+value);
+
+    if ( value > 0 )
+        $("#theheader").addClass('smaller');
+    else
+        $("#theheader").removeClass('smaller');
+});
+
+if( $(".snapbox").length > 0 )
+  $(".snapbox").append($("<div class='floatingfooter'></div>"));
+
+$( document ).ready(function() {
+$( '.yue a[href^="http://"]' ).attr( 'target','_blank' );
+$( '.yue a[href^="https://"]' ).attr( 'target','_blank' );
+});
+
+</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://s.kuaijianli.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 7]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://s.kuaijianli.com/piwik.php?idsite=7" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+    </div><!--/.container-->
+
+
+</body>
+</html>
