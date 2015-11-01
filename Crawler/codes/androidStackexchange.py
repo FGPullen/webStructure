@@ -1,6 +1,7 @@
 import urllib2
 import time
 import random
+from lxml import etree
 
 #coding=utf8
 header = {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0'}
