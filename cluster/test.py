@@ -32,4 +32,3 @@ if __name__=='__main__':
 
 # /html/body/div/div/div/div/div/div/div/h3/span
 # /html/body/div/div/div/div/div/div/div/h3
-# /html/body/div/div/div/div/div/div/div/div/div/a/div/img

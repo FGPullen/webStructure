@@ -64,6 +64,12 @@ class allPages:
 		for page in self.pages:
 			page.updatetfidf(self.idf)
 
+	# update category based on predicted y
+	def updateCategory(self,pred_y):
+		assert len(self.category) == len(pred_y)
+		for i in range(len(pred_y)):
+			self.category[i] = pred_y[i]
+
 	#def getFarpair(self):
 
 
