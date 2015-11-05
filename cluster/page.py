@@ -4,7 +4,7 @@ import re
 
 class Page:
     def __init__(self,path):
-        self.path = path
+        self.path = path.replace("_","/").replace("../Crawler/crawl/data/Questions/","").replace(".html","")
         self.original = open(path,"r").read()
         self.contents = self.original.replace("\n","")
         self.xpaths = {}
@@ -51,7 +51,7 @@ class Page:
     	for global_xpath in global_xpaths:
     		if global_xpath not in self.xpaths:
     			self.xpaths[global_xpath] = 0
-    
+        
     def updatetfidf(self,idf):
         # idf is a dict and given by allPages object
         for xpath in self.xpaths.keys():
@@ -68,12 +68,16 @@ class Page:
 
         # test 
         '''
-        x3 = "/html/body/div/div/div/div/div/div/div/div/div/a/div/img"
-        if self.xpaths[x3]>0:
-            for item in self.tfidf:
+        x = []
+        count = 0
+        x.append("/html/body/div/div/div/div/div/div/div/ul/li/div")
+        if self.xpaths[x[0]] >0:
+            for item in self.normtfidf:
                 self.normtfidf[item] = 0
-            self.normtfidf[x3] = 1
+            for item in x:
+                    self.normtfidf[item] = 1.0
         '''
+        # test
             
     def getAnchor(self):
         print "start getAnchor"
@@ -85,6 +89,9 @@ class Page:
                 print node.attrib['href']
             except:
                 print "Oh no! " + str(node)
+
+
+
 
 if __name__=='__main__':
     #re_href = re.compile(r'(?<='href': ').*(?=')')

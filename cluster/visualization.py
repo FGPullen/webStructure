@@ -22,15 +22,21 @@ class visualizer:
 		self.Y = model.fit_transform(X)
 
 	def show(self,group_list,file_name):
-		mark_list = ["r*","g+","bo","yd","k^","mH","c_"]
+		cluster_name = ["Others","Users","Questions","Index","Tags","Posts","Feeds"]
+		mark_list = ["yd","g+","bo","r*","k^","mH","c_"]
+		label_count = [0 for i in range(len(mark_list))]
 		x = self.Y[:,0]
 		y = self.Y[:,1]
 		print "Intotal we have " + str(x.size) + " data points"
+		print str(len(group_list)) + "\t" + str(x.size)
 		assert len(group_list) == x.size
 		for i in range(len(group_list)):
-			mark = mark_list[group_list[i]]
-			Plot.plot(x[i],y[i],mark)
-		Plot.legend(loc=3);
+			index = group_list[i]
+			mark = mark_list[index]
+			Plot.plot(x[i],y[i],mark,label=cluster_name[index] if label_count[index]==0 else "")
+			label_count[index] = 1
+		Plot.legend(numpoints=1,loc=3);
+		#Plot.legend();  
 		self.write2D(file_name,group_list)
 		Plot.show()
 	
@@ -51,8 +57,7 @@ if __name__=='__main__':
 	#UP_pages = allPages(["../Crawler/crawl_data/Users/","../Crawler/crawl_data/Outlinks_U/","../Crawler/crawl_data/Noise/"])
 	UP_pages = allPages(["../Crawler/crawl_data/Questions/"])
 	v = visualizer(UP_pages)
-	group_list = [0 for i in range(791)]
-	v.show(group_list)
+	v.show(v.UP_pages.ground_truth,"ground_truth.test")
 	'''
 	UP_pages = allPages(["../Crawler/crawl_data/Questions/"])
 	feature_matrix = []

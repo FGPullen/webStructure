@@ -9,12 +9,18 @@ from visualization import visualizer
 from sklearn.utils import shuffle
 from sklearn.preprocessing import scale
 from time import time
+import operator
 from cluster import cluster
 
 class pagesCluster:
 	def __init__(self, path_list,num_clusters):
 		t0 = time()
 		self.UP_pages = allPages(path_list)
+		self.num_clusters = num_clusters
+		self.clustering(num_clusters)
+		
+
+	def clustering(self,num_clusters):
 		feature_matrix = []
 		y =[]
 		# get features and labels
@@ -39,7 +45,7 @@ class pagesCluster:
 		#print self.pre_y
 		#print self.y
 		print metrics.adjusted_mutual_info_score(self.y, self.pre_y)  
-		print("done in %0.3fs." % (time() - t0))			
+		print("done in %0.3fs." % (time() - t0))				
 
 	def Output(self):
 		write_file = open("cluster_result.txt","w")
@@ -55,17 +61,24 @@ class pagesCluster:
 
 if __name__=='__main__':
 	#cluster_labels = pagesCluster(["../Crawler/toy_data/users_toy/","../Crawler/toy_data/questions_toy/","../Crawler/toy_data/articles/","../Crawler/toy_data/lists/"])
-	num_clusters = 5
+	num_clusters = 7
 	clusters = []
 	for i in range(1,num_clusters+1):
 		clusters.append(cluster())
 	cluster_labels = pagesCluster(["../Crawler/crawl_data/Questions/"],num_clusters)
 	pages = cluster_labels.UP_pages
+	global_threshold = len(pages.pages) * 0.9
 	assert len(pages.pages) == len(cluster_labels.pre_y)
+	users_num = [0 for i in range(num_clusters)] 
 	for i in range(len(cluster_labels.pre_y)):
-		print str(cluster_labels.pre_y[i]) + pages.pages[i].path
+		if "user" in pages.pages[i].path:
+			users_num[cluster_labels.pre_y[i]] += 1
 		clusters[cluster_labels.pre_y[i]].addPage(pages.pages[i])
-	
+
+	index, value = max(enumerate(users_num), key=operator.itemgetter(1))
+	print str(index) + "\t" + str(value)
+	user_cluster = clusters[index]
+	user_cluster.find_local_stop_structure(pages.nidf,global_threshold)
 
 	v = visualizer(cluster_labels.UP_pages)
 	twoD_file = "2Dfile_questions_Q7_norm_test.txt"

@@ -7,12 +7,14 @@ class allPages:
 		self.pages = []
 		self.category = []
 		self.full_xpaths = []
+		self.ground_truth = []
 		self.idf = {}
 		self.nidf = {}
 		self.addPages(path_list)
 		self.expandXpaths()
 		self.updateidf()
 		self.updatetfidf()
+		self.get_ground_truth()
 	
 	def update_full_xpaths(self,_page_):
 		for xpath in _page_.xpaths.keys():
@@ -50,15 +52,20 @@ class allPages:
 		# log(n/N)
 		for xpath in self.full_xpaths:
 			self.idf[xpath] = math.log((float(N))/(float(self.nidf[xpath])),2)
-		'''
-		x1 = "/html/body/div/div/div/div/div/div/div/h3/span"
-		x2 = "/html/body/div/div/div/div/div/div/div/h3"
-		x3 = "/html/body/div/div/div/div/div/div/div/div/div/a/div/img"
+		
+		
+		x1 = "/html/body/div/div/div/div/div/div/div/ul/li/a/span"
+		x2 = "/html/body/div/div/div/div/div/a/div"
+		x3 = "/html/body/div/div/noscript/div/img"
+		x4 = "/html/body/div/div/div/div/div/div/div/h3/span"
+		x5 = "/html/body/div/div/div/div/div/div/div/ul/li/div"
 		for page in self.pages:
-			page.xpaths[x1] *= 100
-			page.xpaths[x2] *= 100
-			page.xpaths[x3] *= 100
-		'''
+			page.xpaths[x1] *= 10
+			page.xpaths[x2] *= 10
+			page.xpaths[x3] *= 10
+			page.xpaths[x4] *= 10
+			page.xpaths[x5] *= 10			
+		
 
 	def updatetfidf(self):
 		for page in self.pages:
@@ -72,6 +79,27 @@ class allPages:
 
 	#def getFarpair(self):
 
+	def get_ground_truth(self):
+		# /users/ /questions/ /q/ /questions/tagged/   /tags/ /posts/ /feeds/ /others
+		for i in range(len(self.pages)):
+			path = self.pages[i].path.replace("_","/")
+			print path
+			if "/users/" in path:
+				tag = 1
+			elif "/questions/tagged/" in path:
+				tag = 3
+			elif "/questions/" in path or "/q/" in path or "/a/" in path:
+				tag = 2
+			elif "/tags/" in path:
+				tag = 4
+			elif "/posts/" in path:
+				tag = 5
+			elif "/feeds/" in path:
+				tag = 6
+			else:
+				tag = 0
+			print "tag is " + str(tag)
+			self.ground_truth.append(tag)
 
 def distance(page1,page2):
 	dis = 0.0
