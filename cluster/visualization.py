@@ -4,6 +4,7 @@ from page import Page
 from pages import allPages
 from sklearn.preprocessing import scale
 import matplotlib.pyplot as Plot
+from cluster import cluster
 
 class visualizer:
 	def __init__(self,pages):
@@ -36,7 +37,7 @@ class visualizer:
 			Plot.plot(x[i],y[i],mark,label=cluster_name[index] if label_count[index]==0 else "")
 			label_count[index] = 1
 		Plot.legend(numpoints=1,loc=3);
-		#Plot.legend();  
+		#Plot.legend();
 		self.write2D(file_name,group_list)
 		Plot.show()
 	
@@ -57,7 +58,17 @@ if __name__=='__main__':
 	#UP_pages = allPages(["../Crawler/crawl_data/Users/","../Crawler/crawl_data/Outlinks_U/","../Crawler/crawl_data/Noise/"])
 	UP_pages = allPages(["../Crawler/crawl_data/Questions/"])
 	v = visualizer(UP_pages)
+	user_group = cluster()
+	for i in range(len(UP_pages.ground_truth)):
+		if UP_pages.ground_truth[i] == 1:
+			page = UP_pages.pages[i]
+			user_group.addPage(page)
+	global_threshold = len(UP_pages.pages) * 0.9
+	print len(user_group.pages)
+	user_group.find_local_stop_structure(UP_pages.nidf,global_threshold)
+
 	v.show(v.UP_pages.ground_truth,"ground_truth.test")
+	
 	'''
 	UP_pages = allPages(["../Crawler/crawl_data/Questions/"])
 	feature_matrix = []

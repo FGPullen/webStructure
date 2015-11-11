@@ -13,6 +13,7 @@ class allPages:
 		self.addPages(path_list)
 		self.expandXpaths()
 		self.updateidf()
+		#self.heuristic_weight()
 		self.updatetfidf()
 		self.get_ground_truth()
 	
@@ -54,6 +55,7 @@ class allPages:
 			self.idf[xpath] = math.log((float(N))/(float(self.nidf[xpath])),2)
 		
 		
+	def heuristic_weight(self):
 		x1 = "/html/body/div/div/div/div/div/div/div/ul/li/a/span"
 		x2 = "/html/body/div/div/div/div/div/a/div"
 		x3 = "/html/body/div/div/noscript/div/img"
@@ -64,7 +66,8 @@ class allPages:
 			page.xpaths[x2] *= 10
 			page.xpaths[x3] *= 10
 			page.xpaths[x4] *= 10
-			page.xpaths[x5] *= 10			
+			page.xpaths[x5] *= 10
+
 		
 
 	def updatetfidf(self):
@@ -83,7 +86,6 @@ class allPages:
 		# /users/ /questions/ /q/ /questions/tagged/   /tags/ /posts/ /feeds/ /others
 		for i in range(len(self.pages)):
 			path = self.pages[i].path.replace("_","/")
-			print path
 			if "/users/" in path:
 				tag = 1
 			elif "/questions/tagged/" in path:
@@ -98,7 +100,7 @@ class allPages:
 				tag = 6
 			else:
 				tag = 0
-			print "tag is " + str(tag)
+			#print "tag is " + str(tag)
 			self.ground_truth.append(tag)
 
 def distance(page1,page2):
