@@ -1,9 +1,11 @@
 from page import Page
+from cluster import cluster
 import os
 import math
+import distance
 
 class allPages:
-	def __init__(self,path_list):
+	def __init__(self,path_list,dm="no"):
 		self.pages = []
 		self.category = []
 		self.full_xpaths = []
@@ -13,9 +15,13 @@ class allPages:
 		self.addPages(path_list)
 		self.expandXpaths()
 		self.updateidf()
-		#self.heuristic_weight()
-		self.updatetfidf()
 		self.get_ground_truth()
+		#self.top_local_stop_structure_gt(0.9)
+		self.heuristic_weight()
+		self.updatetfidf()
+		if dm=="yes":
+			self.getDistanceMatrix("./Data/edit_distance.matrix")
+		
 	
 	def update_full_xpaths(self,_page_):
 		for xpath in _page_.xpaths.keys():
@@ -54,21 +60,63 @@ class allPages:
 		for xpath in self.full_xpaths:
 			self.idf[xpath] = math.log((float(N))/(float(self.nidf[xpath])),2)
 		
-		
-	def heuristic_weight(self):
-		x1 = "/html/body/div/div/div/div/div/div/div/ul/li/a/span"
-		x2 = "/html/body/div/div/div/div/div/a/div"
-		x3 = "/html/body/div/div/noscript/div/img"
-		x4 = "/html/body/div/div/div/div/div/div/div/h3/span"
-		x5 = "/html/body/div/div/div/div/div/div/div/ul/li/div"
-		for page in self.pages:
-			page.xpaths[x1] *= 10
-			page.xpaths[x2] *= 10
-			page.xpaths[x3] *= 10
-			page.xpaths[x4] *= 10
-			page.xpaths[x5] *= 10
+	def top_local_stop_structure_gt(self,threshold):
+		global_threshold = len(self.pages) * threshold
+		gt_clusters = []
+		for item in set(self.ground_truth):
+			gt_clusters.append(cluster())
+			for i in range(len(self.ground_truth)):
+				if self.ground_truth[i] == item:
+					gt_clusters[item].addPage(self.pages[i])
+			print str(item) + "\t" + str(len(gt_clusters[item].pages)) 
+
+		print "number of gt cluster is " + str(len(gt_clusters))
+		print "number of cluster 5 is " + str(len(gt_clusters[6].pages))
+		gt_clusters[6].find_local_stop_structure(self.nidf,global_threshold)
+
+
 
 		
+	def heuristic_weight(self):
+		# user 
+		x = []
+		x.append("/html/body/div/div/div/div/div/div/div/div/div/div/ul/li/span")
+		x.append("/html/body/div/div/div/div/div/a/div")
+		x.append("/html/body/div/div/noscript/div/img")
+		x.append("/html/body/div/div/div/div/div/div/div/h3/span")
+		x.append("/html/body/div/div/div/div/div/div/div/ul/li/a/span")
+
+		# Question
+		x.append("/html/body/div/div/div/link")
+		x.append("/html/body/div/div/div/div/div/ul/li/div")
+		x.append("/html/body/div/div/div/div/div/table/tr/td/div/div/b")
+		x.append("/html/body/div/div/div/div/div/table/tr/td/div/table/tr/td/div/div/br")
+		x.append("/html/body/div/div/div/div/div/table/tr/td/div/input")
+
+		#list 
+		x.append("/html/body/div/div/div/div/div/div/div")
+		x.append("/html/body/div/div/div/div/div/div/h3/a")
+		x.append("/html/body/div/div/div/div/ul/li/div")
+		x.append("/html/body/div/div/div/div/h4/a")
+		x.append("/html/body/div/div/div/div/div/div/div/div/div/br")
+
+		# tag 
+		x.append("/html/body/div/div/div/div/br")
+		x.append("/html/body/div/div/div/div/h2/a")
+
+		# post 
+		x.append("/html/body/div/div/div/div/div/p/i")
+		x.append("/html/body/div/div/div/div/div/p/a")
+		x.append("/html/body/div/div/div/form/div/div/span")
+
+		# feeds
+		x.append("/html/body/feed/subtitle")
+		x.append("/html/body/feed/entry/link")
+		x.append("/html/body/feed/entry/category")
+
+		for page in self.pages:
+			for item in x:
+				page.xpaths[item] *= 20
 
 	def updatetfidf(self):
 		for page in self.pages:
@@ -80,7 +128,28 @@ class allPages:
 		for i in range(len(pred_y)):
 			self.category[i] = pred_y[i]
 
-	#def getFarpair(self):
+	def getDistanceMatrix(self,write_path):
+		self.dist_matrix = []
+		write_file = open(write_path,"w")
+		for i in range(len(self.pages)):
+			print "calculate " + str(i)
+			s_i = self.pages[i].dfs_xpaths_list
+			tmp_list = []
+			for j in range(len(self.pages)):
+				if i==j:
+					tmp_dis = 0
+				elif i<j:
+					s_j = self.pages[j].dfs_xpaths_list
+					tmp_dis = int(distance.levenshtein(s_i,s_j))
+				else:
+					tmp_dis = self.dist_matrix[j][i]
+				tmp_list.append(tmp_dis)
+				print "calculate " + str(j) + "\t" + str(tmp_dis)
+			self.dist_matrix.append(tmp_list)
+			for item in tmp_list:
+				write_file.write(str(item) + "\t")
+			write_file.write("\n")
+
 
 	def get_ground_truth(self):
 		# /users/ /questions/ /q/ /questions/tagged/   /tags/ /posts/ /feeds/ /others
@@ -103,14 +172,49 @@ class allPages:
 			#print "tag is " + str(tag)
 			self.ground_truth.append(tag)
 
-def distance(page1,page2):
+def page_distance(page1,page2):
 	dis = 0.0
 	for item in page1.tfidf:
 		dis += math.pow((page1.normtfidf[item]-page2.normtfidf[item]),2)
 	return math.sqrt(dis)
 
 if __name__=='__main__':
-	UP_pages = allPages(["../Crawler/toy_data/users/","../Crawler/toy_data/questions/","../Crawler/toy_data/lists/"])
+	#UP_pages = allPages(["../Crawler/crawl_data/Questions/"])
+	pages = allPages(["../Crawler/crawl_data/Questions/"]).pages
+	edit_lines = open("./Data/edit_distance.matrix").readlines()
+	length = len(edit_lines) - 2
+	for i in range(length):
+		print "=================="
+		print pages[i].path
+		dis = edit_lines[i].strip().split("\t")
+		sub_dis = {}
+		for j in range(length):
+			sub_dis[j] = dis[j]
+			sorted_dict= sorted(sub_dis.iteritems(), key=lambda d:d[1], reverse = False)
+		
+		# find the top 10 , the first one will be it self
+		
+		for j in range(1,11):
+			print str(sorted_dict[j][1]) + "\t" + pages[sorted_dict[j][0]].path
+		print "================="
+
+
+
+
+
+	'''
+	page1 = UP_pages.pages[451]
+	page2 = UP_pages.pages[452]
+	x1 = page1.dfs_xpaths_list
+	x2 = page2.dfs_xpaths_list
+	print page1.path
+	print page2.path
+	d = distance.levenshtein(x1,x2)
+	print d
+	'''
+	# portiaon of d/ min(len(x1),len(x2))
+
+	'''
 	count_zero = 0
 	count_one = 0
 	for item in UP_pages.category:
@@ -146,4 +250,5 @@ if __name__=='__main__':
 		print str(g_sorted_result_dict[i][0]) + "\t" + str(g_sorted_result_dict[i][1])
 		print str(l_sorted_result_dict[i][0]) + "\t" + str(l_sorted_result_dict[i][1])
 	# Top 10 j > i
+	'''
 	

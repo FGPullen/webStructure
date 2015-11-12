@@ -1,5 +1,6 @@
 from lxml import etree
 import re
+import  gensim.models
 
 
 class Page:
@@ -14,6 +15,8 @@ class Page:
         self.normonehot = {}
         self.tfidf = {}
         self.normtfidf = {}
+        self.embedding = []
+        self.getEmbedding()
 
     def removeIndex(self,xpath):
     	indexes = re.findall(r"\[\d+\]",str(xpath))
@@ -34,13 +37,16 @@ class Page:
     	for node in nodes:
     		# we do not consider index or predicate here
             xpath = Etree.getpath(node)
-            self.dfs_xpaths_list.append(xpath) # except for this one
+            #self.dfs_xpaths_list.append(xpath) # except for this one
             xpath = self.removeIndex(xpath)
+            self.dfs_xpaths_list.append(xpath)
             self.addXpath(xpath)
 
     def outputXpaths(self):
+        # by dfs order?
     	for key in self.xpaths.keys():
-    		print key+"\t" + str(self.xpaths[key])
+            if self.xpaths[key] >0:
+        		print key+"\t" + str(self.xpaths[key])
 
     def outputtfidf(self):
         for key in self.tfidf.keys():
@@ -65,18 +71,6 @@ class Page:
         for item in self.tfidf:
             self.normtfidf[item] = float(self.tfidf[item])/tfidf_sum
             self.normonehot[item] = float(self.onehot[item])/onehot_sum
-
-        # test 
-        '''
-        x = []
-        count = 0
-        x.append("/html/body/div/div/div/div/div/div/div/ul/li/div")
-        if self.xpaths[x[0]] >0:
-            for item in self.normtfidf:
-                self.normtfidf[item] = 0
-            for item in x:
-                    self.normtfidf[item] = 1.0
-        '''
         # test
             
     def getAnchor(self):
@@ -90,6 +84,22 @@ class Page:
             except:
                 print "Oh no! " + str(node)
 
+    def getEmbedding(self):
+        # this should just load once , need to fix this later!
+        model = gensim.models.Word2Vec.load("./Data/word2Vec.model")
+        total = [0.0 for i in range(100)]
+        n = 0
+        for xpath in self.dfs_xpaths_list:
+            try:
+                total += model[xpath]
+                n = n + 1
+            except:
+                error = "less than 5 times"
+        avg_embedding = []
+        for i in range(len(total)):
+            avg_embedding.append(total[i]/float(n))
+        # normalize
+        self.embedding = avg_embedding
 
 
 

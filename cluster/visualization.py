@@ -34,7 +34,8 @@ class visualizer:
 		for i in range(len(group_list)):
 			index = group_list[i]
 			mark = mark_list[index]
-			Plot.plot(x[i],y[i],mark,label=cluster_name[index] if label_count[index]==0 else "")
+			#Plot.plot(x[i],y[i],mark,label=cluster_name[index] if label_count[index]==0 else "")
+			Plot.plot(x[i],y[i],mark)
 			label_count[index] = 1
 		Plot.legend(numpoints=1,loc=3);
 		#Plot.legend();

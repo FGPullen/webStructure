@@ -14,7 +14,7 @@ class cluster:
 				for page in self.pages:
 					if page.xpaths[xpath] > 0 :
 						self.local_nidf[xpath] += 1
-
+		print len(self.local_nidf)
 		local_sorted_list = sorted(self.local_nidf.iteritems(), key=lambda d:d[1], reverse =True)
 		for i in range(20):
 			print str(local_sorted_list[i][1]) + "\t" + local_sorted_list[i][0] + "\t" + str(global_nidf[local_sorted_list[i][0]])
