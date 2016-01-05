@@ -6,7 +6,6 @@ if __name__=='__main__':
 	UP_pages = allPages(["../Crawler/crawl_data/Questions/"])
 	idf = UP_pages.nidf
 
-
 	xpaths_dict = {}
 	co_dict = {}
 	for key1 in idf.keys():

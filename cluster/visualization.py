@@ -12,9 +12,10 @@ class visualizer:
 		feature_matrix = []
 		for page in self.UP_pages.pages:
 			tfidf_vector = []
-			for key in page.tfidf:
+			for key in page.Leung:
 				#tfidf_vector.append(page.normonehot[key])
 				tfidf_vector.append(page.normtfidf[key])
+				#tfidf_vector.append(page.Leung[key])
 			feature_matrix.append(tfidf_vector)
 		X = np.array(feature_matrix)
 		# rescale X
@@ -22,24 +23,27 @@ class visualizer:
 		model = TSNE(n_components=2, random_state=0)
 		self.Y = model.fit_transform(X)
 
-	def show(self,group_list,file_name):
-		cluster_name = ["Others","Users","Questions","Index","Tags","Posts","Feeds"]
-		mark_list = ["yd","g+","bo","r*","k^","mH","c_"]
-		label_count = [0 for i in range(len(mark_list))]
+	def show(self,truth_list,pred_list,file_name):
+		#cluster_name = ["Others","Users","Questions","Index","Tags","Posts","Feeds"]
+		cluster_name = ["Users","Questions","QA","Index","topic","collection","others"]
+		color_list = ["y","g","b","r","k","m","c"]
+		marker_list = ["d","+","o","*","^","H","_"]
+		label_count = [0 for i in range(len(marker_list))]
 		x = self.Y[:,0]
 		y = self.Y[:,1]
 		print "Intotal we have " + str(x.size) + " data points"
-		print str(len(group_list)) + "\t" + str(x.size)
-		assert len(group_list) == x.size
-		for i in range(len(group_list)):
-			index = group_list[i]
-			mark = mark_list[index]
-			#Plot.plot(x[i],y[i],mark,label=cluster_name[index] if label_count[index]==0 else "")
-			Plot.plot(x[i],y[i],mark)
-			label_count[index] = 1
+		print str(len(truth_list)) + "\t" + str(x.size)
+		assert len(truth_list) == x.size
+		for i in range(len(truth_list)):
+			m_index = truth_list[i]
+			c_index = pred_list[i]
+			mark =  color_list[c_index] + marker_list[m_index]
+			Plot.plot(x[i],y[i],mark,label=cluster_name[m_index] if label_count[m_index]==0 else "")
+			#Plot.plot(x[i],y[i],mark)
+			label_count[m_index] = 1
 		Plot.legend(numpoints=1,loc=3);
 		#Plot.legend();
-		self.write2D(file_name,group_list)
+		self.write2D(file_name,pred_list)
 		Plot.show()
 	
 	def write2D(self,file_name,group_list):

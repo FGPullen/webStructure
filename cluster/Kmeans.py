@@ -1,4 +1,3 @@
-from page import Page
 from pages import allPages
 import numpy as np
 import scipy as sp
@@ -8,7 +7,7 @@ import sklearn.cluster as Cluster
 from gensim.models import word2vec
 from visualization import visualizer
 from sklearn.utils import shuffle
-from sklearn.preprocessing import scale
+from sklearn.preprocessing import scale,normalize
 from time import time
 import operator
 from cluster import cluster
@@ -27,19 +26,37 @@ class pagesCluster:
 		# get features and labels
 		
 		for page in self.UP_pages.pages:
-			''' use tf-idf sth
+			#use tf-idf sth
+			'''
 			tfidf_vector = []
 			for key in page.tfidf:
 				#tfidf_vector.append(page.normonehot[key])
-				tfidf_vector.append(page.normtfidf[key])
+				tfidf_vector.append(page.tfidf[key])
+			tfidf_vector = normalize(tfidf_vector,norm='l1')[0]
 			feature_matrix.append(tfidf_vector)	
 			'''
-			feature_matrix.append(page.embedding)
-		
+			#feature_matrix.append(page.embedding)
+
+			# selected normalized tf idf 
+			
+			vector = []
+			for key in page.selected_tfidf:
+				vector.append(page.selected_tfidf[key])
+			vector = normalize(vector,norm='l1')[0]
+			feature_matrix.append(vector)
+			
+			# Leung Baseline
+			'''
+			vector = []
+			for key in page.Leung:
+				#print key + "\t" + str(page.Leung[key])
+				vector.append(page.Leung[key])
+			vector = normalize(vector,norm='l1')[0]
+			feature_matrix.append(vector)
+			'''
+
 		self.X = np.array(feature_matrix)
 		#self.X = scale(self.X)
-
-
 		# select 
 		#num_clusters = len(path_list)
 		k_means = Cluster.KMeans(n_clusters=num_clusters, n_init=10, random_state=0, n_jobs=2)
@@ -50,6 +67,34 @@ class pagesCluster:
 		#print self.y
 		#print metrics.adjusted_mutual_info_score(self.UP_pages.ground_truth,self.UP_pages.category)  
 		#print("done in %0.3fs." % (time() - self.t0))				
+
+
+	def DBSCAN(self):
+		# default file path is 
+		feature_matrix = []
+		lines = open("./Data/edit_distance.matrix","r").readlines()
+		for i in range(len(lines)):
+			line = lines[i]
+			dis = line.strip().split("\t")
+			# normalize 
+			for item in range(len(dis)):
+				dis[item] = int(dis[item])
+			#dis_sum = sum(dis)
+			#for item in range(len(dis)):
+			#	dis[item] = float(dis[item])/float(dis_sum)
+
+			feature_matrix.append(dis)
+
+		print "We have " + str(len(feature_matrix)) + " pages."
+		D = np.array(feature_matrix)
+		print D.shape
+		db = Cluster.DBSCAN(eps=0.3, metric='precomputed',min_samples=10).fit(D)
+		labels = db.labels_
+		n_clusters_ = len(set(labels))
+		print db.labels_
+		print('Estimated number of clusters: %d' % n_clusters_)
+
+
 
 	def Output(self):
 		write_file = open("cluster_result.txt","w")
@@ -72,6 +117,7 @@ class pagesCluster:
 		labels = {}
 		# final return 
 		weighted_f1 = 0.0
+		macro_f1 = 0.0
 		for item in ground_truth_set:
 			labels[item] = {}
 			precision[item] = {}
@@ -106,21 +152,27 @@ class pagesCluster:
 		for i in ground_truth_set:
 			tmp_max = max(fscore[i].iteritems(), key=operator.itemgetter(1))[1]
 			weighted_f1 += tmp_max*ng[i]/float(length)
+			macro_f1 += tmp_max/float(len(ground_truth_set))
+			#weighted_f1 += tmp_max/float(len(ground_truth_set))
 
-		return weighted_f1
+		return [weighted_f1,macro_f1]
 
 
 	def Evaluation(self):
 		labels_true = self.UP_pages.ground_truth
 		labels_pred = self.UP_pages.category
+		print "We have %d pages for ground truth!" %(len(labels_true))
+		print "We have %d pages after prediction!" %(len(labels_pred))
+		assert len(labels_true) == len(labels_pred)
 		pages = self.UP_pages
 		#self.Precision_Recall_F(labels_true,labels_pred)
 		print "Mutual Info Score is " + str(metrics.adjusted_mutual_info_score(labels_true, labels_pred))
 		print "Adjusted Rand Score is " + str(metrics.adjusted_rand_score(labels_true, labels_pred))
 		silhouette_score = metrics.silhouette_score(self.X,np.array(labels_pred), metric='euclidean')
 		print "Silhouette score is " + str(silhouette_score)
-		f_score = self.F_Measure(labels_true,labels_pred)
-		print "F-Measure is " + str(f_score)
+		[micro_f, macro_f] = self.F_Measure(labels_true,labels_pred)
+		print "Micro F-Measure is " + str(micro_f)
+		print "Macro F-Measure is " + str(macro_f)
 
 
 	def filename2Url(self,filename):
@@ -142,22 +194,24 @@ class pagesCluster:
  
 if __name__=='__main__':
 	#cluster_labels = pagesCluster(["../Crawler/toy_data/users_toy/","../Crawler/toy_data/questions_toy/","../Crawler/toy_data/articles/","../Crawler/toy_data/lists/"])
-	num_clusters = 5
+	num_clusters = 6
 	clusters = []
 	for i in range(1,num_clusters+1):
 		clusters.append(cluster())
-	cluster_labels = pagesCluster(["../Crawler/crawl_data/Questions/"],num_clusters)
+	#cluster_labels = pagesCluster(["../Crawler/crawl_data/Questions/"],num_clusters)
+	cluster_labels = pagesCluster(["../Crawler/crawl_data/Zhihu/"],num_clusters)
 	cluster_labels.clustering(cluster_labels.num_clusters)
 	cluster_labels.Evaluation()
 
-	'''
-	visualization
-	'''
+	
+	#visualization
+	
 	v = visualizer(cluster_labels.UP_pages)
 	twoD_file = "2Dfile_questions_Q7_norm_test.txt"
+	v.show(v.UP_pages.ground_truth, v.UP_pages.category ,twoD_file)
+	
 	#cluster_labels.Output()
 	# category for clustering results
-	v.show(v.UP_pages.category,twoD_file)
 	# ground truth for xx 
 	#v.show(v.UP_pages.ground_truth,twoD_file)
-
+	

@@ -20,7 +20,7 @@ UP_pages = allPages(["../Crawler/crawl_data/Questions/"])
 for page in UP_pages.pages:
 	sentences.append(page.dfs_xpaths_list)
 print len(sentences)
-model = gensim.models.Word2Vec(sentences,min_count=5,size=100,workers=5)
+model = gensim.models.Word2Vec(sentences,min_count=5, window=20, size=100,workers=5)
 #print("The lengh of sentences is ")
 #print(str(sentences.len()))
 #model = gensim.models.Word2Vec.load('../model/MedHelp_tokenizer.model')

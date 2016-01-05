@@ -1,22 +1,24 @@
 from lxml import etree
 import re
 import  gensim.models
-
+import copy
 
 class Page:
     def __init__(self,path):
-        self.path = path.replace("_","/").replace("../Crawler/crawl/data/Questions/","").replace(".html","")
+        self.path = path.replace("_","/").replace(".html","")
         self.original = open(path,"r").read()
         self.contents = self.original.replace("\n","")
-        self.xpaths = {}
+        self.xpaths = {} # tf
         self.dfs_xpaths_list = []
         self.getXpaths()
         self.onehot = {}
         self.normonehot = {}
         self.tfidf = {}
+        self.selected_tfidf = {}
         self.normtfidf = {}
         self.embedding = []
-        self.getEmbedding()
+        #self.getEmbedding()
+        self.Leung = {}
 
     def removeIndex(self,xpath):
     	indexes = re.findall(r"\[\d+\]",str(xpath))
@@ -39,6 +41,9 @@ class Page:
             xpath = Etree.getpath(node)
             #self.dfs_xpaths_list.append(xpath) # except for this one
             xpath = self.removeIndex(xpath)
+            #if xpath =="/html/body/div/div/ul/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/ul/li/a":
+            #       print node.text
+            #        print xpath
             self.dfs_xpaths_list.append(xpath)
             self.addXpath(xpath)
 
@@ -100,6 +105,15 @@ class Page:
             avg_embedding.append(total[i]/float(n))
         # normalize
         self.embedding = avg_embedding
+
+    def update_Leung(self,key):
+        if self.xpaths[key] >0:
+            self.Leung[key] = 1.0
+        else:
+            self.Leung[key] = 0.0
+
+    def update_selected_tfidf(self,key):
+        self.selected_tfidf[key] = copy.copy(self.tfidf[key])
 
 
 

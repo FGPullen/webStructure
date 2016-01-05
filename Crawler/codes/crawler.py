@@ -1,4 +1,5 @@
 import urllib2
+import traceback
 import time
 import random
 from lxml import etree
@@ -27,8 +28,8 @@ def crawlUrl(url,url_stack,history_stack,prefix):
 		response = urllib2.urlopen(url,timeout=30)
 		lines = response.read().replace("\n","")
 		#write to file
-
-		write_file = open("../crawl_data/Outlinks_U/"+url.replace("/","_")+".html",'w')
+		#write_file = open("../crawl_data/Zhihu/"+url.replace("/","_")+".html",'w')
+		write_file = open("../crawl_data/ASP/"+url.replace("/","_")+".html",'w')
 		write_file.write(lines)
 
 		# get links
@@ -39,19 +40,22 @@ def crawlUrl(url,url_stack,history_stack,prefix):
 		for node in nodes:
 			try:
 				url_child = node.attrib['href']
-				if not intraJudge(url_child):
-					#url_child = transform(url_child,prefix)
+				# if not intraJudge is for outlinks
+				if intraJudge(url_child):
+					url_child = transform(url_child,prefix)
 					if url_child not in history_stack:
 						url_stack.append(url_child)
 					add_num += 1
 			except:
+				print "error"
 				continue
 		print "Succesfully crawled. %d urls are added." %add_num
 		return 1
 
 def stack2file(url_stack,history_stack,count):
 	
-	stack_file = open("../stack_data/Outlinks/"+str(count/50)+".txt","w")
+	#stack_file = open("../stack_data/Zhihu/"+str(count/50)+".txt","w")
+	stack_file = open("../stack_data/ASP/"+str(count/50)+".txt","w")
 	stack_file.write("======url_stak======\n")
 	for url in url_stack:
 		stack_file.write(url+"\n")
@@ -74,11 +78,20 @@ def getHistory(path,exception_html):
 error_log = open('error.txt','w')
 
 if __name__=='__main__':
+	import argparse
+	parser = argparse.ArgumentParser()
+	parser.add_argument('inital_page', help='The entry page')
+	parser.add_argument('prefix', help='For urls only have partial path')
+	args = parser.parse_args()
 
-	url_stack = ["http://android.stackexchange.com/questions"]
-	history_stack = getHistory("../stack_data/user_stack.txt",url_stack[0])
-	print len(history_stack)
-	prefix = "http://android.stackexchange.com"
+	#url_stack = ["http://android.stackexchange.com/questions"]
+	url_stack = [args.inital_page]
+	#history_stack = getHistory("../stack_data/user_stack.txt",url_stack[0])
+	history_stack = []
+	#print len(history_stack)
+	#prefix = "http://android.stackexchange.com"
+	prefix = args.prefix
+	print prefix +" is the prefix"
 	count = 0
 	count_save = 0
 
@@ -107,6 +120,7 @@ if __name__=='__main__':
 
 		except:
 			print "error"
+			traceback.print_exc()
 			error_log.write(url_stack[0] + " has a problem. We will skip this\n")
 		finally:
 			print "Pop and append"
@@ -114,6 +128,7 @@ if __name__=='__main__':
 			if first_url not in history_stack:
 				history_stack.append(first_url)
 			url_stack.pop(0)
+
 
 
 
