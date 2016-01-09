@@ -1,4 +1,5 @@
 from pages import allPages
+import sys
 import numpy as np
 import scipy as sp
 import matplotlib.pyplot as plt
@@ -20,7 +21,7 @@ class pagesCluster:
 		#self.clustering(num_clusters)
 		
 		
-	def clustering(self,num_clusters):
+	def kmeans(self,num_clusters):
 		feature_matrix = []
 		y =[]
 		# get features and labels
@@ -60,14 +61,41 @@ class pagesCluster:
 		# select 
 		#num_clusters = len(path_list)
 		k_means = Cluster.KMeans(n_clusters=num_clusters, n_init=10, random_state=0, n_jobs=2)
-		k_means.fit(shuffle(self.X))
-		self.pre_y = k_means.predict(self.X)
+		#k_means.fit(shuffle(self.X))
+		#self.pre_y = k_means.predict(self.X)
+		k_means.fit(self.X)
+		self.pre_y = k_means.labels_
 		self.UP_pages.updateCategory(self.pre_y)
 		#print self.pre_y
 		#print self.y
 		#print metrics.adjusted_mutual_info_score(self.UP_pages.ground_truth,self.UP_pages.category)  
 		#print("done in %0.3fs." % (time() - self.t0))				
 
+	def AgglomerativeClustering(self, num_clusters):
+		'''
+		feature_matrix = []
+		y =[]
+		for page in self.UP_pages.pages:
+			vector = []
+			for key in page.Leung:
+				#print key + "\t" + str(page.Leung[key])
+				vector.append(page.Leung[key])
+			vector = normalize(vector,norm='l1')[0]
+			feature_matrix.append(vector)
+
+		self.X = np.array(feature_matrix)
+		ahc = Cluster.AgglomerativeClustering(n_clusters=num_clusters,linkage='complete')
+		ahc.fit(self.X)
+		self.pre_y = ahc.labels_
+		self.UP_pages.updateCategory(self.pre_y)
+		'''
+		#self.X = np.array([[0,1,2,4],[1,0,3,4],[2,3,0,1],[4,4,1,0]])
+		self.X = self.get_affinity_matrix()
+		ahc = Cluster.AgglomerativeClustering(n_clusters=num_clusters, affinity='precomputed',linkage='complete')
+		ahc.fit(self.X)
+		self.pre_y = ahc.labels_
+		self.UP_pages.updateCategory(self.pre_y)
+		print self.pre_y
 
 	def DBSCAN(self):
 		# default file path is 
@@ -94,7 +122,8 @@ class pagesCluster:
 		print db.labels_
 		print('Estimated number of clusters: %d' % n_clusters_)
 
-
+	def get_affinity_matrix(self):
+		return self.UP_pages.get_affinity_matrix()
 
 	def Output(self):
 		write_file = open("cluster_result.txt","w")
@@ -193,25 +222,34 @@ class pagesCluster:
 
  
 if __name__=='__main__':
-	#cluster_labels = pagesCluster(["../Crawler/toy_data/users_toy/","../Crawler/toy_data/questions_toy/","../Crawler/toy_data/articles/","../Crawler/toy_data/lists/"])
-	num_clusters = 6
-	clusters = []
-	for i in range(1,num_clusters+1):
-		clusters.append(cluster())
-	#cluster_labels = pagesCluster(["../Crawler/crawl_data/Questions/"],num_clusters)
-	cluster_labels = pagesCluster(["../Crawler/crawl_data/Zhihu/"],num_clusters)
-	cluster_labels.clustering(cluster_labels.num_clusters)
-	cluster_labels.Evaluation()
+	import argparse
+	parser = argparse.ArgumentParser()
+	parser.add_argument("datasets", choices=["zhihu","stackexchange","test"], help="the dataset for experiments")
+	parser.add_argument("clustering", choices=["kmeans","ahc"], help="the algorithm for clustering")
+	# representation option for args
+	args = parser.parse_args()
+	if args.datasets == "zhihu":
+		num_clusters = 6
+		cluster_labels = pagesCluster(["../Crawler/crawl_data/Zhihu/"],num_clusters)
+	elif args.datasets == "stackexchange":
+		num_clusters = 7
+		cluster_labels = pagesCluster(["../Crawler/crawl_data/Questions/"],num_clusters)
+	elif args.datasets == "test":
+		num_clusters = 7
+		cluster_labels = pagesCluster(["../Crawler/crawl_data/test/"],num_clusters)
+	else:
+		print "error"
 
 	
+	if args.clustering == "kmeans":
+		cluster_labels.kmeans(cluster_labels.num_clusters)
+		cluster_labels.Evaluation()
+	elif args.clustering == "ahc":
+		cluster_labels.AgglomerativeClustering(cluster_labels.num_clusters)
+		cluster_labels.Evaluation()
+
 	#visualization
-	
 	v = visualizer(cluster_labels.UP_pages)
 	twoD_file = "2Dfile_questions_Q7_norm_test.txt"
 	v.show(v.UP_pages.ground_truth, v.UP_pages.category ,twoD_file)
-	
-	#cluster_labels.Output()
-	# category for clustering results
-	# ground truth for xx 
-	#v.show(v.UP_pages.ground_truth,twoD_file)
 	

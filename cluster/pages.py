@@ -1,5 +1,6 @@
 from page import Page
 from cluster import cluster
+import numpy as np
 import os
 import math
 import distance
@@ -13,6 +14,7 @@ class allPages:
 		self.full_xpaths = []
 		self.ground_truth = []
 		self.idf = {}
+		self.selected_idf = {}
 		self.df = {}
 		self.addPages(folder_path)
 		self.expandXpaths()
@@ -81,7 +83,21 @@ class allPages:
 		print "number of cluster 5 is " + str(len(gt_clusters[4].pages))
 		gt_clusters[4].find_local_stop_structure(self.df,global_threshold)
 
-
+	def affinity(self,page1,page2):
+		distance = 0.0
+		s,t,m =0.0,0.0,0.0
+		for key in self.selected_idf:
+			if page1.xpaths[key] >= 1:
+				s += 1
+			if page2.xpaths[key] >= 1:
+				t += 1
+			if page1.xpaths[key] >= 1 and page2.xpaths[key] >= 1:
+				m += 1
+		if s+t-m == 0:
+			distance = 0.0
+		else:
+			distance = float(m)/float(s+t-m)
+		return distance
 
 		
 	def heuristic_weight(self):
@@ -156,6 +172,17 @@ class allPages:
 			for item in x:
 				page.xpaths[item] *= 20
 
+	def get_affinity_matrix(self):
+		# calculate affinity matrix based on Xpath
+		# if we assign a matrix before , would it be much quicker?
+		print len(self.selected_idf)
+		matrix = np.zeros(shape=(self.num,self.num))
+		for i in range(self.num):
+			for j in range(i+1,self.num):
+				matrix[i,j] = self.affinity(self.pages[i],self.pages[j])
+				matrix[j,i] = matrix[i,j]
+		return matrix
+
 
 	def updatetfidf(self):
 		for page in self.pages:
@@ -204,7 +231,7 @@ class allPages:
 
 	def get_ground_truth(self):
 		# /users/ /questions/ /q/ /questions/tagged/   /tags/ /posts/ /feeds/ /others
-		if "../Crawler/crawl_data/Questions/" in self.folder_path:
+		if "../Crawler/crawl_data/Questions/" in self.folder_path or "../Crawler/crawl_data/test/" in self.folder_path:
 			for i in range(len(self.pages)):
 				path = self.pages[i].path.replace("../Crawler/crawl_data/Questions/", "")
 				if "/users/" in path:
@@ -251,16 +278,18 @@ class allPages:
 		# threshold set to be 0.25 which means that xpath appear over 25% pages will be kept.
 		N = self.num
 		for key in self.idf:
-			if float(self.df[key])/float(N) >= 0.35:
+			if float(self.df[key])/float(N) >= 0.15:
 				for page in self.pages:
 					page.update_Leung(key)
 
 	def selected_tfidf(self):
 		N = self.num
 		for key in self.idf:
-			if float(self.df[key])/float(N) >= 0.05:
+			if float(self.df[key])/float(N) >= 0.01:
 				for page in self.pages:
 					page.update_selected_tfidf(key)
+				if float(self.df[key])/float(N) <= 0.95:
+					self.selected_idf[key] = self.df[key]
 
 
 
