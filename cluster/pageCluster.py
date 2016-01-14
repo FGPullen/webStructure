@@ -1,5 +1,6 @@
 from pages import allPages
 import sys
+from wkmeans import WKMeans
 import numpy as np
 import scipy as sp
 import matplotlib.pyplot as plt
@@ -20,7 +21,41 @@ class pagesCluster:
 		self.num_clusters = num_clusters
 		#self.clustering(num_clusters)
 		
-		
+	def wkmeans(self,num_clusters):
+		feature_matrix = []
+		y =[]
+		# get features and labels
+		time = 1
+		for page in self.UP_pages.pages:
+			'''
+			vector = []
+			for key in page.selected_tfidf:
+				vector.append(page.selected_tfidf[key])
+			vector = normalize(vector,norm='l1')[0]
+			feature_matrix.append(vector)
+			'''
+			vector = []
+			for key in page.Leung:
+				vector.append(page.Leung[key])
+			vector = normalize(vector,norm='l1')[0]
+			feature_matrix.append(vector)
+			
+
+		self.X = np.array(feature_matrix)
+		t = WKMeans()
+		final_u, final_centroids, weights, final_ite, final_dist = t.wk_means(self.X,num_clusters,2)
+	   	self.pre_y = final_u
+		self.UP_pages.updateCategory(self.pre_y)
+		print weights
+
+		write_file = open("./Files/values.txt","w")
+
+		for group in weights:
+			write_file.write("\n")
+			for item in group:
+				write_file.write(str(item) + "\t")
+
+
 	def kmeans(self,num_clusters):
 		feature_matrix = []
 		y =[]
@@ -39,7 +74,7 @@ class pagesCluster:
 			#feature_matrix.append(page.embedding)
 
 			# selected normalized tf idf 
-			
+			'''
 			vector = []
 			for key in page.selected_tfidf:
 				vector.append(page.selected_tfidf[key])
@@ -54,7 +89,7 @@ class pagesCluster:
 				vector.append(page.Leung[key])
 			vector = normalize(vector,norm='l1')[0]
 			feature_matrix.append(vector)
-			'''
+			
 
 		self.X = np.array(feature_matrix)
 		#self.X = scale(self.X)
@@ -72,25 +107,13 @@ class pagesCluster:
 		#print("done in %0.3fs." % (time() - self.t0))				
 
 	def AgglomerativeClustering(self, num_clusters):
-		'''
-		feature_matrix = []
-		y =[]
-		for page in self.UP_pages.pages:
-			vector = []
-			for key in page.Leung:
-				#print key + "\t" + str(page.Leung[key])
-				vector.append(page.Leung[key])
-			vector = normalize(vector,norm='l1')[0]
-			feature_matrix.append(vector)
 
-		self.X = np.array(feature_matrix)
-		ahc = Cluster.AgglomerativeClustering(n_clusters=num_clusters,linkage='complete')
-		ahc.fit(self.X)
-		self.pre_y = ahc.labels_
-		self.UP_pages.updateCategory(self.pre_y)
-		'''
 		#self.X = np.array([[0,1,2,4],[1,0,3,4],[2,3,0,1],[4,4,1,0]])
-		self.X = self.get_affinity_matrix()
+		#self.X = self.get_affinity_matrix()
+		#self.X = self.get_edit_distance_matrix()
+		#self.X = self.read_edit_distance_matrix()
+		self.X = self.UP_pages.get_one_hot_distance_matrix()
+		print "start?"
 		ahc = Cluster.AgglomerativeClustering(n_clusters=num_clusters, affinity='precomputed',linkage='complete')
 		ahc.fit(self.X)
 		self.pre_y = ahc.labels_
@@ -124,6 +147,12 @@ class pagesCluster:
 
 	def get_affinity_matrix(self):
 		return self.UP_pages.get_affinity_matrix()
+
+	def get_edit_distance_matrix(self):
+		return self.UP_pages.get_edit_distance_matrix()
+
+	def read_edit_distance_matrix(self):
+		return self.UP_pages.read_edit_distance_matrix()	
 
 	def Output(self):
 		write_file = open("cluster_result.txt","w")
@@ -163,14 +192,16 @@ class pagesCluster:
 			if ng.has_key(g_index):
 				ng[g_index] += 1
 			else:
-				ng[g_index] = 0
+				ng[g_index] = 1
 			if nc.has_key(c_index):
 				nc[c_index] += 1
 			else:
-				nc[c_index] = 0
+				nc[c_index] = 1
 		# get the statistical results
 		for i in ground_truth_set:
 			for j in labels_set:
+				if nc[j]==0:
+					print str(j) + " is zero"
 				recall[i][j] = float(labels[i][j])/float(ng[i])
 				precision[i][j] = float(labels[i][j])/float(nc[j])
 				if recall[i][j]*precision[i][j]==0:
@@ -225,7 +256,7 @@ if __name__=='__main__':
 	import argparse
 	parser = argparse.ArgumentParser()
 	parser.add_argument("datasets", choices=["zhihu","stackexchange","test"], help="the dataset for experiments")
-	parser.add_argument("clustering", choices=["kmeans","ahc"], help="the algorithm for clustering")
+	parser.add_argument("clustering", choices=["wkmeans","kmeans","ahc"], help="the algorithm for clustering")
 	# representation option for args
 	args = parser.parse_args()
 	if args.datasets == "zhihu":
@@ -243,6 +274,9 @@ if __name__=='__main__':
 	
 	if args.clustering == "kmeans":
 		cluster_labels.kmeans(cluster_labels.num_clusters)
+		cluster_labels.Evaluation()
+	elif args.clustering == "wkmeans":
+		cluster_labels.wkmeans(cluster_labels.num_clusters)
 		cluster_labels.Evaluation()
 	elif args.clustering == "ahc":
 		cluster_labels.AgglomerativeClustering(cluster_labels.num_clusters)

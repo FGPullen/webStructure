@@ -2,6 +2,7 @@ from page import Page
 from cluster import cluster
 import numpy as np
 import os
+from sklearn.preprocessing import scale,normalize
 import math
 import distance
 
@@ -9,6 +10,7 @@ class allPages:
 	def __init__(self, folder_path ,dm="no"):
 		self.folder_path = folder_path
 		print folder_path
+		# initialize data structure
 		self.pages = []
 		self.category = []
 		self.full_xpaths = []
@@ -16,6 +18,8 @@ class allPages:
 		self.idf = {}
 		self.selected_idf = {}
 		self.df = {}
+
+		#  update attributes
 		self.addPages(folder_path)
 		self.expandXpaths()
 		self.updateidf()
@@ -23,13 +27,22 @@ class allPages:
 		self.num = len(self.pages)
 		#self.top_local_stop_structure_gt(0.9)
 		#self.heuristic_weight_zhihu()
+		#self.heuristic_weight()
 		self.updatetfidf()
+		self.filter_idf(0.01,1.0)
+		self.filter_dfs_xpaths_list()
 		self.Leung_baseline()
 		self.selected_tfidf()
 		if dm=="yes":
 			self.getDistanceMatrix("./Data/edit_distance.matrix")
 		
-	
+	def filter_dfs_xpaths_list(self):
+		print "start filtering for xpaths list"
+		for page in self.pages:
+			page.filtered_dfs_xpaths_list = [item for item in page.dfs_xpaths_list if item in self.selected_idf]
+			#print "we filterd " + str(len(page.dfs_xpaths_list) - len(page.filtered_dfs_xpaths_list))
+		print "end filtering for xpaths list"
+
 	def update_full_xpaths(self,_page_):
 		for xpath in _page_.xpaths.keys():
 			if xpath not in self.full_xpaths:
@@ -183,6 +196,23 @@ class allPages:
 				matrix[j,i] = matrix[i,j]
 		return matrix
 
+	def get_one_hot_distance_matrix(self):
+		matrix = np.zeros(shape=(self.num,self.num))
+		for i in range(self.num):
+			temp = []
+			for key, value in self.pages[i].Leung.iteritems():
+				temp.append(value)
+			s_i  = np.array(normalize(temp,norm='l1')[0])
+			for j in range(i+1,self.num):
+				temp = []
+				for key, value in self.pages[j].Leung.iteritems():
+					temp.append(value)
+				s_j  = np.array(normalize(temp,norm='l1')[0])
+				matrix[i,j] =  np.linalg.norm(s_i - s_j)
+				matrix[j,i] = matrix[i,j]
+		return matrix
+
+
 
 	def updatetfidf(self):
 		for page in self.pages:
@@ -194,40 +224,29 @@ class allPages:
 		for i in range(len(pred_y)):
 			self.category[i] = pred_y[i]
 
-	def getDistanceMatrix(self,write_path):
-		self.dist_matrix = []
-		lines = open(write_path,"r").readlines()
-		write_file = open(write_path,"a")
-		# update dist_matrix using write_path file
-		for i in range(len(lines)):
-			tmp_list = []
-			distances = lines[i].strip().split()
-			print len(distances)
-			for j in range(len(distances)):
-				tmp_list.append(distances[j])
-			self.dist_matrix.append(tmp_list)
+	def get_edit_distance_matrix(self):
+		matrix = np.zeros(shape=(self.num,self.num))
+		for i in range(self.num):
+			if i % 8 == 0:
+				print "finish " + str(float(i)/float(self.num)) + "% of " + str(self.num) + " pages"
+			s_i = self.pages[i].filtered_dfs_xpaths_list
+			for j in range(i+1,self.num):
+					s_j = self.pages[j].filtered_dfs_xpaths_list
+					matrix[i][j] = int(distance.levenshtein(s_i,s_j))
+					matrix[j][i] = matrix[i][j]
+					print str(i) + "\t" + str(j)
+					#print str(len(s_i)) + "\t" + str(len(s_j))
+		return matrix
 
-		for i in range(len(self.pages)):
-			if i<len(lines):
-				continue
-			print "calculate " + str(i)
-			s_i = self.pages[i].dfs_xpaths_list
-			tmp_list = []
-			for j in range(len(self.pages)):
-				if i==j:
-					tmp_dis = 0
-				elif i<j:
-					s_j = self.pages[j].dfs_xpaths_list
-					tmp_dis = int(distance.levenshtein(s_i,s_j))
-				else:
-					tmp_dis = self.dist_matrix[j][i]
-				tmp_list.append(tmp_dis)
-				print "calculate " + str(j) + "\t" + str(tmp_dis)
-			self.dist_matrix.append(tmp_list)
-			for item in tmp_list:
-				write_file.write(str(item) + "\t")
-			write_file.write("\n")
-
+	def read_edit_distance_matrix(self):
+		matrix = np.zeros(shape=(self.num,self.num))
+		lines = open("./Data/edit_distance.matrix","r").readlines()
+		for i in range(self.num):
+			line = lines[i].strip().split("\t")
+			assert len(line) == self.num
+			for j,item in enumerate(line):
+				matrix[i][j] = float(item)
+		return matrix
 
 	def get_ground_truth(self):
 		# /users/ /questions/ /q/ /questions/tagged/   /tags/ /posts/ /feeds/ /others
@@ -255,19 +274,15 @@ class allPages:
 		elif "../Crawler/crawl_data/Zhihu/" in self.folder_path:
 			for i in range(len(self.pages)):
 				path = self.pages[i].path.replace("../Crawler/crawl_data/Zhihu/","")
-				if "/people/" in path:
-					if "/follow" in path:
-						tag = 2
-					else: 
-						tag = 0
-				elif "/question" in path:
-					if "/answer" in path:
+				if "follow" in path:
+					tag = 2
+				elif "/people/" in path:
+					tag = 0
+				elif "/question/" in path:
 						tag = 1
-					else:
-						tag = 1
-				elif "/topic" in path:
+				elif "/topic/" in path:
 					tag = 3
-				elif "/collection" in path:
+				elif "/collection/" in path:
 					tag = 4
 				else:
 					tag =5
@@ -275,12 +290,22 @@ class allPages:
 		
 
 	def Leung_baseline(self):
+		# one-hot representation
 		# threshold set to be 0.25 which means that xpath appear over 25% pages will be kept.
 		N = self.num
 		for key in self.idf:
-			if float(self.df[key])/float(N) >= 0.15:
+			#print key
+			if float(self.df[key])/float(N) >= 0.40:
 				for page in self.pages:
 					page.update_Leung(key)
+
+	def filter_idf(self,min_t, max_t):
+		# aim to get a subset of xpaths which filters out path that appears in very few documents
+		# as well as those that occur in almost all documents
+		for key in self.idf:
+			if float(self.df[key])/float(self.num) >= min_t:
+				if float(self.df[key])/float(self.num) <= max_t:
+					self.selected_idf[key] = self.df[key]
 
 	def selected_tfidf(self):
 		N = self.num
@@ -288,8 +313,7 @@ class allPages:
 			if float(self.df[key])/float(N) >= 0.01:
 				for page in self.pages:
 					page.update_selected_tfidf(key)
-				if float(self.df[key])/float(N) <= 0.95:
-					self.selected_idf[key] = self.df[key]
+				
 
 
 

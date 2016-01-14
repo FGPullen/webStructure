@@ -9,8 +9,11 @@ class Page:
         self.original = open(path,"r").read()
         self.contents = self.original.replace("\n","")
         self.xpaths = {} # tf
+        self.xpaths_list = []
         self.dfs_xpaths_list = []
+        self.filtered_dfs_xpaths_list = []
         self.getXpaths()
+       # self.generalize_xpath()
         self.onehot = {}
         self.normonehot = {}
         self.tfidf = {}
@@ -19,6 +22,45 @@ class Page:
         self.embedding = []
         #self.getEmbedding()
         self.Leung = {}
+
+
+    def generalize_xpath(self):
+        # before expand xpath 
+        self.generalize_paths = []
+        temp = self.xpaths_list
+        for i in range(len(temp)):
+            for j in range(i+1,len(temp)):
+                path = self.generalize(temp[i],temp[j])
+                if path and path not in self.generalize_paths:
+                    self.generalize_paths.append(path)
+
+    def generalize(self,path1,path2):
+        nodes_1 = path1.split("/")
+        nodes_2 = path2.split("/")
+        if len(nodes_1) != len(nodes_2):
+            return None
+        else:
+            flag = 1
+            pos = -1 # position of the unique diffrent nodes
+            length = len(nodes_1)
+            for i in range(length):
+                if nodes_1[i] != nodes_2[i]:
+                    if flag == 0:
+                        return None
+                    else:
+                        flag -= 1
+                        if self.removeIndex(nodes_1[i]) == self.removeIndex(nodes_2[i]):
+                            pos = i
+                        else:
+                            return None
+        if pos!= -1:
+            for j in range(length):
+                print nodes_1[j],
+            for j in range(length):
+                print nodes_2[j],
+
+            print "\n"
+
 
     def removeIndex(self,xpath):
     	indexes = re.findall(r"\[\d+\]",str(xpath))
@@ -30,9 +72,11 @@ class Page:
     	if xpath in self.xpaths.keys():
     		self.xpaths[xpath] += 1
     	else:
-    		self.xpaths[xpath] = 1
+            self.xpaths[xpath] = 1
+            self.xpaths_list.append(xpath)
+    		
 
-    def getXpaths(self):
+    def getXpaths(self,index=False):
     	tree= etree.HTML(str(self.contents))
     	Etree = etree.ElementTree(tree)
     	nodes = tree.xpath("//*[not(*)]")
@@ -40,10 +84,8 @@ class Page:
     		# we do not consider index or predicate here
             xpath = Etree.getpath(node)
             #self.dfs_xpaths_list.append(xpath) # except for this one
-            xpath = self.removeIndex(xpath)
-            #if xpath =="/html/body/div/div/ul/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/li/div/div/ul/li/a":
-            #       print node.text
-            #        print xpath
+            if not index:
+                xpath = self.removeIndex(xpath)
             self.dfs_xpaths_list.append(xpath)
             self.addXpath(xpath)
 
