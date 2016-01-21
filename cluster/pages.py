@@ -5,6 +5,7 @@ import os
 from sklearn.preprocessing import scale,normalize
 import math
 import distance
+import collections
 
 class allPages:
 	def __init__(self, folder_path ,dm="no"):
@@ -324,16 +325,40 @@ if __name__=='__main__':
 	#UP_pages = allPages(["../Crawler/crawl_data/Questions/"])
 	#pages = allPages(["../Crawler/crawl_data/Questions/"])
 	pages = allPages(["../Crawler/test_data/stackexchange/"])
-	print "numer of pages " + str(len(pages.pages))
+	length = len(pages.pages)
+	print "numer of pages " + str(length)
 	print "number of xpath " + str(len(pages.idf))
-	xpath_list = ['/html/body/div/div/div/div/div/div/div/div/div/a/div/img']
-	for xpath in xpath_list:
+	num_groups = len(set(pages.ground_truth))
+	counter = collections.Counter(pages.ground_truth)
+	results = dict((key,{}) for key in counter)
+	info =  dict((key,{}) for key in counter)
+	print results
+	print counter
+	for xpath in pages.df:
 		print "---- " + xpath + " -----"
-		print pages.df[xpath]
-		for page in pages.pages:
+		df = pages.df[xpath]
+		dic = dict((key,0) for key in counter)
+		assert len(pages.ground_truth) == len(pages.pages)
+		for index, group in enumerate(pages.ground_truth):
+			page = pages.pages[index]
 			if xpath in page.xpaths_list:
-				print page.path
+				dic[group] += 1
+		for key, value in dic.iteritems():
+			info[key][xpath] = str(value) + "\t" + str(df) + "\t" + str(counter[key]) + "\t" + str(length)
+			tmp = float(value **2 * length)/ float((counter[key]**2 * df))
+			results[key][xpath] = tmp
+		#print pages.ground_truth
 		print "------------------------"
+
+	for key in counter:
+		xpaths = results[key]
+		sorted_list = sorted(xpaths.iteritems(), key=lambda x:x[1], reverse=True)
+		top = 10
+		print "========" + str(key) + "======="
+		for i in range(top):
+			print str(sorted_list[i][0]) + "\t" + str(sorted_list[i][1])
+			print info[key][sorted_list[i][0]]
+		print "=========================="
 
 
 	'''
