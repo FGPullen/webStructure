@@ -250,7 +250,8 @@ class allPages:
 
 	def get_ground_truth(self):
 		# /users/ /questions/ /q/ /questions/tagged/   /tags/ /posts/ /feeds/ /others
-		if "../Crawler/crawl_data/Questions/" in self.folder_path or "../Crawler/crawl_data/test/" in self.folder_path:
+		if "../Crawler/crawl_data/Questions/"  in self.folder_path or "../Crawler/crawl_data/test/" in self.folder_path or "../Crawler/test_data/stackexchange/" in self.folder_path:
+			print "????"
 			for i in range(len(self.pages)):
 				path = self.pages[i].path.replace("../Crawler/crawl_data/Questions/", "")
 				if "/users/" in path:
@@ -271,9 +272,10 @@ class allPages:
 				self.ground_truth.append(tag)
 		# zhihu
 		# /people/  /question/ /question/answer/ /topic/  (people/followed/ people/follower/ -> index ) /ask /collection
-		elif "../Crawler/crawl_data/Zhihu/" in self.folder_path:
+		elif "../Crawler/crawl_data/Zhihu/" in self.folder_path or "../Crawler/test_data/zhihu/" in self.folder_path:
+			print "!!!!"
 			for i in range(len(self.pages)):
-				path = self.pages[i].path.replace("../Crawler/crawl_data/Zhihu/","")
+				path = self.pages[i].path.replace("../Crawler/test_data/zhihu/","")
 				if "follow" in path:
 					tag = 2
 				elif "/people/" in path:
@@ -295,7 +297,7 @@ class allPages:
 		N = self.num
 		for key in self.idf:
 			#print key
-			if float(self.df[key])/float(N) >= 0.40:
+			if float(self.df[key])/float(N) >= 0.01:
 				for page in self.pages:
 					page.update_Leung(key)
 
@@ -321,9 +323,19 @@ class allPages:
 if __name__=='__main__':
 	#UP_pages = allPages(["../Crawler/crawl_data/Questions/"])
 	#pages = allPages(["../Crawler/crawl_data/Questions/"])
-	pages = allPages(["../Crawler/crawl_data/Zhihu/"])
+	pages = allPages(["../Crawler/test_data/stackexchange/"])
 	print "numer of pages " + str(len(pages.pages))
 	print "number of xpath " + str(len(pages.idf))
+	xpath_list = ['/html/body/div/div/div/div/div/div/div/div/div/a/div/img']
+	for xpath in xpath_list:
+		print "---- " + xpath + " -----"
+		print pages.df[xpath]
+		for page in pages.pages:
+			if xpath in page.xpaths_list:
+				print page.path
+		print "------------------------"
+
+
 	'''
 	depth = []
 	for key in pages.idf:

@@ -27,7 +27,7 @@ class pagesCluster:
 		# get features and labels
 		time = 1
 		for page in self.UP_pages.pages:
-			'''
+			
 			vector = []
 			for key in page.selected_tfidf:
 				vector.append(page.selected_tfidf[key])
@@ -39,21 +39,31 @@ class pagesCluster:
 				vector.append(page.Leung[key])
 			vector = normalize(vector,norm='l1')[0]
 			feature_matrix.append(vector)
-			
+			'''
 
 		self.X = np.array(feature_matrix)
 		t = WKMeans()
-		final_u, final_centroids, weights, final_ite, final_dist = t.wk_means(self.X,num_clusters,2)
+		final_u, final_centroids, weights, final_ite, final_dist = t.wk_means(self.X,num_clusters,beta=2,replicates=100,weight_method=None)
 	   	self.pre_y = final_u
 		self.UP_pages.updateCategory(self.pre_y)
-		print weights
+		print "we have avg interation for " + str(final_ite)
 
 		write_file = open("./Files/values.txt","w")
 
+		keys = []
+		for key in page.selected_tfidf:
+			keys.append(key)
+
 		for group in weights:
-			write_file.write("\n")
-			for item in group:
-				write_file.write(str(item) + "\t")
+			print "-------"
+			sorted_list= sorted(enumerate(group), key=lambda d:d[1], reverse = False)
+			for i in range(200):
+				key = sorted_list[i][0]
+				value = sorted_list[i][1]
+				if '/a' in keys[key]:
+					print str(keys[key]) + "\t" + str(value)
+			print "-------"
+		print self.pre_y
 
 
 	def kmeans(self,num_clusters):
@@ -74,7 +84,7 @@ class pagesCluster:
 			#feature_matrix.append(page.embedding)
 
 			# selected normalized tf idf 
-			'''
+			
 			vector = []
 			for key in page.selected_tfidf:
 				vector.append(page.selected_tfidf[key])
@@ -89,7 +99,7 @@ class pagesCluster:
 				vector.append(page.Leung[key])
 			vector = normalize(vector,norm='l1')[0]
 			feature_matrix.append(vector)
-			
+			'''
 
 		self.X = np.array(feature_matrix)
 		#self.X = scale(self.X)
@@ -260,11 +270,13 @@ if __name__=='__main__':
 	# representation option for args
 	args = parser.parse_args()
 	if args.datasets == "zhihu":
-		num_clusters = 6
-		cluster_labels = pagesCluster(["../Crawler/crawl_data/Zhihu/"],num_clusters)
+		num_clusters = 4
+		#cluster_labels = pagesCluster(["../Crawler/crawl_data/Zhihu/"],num_clusters)
+		cluster_labels = pagesCluster(["../Crawler/test_data/zhihu/"],num_clusters)
 	elif args.datasets == "stackexchange":
-		num_clusters = 7
-		cluster_labels = pagesCluster(["../Crawler/crawl_data/Questions/"],num_clusters)
+		num_clusters = 5
+		#cluster_labels = pagesCluster(["../Crawler/crawl_data/Questions/"],num_clusters)
+		cluster_labels = pagesCluster(["../Crawler/test_data/stackexchange/"],num_clusters)
 	elif args.datasets == "test":
 		num_clusters = 7
 		cluster_labels = pagesCluster(["../Crawler/crawl_data/test/"],num_clusters)
