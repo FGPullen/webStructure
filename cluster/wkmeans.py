@@ -34,7 +34,7 @@
 
 import random as rd
 import numpy as np
-
+import collections
 
 class WKMeans(object):
 
@@ -58,23 +58,30 @@ class WKMeans(object):
         return data.sum(axis=0)/float((data.shape[0]))
 
 
-    def _get_centroid_based_weights(self,data, centroids, k , beta, u, n_features, distance):
-        global_centroid = np.mean(data, axis=0)     
-        dispersion = np.zeros([k, n_features])
+    def _get_centroid_based_weights(self,data, centroids, weights, k , beta, u, n_features, distance):
+        global_centroid = np.mean(data, axis=0)   
+        c = collections.Counter(u)
+        inter_dispersion = np.zeros([k, n_features])
+        intra_dispersion = np.zeros([k,n_features])
+
         for k_i in range(k):
             for f_i in range(n_features):
-                dispersion[k_i, f_i] = self.get_distance(centroids[k_i,f_i],global_centroid[f_i],distance)
-        weights = np.zeros([k, n_features])                
-        if beta != 1:
-            exp = 1/(beta - 1)
-            for k_i in range(k):
-                for f_i in range(n_features):
-                    weights[k_i, f_i] = (dispersion[k_i, f_i]**exp)/(dispersion[k_i, :]**exp).sum()
-        else:
-            for k_i in range(k):
-                weights[k_i, dispersion[k_i, :].argmin()] = 1
+                inter_dispersion[k_i, f_i] = float(c[k_i]) * self.get_distance(centroids[k_i,f_i],global_centroid[f_i],distance)
+                intra_dispersion[k_i, f_i] = self.get_distance(data[u == k_i, f_i], centroids[k_i, f_i], distance)
+        
+        intra_dispersion += 1.0/257 # smoothing
+        inter_dispersion += 1.0/257
+        delta_weights = np.zeros([k, n_features])     
+
+        for k_i in range(k):
+            for f_i in range(n_features):
+                delta_weights[k_i, f_i] = inter_dispersion[k_i,f_i]/intra_dispersion[k_i,f_i]
+        # normalize
+        row_sums = delta_weights.sum(axis=1)
+        delta_weights = delta_weights/row_sums[:, np.newaxis]
+        #weights = (weights + delta_weights)/2.0
         #print weights
-        return weights
+        return delta_weights
 
     def _get_dispersion_based_weights(self, data, centroids, k, beta, u, n_features, distance, dispersion_update='mean'):
         dispersion = np.zeros([k, n_features])
@@ -127,7 +134,10 @@ class WKMeans(object):
             dist_tmp = np.zeros([n_entities, k])
             #assign entities to cluster
             for k_i in range(k):
-                dist_tmp[:, k_i] = self.get_distance(data, centroids[k_i, :], distance, weights[k_i, :]**beta) # ** means exponent
+                if weight_method == "centroid":
+                    dist_tmp[:, k_i] = self.get_distance(data, centroids[k_i, :], distance, weights[k_i, :])
+                else:
+                    dist_tmp[:, k_i] = self.get_distance(data, centroids[k_i, :], distance, weights[k_i, :]**beta) # ** means exponent
             u = dist_tmp.argmin(axis=1) # min distance with k centroids, return the index not the value
             #put the sum of distances to centroids in dist_tmp 
             dist_tmp = np.sum(dist_tmp[np.arange(dist_tmp.shape[0]), u])
@@ -136,8 +146,8 @@ class WKMeans(object):
                 if weight_method is None:
                     weights = self._get_dispersion_based_weights(data, centroids, k, beta, u, n_features, distance)
                 elif weight_method == "centroid":
-                    print "centroids"
-                    weights = self._get_centroid_based_weights(data,centroids,k, beta, u, n_features, distance)
+                    print "centroids converge"
+                    weights = self._get_centroid_based_weights(data,centroids, weights, k, beta, u, n_features, distance)
                 return u, centroids, weights, ite, dist_tmp
             #update centroids
             for k_i in range(k):
@@ -150,17 +160,17 @@ class WKMeans(object):
             if weight_method is None:
                 weights = self._get_dispersion_based_weights(data, centroids, k, beta, u, n_features, distance)
             elif weight_method == "centroid":
-                print "centroids"
-                weights = self._get_centroid_based_weights(data,centroids,k, beta, u, n_features, distance)
+                #print "centroids!"
+                weights = self._get_centroid_based_weights(data,centroids, weights, k, beta, u, n_features, distance)
             previous_u = u[:]
             ite += 1
 
-    def wk_means(self, data, k, beta, init_centroids=None, init_weights=None, weight_method=None, distance='Euclidean', replicates=100, max_ite=1000):
+    def wk_means(self, data, k, beta=2, init_centroids=None, init_weights=None, weight_method=None, distance='Euclidean', replicates=100, max_ite=1000):
         #Weighted K-Means
         final_dist = float("inf")
         avg_iteration = []
         for replication_i in range(replicates):
-            print replication_i
+            #print replication_i
             #loops up to max_ite to try to get a successful clustering for this replication
             for i in range(max_ite):
                 [u, centroids, weights, ite, dist_tmp] = self.__wk_means(data, k, beta, init_centroids, init_weights, weight_method, max_ite, distance)
@@ -177,12 +187,25 @@ class WKMeans(object):
             print str(replication_i) + " has " + str(ite) + " iterations."
             avg_iteration.append(ite)
         final_ite = sum(avg_iteration)/float(len(avg_iteration))
+        self.final_u, self.final_centroids, self.final_weights,self.beta, self.k = final_u, final_centroids, final_weights, beta, k
         return final_u, final_centroids, final_weights, final_ite, final_dist
+
+    def wk_means_classify(self, data, distance='Euclidean'):
+        k, beta, weights, centroids = self.k, self.beta, self.final_weights, self.final_centroids
+        n_entities, n_features = data.shape[0],data.shape[1]
+        dist_tmp = np.zeros([n_entities, k])
+        for k_i in range(k):
+            dist_tmp[:, k_i] = self.get_distance(data, centroids[k_i, :], distance, weights[k_i, :]**beta) # ** means exponent
+        u = dist_tmp.argmin(axis=1)
+        return u
 
 if __name__=='__main__':
     t = WKMeans()
-    data = np.array([[2.0,0.0],[3.0,0.0],[0.0,3.0],[0.0,4.0]])
-    final_u, final_centroids, weights, final_ite, final_dist = t.wk_means(data,2,2,weight_method="centroid", replicates=1)
+    data = np.array([[1.0,0.0],[2.0,0.0],[3.0,0.0],[0.0,3.0],[0.0,4.0],[0.0,5]])
+    final_u, final_centroids, weights, final_ite, final_dist = t.wk_means(data,2,2, replicates=1,weight_method="centroid")
     print final_u
-    print final_centroids
+    print collections.Counter(final_u)
     print weights
+    print final_centroids
+    test_data = np.array([[0.0,4],[2.0,0.0]])
+    t.wk_means_classify(test_data)

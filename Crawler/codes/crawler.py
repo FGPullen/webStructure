@@ -1,23 +1,43 @@
 import urllib2
+import os
 import traceback
 import time
 import random
 from lxml import etree
 #coding=utf8
 header = {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0'}
-
+#headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'} 
 
 def intraJudge(url):
 	# oulink with http or symbol like # and /
+	
 	if len(url)==1 or "http" in url:
-		return 0
+		if "rottentomatoes.com" in url:
+			return 1
+		else:
+			return 0
 	elif url[0:2]=="//":
 		return 0
 	else:
 		return 1
+	'''
+	if "http" in url:
+		if "movie.douban.com" in url:
+			return 1
+		else:
+			return 0
+	else:
+		if "ticket" in url:
+			return 0
+		else:
+			return 1
+	'''
 
 def transform(url,prefix):
-	return prefix + url
+	if prefix not in url:
+		return prefix + url
+	else:
+		return url 
 
 def crawlUrl(url,url_stack,history_stack,prefix):
 	if url in history_stack:
@@ -29,7 +49,11 @@ def crawlUrl(url,url_stack,history_stack,prefix):
 		lines = response.read().replace("\n","")
 		#write to file
 		#write_file = open("../crawl_data/Zhihu/"+url.replace("/","_")+".html",'w')
-		write_file = open("../crawl_data/ASP/"+url.replace("/","_")+".html",'w')
+		file_name = "../crawl_data/rottentomatoes/"+url.replace("/","_")+".html"
+		if os.path.isfile(file_name):
+			print "Already"
+			return 0
+		write_file = open(file_name,'w')
 		write_file.write(lines)
 
 		# get links
@@ -55,7 +79,7 @@ def crawlUrl(url,url_stack,history_stack,prefix):
 def stack2file(url_stack,history_stack,count):
 	
 	#stack_file = open("../stack_data/Zhihu/"+str(count/50)+".txt","w")
-	stack_file = open("../stack_data/ASP/"+str(count/50)+".txt","w")
+	stack_file = open("../stack_data/rottentomatoes/"+str(count/100)+".txt","w")
 	stack_file.write("======url_stak======\n")
 	for url in url_stack:
 		stack_file.write(url+"\n")
@@ -110,18 +134,18 @@ if __name__=='__main__':
 
 				if count%10==9:
 					count = 0
-					random_time = random.randint(90,120)
+					random_time = random.randint(150,210)
 					print "---Already crawled %d pages! Take a rest for %d seconds---" %(len(history_stack),random_time)
 					print "----We still have %d pages to crawl!----" %(len(url_stack))
 					time.sleep(random_time)
 
-				if count_save%50==2:
+				if count_save%100==99:
 					stack2file(url_stack,history_stack,count_save)
 
 		except:
 			print "error"
 			traceback.print_exc()
-			error_log.write(url_stack[0] + " has a problem. We will skip this\n")
+			#error_log.write(url_stack[0] + " has a problem. We will skip this\n")
 		finally:
 			print "Pop and append"
 			print first_url

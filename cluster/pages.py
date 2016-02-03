@@ -251,7 +251,7 @@ class allPages:
 
 	def get_ground_truth(self):
 		# /users/ /questions/ /q/ /questions/tagged/   /tags/ /posts/ /feeds/ /others
-		if "../Crawler/crawl_data/Questions/"  in self.folder_path or "../Crawler/crawl_data/test/" in self.folder_path or "../Crawler/test_data/stackexchange/" in self.folder_path:
+		if "../Crawler/crawl_data/Questions/"  in self.folder_path or "../Crawler/test_data/train/" in self.folder_path or "../Crawler/test_data/stackexchange/" in self.folder_path or "../Crawler/test_data/test" in self.folder_path :
 			print "????"
 			for i in range(len(self.pages)):
 				path = self.pages[i].path.replace("../Crawler/crawl_data/Questions/", "")
@@ -290,7 +290,29 @@ class allPages:
 				else:
 					tag =5
 				self.ground_truth.append(tag)
-		
+		elif "../Crawler/test_data/rottentomatoes/" in self.folder_path:
+			print "rottentomatoes datasets"
+			for i in range(len(self.pages)):
+				path = self.pages[i].path.replace("../Crawler/test_data/rottentomatoes/","")
+				if "/top/" in path:
+					tag = 2
+				elif "/celebrity/" in path:
+					if "/pictures/" in path:
+						tag = 6
+					else:
+						tag = 0
+				elif "/critic/" in path:
+						tag = 1
+				elif "/m/" in path or "/tv/" in path:
+					if "/trailers/" in path:
+						tag = 4
+					elif "/pictures/" in path:
+						tag = 6
+					else:
+						tag = 3
+				else: # guide
+					tag =5
+				self.ground_truth.append(tag)
 
 	def Leung_baseline(self):
 		# one-hot representation
@@ -317,7 +339,44 @@ class allPages:
 				for page in self.pages:
 					page.update_selected_tfidf(key)
 				
+	def find_important_xpath(self):
+		length = len(self.pages)
+		print "numer of pages " + str(length)
+		print "number of xpath " + str(len(self.idf))
+		num_groups = len(set(self.ground_truth))
+		counter = collections.Counter(self.ground_truth)
+		results = dict((key,{}) for key in counter)
+		info =  dict((key,{}) for key in counter)
+		print results
+		print counter
+		for xpath in self.df:
+			print "---- " + xpath + " -----"
+			df = self.df[xpath]
+			dic = dict((key,0) for key in counter)
+			assert len(self.ground_truth) == len(self.pages)
+			for index, group in enumerate(self.ground_truth):
+				page = self.pages[index]
+				if xpath in page.xpaths_list:
+					dic[group] += 1
+			for key, value in dic.iteritems():
+				info[key][xpath] = str(value) + "\t" + str(df) + "\t" + str(counter[key]) + "\t" + str(length)
+				tmp = float(value **2 * length)/ float((counter[key]**2 * df))
+				results[key][xpath] = tmp
+			#print pages.ground_truth
+			print "------------------------"
 
+		for key in counter:
+			xpaths = results[key]
+			sorted_list = sorted(xpaths.iteritems(), key=lambda x:x[1], reverse=True)
+			top = 10
+			print "========" + str(key) + "======="
+			total_sum = 0.0
+			for item in sorted_list:
+				total_sum += float(item[1])
+			for i in range(top):
+				print str(sorted_list[i][0]) + "\t" + str(sorted_list[i][1]/total_sum)
+				print info[key][sorted_list[i][0]]
+			print "=========================="
 
 
 
@@ -325,6 +384,8 @@ if __name__=='__main__':
 	#UP_pages = allPages(["../Crawler/crawl_data/Questions/"])
 	#pages = allPages(["../Crawler/crawl_data/Questions/"])
 	pages = allPages(["../Crawler/test_data/stackexchange/"])
+	pages.find_important_xpath()
+	'''
 	length = len(pages.pages)
 	print "numer of pages " + str(length)
 	print "number of xpath " + str(len(pages.idf))
@@ -359,7 +420,7 @@ if __name__=='__main__':
 			print str(sorted_list[i][0]) + "\t" + str(sorted_list[i][1])
 			print info[key][sorted_list[i][0]]
 		print "=========================="
-
+		'''
 
 	'''
 	depth = []
