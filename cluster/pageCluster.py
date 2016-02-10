@@ -14,15 +14,21 @@ from time import time
 import operator
 from sklearn.cross_validation import StratifiedKFold
 from cluster import cluster
+import collections
 
 class pagesCluster:
-	def __init__(self, path_list,num_clusters):
-		self.t0 = time()
-		self.UP_pages = allPages(path_list)
-		self.num_clusters = num_clusters
+
+
+	def __init__(self, path_list=None,num_clusters=None):
+		if path_list is None and num_clusters is None:
+			self.t0 = time()
+		else:
+			self.t0 = time()
+			self.UP_pages = allPages(path_list)
+			self.num_clusters = num_clusters
 		#self.clustering(num_clusters)
 		
-	def wkmeans(self,num_clusters,features, weight_method=None, cv=False, beta=2):
+	def wkmeans(self,num_clusters,features, weight_method=None, cv=False, beta=2, replicates=100):
 		feature_matrix = []
 		y =[]
 		# get features and labels
@@ -46,9 +52,8 @@ class pagesCluster:
 		if not cv:
 			print "the size of vector is " + str(self.X.shape)
 			t = WKMeans()
-			final_u, final_centroids, weights, final_ite, final_dist = t.wk_means(self.X,num_clusters,beta=beta,replicates=100, weight_method=weight_method)
+			final_u, final_centroids, weights, final_ite, final_dist = t.wk_means(self.X,num_clusters,beta=beta,replicates=replicates, weight_method=weight_method)
 		   	self.pre_y = final_u
-		   	print final_u
 			self.UP_pages.updateCategory(self.pre_y)
 			print "we have avg interation for " + str(final_ite)
 
@@ -78,11 +83,12 @@ class pagesCluster:
 				#print train, test
 				train_x, test_x,train_gold,test_gold = self.X[train], self.X[test], labels_true[train], labels_true[test]
 				t = WKMeans()
-				train_y, final_centroids, weights, final_ite, final_dist = t.wk_means(train_x,num_clusters,beta=beta,replicates=100, weight_method=weight_method)
+				train_y, final_centroids, weights, final_ite, final_dist = t.wk_means(train_x,num_clusters,beta=beta,replicates=replicates, weight_method=weight_method)
 				test_y = t.wk_means_classify(test_x)
-				results.append(self.Evaluation(test_gold,test_y))
+				results.append(self.Evaluation_CV(test_gold,test_y,train_gold,train_y))
+				#results.append(self.Cv_Evaluation(test_gold,test_y))
 			result = np.mean(results,axis=0)
-			metrics = ['micro_f', 'macro_f', 'mutual_info_score', 'rand_score']
+			metrics = ['micro_f', 'macro_f', 'mutual_info_score', 'rand_score', 'cv_precision']
 			for index,metric in enumerate(metrics):
 				print metric + "\t" + str(result[index])
 
@@ -133,10 +139,11 @@ class pagesCluster:
 				train_x, test_x,train_gold,test_gold = self.X[train], self.X[test], labels_true[train], labels_true[test]
 				k_means = Cluster.KMeans(n_clusters=num_clusters, n_init=100, random_state=1, n_jobs=2)
 				k_means.fit(train_x)
+				train_y = k_means.labels_
 				test_y = k_means.predict(test_x)
-				results.append(self.Evaluation(test_gold,test_y))
+				results.append(self.Evaluation(test_gold,test_y,train_gold,train_y))
 			result = np.mean(results,axis=0)
-			metrics = ['micro_f', 'macro_f', 'mutual_info_score', 'rand_score']
+			metrics = ['micro_f', 'macro_f', 'mutual_info_score', 'rand_score','precision']
 			for index,metric in enumerate(metrics):
 				print metric + "\t" + str(result[index])			
 
@@ -252,15 +259,47 @@ class pagesCluster:
 		return [weighted_f1,macro_f1]
 
 
-	def Evaluation(self, true=None, pred=None):
+	def Evaluation_CV(self, true=None, pred=None, train_true=None, train_pred=None):
 		if true is None:
 			labels_true = self.UP_pages.ground_truth
 		else:
+			labels_train_true = train_true
 			labels_true = true
 		if pred is None:
 			labels_pred = self.UP_pages.category
 		else:
+			labels_train_pred = train_pred
 			labels_pred = pred
+		cluster_dict = self.get_cluster_number_shift(labels_train_true, labels_train_pred)
+		print cluster_dict
+		right_guess = 0
+		for index,item in enumerate(pred):
+			if cluster_dict[item] == true[index]:
+				right_guess += 1
+		precision = float(right_guess)/float(len(true))
+
+		print "We have %d pages for ground truth!" %(len(labels_true))
+		print "We have %d pages after prediction!" %(len(labels_pred))
+		assert len(labels_true) == len(labels_pred)
+		pages = self.UP_pages
+		#self.Precision_Recall_F(labels_true,labels_pred)
+		mutual_info_score = metrics.adjusted_mutual_info_score(labels_true, labels_pred)
+		rand_score = metrics.adjusted_rand_score(labels_true, labels_pred)
+		print "Mutual Info Score is " + str(mutual_info_score)
+		print "Adjusted Rand Score is " + str(rand_score)
+		#silhouette_score = metrics.silhouette_score(self.X,np.array(labels_pred), metric='euclidean')
+		#print "Silhouette score is " + str(silhouette_score)
+		[micro_f, macro_f] = self.F_Measure(labels_true,labels_pred)
+		print "Micro F-Measure is " + str(micro_f)
+		print "Macro F-Measure is " + str(macro_f)
+		print "CV precision is " + str(precision)
+		return micro_f, macro_f, mutual_info_score, rand_score, precision
+
+	def Evaluation(self):
+		labels_true = self.UP_pages.ground_truth
+		labels_pred = self.UP_pages.category
+
+
 		print "We have %d pages for ground truth!" %(len(labels_true))
 		print "We have %d pages after prediction!" %(len(labels_pred))
 		assert len(labels_true) == len(labels_pred)
@@ -276,6 +315,34 @@ class pagesCluster:
 		print "Micro F-Measure is " + str(micro_f)
 		print "Macro F-Measure is " + str(macro_f)
 		return micro_f, macro_f, mutual_info_score, rand_score
+
+	def get_cluster_number_shift(self, labels_true, labels_pred):
+		true_set = set(labels_true)
+		pre_set = set(labels_pred)
+		print pre_set
+		dic = {} 
+		for item in pre_set:
+			dic[item] = {}
+			for item_2 in true_set:
+				dic[item][item_2] = 0
+
+		for i in range(len(labels_true)):
+			dic[labels_pred[i]][labels_true[i]] += 1
+		print "ground truth data"
+		print dic		
+		final_dict = collections.defaultdict(dict)
+		#used_list = set()
+		for pred_key in pre_set:
+			max_value = -1
+			print dic[pred_key]
+			for index, value in dic[pred_key].iteritems():
+				#if index not in used_list:
+				if value > max_value:
+					max_label = index
+					max_value = value
+				final_dict[pred_key] = max_label
+				#used_list.add(max_label)
+		return final_dict
 
 
 	def filename2Url(self,filename):
@@ -298,9 +365,10 @@ class pagesCluster:
 if __name__=='__main__':
 	import argparse
 	parser = argparse.ArgumentParser()
-	parser.add_argument("datasets", choices=["zhihu","stackexchange","rottentomatoes","test"], help="the dataset for experiments")
+	parser.add_argument("datasets", choices=["zhihu","stackexchange","rottentomatoes","medhelp","test"], help="the dataset for experiments")
 	parser.add_argument("clustering", choices=["wkmeans","kmeans","ahc"], help="the algorithm for clustering")
 	parser.add_argument("features_type", choices=["tf-idf","binary"], help="the features type for clustering")
+	parser.add_argument("test_type", choices=["train","cv"], help="clustering or cv?")
 	#parser.add_argument('-w', action='store_true')
 	# representation option for args
 	args = parser.parse_args()
@@ -319,6 +387,9 @@ if __name__=='__main__':
 	elif args.datasets == "rottentomatoes":
 		num_clusters = 7
 		cluster_labels = pagesCluster(["../Crawler/test_data/rottentomatoes/"],num_clusters)
+	elif args.datasets == "medhelp":
+		num_clusters = 6
+		cluster_labels = pagesCluster(["../Crawler/test_data/medhelp/"],num_clusters)
 	else:
 		print "error"
 
@@ -328,9 +399,11 @@ if __name__=='__main__':
 		cluster_labels.kmeans(cluster_labels.num_clusters,features_type)
 		cluster_labels.Evaluation()
 	elif args.clustering == "wkmeans":
-		#cluster_labels.wkmeans(cluster_labels.num_clusters,features_type,cv=True,beta=4)
-		cluster_labels.wkmeans(cluster_labels.num_clusters,features_type)
-		cluster_labels.Evaluation()
+		if args.test_type == "cv":
+			cluster_labels.wkmeans(cluster_labels.num_clusters,features_type,cv=True,beta=2,replicates=10)
+		else:
+			cluster_labels.wkmeans(cluster_labels.num_clusters,features_type)
+			cluster_labels.Evaluation()
 
 	elif args.clustering == "ahc":
 		cluster_labels.AgglomerativeClustering(cluster_labels.num_clusters)

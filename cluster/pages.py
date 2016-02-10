@@ -314,6 +314,24 @@ class allPages:
 					tag =5
 				self.ground_truth.append(tag)
 
+		elif "../Crawler/test_data/medhelp/" in self.folder_path:
+			print "medhelp datasets"
+			for i in range(len(self.pages)):
+				path = self.pages[i].path.replace("../Crawler/test_data/medhelp/","")
+				if "/forums/" in path:
+					tag = 2
+				elif "/groups/" in path:
+						tag = 0
+				elif "/personal/" in path:
+						tag = 1
+				elif "/posts/" in path:
+					tag = 3
+				elif "/tags/" in path:
+					tag =4
+				else:
+					tag = 5
+				self.ground_truth.append(tag)
+
 	def Leung_baseline(self):
 		# one-hot representation
 		# threshold set to be 0.25 which means that xpath appear over 25% pages will be kept.

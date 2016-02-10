@@ -27,6 +27,7 @@ class visualizer:
 		#cluster_name = ["Others","Users","Questions","Index","Tags","Posts","Feeds"]
 		#cluster_name = ["Users","Questions","Index","topic","collection","others"]
 		cluster_name = ["celebrity","critics","top","m","trailers","guide","pictures"]
+		#cluster_name = ["groups","personal","forums","posts","tag","user"]
 		color_list = ["y","g","b","r","k","m","c"]
 		marker_list = ["d","+","o","*","^","H","_"]
 		label_count = [0 for i in range(len(marker_list))]
