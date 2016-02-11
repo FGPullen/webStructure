@@ -47,12 +47,14 @@ class WKMeans(object):
                 #print str(data) + "\t" + str(centroid) + "\t" + str(np.sum((data - centroid)**2))
                 return np.sum((data - centroid)**2)
 
-            else:
+            else: 
                 #s = np.dot(((data - centroid)**2),np.ones(weight.reshape(-1,1).shape))
                 s = np.dot(((data - centroid)**2), weight.reshape((-1,1)))
-                return s[:,0]         
-
-
+                return s[:,0]
+        elif distance == "Cosine":
+            similarity =  np.dot(data, centroid.T)
+            row = similarity.shape[0]
+            return np.ones(row) - similarity
 
     def get_center(self, data, distance):
         return data.sum(axis=0)/float((data.shape[0]))
@@ -95,6 +97,7 @@ class WKMeans(object):
         # smoothing using the global mean..
         if dispersion_update == 'mean':
             dispersion += dispersion.mean()
+            #dispersion += 0.0001
         else:
             dispersion += dispersion_update
         #calculate the actual weight
@@ -128,6 +131,7 @@ class WKMeans(object):
                 weights = weights/weights.sum(axis=1).reshape([k, 1]) # normalize each line
 
         previous_u = np.array([])
+        previous_dist_sum = 0.0
         ite = 1
         while ite <= max_ite:
             #print "========= " + str(ite) + "=========="
@@ -140,21 +144,28 @@ class WKMeans(object):
                     dist_tmp[:, k_i] = self.get_distance(data, centroids[k_i, :], distance, weights[k_i, :]**beta) # ** means exponent
             u = dist_tmp.argmin(axis=1) # min distance with k centroids, return the index not the value
             #put the sum of distances to centroids in dist_tmp 
-            dist_tmp = np.sum(dist_tmp[np.arange(dist_tmp.shape[0]), u])
+            dist_vector = dist_tmp[np.arange(dist_tmp.shape[0]),u]
+            dist_sum = np.sum(dist_tmp[np.arange(dist_tmp.shape[0]), u])
+            
             #stop if there are no changes in the partitions
+            #if np.array_equal(u, previous_u):
+            #if abs(dist_sum - previous_dist_sum)<0.000001 or 
             if np.array_equal(u, previous_u):
                 if weight_method is None:
                     weights = self._get_dispersion_based_weights(data, centroids, k, beta, u, n_features, distance)
                 elif weight_method == "centroid":
                     print "centroids converge"
                     weights = self._get_centroid_based_weights(data,centroids, weights, k, beta, u, n_features, distance)
-                return u, centroids, weights, ite, dist_tmp
+                return u, centroids, weights, ite, dist_sum
             #update centroids
             for k_i in range(k):
                 entities_in_k = u == k_i # entities == k_i and u == k_i
                 #Check if cluster k_i has lost all its entities
                 if sum(entities_in_k) == 0:
-                    return np.array([-1]), np.array([-1]), np.array([-1]), np.array([-1]), np.array([-1])
+                    index = dist_vector.argmax(axis=0)
+                    u[index] = k_i
+                    dist_vector[index] = 0.0
+                    entities_in_k = index
                 centroids[k_i, :] = self.get_center(data[entities_in_k, :], distance)
             #update weights
             if weight_method is None:
@@ -163,21 +174,22 @@ class WKMeans(object):
                 #print "centroids!"
                 weights = self._get_centroid_based_weights(data,centroids, weights, k, beta, u, n_features, distance)
             previous_u = u[:]
+            previous_dis_sum = dist_sum
             ite += 1
+        return np.array([-1]), np.array([-1]), np.array([-1]), np.array([-1]), np.array([-1])
 
-    def wk_means(self, data, k, beta=2, init_centroids=None, init_weights=None, weight_method=None, distance='Euclidean', replicates=100, max_ite=1000):
+    def wk_means(self, data, k, beta=2, init_centroids=None, init_weights=None, weight_method=None, distance='Euclidean', replicates=50, max_ite=100):
         #Weighted K-Means
         final_dist = float("inf")
         avg_iteration = []
         for replication_i in range(replicates):
             #print replication_i
             #loops up to max_ite to try to get a successful clustering for this replication
-            for i in range(max_ite):
-                [u, centroids, weights, ite, dist_tmp] = self.__wk_means(data, k, beta, init_centroids, init_weights, weight_method, max_ite, distance)
-                if u[0] != -1:
-                    break
+            [u, centroids, weights, ite, dist_tmp] = self.__wk_means(data, k, beta, init_centroids, init_weights, weight_method, max_ite, distance)
             if u[0] == -1:
-                raise Exception('Cannot generate a single successful clustering')
+                #raise Exception('Cannot generate a single successful clustering')
+                print ("this run cannot converge to stable status")
+                continue
             #given a successful clustering, check if its the best
             if dist_tmp < final_dist:
                 final_u = u[:]

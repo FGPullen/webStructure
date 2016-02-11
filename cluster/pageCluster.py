@@ -1,6 +1,7 @@
 from pages import allPages
 import sys
 from wkmeans import WKMeans
+from kmeans import KMeans
 import numpy as np
 import scipy as sp
 import matplotlib.pyplot as plt
@@ -57,7 +58,7 @@ class pagesCluster:
 			self.UP_pages.updateCategory(self.pre_y)
 			print "we have avg interation for " + str(final_ite)
 
-			write_file = open("./Files/values.txt","w")
+			#write_file = open("./Files/values.txt","w")
 
 			keys = []
 			for key in page.selected_tfidf:
@@ -92,7 +93,7 @@ class pagesCluster:
 			for index,metric in enumerate(metrics):
 				print metric + "\t" + str(result[index])
 
-	def kmeans(self,num_clusters,features,cv=False):
+	def kmeans(self,num_clusters,features,cv=False,replicates=100):
 		feature_matrix = []
 		y =[]
 		# get features and labels
@@ -120,16 +121,26 @@ class pagesCluster:
 		#num_clusters = len(path_list)
 		if not cv:
 			print "number of clusters is " + str(num_clusters)
+			'''
 			k_means = Cluster.KMeans(n_clusters=num_clusters, n_init=100, random_state=1, n_jobs=2)
 			#k_means.fit(shuffle(self.X))
 			#self.pre_y = k_means.predict(self.X)
 			k_means.fit(self.X)
 			self.pre_y = k_means.labels_
 			self.UP_pages.updateCategory(self.pre_y)
-			#print self.pre_y
-			#print self.y
-			#print metrics.adjusted_mutual_info_score(self.UP_pages.ground_truth,self.UP_pages.category)  
-			#print("done in %0.3fs." % (time() - self.t0))
+			'''
+
+			print "the size of vector is " + str(self.X.shape)
+			t = KMeans()
+			final_u, final_centroids, final_ite, final_dist = t.k_means(self.X,num_clusters, replicates=replicates)
+		   	self.pre_y = final_u
+			self.UP_pages.updateCategory(self.pre_y)
+			print "we have avg interation for " + str(final_ite)
+			keys = []
+			for key in page.selected_tfidf:
+				keys.append(key)
+			return t
+
 		else:
 			labels_true = np.array(self.UP_pages.ground_truth)
 			skf = StratifiedKFold(labels_true, n_folds=5)
@@ -137,15 +148,15 @@ class pagesCluster:
 			for train, test in skf:
 				#print train, test
 				train_x, test_x,train_gold,test_gold = self.X[train], self.X[test], labels_true[train], labels_true[test]
-				k_means = Cluster.KMeans(n_clusters=num_clusters, n_init=100, random_state=1, n_jobs=2)
-				k_means.fit(train_x)
-				train_y = k_means.labels_
-				test_y = k_means.predict(test_x)
-				results.append(self.Evaluation(test_gold,test_y,train_gold,train_y))
+				t = KMeans()
+				train_y, final_centroids, final_ite, final_dist = t.k_means(train_x,num_clusters,replicates=replicates)
+				test_y = t.k_means_classify(test_x)
+				results.append(self.Evaluation_CV(test_gold,test_y,train_gold,train_y))
+				#results.append(self.Cv_Evaluation(test_gold,test_y))
 			result = np.mean(results,axis=0)
-			metrics = ['micro_f', 'macro_f', 'mutual_info_score', 'rand_score','precision']
+			metrics = ['micro_f', 'macro_f', 'mutual_info_score', 'rand_score', 'cv_precision']
 			for index,metric in enumerate(metrics):
-				print metric + "\t" + str(result[index])			
+				print metric + "\t" + str(result[index])		
 
 	def AgglomerativeClustering(self, num_clusters):
 
@@ -259,37 +270,34 @@ class pagesCluster:
 		return [weighted_f1,macro_f1]
 
 
-	def Evaluation_CV(self, true=None, pred=None, train_true=None, train_pred=None):
-		if true is None:
-			labels_true = self.UP_pages.ground_truth
-		else:
-			labels_train_true = train_true
-			labels_true = true
-		if pred is None:
-			labels_pred = self.UP_pages.category
-		else:
-			labels_train_pred = train_pred
-			labels_pred = pred
-		cluster_dict = self.get_cluster_number_shift(labels_train_true, labels_train_pred)
+	def Evaluation_CV(self, test_gold, test_y, train_gold, train_y):
+		if test_gold is None or test_y is None or train_gold is None or train_y is None:
+			raise "Labels are None"
+
+		#test_gold,test_y,train_gold,train_y
+
+		cluster_dict = self.get_cluster_number_shift(train_gold,train_y)
 		print cluster_dict
 		right_guess = 0
-		for index,item in enumerate(pred):
-			if cluster_dict[item] == true[index]:
+		for index,item in enumerate(test_y):
+			if cluster_dict[item] == test_gold[index]:
 				right_guess += 1
-		precision = float(right_guess)/float(len(true))
+			#right_guess +=1 
+		precision = float(right_guess)/float(len(test_y))
 
-		print "We have %d pages for ground truth!" %(len(labels_true))
-		print "We have %d pages after prediction!" %(len(labels_pred))
-		assert len(labels_true) == len(labels_pred)
+		print "We have %d pages for ground truth!" %(len(train_y))
+		print "We have %d pages after prediction!" %(len(test_y))
+		assert len(test_gold) == len(test_y)
+		assert len(train_gold) == len(train_y)
 		pages = self.UP_pages
 		#self.Precision_Recall_F(labels_true,labels_pred)
-		mutual_info_score = metrics.adjusted_mutual_info_score(labels_true, labels_pred)
-		rand_score = metrics.adjusted_rand_score(labels_true, labels_pred)
+		mutual_info_score = metrics.adjusted_mutual_info_score(test_gold, test_y)
+		rand_score = metrics.adjusted_rand_score(test_gold, test_y)
 		print "Mutual Info Score is " + str(mutual_info_score)
 		print "Adjusted Rand Score is " + str(rand_score)
 		#silhouette_score = metrics.silhouette_score(self.X,np.array(labels_pred), metric='euclidean')
 		#print "Silhouette score is " + str(silhouette_score)
-		[micro_f, macro_f] = self.F_Measure(labels_true,labels_pred)
+		[micro_f, macro_f] = self.F_Measure(test_gold,test_y)
 		print "Micro F-Measure is " + str(micro_f)
 		print "Macro F-Measure is " + str(macro_f)
 		print "CV precision is " + str(precision)
@@ -325,6 +333,7 @@ class pagesCluster:
 			dic[item] = {}
 			for item_2 in true_set:
 				dic[item][item_2] = 0
+		assert len(labels_true) == len(labels_pred)
 
 		for i in range(len(labels_true)):
 			dic[labels_pred[i]][labels_true[i]] += 1
@@ -395,14 +404,16 @@ if __name__=='__main__':
 
 	
 	if args.clustering == "kmeans":
-		#cluster_labels.kmeans(cluster_labels.num_clusters,features_type,cv=True)
-		cluster_labels.kmeans(cluster_labels.num_clusters,features_type)
-		cluster_labels.Evaluation()
+		if args.test_type == "cv":
+			cluster_labels.kmeans(cluster_labels.num_clusters,features_type,cv=True,replicates=10)
+		else:
+			cluster_labels.kmeans(cluster_labels.num_clusters,features_type,replicates=100)
+			cluster_labels.Evaluation()
 	elif args.clustering == "wkmeans":
 		if args.test_type == "cv":
 			cluster_labels.wkmeans(cluster_labels.num_clusters,features_type,cv=True,beta=2,replicates=10)
 		else:
-			cluster_labels.wkmeans(cluster_labels.num_clusters,features_type)
+			cluster_labels.wkmeans(cluster_labels.num_clusters,features_type,replicates=100)
 			cluster_labels.Evaluation()
 
 	elif args.clustering == "ahc":
