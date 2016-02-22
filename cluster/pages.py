@@ -251,7 +251,7 @@ class allPages:
 
 	def get_ground_truth(self):
 		# /users/ /questions/ /q/ /questions/tagged/   /tags/ /posts/ /feeds/ /others
-		if "../Crawler/crawl_data/Questions/"  in self.folder_path or "../Crawler/test_data/train/" in self.folder_path or "../Crawler/test_data/stackexchange/" in self.folder_path or "../Crawler/test_data/test" in self.folder_path :
+		if "../Crawler/crawl_data/Questions/"  in self.folder_path or "../Crawler/test_data/train/" in self.folder_path or "../Crawler/test_data/stackexchange/" in self.folder_path:
 			print "????"
 			for i in range(len(self.pages)):
 				path = self.pages[i].path.replace("../Crawler/crawl_data/Questions/", "")
@@ -261,14 +261,14 @@ class allPages:
 					tag = 3
 				elif "/questions/" in path or "/q/" in path or "/a/" in path:
 					tag = 2
-				elif "/tags/" in path:
-					tag = 4
+				#elif "/tags/" in path:
+				#	tag = 6
 				elif "/posts/" in path:
 					tag = 5
 				elif "/feeds/" in path:
-					tag = 6
-				else:
-					tag = 0
+					tag = 4
+				#else:
+				#	tag = 0
 				#print "tag is " + str(tag)
 				self.ground_truth.append(tag)
 		# zhihu
@@ -314,22 +314,44 @@ class allPages:
 					tag =5
 				self.ground_truth.append(tag)
 
-		elif "../Crawler/test_data/medhelp/" in self.folder_path:
+		elif "../Crawler/test_data/medhelp/" in self.folder_path or "../Crawler/test_data/test" in self.folder_path:
 			print "medhelp datasets"
 			for i in range(len(self.pages)):
 				path = self.pages[i].path.replace("../Crawler/test_data/medhelp/","")
 				if "/forums/" in path:
 					tag = 2
 				elif "/groups/" in path:
-						tag = 0
+						tag = 2
 				elif "/personal/" in path:
 						tag = 1
 				elif "/posts/" in path:
 					tag = 3
+
 				elif "/tags/" in path:
 					tag =4
 				else:
 					tag = 5
+				self.ground_truth.append(tag)
+
+		elif "../Crawler/test_data/ASP/" in self.folder_path:
+			print "asp.net datasets"
+			for i in range(len(self.pages)):
+				path = self.pages[i].path.replace("../Crawler/test_data/ASP/","")
+				if "/f/" in path:
+						tag = 2
+				elif "/members/" in path:
+						tag = 0
+				elif "RedirectToLogin" in path or "/private-message/" in path:
+					tag = 1
+				elif "/post/" in path:
+					tag = 3
+				elif "/t/" in path or "/p/" in path:
+					tag =3
+				elif "search?" in path:
+					tag =4
+				else:
+					tag = 5
+
 				self.ground_truth.append(tag)
 
 	def Leung_baseline(self):
@@ -354,10 +376,10 @@ class allPages:
 		N = self.num
 		for key in self.idf:
 			if float(self.df[key])/float(N) >= 0.01:
-				for page in self.pages:
+				for page in self.pages: 
 					page.update_selected_tfidf(key)
 				
-	def find_important_xpath(self):
+	def find_important_xpath(self):	
 		length = len(self.pages)
 		print "numer of pages " + str(length)
 		print "number of xpath " + str(len(self.idf))

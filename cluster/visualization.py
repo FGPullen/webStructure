@@ -23,13 +23,19 @@ class visualizer:
 		model = TSNE(n_components=2, random_state=0)
 		self.Y = model.fit_transform(X)
 
-	def show(self,truth_list,pred_list,file_name):
-		#cluster_name = ["Others","Users","Questions","Index","Tags","Posts","Feeds"] # stackexchange
-		#cluster_name = ["Users","Questions","Index","topic","collection","others"] # zhihu
-		#cluster_name = ["celebrity","critics","top","m","trailers","guide","pictures"] #rotten
-		cluster_name = ["groups","personal","forums","posts","tag","user"] # medhelp
-		color_list = ["y","g","b","r","k","m","c"]
-		marker_list = ["d","+","o","*","^","H","_"]
+	def show(self,truth_list,pred_list,file_name,dataset):
+		if dataset == "stackexchange":
+			cluster_name = ["Others","Users","Questions","Index","Tags","Posts","Feeds"] # stackexchange
+		elif dataset == "zhihu":	
+			cluster_name = ["Users","Questions","Index","topic","collection","others"] # zhihu
+		elif dataset == "rottentomatoes":
+			cluster_name = ["celebrity","critics","top","m","trailers","guide","pictures"] #rotten
+		elif dataset == "medhelp":
+			cluster_name = ["groups","personal","forums","posts","tag","user"] # medhelp
+		elif dataset == "asp":
+			cluster_name = ["member","RedirectToLogin",'f','post','search',"others"]
+		color_list = ["y","g","b","r","k","m","c","w"]
+		marker_list = ["d","+","o","*","^","H","_","s"]
 		label_count = [0 for i in range(len(marker_list))]
 		x = self.Y[:,0]
 		y = self.Y[:,1]

@@ -34,6 +34,24 @@ class pagesCluster:
 		y =[]
 		# get features and labels
 		time = 1
+		'''
+		tf_feat = open("./results/medhelp-tf-idf.csv","w")
+		b_feat = open("./results/medhelp-binary.csv","w")
+		for page in self.UP_pages.pages:
+			tf_feat.write(page.path)
+			b_feat.write(page.path)
+			for key in page.selected_tfidf:
+				tf_feat.write("\t" + str(page.selected_logtfidf[key]))
+			for key in page.Leung:
+				b_feat.write("\t" + str(page.Leung[key]))
+			tf_feat.write("\n")
+			b_feat.write("\n")
+		
+		df = self.UP_pages.df
+		for key in df:
+			print key + "\t" + str(df[key])
+		'''
+
 		for page in self.UP_pages.pages:
 			if features == "tf-idf":
 				vector = []
@@ -41,6 +59,14 @@ class pagesCluster:
 					vector.append(page.selected_tfidf[key])
 				vector = normalize(vector,norm='l1')[0]
 				feature_matrix.append(vector)
+
+			elif features == "log-tf-idf":
+				vector = []
+				for key in page.selected_logtfidf:
+					vector.append(page.selected_logtfidf[key])
+				vector = normalize(vector,norm='l1')[0]
+				feature_matrix.append(vector)
+
 			elif features == "binary":
 				vector = []
 				for key in page.Leung:
@@ -89,9 +115,13 @@ class pagesCluster:
 				results.append(self.Evaluation_CV(test_gold,test_y,train_gold,train_y))
 				#results.append(self.Cv_Evaluation(test_gold,test_y))
 			result = np.mean(results,axis=0)
-			metrics = ['micro_f', 'macro_f', 'mutual_info_score', 'rand_score', 'cv_precision']
+			cv_batch_file = open("./results/cv_batch.results","a")
+			cv_batch_file.write("=====" + str(self.UP_pages.folder_path[0]) +"\t" + features + "\twkmeans =====\n")
+			metrics = ['micro_f', 'macro_f', 'mutual_info_score', 'rand_score', 'cv_micro_precision','cv_macro_precision']
 			for index,metric in enumerate(metrics):
 				print metric + "\t" + str(result[index])
+				cv_batch_file.write(metric + "\t" + str(result[index])+"\n")
+			
 
 	def kmeans(self,num_clusters,features,cv=False,replicates=100):
 		feature_matrix = []
@@ -106,6 +136,14 @@ class pagesCluster:
 					vector.append(page.selected_tfidf[key])
 				vector = normalize(vector,norm='l1')[0]
 				feature_matrix.append(vector)
+
+			elif features == "log-tf-idf":
+				vector = []
+				for key in page.selected_tfidf:
+					vector.append(page.selected_logtfidf[key])
+				vector = normalize(vector,norm='l1')[0]
+				feature_matrix.append(vector)
+
 			elif features == "binary":
 				vector = []
 				for key in page.Leung:
@@ -154,9 +192,12 @@ class pagesCluster:
 				results.append(self.Evaluation_CV(test_gold,test_y,train_gold,train_y))
 				#results.append(self.Cv_Evaluation(test_gold,test_y))
 			result = np.mean(results,axis=0)
-			metrics = ['micro_f', 'macro_f', 'mutual_info_score', 'rand_score', 'cv_precision']
+			cv_batch_file = open("./results/cv_batch.results","a")
+			cv_batch_file.write("=====" + str(self.UP_pages.folder_path[0]) +"\t" + features + "\tkmeans =====\n")
+			metrics = ['micro_f', 'macro_f', 'mutual_info_score', 'rand_score', 'cv_micro_precision','cv_macro_precision']
 			for index,metric in enumerate(metrics):
-				print metric + "\t" + str(result[index])		
+				print metric + "\t" + str(result[index])	
+				cv_batch_file.write(metric + "\t" + str(result[index])+"\n")	
 
 	def AgglomerativeClustering(self, num_clusters):
 
@@ -275,15 +316,26 @@ class pagesCluster:
 			raise "Labels are None"
 
 		#test_gold,test_y,train_gold,train_y
-
+		test_gold_counter = collections.Counter(test_gold)
+		test_gold_right = dict([(index,0.0) for index in test_gold_counter])
 		cluster_dict = self.get_cluster_number_shift(train_gold,train_y)
 		print cluster_dict
 		right_guess = 0
 		for index,item in enumerate(test_y):
 			if cluster_dict[item] == test_gold[index]:
+				test_gold_right[test_gold[index]] += 1
 				right_guess += 1
 			#right_guess +=1 
-		precision = float(right_guess)/float(len(test_y))
+		micro_precision = float(right_guess)/float(len(test_y))
+		print "===examine==="
+		print test_gold_counter
+		print test_gold_right
+		print test_y
+
+		avg = 0.0
+		for index in test_gold_counter:
+			avg += float(test_gold_right[index])/float(test_gold_counter[index])
+		macro_precision = avg/float(len(test_gold_counter))
 
 		print "We have %d pages for ground truth!" %(len(train_y))
 		print "We have %d pages after prediction!" %(len(test_y))
@@ -300,10 +352,11 @@ class pagesCluster:
 		[micro_f, macro_f] = self.F_Measure(test_gold,test_y)
 		print "Micro F-Measure is " + str(micro_f)
 		print "Macro F-Measure is " + str(macro_f)
-		print "CV precision is " + str(precision)
-		return micro_f, macro_f, mutual_info_score, rand_score, precision
+		print "Micro CV precision is " + str(micro_precision)
+		print "Macro CV precision is " + str(macro_precision)
+		return micro_f, macro_f, mutual_info_score, rand_score, micro_precision, macro_precision
 
-	def Evaluation(self):
+	def Evaluation(self,dataset,algo,feature):
 		labels_true = self.UP_pages.ground_truth
 		labels_pred = self.UP_pages.category
 
@@ -322,6 +375,15 @@ class pagesCluster:
 		[micro_f, macro_f] = self.F_Measure(labels_true,labels_pred)
 		print "Micro F-Measure is " + str(micro_f)
 		print "Macro F-Measure is " + str(macro_f)
+
+		train_batch_file = open("./results/train_batch.results","a")
+		train_batch_file.write("=====" + str(dataset) + "\t" + str(algo) +  "\t" + str(feature) +  "=====\n")
+		metrics_list = ['micro_f', 'macro_f', 'mutual_info_score', 'rand_score']
+		result = [micro_f,macro_f,mutual_info_score,rand_score]
+		for index,metric in enumerate(metrics_list):
+			print metric + "\t" + str(result[index])	
+			train_batch_file.write(metric + "\t" + str(result[index])+"\n")	
+
 		return micro_f, macro_f, mutual_info_score, rand_score
 
 	def get_cluster_number_shift(self, labels_true, labels_pred):
@@ -374,9 +436,9 @@ class pagesCluster:
 if __name__=='__main__':
 	import argparse
 	parser = argparse.ArgumentParser()
-	parser.add_argument("datasets", choices=["zhihu","stackexchange","rottentomatoes","medhelp","test"], help="the dataset for experiments")
+	parser.add_argument("datasets", choices=["zhihu","stackexchange","rottentomatoes","medhelp","asp"], help="the dataset for experiments")
 	parser.add_argument("clustering", choices=["wkmeans","kmeans","ahc"], help="the algorithm for clustering")
-	parser.add_argument("features_type", choices=["tf-idf","binary"], help="the features type for clustering")
+	parser.add_argument("features_type", choices=["tf-idf","log-tf-idf","binary"], help="the features type for clustering")
 	parser.add_argument("test_type", choices=["train","cv"], help="clustering or cv?")
 	#parser.add_argument('-w', action='store_true')
 	# representation option for args
@@ -397,31 +459,40 @@ if __name__=='__main__':
 		num_clusters = 7
 		cluster_labels = pagesCluster(["../Crawler/test_data/rottentomatoes/"],num_clusters)
 	elif args.datasets == "medhelp":
-		num_clusters = 6
+		num_clusters = 5
 		cluster_labels = pagesCluster(["../Crawler/test_data/medhelp/"],num_clusters)
+	elif args.datasets == "asp":
+		num_clusters = 6
+		cluster_labels = pagesCluster(["../Crawler/test_data/ASP/"],num_clusters)
 	else:
 		print "error"
 
 	
 	if args.clustering == "kmeans":
 		if args.test_type == "cv":
-			cluster_labels.kmeans(cluster_labels.num_clusters,features_type,cv=True,replicates=10)
+			cluster_labels.kmeans(cluster_labels.num_clusters,features_type,cv=True,replicates=20)
 		else:
 			cluster_labels.kmeans(cluster_labels.num_clusters,features_type,replicates=100)
-			cluster_labels.Evaluation()
+			cluster_labels.Evaluation(args.datasets,args.clustering,features_type)
+			
 	elif args.clustering == "wkmeans":
 		if args.test_type == "cv":
-			cluster_labels.wkmeans(cluster_labels.num_clusters,features_type,cv=True,beta=2,replicates=10)
+			cluster_labels.wkmeans(cluster_labels.num_clusters,features_type,cv=True,beta=2,replicates=20)
 		else:
 			cluster_labels.wkmeans(cluster_labels.num_clusters,features_type,replicates=100)
-			cluster_labels.Evaluation()
+			cluster_labels.Evaluation(args.datasets,args.clustering,features_type)
+	#elif arg.clustering == "all":
+
 
 	elif args.clustering == "ahc":
 		cluster_labels.AgglomerativeClustering(cluster_labels.num_clusters)
 		cluster_labels.Evaluation()
 
 	#visualization
-	v = visualizer(cluster_labels.UP_pages)
-	twoD_file = "2Dfile_questions_Q7_norm_test.txt"
-	v.show(v.UP_pages.ground_truth, v.UP_pages.category ,twoD_file)
+	
+	if args.test_type != "cv":
+		v = visualizer(cluster_labels.UP_pages)
+		twoD_file = "2D_plot_file.txt"
+		v.show(v.UP_pages.ground_truth, v.UP_pages.category ,twoD_file, args.datasets)
+	
 	

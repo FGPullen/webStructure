@@ -49,7 +49,7 @@ class KMeans(object):
         return indexes
 
 
-    def _k_means(self, data, k, init_centroids='random', max_ite=1000, distance='Euclidean'):
+    def _k_means(self, data, k, init_centroids='kmeans++', max_ite=1000, distance='Euclidean'):
         #returns -1, -1, -1, -1, -1 if there is an empty cluster
         n_entities, n_features = data.shape[0],data.shape[1]
         self.n_entities = n_entities

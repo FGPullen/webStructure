@@ -2,6 +2,7 @@ from lxml import etree
 import re
 import  gensim.models
 import copy
+import math
 
 class Page:
     def __init__(self,path):
@@ -18,7 +19,9 @@ class Page:
         self.normonehot = {}
         self.tfidf = {}
         self.selected_tfidf = {}
+        self.selected_logtfidf = {}
         self.normtfidf = {}
+        self.logtfidf = {}
         self.embedding = []
         #self.getEmbedding()
         self.Leung = {}
@@ -108,28 +111,40 @@ class Page:
     def updatetfidf(self,idf):
         # idf is a dict and given by allPages object
         for xpath in self.xpaths.keys():
+            self.logtfidf[xpath] = math.log(float(self.xpaths[xpath]+1),2)*float(idf[xpath])
             self.tfidf[xpath] = float(self.xpaths[xpath])*float(idf[xpath])
             if self.xpaths[xpath] > 0:
                 self.onehot[xpath] = 1*float(idf[xpath])
             else:
                 self.onehot[xpath] = 0
-        onehot_sum = sum(self.onehot.values())
+        # for visualization
         tfidf_sum = sum(self.tfidf.values())
         for item in self.tfidf:
             self.normtfidf[item] = float(self.tfidf[item])/tfidf_sum
+        '''
+        onehot_sum = sum(self.onehot.values())
+        
+        logtfidf_sum = sum(self.logtfidf.values())
+        
+            self.normlogtfidf[item] = float(self.logtfidf[item])/logtfidf_sum
             self.normonehot[item] = float(self.onehot[item])/onehot_sum
+        '''
         # test
             
     def getAnchor(self):
         print "start getAnchor"
+        link_dict = {}
         tree= etree.HTML(str(self.contents))
         Etree = etree.ElementTree(tree)
         nodes = tree.xpath("//a")
         for node in nodes:
             try:
-                print node.attrib['href']
+                xpath = self.removeIndex(Etree.getpath(node))
+                #print xpath,node.attrib['href']
+                link_dict[xpath] =  node.attrib['href']
             except:
-                print "Oh no! " + str(node)
+                err = "Oh no! " + str(node)
+        return link_dict
 
     def getEmbedding(self):
         # this should just load once , need to fix this later!
@@ -156,6 +171,7 @@ class Page:
 
     def update_selected_tfidf(self,key):
         self.selected_tfidf[key] = copy.copy(self.tfidf[key])
+        self.selected_logtfidf[key] = copy.copy(self.logtfidf[key])
 
 
 

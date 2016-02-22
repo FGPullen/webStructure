@@ -59,6 +59,29 @@ class WKMeans(object):
     def get_center(self, data, distance):
         return data.sum(axis=0)/float((data.shape[0]))
 
+    def dist_from_centers(self,indexes):
+        t = len(indexes)
+        #assign entities to cluster
+        self.dist[:, t-1] = self.get_distance(self.data, self.data[indexes[t-1],:], self.distance)
+        u = self.dist.argmin(axis=1)
+        return self.dist[np.arange(self.dist.shape[0]), u]
+
+    def choose_next_center(self,D):
+        self.probs = D/D.sum()
+        self.cumprobs = self.probs.cumsum()
+        r = rd.random()
+        index = np.where(self.cumprobs >= r)[0][0]
+        return index
+
+    def get_kpp_centroids(self,k):
+        self.dist = np.ones([self.n_entities, k])
+        indexes = [rd.randint(0,self.n_entities-1)]
+        while len(indexes) < k:
+            D = self.dist_from_centers(indexes)
+            next_index = self.choose_next_center(D)
+            indexes.append(next_index)
+        return indexes
+
 
     def _get_centroid_based_weights(self,data, centroids, weights, k , beta, u, n_features, distance):
         global_centroid = np.mean(data, axis=0)   
@@ -118,12 +141,16 @@ class WKMeans(object):
         #print weights
         return weights
 
-    def __wk_means(self, data, k, beta, centroids=None, weights=None, weight_method=None, max_ite=100, distance='Euclidean'):
+    def __wk_means(self, data, k, beta, init_centroids="kmeans++", weights=None, weight_method=None, max_ite=100, distance='Euclidean'):
         #runs WK-Means (or MWK-Means) once
         #returns -1, -1, -1, -1, -1 if there is an empty cluster
         n_entities, n_features = data.shape[0],data.shape[1]
-        if centroids is None:
+        self.n_entities,self.n_features,self.data,self.distance = n_entities, n_features, data, distance
+        if init_centroids == "random":
             centroids = data[rd.sample(range(n_entities), k), :]
+        elif init_centroids == "kmeans++":
+            indexes = self.get_kpp_centroids(k)
+            centroids = data[indexes,:]    
         if weights is None:
             if distance == 'Euclidean':
                 #as per WK-Means paper
@@ -178,7 +205,7 @@ class WKMeans(object):
             ite += 1
         return np.array([-1]), np.array([-1]), np.array([-1]), np.array([-1]), np.array([-1])
 
-    def wk_means(self, data, k, beta=2, init_centroids=None, init_weights=None, weight_method=None, distance='Euclidean', replicates=50, max_ite=100):
+    def wk_means(self, data, k, beta=2, init_centroids="kmeans++", init_weights=None, weight_method=None, distance='Euclidean', replicates=50, max_ite=100):
         #Weighted K-Means
         final_dist = float("inf")
         avg_iteration = []

@@ -1,0 +1,110 @@
+=====stackexchange	kmeans	tf-idf=====
+micro_f	0.991975474724
+macro_f	0.99374025974
+mutual_info_score	0.96624950242
+rand_score	0.977665047926
+=====stackexchange	kmeans	binary=====
+micro_f	1.0
+macro_f	1.0
+mutual_info_score	1.0
+rand_score	1.0
+=====stackexchange	wkmeans	tf-idf=====
+micro_f	0.99222472518
+macro_f	0.973827201232
+mutual_info_score	0.968706465738
+rand_score	0.987885648034
+=====stackexchange	wkmeans	binary=====
+micro_f	0.8701107227
+macro_f	0.784453265388
+mutual_info_score	0.788864765929
+rand_score	0.748416008184
+=====zhihu	kmeans	tf-idf=====
+micro_f	0.905087363233
+macro_f	0.783917812239
+mutual_info_score	0.782079789314
+rand_score	0.824720783882
+=====zhihu	kmeans	binary=====
+micro_f	0.705361090002
+macro_f	0.58332021473
+mutual_info_score	0.599599472388
+rand_score	0.405131513801
+=====zhihu	wkmeans	tf-idf=====
+micro_f	0.941422896078
+macro_f	0.827530153455
+mutual_info_score	0.881544940091
+rand_score	0.963009419054
+=====zhihu	wkmeans	binary=====
+micro_f	0.99704171698
+macro_f	0.994387254902
+mutual_info_score	0.982499181916
+rand_score	0.991968938945
+=====rottentomatoes	kmeans	tf-idf=====
+micro_f	0.978625807837
+macro_f	0.937521926622
+mutual_info_score	0.949166567308
+rand_score	0.965569630345
+=====rottentomatoes	kmeans	binary=====
+micro_f	0.705866352982
+macro_f	0.590598660926
+mutual_info_score	0.69046240017
+rand_score	0.55002121137
+=====rottentomatoes	wkmeans	tf-idf=====
+micro_f	0.913843118883
+macro_f	0.816888856178
+mutual_info_score	0.867710948247
+rand_score	0.873342458669
+=====rottentomatoes	wkmeans	binary=====
+micro_f	0.775254064351
+macro_f	0.611224199901
+mutual_info_score	0.741395386974
+rand_score	0.647414045946
+=====medhelp	kmeans	tf-idf=====
+micro_f	0.695323577646
+macro_f	0.628477041714
+mutual_info_score	0.63568175241
+rand_score	0.557503731408
+=====medhelp	kmeans	binary=====
+micro_f	0.723813319062
+macro_f	0.700688073915
+mutual_info_score	0.618664958207
+rand_score	0.477012973903
+=====medhelp	wkmeans	tf-idf=====
+micro_f	0.665691515101
+macro_f	0.520487475101
+mutual_info_score	0.62054821097
+rand_score	0.550192753466
+=====medhelp	wkmeans	binary=====
+micro_f	0.821204962205
+macro_f	0.714496681286
+mutual_info_score	0.801798939407
+rand_score	0.763317474279
+=====asp	kmeans	tf-idf=====
+micro_f	0.92716582691
+macro_f	0.852400089673
+mutual_info_score	0.867766379233
+rand_score	0.907005764821
+=====asp	kmeans	binary=====
+micro_f	0.90126731886
+macro_f	0.718488604842
+mutual_info_score	0.848865688172
+rand_score	0.888443501881
+=====asp	wkmeans	tf-idf=====
+micro_f	0.919942320067
+macro_f	0.822596911113
+mutual_info_score	0.852422790232
+rand_score	0.890042289687
+=====asp	wkmeans	binary=====
+micro_f	0.932396574166
+macro_f	0.864603794806
+mutual_info_score	0.89789125483
+rand_score	0.913553912344
+=====asp	kmeans	log-tf-idf=====
+micro_f	0.92716582691
+macro_f	0.852400089673
+mutual_info_score	0.867766379149
+rand_score	0.907005764821
+=====asp	kmeans	tf-idf=====
+micro_f	0.923945558237
+macro_f	0.851098031581
+mutual_info_score	0.844838293183
+rand_score	0.897518367479
