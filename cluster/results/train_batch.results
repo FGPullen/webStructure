@@ -221,3 +221,18 @@ micro_f	0.778249142975
 macro_f	0.751419593822
 mutual_info_score	0.689900821019
 rand_score	0.602674951101
+=====medhelp	wkmeans	tf-idf=====
+micro_f	0.6520729843
+macro_f	0.516177706302
+mutual_info_score	0.572070751748
+rand_score	0.500151872524
+=====medhelp	wkmeans	tf-idf=====
+micro_f	0.679084906778
+macro_f	0.550468959132
+mutual_info_score	0.578723168974
+rand_score	0.512189258262
+=====rottentomatoes	kmeans	log-tf-idf=====
+micro_f	0.982164934599
+macro_f	0.948328922739
+mutual_info_score	0.955835735045
+rand_score	0.971343440439

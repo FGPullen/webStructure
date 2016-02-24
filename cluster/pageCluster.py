@@ -34,14 +34,14 @@ class pagesCluster:
 		y =[]
 		# get features and labels
 		time = 1
-		'''
+		
 		tf_feat = open("./results/medhelp-tf-idf.csv","w")
 		b_feat = open("./results/medhelp-binary.csv","w")
 		for page in self.UP_pages.pages:
 			tf_feat.write(page.path)
 			b_feat.write(page.path)
 			for key in page.selected_tfidf:
-				tf_feat.write("\t" + str(page.selected_logtfidf[key]))
+				tf_feat.write("\t" + str(page.selected_tfidf[key]))
 			for key in page.Leung:
 				b_feat.write("\t" + str(page.Leung[key]))
 			tf_feat.write("\n")
@@ -50,7 +50,7 @@ class pagesCluster:
 		df = self.UP_pages.df
 		for key in df:
 			print key + "\t" + str(df[key])
-		'''
+		
 
 		for page in self.UP_pages.pages:
 			if features == "tf-idf":

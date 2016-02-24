@@ -141,7 +141,10 @@ class Page:
             try:
                 xpath = self.removeIndex(Etree.getpath(node))
                 #print xpath,node.attrib['href']
-                link_dict[xpath] =  node.attrib['href']
+                if xpath not in link_dict:
+                    link_dict[xpath] = []
+                else:
+                    link_dict[xpath].append(node.attrib['href'])
             except:
                 err = "Oh no! " + str(node)
         return link_dict

@@ -423,8 +423,14 @@ class allPages:
 if __name__=='__main__':
 	#UP_pages = allPages(["../Crawler/crawl_data/Questions/"])
 	#pages = allPages(["../Crawler/crawl_data/Questions/"])
-	pages = allPages(["../Crawler/test_data/stackexchange/"])
-	pages.find_important_xpath()
+	pages = allPages(["../Crawler/test_data/medhelp/"])
+	#pages.find_important_xpath()
+	for page in pages.pages:
+		if page.path.endswith("show/220") or page.path.endswith("show/1549"):
+			print len(page.selected_tfidf)
+			keys = page.selected_tfidf.keys()
+			#print keys 
+			print page.path, page.selected_tfidf["/html/body/div/div/div/div/div/div/div/div/script"]
 	'''
 	length = len(pages.pages)
 	print "numer of pages " + str(length)
