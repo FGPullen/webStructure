@@ -31,7 +31,7 @@ class allPages:
 		self.updatetfidf()
 		self.filter_df(0.01,1.0)
 		self.filter_dfs_xpaths_list()
-		self.Leung_baseline()
+		self.Leung_baseline()  # binary feature
 		self.selected_tfidf()
 		self.update_bigram()
 		if dm=="yes":
@@ -425,8 +425,6 @@ class allPages:
 				print info[key][sorted_list[i][0]]
 			print "=========================="
 
-
-
 	def find_bigram(self):
 
 		df = self.selected_df
@@ -545,7 +543,6 @@ if __name__=='__main__':
 			print info[key][sorted_list[i][0]]
 		print "=========================="
 		'''
-
 	'''
 	depth = []
 	for key in pages.idf:
@@ -598,10 +595,6 @@ if __name__=='__main__':
 			print str(sorted_dict[j][1]) + "\t" + pages[sorted_dict[j][0]].path
 		print "================="
 	'''
-
-
-
-
 
 	'''
 	page1 = UP_pages.pages[451]
