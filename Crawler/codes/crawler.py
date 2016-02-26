@@ -10,7 +10,17 @@ header = {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) G
 
 def intraJudge(url):
 	# oulink with http or symbol like # and /
-	
+	# medhelp start from http://www.medhelp.org/user_groups/list and prefix http://www.medhelp.org/
+	if len(url)==1 or "http" in url:
+		if "medhelp.org" in url:
+			return 1
+		else:
+			return 0
+	elif url[0:2]=="//":
+		return 0
+	else:
+		return 1
+	'''
 	if len(url)==1 or "http" in url:
 		if "rottentomatoes.com" in url:
 			return 1
@@ -20,7 +30,7 @@ def intraJudge(url):
 		return 0
 	else:
 		return 1
-	'''
+
 	if "http" in url:
 		if "movie.douban.com" in url:
 			return 1
@@ -49,7 +59,7 @@ def crawlUrl(url,url_stack,history_stack,prefix):
 		lines = response.read().replace("\n","")
 		#write to file
 		#write_file = open("../crawl_data/Zhihu/"+url.replace("/","_")+".html",'w')
-		file_name = "../crawl_data/rottentomatoes/"+url.replace("/","_")+".html"
+		file_name = "../crawl_data/medhelp2/"+url.replace("/","_")+".html"
 		if os.path.isfile(file_name):
 			print "Already"
 			return 0
@@ -79,7 +89,7 @@ def crawlUrl(url,url_stack,history_stack,prefix):
 def stack2file(url_stack,history_stack,count):
 	
 	#stack_file = open("../stack_data/Zhihu/"+str(count/50)+".txt","w")
-	stack_file = open("../stack_data/rottentomatoes/"+str(count/100)+".txt","w")
+	stack_file = open("../stack_data/medhelp2/"+str(count/100)+".txt","w")
 	stack_file.write("======url_stak======\n")
 	for url in url_stack:
 		stack_file.write(url+"\n")
@@ -139,8 +149,8 @@ if __name__=='__main__':
 					print "----We still have %d pages to crawl!----" %(len(url_stack))
 					time.sleep(random_time)
 
-				if count_save%100==99:
-					stack2file(url_stack,history_stack,count_save)
+				#if count_save%100==99:
+				#	stack2file(url_stack,history_stack,count_save)
 
 		except:
 			print "error"
