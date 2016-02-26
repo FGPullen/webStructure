@@ -134,8 +134,8 @@ class pagesCluster:
 				vector = []
 				for key in page.selected_tfidf:
 					vector.append(page.selected_tfidf[key])
-				for key,value in page.bigram_dict.iteritems():
-					vector.append(value)
+				#for key,value in page.bigram_dict.iteritems():
+				#	vector.append(value)
 				vector = normalize(vector,norm='l1')[0]
 				feature_matrix.append(vector)
 
@@ -143,8 +143,8 @@ class pagesCluster:
 				vector = []
 				for key in page.selected_tfidf:
 					vector.append(page.selected_logtfidf[key])
-				for key,value in page.bigram_dict.iteritems():
-					vector.append(value)
+				#for key,value in page.bigram_dict.iteritems():
+				#	vector.append(value)
 				vector = normalize(vector,norm='l1')[0]
 				feature_matrix.append(vector)
 
@@ -152,8 +152,8 @@ class pagesCluster:
 				vector = []
 				for key in page.Leung:
 					vector.append(page.Leung[key])
-				for key,value in page.bigram_dict.iteritems():
-					vector.append(value)
+				#for key,value in page.bigram_dict.iteritems():
+				#	vector.append(value)
 				vector = normalize(vector,norm='l1')[0]
 				feature_matrix.append(vector)
 
@@ -488,7 +488,6 @@ if __name__=='__main__':
 			cluster_labels.wkmeans(cluster_labels.num_clusters,features_type,replicates=100)
 			cluster_labels.Evaluation(args.datasets,args.clustering,features_type)
 	#elif arg.clustering == "all":
-
 
 	elif args.clustering == "ahc":
 		cluster_labels.AgglomerativeClustering(cluster_labels.num_clusters)
