@@ -1,12 +1,13 @@
 # WebStructure project @ CMU LTI
 The idea is analyzing web pages' structures for a better crawler which extracts contents more intelligently.
 ## Crawler
-Crawler sites with annotated groups with BFS strategy.
+This module crawls sites with annotated groups using simple BFS strategy.
 
 ## Cluster
-Extract Xpaths and calculate features for clustering and classification.
+This module extracts Xpaths and calculate features for clustering and classification.
+HITS idea is also implemented in this module. 
 
-* For  clustering algorithm, the following six python files are most important:
+* For clustering algorithm, the following six python files are most important:
 
 page.py
 data structure for one web page
@@ -25,14 +26,17 @@ wkmeans means weighted kmeans.
 pageCluster.py:
 Main function. The number of clusters are heuristically assigned in its main function.
 To implement clustering, use command:
+```python
 python pageCluster.py dataset algo feature train(cv)
+```
+
 dataset is the parameter select from [zhihu,stackexchange,rottentomatoes,medhelp,asp]
 algo is the parameter select from [kmeans,wkmeans]
 features select from [tf-idf,log-tf-idf,binary]
 train(cv) select from [train,cv]
 * output: evluation metric and visulization for train
 
-
+Batch file
 
 visualization.py
 Utilizing t-sne to reduce high-dimenstion vectors to two dimensions for visualization.

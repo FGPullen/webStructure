@@ -457,7 +457,6 @@ class allPages:
 					continue
 
 
-
 		pair_dict = {}
 		for key1 in xpaths_dict:
 			for key2 in xpaths_dict[key1]:
@@ -470,7 +469,8 @@ class allPages:
 				if xpaths_dict[key1][key2] == 0:
 					pair_dict["("+key1+","+key2+")"] = 0
 				else:
-					pair_dict["("+key1+","+key2+")"] = math.log(xpaths_dict[key1][key2]) * p * dis_similarity
+					pair_dict["("+key1+","+key2+")"] = math.log(xpaths_dict[key1][key2]) * p 
+					#* dis_similarity
 		bigram_list = []
 		top = 10
 		pair_list = sorted(pair_dict.iteritems(),key=lambda x:x[1],reverse=True)
@@ -485,6 +485,7 @@ class allPages:
 	# find the postion of exact match and count "/"
 	@staticmethod
 	def calc_dis_similarity(p1,p2):
+
 		for i in range(min(len(p1),len(p2))):
 			if p1[i] != p2[i]:
 				break

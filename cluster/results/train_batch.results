@@ -321,3 +321,8 @@ micro_f	0.991975474724
 macro_f	0.99374025974
 mutual_info_score	0.966249502525
 rand_score	0.977665047926
+=====stackexchange	kmeans	tf-idf=====
+micro_f	0.991975474724
+macro_f	0.99374025974
+mutual_info_score	0.966249502472
+rand_score	0.977665047926
