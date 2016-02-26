@@ -236,3 +236,83 @@ micro_f	0.982164934599
 macro_f	0.948328922739
 mutual_info_score	0.955835735045
 rand_score	0.971343440439
+=====medhelp	kmeans	tf-idf=====
+micro_f	0.666113702914
+macro_f	0.538964618694
+mutual_info_score	0.56593514775
+rand_score	0.490882417873
+=====stackexchange	kmeans	tf-idf=====
+micro_f	0.991975474724
+macro_f	0.99374025974
+mutual_info_score	0.96624950242
+rand_score	0.977665047926
+=====stackexchange	kmeans	log-tf-idf=====
+micro_f	0.991977228945
+macro_f	0.993061512512
+mutual_info_score	0.965408622837
+rand_score	0.981980215534
+=====rottentomatoes	kmeans	log-tf-idf=====
+micro_f	0.978633957194
+macro_f	0.938462190349
+mutual_info_score	0.950061215748
+rand_score	0.96401030142
+=====asp	kmeans	log-tf-idf=====
+micro_f	0.801656270224
+macro_f	0.76438171113
+mutual_info_score	0.678560029013
+rand_score	0.678978824384
+=====asp	wkmeans	log-tf-idf=====
+micro_f	0.921032635502
+macro_f	0.813739423891
+mutual_info_score	0.860439197579
+rand_score	0.896257220583
+=====asp	kmeans	log-tf-idf=====
+micro_f	0.801656270224
+macro_f	0.76438171113
+mutual_info_score	0.678560029013
+rand_score	0.678978824384
+=====asp	kmeans	log-tf-idf=====
+micro_f	0.92471192238
+macro_f	0.851555806429
+mutual_info_score	0.846597169124
+rand_score	0.899597998929
+=====asp	kmeans	binary=====
+micro_f	0.90126731886
+macro_f	0.718488604842
+mutual_info_score	0.848865687878
+rand_score	0.888443501881
+=====asp	kmeans	binary=====
+micro_f	0.90126731886
+macro_f	0.718488604842
+mutual_info_score	0.84886568827
+rand_score	0.888443501881
+=====asp	kmeans	binary=====
+micro_f	0.90126731886
+macro_f	0.718488604842
+mutual_info_score	0.848865688369
+rand_score	0.888443501881
+=====asp	kmeans	binary=====
+micro_f	0.90126731886
+macro_f	0.718488604842
+mutual_info_score	0.848865687976
+rand_score	0.888443501881
+=====asp	kmeans	binary=====
+micro_f	0.90126731886
+macro_f	0.718488604842
+mutual_info_score	0.848865688074
+rand_score	0.888443501881
+=====asp	kmeans	tf-idf=====
+micro_f	0.914462002762
+macro_f	0.844811672048
+mutual_info_score	0.827693807843
+rand_score	0.874501600919
+=====asp	kmeans	tf-idf=====
+micro_f	0.914087938928
+macro_f	0.844588231251
+mutual_info_score	0.826946931549
+rand_score	0.873537931047
+=====stackexchange	kmeans	tf-idf=====
+micro_f	0.991975474724
+macro_f	0.99374025974
+mutual_info_score	0.966249502525
+rand_score	0.977665047926

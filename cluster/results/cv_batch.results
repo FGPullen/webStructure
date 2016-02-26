@@ -254,3 +254,52 @@ mutual_info_score	0.780582604849
 rand_score	0.726720920704
 cv_micro_precision	0.92772837154
 cv_macro_precision	0.812233486943
+=====../Crawler/test_data/rottentomatoes/	log-tf-idf	kmeans =====
+micro_f	0.972356562512
+macro_f	0.92099419778
+mutual_info_score	0.948143239088
+rand_score	0.954053499526
+cv_micro_precision	0.974328948879
+cv_macro_precision	0.905285190999
+=====../Crawler/test_data/ASP/	log-tf-idf	kmeans =====
+micro_f	0.803574209938
+macro_f	0.782502041768
+mutual_info_score	0.675026260601
+rand_score	0.660969191583
+cv_micro_precision	0.787290306074
+cv_macro_precision	0.722121212121
+=====../Crawler/test_data/rottentomatoes/	tf-idf	kmeans =====
+micro_f	0.937845240534
+macro_f	0.84121014681
+mutual_info_score	0.885831188122
+rand_score	0.906559477235
+cv_micro_precision	0.952242158582
+cv_macro_precision	0.823338566196
+=====../Crawler/test_data/ASP/	log-tf-idf	kmeans =====
+micro_f	0.921523141743
+macro_f	0.843148258153
+mutual_info_score	0.844422296493
+rand_score	0.896218909441
+cv_micro_precision	0.927052077626
+cv_macro_precision	0.813101449275
+=====../Crawler/test_data/ASP/	tf-idf	kmeans =====
+micro_f	0.923816702331
+macro_f	0.85357402113
+mutual_info_score	0.855390143594
+rand_score	0.902348137571
+cv_micro_precision	0.92928535568
+cv_macro_precision	0.814434782609
+=====../Crawler/test_data/ASP/	binary	kmeans =====
+micro_f	0.910796997146
+macro_f	0.744206019677
+mutual_info_score	0.86013625546
+rand_score	0.913559605374
+cv_micro_precision	0.911513048291
+cv_macro_precision	0.687083083083
+=====../Crawler/test_data/ASP/	binary	kmeans =====
+micro_f	0.907203743685
+macro_f	0.734163447259
+mutual_info_score	0.857693960977
+rand_score	0.912484994002
+cv_micro_precision	0.906269602598
+cv_macro_precision	0.681897897898

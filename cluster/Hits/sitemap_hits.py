@@ -11,16 +11,22 @@ class sitemap:
 		self.write()
 
 	def get_trans_mat(self):
-		self.pages = allPages(["../Crawler/test_data/stackexchange/"])
+		self.pages = allPages(["../Crawler/test_data/zhihu/"])
 		cluster_num = 4
 		self.cluster_num = cluster_num
 		trans_mat = np.zeros((cluster_num,cluster_num))
 		total_links = 0
+		count_list = {}
 		for page in self.pages.pages:
 			group = self.annotate(page.path,False)
 			if group == 0:
 				continue
-			print page.path , group
+
+			#print page.path , group
+			if group not in count_list:
+				count_list[group] = 1
+			else:
+				count_list[group] += 1
 
 			link_dict = page.getAnchor()
 			for key,links in link_dict.iteritems():
@@ -29,16 +35,21 @@ class sitemap:
 					if tag!=0:
 						total_links += 1
 						trans_mat[group-1,tag-1] += 1
-						if group == tag:
-							print link , page.path
-		print trans_mat
-		trans_mat = normalize(trans_mat,norm='l1', axis=1)
+						#if group == tag:
+						#	print link , page.path
+		#print trans_mat
+		#trans_mat = normalize(trans_mat,norm='l1', axis=1)
+		print count_list
+		for i in range(cluster_num):
+			for j in range(cluster_num):
+				trans_mat[i,j] = float(trans_mat[i,j])/float(count_list[i+1])
+
 		print trans_mat
 		print "total_links has " + str(total_links)
 		self.trans_mat = trans_mat
 
 
-
+	'''
 	def annotate(self,path,anchor):
 		path = path.replace("../Crawler/test_data/stackexchange/", "")
 		if "http" in path and anchor: 
@@ -58,7 +69,7 @@ class sitemap:
 		else:
 			return 0
 		return tag
-	
+	'''	
 	'''		
 	def annotate(self,path):
 		path = path.replace("../Crawler/test_data/rottentomatoes/","")
@@ -81,26 +92,28 @@ class sitemap:
 		else: # guide
 			tag =0
 		return tag
-	
-	def annotate(self,path):
+	'''
+	def annotate(self,path,anchor):
 		path = path.replace("../Crawler/test_data/zhihu/","")
-		if "follow" in path:
-			tag = 3
+		if "http" in path and anchor: 
+			tag = 0
+		elif "follow" in path:
+			tag = 0
 		elif "/people/" in path:
 			tag = 1
 		elif "/question/" in path:
 				tag = 2
 		elif "/topic/" in path:
-			tag = 4
+			tag = 3
 		elif "/collection/" in path:
-			tag = 5
+			tag = 4
 		else:
 			tag = 0
 		return tag
-	'''
+	
 	#def compute_hits(self):
 	def write(self):
-		file = open("./Hits/stackexchange_mat.txt","w")
+		file = open("./Hits/zhihu_mat.txt","w")
 		for i in range(self.cluster_num):
 			for j in range(self.cluster_num):
 				file.write(str(i+1) + " " + str(j+1) + " " + str(self.trans_mat[i,j]) + "\n")

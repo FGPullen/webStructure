@@ -20,6 +20,7 @@ class Page:
         self.tfidf = {}
         self.selected_tfidf = {}
         self.selected_logtfidf = {}
+        self.bigram_dict = {}
         self.normtfidf = {}
         self.logtfidf = {}
         self.embedding = []
@@ -131,6 +132,16 @@ class Page:
         '''
         # test
             
+    def get_bigram_features(self,bigram_list):
+        
+        for bigram in bigram_list:
+            path1, path2 = bigram[0],bigram[1]
+            if self.xpaths[path1] >0 and self.xpaths[path2] >0:
+                self.bigram_dict["("+path1+","+path2+")"] = 1
+            else:
+                self.bigram_dict["("+path1+","+path2+")"] = 0
+
+
     def getAnchor(self):
         print "start getAnchor"
         link_dict = {}

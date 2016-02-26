@@ -28,13 +28,9 @@ class HITS:
 		self.doc_num = max_id
 		print self.doc_num
 		# self-contained
-		for i in range(max_id):
-			row.append(i)
-			col.append(i)
-			data.append(1)
 
 		trans_mat = sps.csr_matrix((data,(row,col)), shape=(max_id,max_id))
-		trans_mat = normalize(trans_mat, norm='l1', axis=1)
+		#trans_mat = normalize(trans_mat, norm='l1', axis=1)
 		self.trans_mat = trans_mat
 
 		return trans_mat
@@ -45,8 +41,9 @@ class HITS:
 		self.compute_scores()
 
 
-	def compute_scores(self, max_iter=50):
+	def compute_scores(self, max_iter=100):
 		trans_mat = self.trans_mat # need normalization
+		print trans_mat
 		# page rank score vector
 		auth_score = np.ones((self.doc_num,1))/float(self.doc_num)
 		hub_score = np.ones((self.doc_num,1))/float(self.doc_num)
@@ -68,4 +65,4 @@ class HITS:
 		print self.hub_score
 
 if __name__ == "__main__":
-	h = HITS("./Hits/stackexchange_mat.txt")
+	h = HITS("./Hits/zhihu_mat.txt")

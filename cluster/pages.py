@@ -17,9 +17,8 @@ class allPages:
 		self.full_xpaths = []
 		self.ground_truth = []
 		self.idf = {}
-		self.selected_idf = {}
+		self.selected_df = {}
 		self.df = {}
-
 		#  update attributes
 		self.addPages(folder_path)
 		self.expandXpaths()
@@ -30,17 +29,18 @@ class allPages:
 		#self.heuristic_weight_zhihu()
 		#self.heuristic_weight()
 		self.updatetfidf()
-		self.filter_idf(0.01,1.0)
+		self.filter_df(0.01,1.0)
 		self.filter_dfs_xpaths_list()
 		self.Leung_baseline()
 		self.selected_tfidf()
+		self.update_bigram()
 		if dm=="yes":
 			self.getDistanceMatrix("./Data/edit_distance.matrix")
 		
 	def filter_dfs_xpaths_list(self):
 		print "start filtering for xpaths list"
 		for page in self.pages:
-			page.filtered_dfs_xpaths_list = [item for item in page.dfs_xpaths_list if item in self.selected_idf]
+			page.filtered_dfs_xpaths_list = [item for item in page.dfs_xpaths_list if item in self.selected_df]
 			#print "we filterd " + str(len(page.dfs_xpaths_list) - len(page.filtered_dfs_xpaths_list))
 		print "end filtering for xpaths list"
 
@@ -100,7 +100,7 @@ class allPages:
 	def affinity(self,page1,page2):
 		distance = 0.0
 		s,t,m =0.0,0.0,0.0
-		for key in self.selected_idf:
+		for key in self.selected_df:
 			if page1.xpaths[key] >= 1:
 				s += 1
 			if page2.xpaths[key] >= 1:
@@ -189,7 +189,7 @@ class allPages:
 	def get_affinity_matrix(self):
 		# calculate affinity matrix based on Xpath
 		# if we assign a matrix before , would it be much quicker?
-		print len(self.selected_idf)
+		print len(self.selected_df)
 		matrix = np.zeros(shape=(self.num,self.num))
 		for i in range(self.num):
 			for j in range(i+1,self.num):
@@ -364,13 +364,20 @@ class allPages:
 				for page in self.pages:
 					page.update_Leung(key)
 
-	def filter_idf(self,min_t, max_t):
+	def update_bigram(self):
+		bigram_list = self.find_bigram()
+		for page in self.pages:
+			page.get_bigram_features(bigram_list)
+			#print len(page.bigram_dict)
+
+
+	def filter_df(self,min_t, max_t):
 		# aim to get a subset of xpaths which filters out path that appears in very few documents
 		# as well as those that occur in almost all documents
 		for key in self.idf:
 			if float(self.df[key])/float(self.num) >= min_t:
 				if float(self.df[key])/float(self.num) <= max_t:
-					self.selected_idf[key] = self.df[key]
+					self.selected_df[key] = self.df[key]
 
 	def selected_tfidf(self):
 		N = self.num
@@ -420,18 +427,88 @@ class allPages:
 
 
 
+	def find_bigram(self):
+
+		df = self.selected_df
+
+		xpaths_dict = {}
+		co_dict = {}
+		bigram_list = []
+		N_pages = len(self.pages)
+
+		for key1 in df.keys():
+			xpaths_dict[key1] = {}
+			co_dict[key1] = {}
+			for key2 in df.keys():
+				if key1 != key2:
+					# if key occurs too little, we don't think it is a stop structure
+					xpaths_dict[key1][key2] = float(N_pages**2)/(float(df[key1])*float(df[key2]))
+					co_dict[key1][key2] = 0
+					bigram_list.append([key1,key2])
+
+
+		# unordered pair 
+		for p in range(N_pages):
+			page = self.pages[p]
+			for pair in bigram_list:
+				key1, key2 = pair[0], pair[1]
+				if page.xpaths[key1] >0 and page.xpaths[key2]>0:
+					co_dict[key1][key2] += 1
+					continue
+
+
+
+		pair_dict = {}
+		for key1 in xpaths_dict:
+			for key2 in xpaths_dict[key1]:
+				dis_similarity = self.calc_dis_similarity(key1, key2)
+				#print key1, key2, dis_similarity
+				
+				p = float(co_dict[key1][key2])/float(N_pages)
+				xpaths_dict[key1][key2] = p*xpaths_dict[key1][key2]
+				
+				if xpaths_dict[key1][key2] == 0:
+					pair_dict["("+key1+","+key2+")"] = 0
+				else:
+					pair_dict["("+key1+","+key2+")"] = math.log(xpaths_dict[key1][key2]) * p * dis_similarity
+		bigram_list = []
+		top = 10
+		pair_list = sorted(pair_dict.iteritems(),key=lambda x:x[1],reverse=True)
+		for i in range(top):
+			#print pair_list[i][0] + "\t" + str(pair_list[i][1])
+			[path1, path2] = pair_list[i][0].replace("(","").replace(")","").split(",")
+			#print str(df[path1]) + "\t" + str(df[path2])
+			bigram_list.append([path1,path2])
+		print bigram_list
+		return bigram_list
+	
+	# find the postion of exact match and count "/"
+	@staticmethod
+	def calc_dis_similarity(p1,p2):
+		for i in range(min(len(p1),len(p2))):
+			if p1[i] != p2[i]:
+				break
+		n_shared = p1[:i].count("/")
+		n_p1 = p1[i:].count("/")
+		n_p2 = p2[i:].count("/")
+		dis_similarity = float(n_p1+n_p2+n_shared)/float(n_shared)
+		return dis_similarity
+
 if __name__=='__main__':
 	#UP_pages = allPages(["../Crawler/crawl_data/Questions/"])
 	#pages = allPages(["../Crawler/crawl_data/Questions/"])
 	pages = allPages(["../Crawler/test_data/medhelp/"])
+	pages.update_bigram()
+
+
 	#pages.find_important_xpath()
+	'''
 	for page in pages.pages:
 		if page.path.endswith("show/220") or page.path.endswith("show/1549"):
 			print len(page.selected_tfidf)
 			keys = page.selected_tfidf.keys()
 			#print keys 
 			print page.path, page.selected_tfidf["/html/body/div/div/div/div/div/div/div/div/script"]
-	'''
 	length = len(pages.pages)
 	print "numer of pages " + str(length)
 	print "number of xpath " + str(len(pages.idf))
