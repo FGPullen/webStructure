@@ -9,38 +9,38 @@ HITS idea is also implemented in this module.
 
 * For clustering algorithm, the following six python files are most important:
 
-**page.py:   
+**page.py:  ** 
 data structure for one web page
 
-**pages.py:   
+**pages.py:  ** 
 data structure for page collection of one website.
 
 
-**kmeans.py wkmeans.py  
+**kmeans.py wkmeans.py  **
 
 Those two take feature matrix as input and generate clusters as output.  
 wkmeans means weighted kmeans. 
 
 
 
-** pageCluster.py:  
+** pageCluster.py:  **
 Main function. The number of clusters are heuristically assigned in its main function.
 To implement clustering, use command:
 ```python
 python pageCluster.py dataset algo feature train(cv)
 ```
 
-dataset is the parameter select from [zhihu,stackexchange,rottentomatoes,medhelp,asp]  
-algo is the parameter select from [kmeans,wkmeans]  
-features select from [tf-idf,log-tf-idf,binary]  
-train(cv) select from [train,cv]  
+*dataset is the parameter select from [zhihu,stackexchange,rottentomatoes,medhelp,asp]  
+*algo is the parameter select from [kmeans,wkmeans]  
+*features select from [tf-idf,log-tf-idf,binary]  
+*train(cv) select from [train,cv]  
 * output: evluation metric and visulization for train  
 
-** Batch file: cv_results.sh & train_results.sh  
+** Batch file: cv_results.sh & train_results.sh  **
 Try all possible parameter settings and write results to files.  
 
 
-** visualization.py  
+** visualization.py  **
 Utilizing t-sne to reduce high-dimenstion vectors to two dimensions for visualization.  
 
 
