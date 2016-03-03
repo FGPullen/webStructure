@@ -1,11 +1,11 @@
 #!/bin/bash
-command=python
+command=frameworkpython
 class=pageCluster.py
 cv=cv
-declare -a algo_array=("kmeans" "wkmeans")
-declare -a feature_array=("tf-idf" "log-tf-idf" "binary")
-declare -a data_array=("medhelp")
-##declare -a data_array=("stackexchange" "zhihu" "rottentomatoes" "medhelp" "asp")
+declare -a algo_array=("kmeans")
+declare -a feature_array=("tf-idf")
+#declare -a data_array=("stackexchange" "zhihu" "rottentomatoes" "medhelp" "asp")
+declare -a data_array=("zhihu")
 for data in "${data_array[@]}"
 do
 	for algo in "${algo_array[@]}"

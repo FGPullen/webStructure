@@ -13,8 +13,9 @@ class Page:
         self.xpaths_list = []
         self.dfs_xpaths_list = []
         self.filtered_dfs_xpaths_list = []
+        # getting xpaths from original content
         self.getXpaths()
-       # self.generalize_xpath()
+        # self.generalize_xpath()
         self.onehot = {}
         self.normonehot = {}
         self.tfidf = {}
@@ -29,7 +30,7 @@ class Page:
 
 
     def generalize_xpath(self):
-        # before expand xpath 
+        # before expand xpath
         self.generalize_paths = []
         temp = self.xpaths_list
         for i in range(len(temp)):
@@ -78,9 +79,11 @@ class Page:
     	else:
             self.xpaths[xpath] = 1
             self.xpaths_list.append(xpath)
-    		
+
 
     def getXpaths(self,index=False):
+        # TODO: XPaths are pretty deep and it becomes noisier
+        # when it goes deeper.  Pruning might be a good idea.
     	tree= etree.HTML(str(self.contents))
     	Etree = etree.ElementTree(tree)
     	nodes = tree.xpath("//*[not(*)]")
@@ -90,6 +93,7 @@ class Page:
             #self.dfs_xpaths_list.append(xpath) # except for this one
             if not index:
                 xpath = self.removeIndex(xpath)
+            #xpath = "/".join(xpath.split('/')[:-2]) # prune the leaf level
             self.dfs_xpaths_list.append(xpath)
             self.addXpath(xpath)
 
@@ -108,7 +112,7 @@ class Page:
     	for global_xpath in global_xpaths:
     		if global_xpath not in self.xpaths:
     			self.xpaths[global_xpath] = 0
-        
+
     def updatetfidf(self,idf):
         # idf is a dict and given by allPages object
         for xpath in self.xpaths.keys():
@@ -124,16 +128,16 @@ class Page:
             self.normtfidf[item] = float(self.tfidf[item])/tfidf_sum
         '''
         onehot_sum = sum(self.onehot.values())
-        
+
         logtfidf_sum = sum(self.logtfidf.values())
-        
+
             self.normlogtfidf[item] = float(self.logtfidf[item])/logtfidf_sum
             self.normonehot[item] = float(self.onehot[item])/onehot_sum
         '''
         # test
-            
+
     def get_bigram_features(self,bigram_list):
-        
+
         for bigram in bigram_list:
             path1, path2 = bigram[0],bigram[1]
             if self.xpaths[path1] >0 and self.xpaths[path2] >0:
@@ -195,5 +199,5 @@ if __name__=='__main__':
     page_test = Page("../Crawler/toy_data/questions/question1.html")
     page_test2 = Page("../Crawler/toy_data/users/user1.html")
     page_test.getAnchor()
-    
+
 
