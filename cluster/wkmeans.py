@@ -1,3 +1,4 @@
+# Author: Dr. Renato Cordeiro de Amorim, r.amorim@glyndwr.ac.uk
 # Modifed by Keyang Xu
 #Weighted K-Means - subspace clustering with cluster dependant weight
 #
