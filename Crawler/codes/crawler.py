@@ -119,11 +119,13 @@ if __name__=='__main__':
 	args = parser.parse_args()
 
 	#url_stack = ["http://android.stackexchange.com/questions"]
+	# http://www.medhelp.org/forums/list
 	url_stack = [args.inital_page]
 	#history_stack = getHistory("../stack_data/user_stack.txt",url_stack[0])
 	history_stack = []
 	#print len(history_stack)
 	#prefix = "http://android.stackexchange.com"
+	#http://www.medhelp.org
 	prefix = args.prefix
 	print prefix +" is the prefix"
 	count = 0

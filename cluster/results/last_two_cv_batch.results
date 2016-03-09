@@ -1,0 +1,182 @@
+=====../Crawler/test_data/stackexchange/	tf-idf	kmeans =====
+micro_f	1.0
+macro_f	1.0
+mutual_info_score	1.0
+rand_score	1.0
+cv_micro_precision	1.0
+cv_macro_precision	1.0
+=====../Crawler/test_data/stackexchange/	log-tf-idf	kmeans =====
+micro_f	0.998649883436
+macro_f	0.998957513235
+mutual_info_score	0.993802177004
+rand_score	0.996187978961
+cv_micro_precision	0.998657718121
+cv_macro_precision	0.998518518519
+=====../Crawler/test_data/stackexchange/	binary	kmeans =====
+micro_f	0.991994970032
+macro_f	0.987569147854
+mutual_info_score	0.97218847555
+rand_score	0.984626180015
+cv_micro_precision	0.991991051454
+cv_macro_precision	0.991111111111
+=====../Crawler/test_data/stackexchange/	tf-idf	wkmeans =====
+micro_f	0.923725796485
+macro_f	0.838148448801
+mutual_info_score	0.856939969287
+rand_score	0.85938869138
+cv_micro_precision	0.977437890027
+cv_macro_precision	0.835555555556
+=====../Crawler/test_data/stackexchange/	log-tf-idf	wkmeans =====
+micro_f	0.940114126527
+macro_f	0.814373701908
+mutual_info_score	0.876314304671
+rand_score	0.896626470041
+cv_micro_precision	0.96677122336
+cv_macro_precision	0.792657004831
+=====../Crawler/test_data/stackexchange/	binary	wkmeans =====
+micro_f	0.856606152579
+macro_f	0.784855850793
+mutual_info_score	0.782050224242
+rand_score	0.730490149816
+cv_micro_precision	0.939801719063
+cv_macro_precision	0.792592592593
+=====../Crawler/test_data/zhihu/	tf-idf	kmeans =====
+micro_f	0.819499818768
+macro_f	0.794061815815
+mutual_info_score	0.685577608627
+rand_score	0.575533027813
+cv_micro_precision	0.898222124671
+cv_macro_precision	0.729444444444
+=====../Crawler/test_data/zhihu/	log-tf-idf	kmeans =====
+micro_f	0.827737221653
+macro_f	0.763713888176
+mutual_info_score	0.713603130774
+rand_score	0.641136809455
+cv_micro_precision	0.927743634767
+cv_macro_precision	0.75
+=====../Crawler/test_data/zhihu/	binary	kmeans =====
+micro_f	0.841786438798
+macro_f	0.788646567817
+mutual_info_score	0.721956331079
+rand_score	0.660662741593
+cv_micro_precision	0.927743634767
+cv_macro_precision	0.75
+=====../Crawler/test_data/zhihu/	tf-idf	wkmeans =====
+micro_f	0.953745009679
+macro_f	0.946051354889
+mutual_info_score	0.924801745334
+rand_score	0.898951540439
+cv_micro_precision	0.977919227392
+cv_macro_precision	0.939444444444
+=====../Crawler/test_data/zhihu/	log-tf-idf	wkmeans =====
+micro_f	0.91643672708
+macro_f	0.875208487997
+mutual_info_score	0.865159057085
+rand_score	0.839244467003
+cv_micro_precision	0.957155399473
+cv_macro_precision	0.85
+=====../Crawler/test_data/zhihu/	binary	wkmeans =====
+micro_f	0.963874813235
+macro_f	0.9537783603
+mutual_info_score	0.940720878857
+rand_score	0.921610109365
+cv_micro_precision	0.985294117647
+cv_macro_precision	0.95
+=====../Crawler/test_data/rottentomatoes/	tf-idf	kmeans =====
+micro_f	0.949598855543
+macro_f	0.916702380439
+mutual_info_score	0.903121696085
+rand_score	0.888033386003
+cv_micro_precision	0.950603674398
+cv_macro_precision	0.910010213539
+=====../Crawler/test_data/rottentomatoes/	log-tf-idf	kmeans =====
+micro_f	0.975655950609
+macro_f	0.930134861299
+mutual_info_score	0.955176978593
+rand_score	0.961528696244
+cv_micro_precision	0.977185827571
+cv_macro_precision	0.919570905285
+=====../Crawler/test_data/rottentomatoes/	binary	kmeans =====
+micro_f	0.821753444986
+macro_f	0.673893341055
+mutual_info_score	0.77269689347
+rand_score	0.754680660006
+cv_micro_precision	0.849296884292
+cv_macro_precision	0.620183591509
+=====../Crawler/test_data/rottentomatoes/	tf-idf	wkmeans =====
+micro_f	0.866005353467
+macro_f	0.776807138246
+mutual_info_score	0.801964187491
+rand_score	0.783888847279
+cv_micro_precision	0.890500165321
+cv_macro_precision	0.746048243208
+=====../Crawler/test_data/rottentomatoes/	log-tf-idf	wkmeans =====
+micro_f	0.862886286269
+macro_f	0.80844161865
+mutual_info_score	0.808898440841
+rand_score	0.751409377588
+cv_micro_precision	0.864399437952
+cv_macro_precision	0.773855799966
+=====../Crawler/test_data/rottentomatoes/	binary	wkmeans =====
+micro_f	0.764053615199
+macro_f	0.603882607311
+mutual_info_score	0.736979817575
+rand_score	0.673580317629
+cv_micro_precision	0.827230531894
+cv_macro_precision	0.561743678009
+=====../Crawler/test_data/ASP/	tf-idf	kmeans =====
+micro_f	0.927689058417
+macro_f	0.85379355408
+mutual_info_score	0.850892346043
+rand_score	0.901883724998
+cv_micro_precision	0.934501284182
+cv_macro_precision	0.821333333333
+=====../Crawler/test_data/ASP/	log-tf-idf	kmeans =====
+micro_f	0.928113879661
+macro_f	0.858983975241
+mutual_info_score	0.85703756539
+rand_score	0.904828993364
+cv_micro_precision	0.930084296192
+cv_macro_precision	0.819675675676
+=====../Crawler/test_data/ASP/	binary	kmeans =====
+micro_f	0.897802688819
+macro_f	0.731996638332
+mutual_info_score	0.831637689067
+rand_score	0.865223560176
+cv_micro_precision	0.900277093234
+cv_macro_precision	0.682537628538
+=====../Crawler/test_data/ASP/	tf-idf	wkmeans =====
+micro_f	0.91785051463
+macro_f	0.846185811472
+mutual_info_score	0.855448278726
+rand_score	0.88167567183
+cv_micro_precision	0.919550449035
+cv_macro_precision	0.821761177935
+=====../Crawler/test_data/ASP/	log-tf-idf	wkmeans =====
+micro_f	0.932211376693
+macro_f	0.855728643824
+mutual_info_score	0.876041280876
+rand_score	0.905147941837
+cv_micro_precision	0.932364716811
+cv_macro_precision	0.792564564565
+=====../Crawler/test_data/ASP/	binary	wkmeans =====
+micro_f	0.881546751085
+macro_f	0.760102497052
+mutual_info_score	0.812838711716
+rand_score	0.843583690394
+cv_micro_precision	0.876718686008
+cv_macro_precision	0.716167258167
+---  no stemming --- 
+=====../Crawler/test_data/zhihu/	tf-idf	kmeans =====
+micro_f	0.995442012408
+macro_f	0.989528483213
+mutual_info_score	0.982710891496
+rand_score	0.994598064811
+cv_micro_precision	0.995588235294
+cv_macro_precision	0.985=====../Crawler/test_data/ASP/	tf-idf	kmeans =====
+micro_f	0.927689058417
+macro_f	0.85379355408
+mutual_info_score	0.850892346763
+rand_score	0.901883724998
+cv_micro_precision	0.934501284182
+cv_macro_precision	0.821333333333

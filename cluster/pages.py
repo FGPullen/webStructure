@@ -34,7 +34,11 @@ class allPages:
         self.filter_dfs_xpaths_list()
         self.Leung_baseline()  # binary feature
         self.selected_tfidf()
+<<<<<<< HEAD
+        #self.update_bigram()
+=======
         self.update_bigram()
+>>>>>>> fd51a5ab17ef1a78eb8fdacf9eeb81a5ba0f1366
         if dm=="yes":
             self.getDistanceMatrix("./Data/edit_distance.matrix")
 
@@ -215,6 +219,14 @@ class allPages:
                 matrix[j,i] = matrix[i,j]
         return matrix
 
+<<<<<<< HEAD
+    def examine_one_xpath(self,xpath):
+        # output the page that contain exact xpath
+        for page in self.pages:
+            if xpath in page.xpaths and page.xpaths[xpath]>0:
+                print page.path
+=======
+>>>>>>> fd51a5ab17ef1a78eb8fdacf9eeb81a5ba0f1366
 
 
     def updatetfidf(self):
@@ -298,6 +310,11 @@ class allPages:
                 path = self.pages[i].path.replace("../Crawler/test_data/rottentomatoes/","")
                 if "/top/" in path:
                     tag = 2
+<<<<<<< HEAD
+                elif "/guides/" in path:
+                    tag = 5
+=======
+>>>>>>> fd51a5ab17ef1a78eb8fdacf9eeb81a5ba0f1366
                 elif "/celebrity/" in path:
                     if "/pictures/" in path:
                         tag = 6
@@ -313,7 +330,12 @@ class allPages:
                     else:
                         tag = 3
                 else: # guide
+<<<<<<< HEAD
+                    print path
+                    tag =0
+=======
                     tag =5
+>>>>>>> fd51a5ab17ef1a78eb8fdacf9eeb81a5ba0f1366
                 self.ground_truth.append(tag)
 
         elif "../Crawler/test_data/medhelp/" in self.folder_path or "../Crawler/test_data/test" in self.folder_path:
@@ -333,6 +355,10 @@ class allPages:
                     tag =4
                 else:
                     tag = 5
+<<<<<<< HEAD
+                    print "???"
+=======
+>>>>>>> fd51a5ab17ef1a78eb8fdacf9eeb81a5ba0f1366
                 self.ground_truth.append(tag)
 
         elif "../Crawler/test_data/ASP/" in self.folder_path:
@@ -340,9 +366,19 @@ class allPages:
             for i in range(len(self.pages)):
                 path = self.pages[i].path.replace("../Crawler/test_data/ASP/","")
                 if "/f/" in path:
+<<<<<<< HEAD
+                    if "/topanswerers/" in path:
+                        print path
+                        tag = 5
+                    else:
+                        tag = 2
+                elif "/members/" in path:
+                    tag = 0
+=======
                         tag = 2
                 elif "/members/" in path:
                         tag = 0
+>>>>>>> fd51a5ab17ef1a78eb8fdacf9eeb81a5ba0f1366
                 elif "RedirectToLogin" in path or "/private-message/" in path:
                     tag = 1
                 elif "/post/" in path:
@@ -352,7 +388,11 @@ class allPages:
                 elif "search?" in path:
                     tag =4
                 else:
+<<<<<<< HEAD
+                    tag = 2
+=======
                     tag = 5
+>>>>>>> fd51a5ab17ef1a78eb8fdacf9eeb81a5ba0f1366
 
                 self.ground_truth.append(tag)
 
@@ -498,8 +538,24 @@ class allPages:
 if __name__=='__main__':
     #UP_pages = allPages(["../Crawler/crawl_data/Questions/"])
     #pages = allPages(["../Crawler/crawl_data/Questions/"])
+<<<<<<< HEAD
+    import argparse 
+    #parser = argparse.ArgumentParser()
+    #parser.add_argument("datasets", choices=["zhihu","stackexchange","rottentomatoes","medhelp","asp"], help="the dataset for experiments")
+
+    pages = allPages(["../Crawler/test_data/rottentomatoes/"])
+    df_dict  = pages.df
+    sorted_df = sorted(df_dict.iteritems(), key=lambda d:d[0], reverse=False)
+    print "we have " + str(len(sorted_df)) + " xpahts in total "
+    for item in sorted_df:
+        print item[0], item[1]
+    #test_xpath = "/html/body/div/div/div/div/h3/a"
+    #pages.examine_one_xpath(test_xpath)
+    #pages.update_bigram()
+=======
     pages = allPages(["../Crawler/test_data/medhelp/"])
     pages.update_bigram()
+>>>>>>> fd51a5ab17ef1a78eb8fdacf9eeb81a5ba0f1366
 
 
     #pages.find_important_xpath()

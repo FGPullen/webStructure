@@ -82,20 +82,37 @@ class Page:
             self.xpaths[xpath] = 1
             self.xpaths_list.append(xpath)
 
+    def stemming(self,xpath):
+        # heuristic xpath stemming
+        tags = xpath.split('/')
+        #for i in reversed(range(len(tags))):
+        for i in reversed(range(len(tags))):
+            if tags[i] == "p":
+                #print xpath
+                #print '/'.join(tags[:i+1])
+                return '/'.join(tags[:i+1])
+            if tags[i] == "ul" or tags[i] == "ol":
+                #print xpath
+                #print '/'.join(tags[:i+1])
+                return '/'.join(tags[:i+1])
+            if tags[i] == "table":
+                return '/'.join(tags[:i+1])
+        return xpath
 
     def getXpaths(self,index=False):
         # TODO: XPaths are pretty deep and it becomes noisier
         # when it goes deeper.  Pruning might be a good idea.
-    	tree= etree.HTML(str(self.contents))
-    	Etree = etree.ElementTree(tree)
-    	nodes = tree.xpath("//*[not(*)]")
-    	for node in nodes:
-    		# we do not consider index or predicate here
+        tree= etree.HTML(str(self.contents))
+        Etree = etree.ElementTree(tree)
+        nodes = tree.xpath("//*[not(*)]")
+        for node in nodes:
+            # we do not consider index or predicate here
             xpath = Etree.getpath(node)
             #self.dfs_xpaths_list.append(xpath) # except for this one
             if not index:
                 xpath = self.removeIndex(xpath)
             #xpath = "/".join(xpath.split('/')[:-1]) # prune the leaf level
+            xpath = self.stemming(xpath)
             self.dfs_xpaths_list.append(xpath)
             self.addXpath(xpath)
 
@@ -224,6 +241,7 @@ class Page:
     def update_selected_tfidf(self,key):
         self.selected_tfidf[key] = copy.copy(self.tfidf[key])
         self.selected_logtfidf[key] = copy.copy(self.logtfidf[key])
+
 
 
 

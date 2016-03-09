@@ -318,7 +318,11 @@ class pagesCluster:
             g_index = labels_true[i]
             c_index = labels_pred[i]
             labels[g_index][c_index] += 1
+<<<<<<< HEAD
+            if ng.has_key(g_index):  # number of ground truth
+=======
             if ng.has_key(g_index):
+>>>>>>> fd51a5ab17ef1a78eb8fdacf9eeb81a5ba0f1366
                 ng[g_index] += 1
             else:
                 ng[g_index] = 1
@@ -500,7 +504,11 @@ if __name__=='__main__':
         num_clusters = 7
         cluster_labels = pagesCluster(["../Crawler/test_data/rottentomatoes/"],num_clusters)
     elif args.datasets == "medhelp":
+<<<<<<< HEAD
+        num_clusters = 4
+=======
         num_clusters = 5
+>>>>>>> fd51a5ab17ef1a78eb8fdacf9eeb81a5ba0f1366
         cluster_labels = pagesCluster(["../Crawler/test_data/medhelp/"],num_clusters)
     elif args.datasets == "asp":
         num_clusters = 6
@@ -532,10 +540,18 @@ if __name__=='__main__':
         cluster_labels.DBSCAN(features_type, cluster_labels.num_clusters, cv=True)
 
     #visualization
+<<<<<<< HEAD
+    '''
+=======
 
+>>>>>>> fd51a5ab17ef1a78eb8fdacf9eeb81a5ba0f1366
     if args.test_type != "cv":
         v = visualizer(cluster_labels.UP_pages)
         twoD_file = "2D_plot_file.txt"
         v.show(v.UP_pages.ground_truth, v.UP_pages.category ,twoD_file, args.datasets)
+<<<<<<< HEAD
+        '''
+=======
 
+>>>>>>> fd51a5ab17ef1a78eb8fdacf9eeb81a5ba0f1366
 
