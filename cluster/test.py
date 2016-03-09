@@ -31,3 +31,5 @@ pred= [2, 2, 2, 3, 3, 3, 4, 4, 4]
 
 dic = get_cluster_number_shift(true, pred)
 print dic
+print dic
+print dic

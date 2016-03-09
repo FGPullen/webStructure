@@ -33,7 +33,7 @@ class visualizer:
 		elif dataset == "medhelp":
 			cluster_name = ["groups","personal","forums","posts","tag","user"] # medhelp
 		elif dataset == "asp":
-			cluster_name = ["member","RedirectToLogin",'f','post','search',"others"]
+			cluster_name = ["member","RedirectToLogin",'list','post','search',"answers_list"]
 		color_list = ["y","g","b","r","k","m","c","w"]
 		marker_list = ["d","+","o","*","^","H","_","s"]
 		label_count = [0 for i in range(len(marker_list))]

@@ -117,7 +117,6 @@ class KMeans(object):
             print str(replication_i) + " has " + str(ite) + " iterations."
             avg_iteration.append(float(ite))
 
-
         final_ite = sum(avg_iteration)/float(len(avg_iteration))
         self.final_u, self.final_centroids, self.k = final_u, final_centroids, k
         return final_u, final_centroids, final_ite, final_dist

@@ -1,0 +1,241 @@
+['../Crawler/test_data/zhihu/']
+!!!!
+start filtering for xpaths list
+end filtering for xpaths list
+[['/html/body/div/div/div/div/div/div/div/div/button/span', '/html/body/div/div/div/div/div/div/div/div/button/i'], ['/html/body/div/div/div/div/div/div/div/div/button/i', '/html/body/div/div/div/div/div/div/div/div/button/span'], ['/html/body/div/div/div/div/h2', '/html/body/div/div/div/div/a/span'], ['/html/body/div/div/div/div/a/span', '/html/body/div/div/div/div/a'], ['/html/body/div/div/div/div/a', '/html/body/div/div/div/ul'], ['/html/body/div/div/div/script', '/html/body/div/div/div/ul'], ['/html/body/div/div/div/div/a', '/html/body/div/div/div/script'], ['/html/body/div/div/div/ul', '/html/body/div/div/div/div/a/span'], ['/html/body/div/div/div/script', '/html/body/div/div/div/div/h2'], ['/html/body/div/div/div/div/a', '/html/body/div/div/div/meta']]
+the size of vector is (678, 237)
+Euclidean
+0 has 8 iterations.
+1 has 13 iterations.
+2 has 9 iterations.
+3 has 6 iterations.
+4 has 8 iterations.
+5 has 9 iterations.
+6 has 10 iterations.
+7 has 4 iterations.
+8 has 5 iterations.
+9 has 4 iterations.
+10 has 4 iterations.
+11 has 7 iterations.
+12 has 14 iterations.
+13 has 11 iterations.
+14 has 7 iterations.
+15 has 10 iterations.
+16 has 11 iterations.
+17 has 16 iterations.
+18 has 11 iterations.
+19 has 7 iterations.
+set([0, 1, 2, 3])
+ground truth data
+{0: {0: 3, 1: 0, 3: 127, 4: 0}, 1: {0: 36, 1: 0, 3: 0, 4: 0}, 2: {0: 0, 1: 0, 3: 0, 4: 52}, 3: {0: 0, 1: 324, 3: 0, 4: 0}}
+{0: 3, 1: 0, 3: 127, 4: 0}
+{0: 36, 1: 0, 3: 0, 4: 0}
+{0: 0, 1: 0, 3: 0, 4: 52}
+{0: 0, 1: 324, 3: 0, 4: 0}
+defaultdict(<type 'dict'>, {0: 3, 1: 0, 2: 4, 3: 1})
+===examine===
+Counter({1: 81, 3: 32, 4: 13, 0: 10})
+{0: 10.0, 1: 81.0, 3: 32.0, 4: 13.0}
+[2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1 1 1 1 1 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+We have 542 pages for ground truth!
+We have 136 pages after prediction!
+Mutual Info Score is 1.0
+Adjusted Rand Score is 1.0
+Micro F-Measure is 1.0
+Macro F-Measure is 1.0
+Micro CV precision is 1.0
+Macro CV precision is 1.0
+Euclidean
+0 has 21 iterations.
+1 has 12 iterations.
+2 has 11 iterations.
+3 has 10 iterations.
+4 has 11 iterations.
+5 has 7 iterations.
+6 has 11 iterations.
+7 has 7 iterations.
+8 has 4 iterations.
+9 has 4 iterations.
+10 has 4 iterations.
+11 has 14 iterations.
+12 has 8 iterations.
+13 has 18 iterations.
+14 has 13 iterations.
+15 has 11 iterations.
+16 has 23 iterations.
+17 has 16 iterations.
+18 has 13 iterations.
+19 has 10 iterations.
+set([0, 1, 2, 3])
+ground truth data
+{0: {0: 0, 1: 0, 3: 0, 4: 52}, 1: {0: 4, 1: 0, 3: 127, 4: 0}, 2: {0: 0, 1: 324, 3: 0, 4: 0}, 3: {0: 35, 1: 0, 3: 0, 4: 0}}
+{0: 0, 1: 0, 3: 0, 4: 52}
+{0: 4, 1: 0, 3: 127, 4: 0}
+{0: 0, 1: 324, 3: 0, 4: 0}
+{0: 35, 1: 0, 3: 0, 4: 0}
+defaultdict(<type 'dict'>, {0: 4, 1: 3, 2: 1, 3: 0})
+===examine===
+Counter({1: 81, 3: 32, 4: 13, 0: 10})
+{0: 10.0, 1: 81.0, 3: 32.0, 4: 13.0}
+[0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 3 3 3 3 3 3 3 3 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+We have 542 pages for ground truth!
+We have 136 pages after prediction!
+Mutual Info Score is 1.0
+Adjusted Rand Score is 1.0
+Micro F-Measure is 1.0
+Macro F-Measure is 1.0
+Micro CV precision is 1.0
+Macro CV precision is 1.0
+Euclidean
+0 has 3 iterations.
+1 has 9 iterations.
+2 has 9 iterations.
+3 has 21 iterations.
+4 has 14 iterations.
+5 has 6 iterations.
+6 has 12 iterations.
+7 has 13 iterations.
+8 has 8 iterations.
+9 has 5 iterations.
+10 has 15 iterations.
+11 has 20 iterations.
+12 has 9 iterations.
+13 has 6 iterations.
+14 has 20 iterations.
+15 has 6 iterations.
+16 has 4 iterations.
+17 has 6 iterations.
+18 has 8 iterations.
+19 has 11 iterations.
+set([0, 1, 2, 3])
+ground truth data
+{0: {0: 38, 1: 0, 3: 0, 4: 0}, 1: {0: 1, 1: 0, 3: 127, 4: 0}, 2: {0: 0, 1: 324, 3: 0, 4: 0}, 3: {0: 0, 1: 0, 3: 0, 4: 52}}
+{0: 38, 1: 0, 3: 0, 4: 0}
+{0: 1, 1: 0, 3: 127, 4: 0}
+{0: 0, 1: 324, 3: 0, 4: 0}
+{0: 0, 1: 0, 3: 0, 4: 52}
+defaultdict(<type 'dict'>, {0: 0, 1: 3, 2: 1, 3: 4})
+Wrong instance:
+Page: ../Crawler/test/data/zhihu/http://www.zhihu.com/people/libertas./answers
+Result Cluster=3, True Cluster=0
+Wrong instance:
+Page: ../Crawler/test/data/zhihu/http://www.zhihu.com/people/liu-ran-67-90/answers
+Result Cluster=3, True Cluster=0
+===examine===
+Counter({1: 81, 3: 32, 4: 13, 0: 10})
+{0: 8.0, 1: 81.0, 3: 32.0, 4: 13.0}
+[3 3 3 3 3 3 3 3 3 3 3 3 3 0 1 0 0 1 0 0 0 0 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+We have 542 pages for ground truth!
+We have 136 pages after prediction!
+Mutual Info Score is 0.945604126921
+Adjusted Rand Score is 0.982147742309
+Micro F-Measure is 0.984699940582
+Macro F-Measure is 0.964646464646
+Micro CV precision is 0.985294117647
+Macro CV precision is 0.95
+Euclidean
+0 has 4 iterations.
+1 has 10 iterations.
+2 has 13 iterations.
+3 has 4 iterations.
+4 has 12 iterations.
+5 has 11 iterations.
+6 has 3 iterations.
+7 has 9 iterations.
+8 has 4 iterations.
+9 has 4 iterations.
+10 has 11 iterations.
+11 has 5 iterations.
+12 has 6 iterations.
+13 has 7 iterations.
+14 has 11 iterations.
+15 has 2 iterations.
+16 has 8 iterations.
+17 has 5 iterations.
+18 has 12 iterations.
+19 has 4 iterations.
+set([0, 1, 2, 3])
+ground truth data
+{0: {0: 2, 1: 0, 3: 127, 4: 0}, 1: {0: 0, 1: 0, 3: 0, 4: 52}, 2: {0: 0, 1: 324, 3: 0, 4: 0}, 3: {0: 37, 1: 0, 3: 0, 4: 0}}
+{0: 2, 1: 0, 3: 127, 4: 0}
+{0: 0, 1: 0, 3: 0, 4: 52}
+{0: 0, 1: 324, 3: 0, 4: 0}
+{0: 37, 1: 0, 3: 0, 4: 0}
+defaultdict(<type 'dict'>, {0: 3, 1: 4, 2: 1, 3: 0})
+Wrong instance:
+Page: ../Crawler/test/data/zhihu/http://www.zhihu.com/people/magnil/answers
+Result Cluster=3, True Cluster=0
+===examine===
+Counter({1: 81, 3: 32, 4: 13, 0: 10})
+{0: 9.0, 1: 81.0, 3: 32.0, 4: 13.0}
+[1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 0 3 3 3 3 3 3 3 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+We have 542 pages for ground truth!
+We have 136 pages after prediction!
+Mutual Info Score is 0.967950330594
+Adjusted Rand Score is 0.990842581747
+Micro F-Measure is 0.992510121457
+Macro F-Measure is 0.982995951417
+Micro CV precision is 0.992647058824
+Macro CV precision is 0.975
+Euclidean
+0 has 4 iterations.
+1 has 3 iterations.
+2 has 15 iterations.
+3 has 9 iterations.
+4 has 16 iterations.
+5 has 12 iterations.
+6 has 10 iterations.
+7 has 12 iterations.
+8 has 5 iterations.
+9 has 13 iterations.
+10 has 12 iterations.
+11 has 9 iterations.
+12 has 12 iterations.
+13 has 11 iterations.
+14 has 10 iterations.
+15 has 9 iterations.
+16 has 7 iterations.
+17 has 15 iterations.
+18 has 12 iterations.
+19 has 7 iterations.
+set([0, 1, 2, 3])
+ground truth data
+{0: {0: 0, 1: 324, 3: 0, 4: 0}, 1: {0: 3, 1: 0, 3: 128, 4: 0}, 2: {0: 0, 1: 0, 3: 0, 4: 52}, 3: {0: 37, 1: 0, 3: 0, 4: 0}}
+{0: 0, 1: 324, 3: 0, 4: 0}
+{0: 3, 1: 0, 3: 128, 4: 0}
+{0: 0, 1: 0, 3: 0, 4: 52}
+{0: 37, 1: 0, 3: 0, 4: 0}
+defaultdict(<type 'dict'>, {0: 1, 1: 3, 2: 4, 3: 0})
+===examine===
+Counter({1: 81, 3: 31, 4: 13, 0: 9})
+{0: 9.0, 1: 81.0, 3: 31.0, 4: 13.0}
+[2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+We have 544 pages for ground truth!
+We have 134 pages after prediction!
+Mutual Info Score is 1.0
+Adjusted Rand Score is 1.0
+Micro F-Measure is 1.0
+Macro F-Measure is 1.0
+Micro CV precision is 1.0
+Macro CV precision is 1.0
+micro_f	0.995442012408
+macro_f	0.989528483213
+mutual_info_score	0.982710891503
+rand_score	0.994598064811
+cv_micro_precision	0.995588235294
+cv_macro_precision	0.985
