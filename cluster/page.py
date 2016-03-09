@@ -80,6 +80,7 @@ class Page:
             self.xpaths[xpath] = 1
             self.xpaths_list.append(xpath)
 
+<<<<<<< HEAD
     def stemming(self,xpath):
         # heuristic xpath stemming
         tags = xpath.split('/')
@@ -96,21 +97,35 @@ class Page:
             if tags[i] == "table":
                 return '/'.join(tags[:i+1])
         return xpath
+=======
+>>>>>>> fd51a5ab17ef1a78eb8fdacf9eeb81a5ba0f1366
 
     def getXpaths(self,index=False):
         # TODO: XPaths are pretty deep and it becomes noisier
         # when it goes deeper.  Pruning might be a good idea.
+<<<<<<< HEAD
         tree= etree.HTML(str(self.contents))
         Etree = etree.ElementTree(tree)
         nodes = tree.xpath("//*[not(*)]")
         for node in nodes:
             # we do not consider index or predicate here
+=======
+    	tree= etree.HTML(str(self.contents))
+    	Etree = etree.ElementTree(tree)
+    	nodes = tree.xpath("//*[not(*)]")
+    	for node in nodes:
+    		# we do not consider index or predicate here
+>>>>>>> fd51a5ab17ef1a78eb8fdacf9eeb81a5ba0f1366
             xpath = Etree.getpath(node)
             #self.dfs_xpaths_list.append(xpath) # except for this one
             if not index:
                 xpath = self.removeIndex(xpath)
+<<<<<<< HEAD
             #xpath = "/".join(xpath.split('/')[:-1]) # prune the leaf level
             xpath = self.stemming(xpath)
+=======
+            #xpath = "/".join(xpath.split('/')[:-2]) # prune the leaf level
+>>>>>>> fd51a5ab17ef1a78eb8fdacf9eeb81a5ba0f1366
             self.dfs_xpaths_list.append(xpath)
             self.addXpath(xpath)
 
