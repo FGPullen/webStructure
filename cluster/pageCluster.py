@@ -196,7 +196,6 @@ class pagesCluster:
                 test_y = t.k_means_classify(test_x)
                 path_list = [self.UP_pages.path_list[idx] for idx in test]
                 results.append(self.Evaluation_CV(test_gold,test_y,train_gold,train_y, path_list=path_list))
-                #results.append(self.Cv_Evaluation(test_gold,test_y))
             result = np.mean(results,axis=0)
             cv_batch_file = open("./results/cv_batch.results","a")
             cv_batch_file.write("=====" + str(self.UP_pages.folder_path[0]) +"\t" + features + "\tkmeans =====\n")
@@ -219,30 +218,61 @@ class pagesCluster:
         self.UP_pages.updateCategory(self.pre_y)
         print self.pre_y
 
-    def DBSCAN(self):
+    def DBSCAN(self, features, num_clusters, cv=False, replicates=100):
         # default file path is
         feature_matrix = []
-        lines = open("./Data/edit_distance.matrix","r").readlines()
-        for i in range(len(lines)):
-            line = lines[i]
-            dis = line.strip().split("\t")
-            # normalize
-            for item in range(len(dis)):
-                dis[item] = int(dis[item])
-            #dis_sum = sum(dis)
-            #for item in range(len(dis)):
-            #    dis[item] = float(dis[item])/float(dis_sum)
+        y = []
 
-            feature_matrix.append(dis)
+        for page in self.UP_pages.pages:
+            if features == "tf-idf":
+                vector = []
+                for key in page.selected_tfidf:
+                    vector.append(page.selected_tfidf[key])
+                #for key,value in page.bigram_dict.iteritems():
+                #    vector.append(value)
+                #vector = normalize(vector,norm='l1')[0]
+                feature_matrix.append(vector)
+        self.X = normalize(np.array(feature_matrix), norm='l1')
+        print "the size of vector is " + str(self.X.shape)
 
-        print "We have " + str(len(feature_matrix)) + " pages."
-        D = np.array(feature_matrix)
-        print D.shape
-        db = Cluster.DBSCAN(eps=0.3, metric='precomputed',min_samples=10).fit(D)
-        labels = db.labels_
-        n_clusters_ = len(set(labels))
-        print db.labels_
-        print('Estimated number of clusters: %d' % n_clusters_)
+        if cv:
+            labels_true = np.array(self.UP_pages.ground_truth)
+            skf = StratifiedKFold(labels_true, n_folds=5)
+            results = []
+            for train, test in skf:
+                #print train, test
+                train_x, test_x, train_gold, test_gold = self.X[train], self.X[test], labels_true[train], labels_true[test]
+                db = Cluster.DBSCAN(eps=0.18, min_samples=3).fit(train_x)
+                train_y = db.labels_
+                #self.get_cluster_number_shift(train_gold, train_y)
+
+                # determine the number of clusters by DBSCAN
+                num_clusters = len(set(train_y)) - 1
+
+                km_train_x = []
+                km_train_gold = []
+                for idx, val in enumerate(train_y):
+                    if val != -1:
+                        km_train_x.append(train_x[idx])
+                        km_train_gold.append(train_gold[idx])
+                km_train_x = np.array(km_train_x)
+                km_train_gold = np.array(km_train_gold)
+
+                #km_train_x = train_x
+                #km_train_gold = train_gold
+
+                t = KMeans()
+                train_y, final_centroids, final_ite, final_dist = t.k_means(km_train_x, num_clusters, replicates=replicates)
+                test_y = t.k_means_classify(test_x)
+                path_list = [self.UP_pages.path_list[idx] for idx in test]
+                results.append(self.Evaluation_CV(test_gold,test_y,km_train_gold,train_y, path_list=path_list))
+            result = np.mean(results,axis=0)
+            cv_batch_file = open("./results/cv_batch.results","a")
+            cv_batch_file.write("=====" + str(self.UP_pages.folder_path[0]) +"\t" + features + "\tkmeans =====\n")
+            metrics = ['micro_f', 'macro_f', 'mutual_info_score', 'rand_score', 'cv_micro_precision','cv_macro_precision']
+            for index,metric in enumerate(metrics):
+                print metric + "\t" + str(result[index])
+                cv_batch_file.write(metric + "\t" + str(result[index])+"\n")
 
     def get_affinity_matrix(self):
         return self.UP_pages.get_affinity_matrix()
@@ -324,7 +354,7 @@ class pagesCluster:
         #test_gold,test_y,train_gold,train_y
         test_gold_counter = collections.Counter(test_gold)
         test_gold_right = dict([(index,0.0) for index in test_gold_counter])
-        cluster_dict = self.get_cluster_number_shift(train_gold,train_y)
+        cluster_dict = self.get_cluster_number_shift(train_gold, train_y)
         print cluster_dict
         right_guess = 0
         for index,item in enumerate(test_y):
@@ -448,7 +478,7 @@ if __name__=='__main__':
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("datasets", choices=["zhihu","stackexchange","rottentomatoes","medhelp","asp"], help="the dataset for experiments")
-    parser.add_argument("clustering", choices=["wkmeans","kmeans","ahc"], help="the algorithm for clustering")
+    parser.add_argument("clustering", choices=["wkmeans","kmeans","ahc", "dbscan"], help="the algorithm for clustering")
     parser.add_argument("features_type", choices=["tf-idf","log-tf-idf","binary"], help="the features type for clustering")
     parser.add_argument("test_type", choices=["train","cv"], help="clustering or cv?")
     #parser.add_argument('-w', action='store_true')
@@ -495,8 +525,11 @@ if __name__=='__main__':
     #elif arg.clustering == "all":
 
     elif args.clustering == "ahc":
-        cluster_labels.AgglomerativeClustering(cluster_labels.num_clusters)
+        cluster_labels.AgglomerativeClustering(cluster_labels.num_clusters, replicates=100)
         cluster_labels.Evaluation()
+
+    elif args.clustering == 'dbscan':
+        cluster_labels.DBSCAN(features_type, cluster_labels.num_clusters, cv=True)
 
     #visualization
 

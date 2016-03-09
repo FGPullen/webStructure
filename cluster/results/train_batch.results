@@ -326,3 +326,8 @@ micro_f	0.991975474724
 macro_f	0.99374025974
 mutual_info_score	0.966249502472
 rand_score	0.977665047926
+=====zhihu	kmeans	tf-idf=====
+micro_f	0.742879825509
+macro_f	0.754459124978
+mutual_info_score	0.651273038689
+rand_score	0.49409751238

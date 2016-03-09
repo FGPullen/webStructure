@@ -14,7 +14,9 @@ class Page:
         self.dfs_xpaths_list = []
         self.filtered_dfs_xpaths_list = []
         # getting xpaths from original content
-        self.getXpaths()
+        #self.getXpaths()
+        root = etree.HTML(str(self.contents))
+        self.getDFSXpaths(root)
         # self.generalize_xpath()
         self.onehot = {}
         self.normonehot = {}
@@ -93,9 +95,41 @@ class Page:
             #self.dfs_xpaths_list.append(xpath) # except for this one
             if not index:
                 xpath = self.removeIndex(xpath)
-            #xpath = "/".join(xpath.split('/')[:-2]) # prune the leaf level
+            #xpath = "/".join(xpath.split('/')[:-1]) # prune the leaf level
             self.dfs_xpaths_list.append(xpath)
             self.addXpath(xpath)
+
+    def detect_loop(self, root):
+        return False
+        if len(root) < 2:
+            return False
+        prev = None
+        for child in root:
+            if prev is not None:
+                if child.tag != prev.tag:
+                    return False
+                if child.get('class') != prev.get('class'):
+                    return False
+            prev = child
+        return True
+
+    def getDFSXpaths(self, root, xpath=""):
+        loop_node = self.detect_loop(root)
+        for node in root:
+            if type(node.tag) is not str:
+                continue
+            if loop_node:
+                new_xpath = "/".join([xpath, node.tag, 'loop'])
+            else:
+                new_xpath = "/".join([xpath, node.tag])
+            if len(node) == 0:
+                #print new_xpath
+                self.dfs_xpaths_list.append(new_xpath)
+                self.addXpath(new_xpath)
+            if len(node) != 0:
+                self.getDFSXpaths(node, new_xpath)
+            if loop_node:
+                break
 
     def outputXpaths(self):
         # by dfs order?
@@ -196,8 +230,6 @@ class Page:
 if __name__=='__main__':
     #re_href = re.compile(r'(?<='href': ').*(?=')')
     print "Main for page.py"
-    page_test = Page("../Crawler/toy_data/questions/question1.html")
-    page_test2 = Page("../Crawler/toy_data/users/user1.html")
-    page_test.getAnchor()
+    page_test = Page("../Crawler/test_data/zhihu/http:__www.zhihu.com_collection_19553371.html")
 
 
