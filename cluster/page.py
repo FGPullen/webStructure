@@ -14,9 +14,9 @@ class Page:
         self.dfs_xpaths_list = []
         self.filtered_dfs_xpaths_list = []
         # getting xpaths from original content
-        #self.getXpaths()
+        self.getXpaths()
         root = etree.HTML(str(self.contents))
-        self.getDFSXpaths(root)
+        #self.getDFSXpaths(root)
         # self.generalize_xpath()
         self.onehot = {}
         self.normonehot = {}
@@ -97,6 +97,7 @@ class Page:
                 return '/'.join(tags[:i+1])
             if tags[i] == "table":
                 return '/'.join(tags[:i+1])
+
         return xpath
 
     def getXpaths(self,index=False):
@@ -112,7 +113,13 @@ class Page:
             if not index:
                 xpath = self.removeIndex(xpath)
             #xpath = "/".join(xpath.split('/')[:-1]) # prune the leaf level
+
             xpath = self.stemming(xpath)
+            #if s_xpath != xpath:
+            #    self.dfs_xpaths_list.append(s_xpath)
+            #    self.addXpath(s_xpath)
+
+            #print xpath
             self.dfs_xpaths_list.append(xpath)
             self.addXpath(xpath)
 
@@ -138,7 +145,9 @@ class Page:
             if loop_node:
                 new_xpath = "/".join([xpath, node.tag, 'loop'])
             else:
-                new_xpath = "/".join([xpath, node.tag])
+                #print node.get('class')
+                tag = node.tag+"[" + str(node.get('class')) + "]"
+                new_xpath = "/".join([xpath, tag])
             if len(node) == 0:
                 #print new_xpath
                 self.dfs_xpaths_list.append(new_xpath)
@@ -248,6 +257,5 @@ class Page:
 if __name__=='__main__':
     #re_href = re.compile(r'(?<='href': ').*(?=')')
     print "Main for page.py"
-    page_test = Page("../Crawler/test_data/zhihu/http:__www.zhihu.com_collection_19553371.html")
-
-
+    #page_test = Page("./Data/test.html")
+    page_test = Page("../cluster/Data/zhihu.html")

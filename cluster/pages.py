@@ -7,6 +7,7 @@ import math
 import distance
 import collections
 
+threshold = 0.01 
 class allPages:
     def __init__(self, folder_path ,dm="no"):
         self.folder_path = folder_path
@@ -396,7 +397,7 @@ class allPages:
     def selected_tfidf(self):
         N = self.num
         for key in self.idf:
-            if float(self.df[key])/float(N) >= 0.01:
+            if float(self.df[key])/float(N) >= threshold:
                 for page in self.pages:
                     page.update_selected_tfidf(key)
 

@@ -1,4 +1,6 @@
 import collections
+from lxml import etree
+
 def get_cluster_number_shift(labels_true, labels_pred):
 	true_set = set(labels_true)
 	pre_set = set(labels_pred)
@@ -26,10 +28,40 @@ def get_cluster_number_shift(labels_true, labels_pred):
 	return final_dict
 
 
-true = [1, 1, 1, 1, 1, 2, 2, 3, 3]
-pred= [2, 2, 2, 3, 3, 3, 4, 4, 4]
+def getXpaths(self,index=False):
+    # TODO: XPaths are pretty deep and it becomes noisier
+    # when it goes deeper.  Pruning might be a good idea.
+    tree= etree.HTML(str(self.contents))
+    Etree = etree.ElementTree(tree)
+    nodes = tree.xpath("//*[not(*)]")
+    for node in nodes:
+        # we do not consider index or predicate here
+        xpath = Etree.getpath(node)
+        #self.dfs_xpaths_list.append(xpath) # except for this one
+        if not index:
+            xpath = self.removeIndex(xpath)
+        #xpath = "/".join(xpath.split('/')[:-1]) # prune the leaf level
+        #xpath = self.stemming(xpath)
+        self.dfs_xpaths_list.append(xpath)
+        self.addXpath(xpath)
 
-dic = get_cluster_number_shift(true, pred)
-print dic
-print dic
-print dic
+def getDFSXpaths(self, root, xpath=""):
+    loop_node = self.detect_loop(root)
+    for node in root:
+        if type(node.tag) is not str:
+            continue
+        if loop_node:
+            new_xpath = "/".join([xpath, node.tag, 'loop'])
+        else:
+            new_xpath = "/".join([xpath, node.tag])
+        if len(node) == 0:
+            #print new_xpath
+            self.dfs_xpaths_list.append(new_xpath)
+            self.addXpath(new_xpath)
+        if len(node) != 0:
+            self.getDFSXpaths(node, new_xpath)
+        if loop_node:
+            break
+
+if __name__ == "__main__":
+	

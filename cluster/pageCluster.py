@@ -16,6 +16,7 @@ import operator
 from sklearn.cross_validation import StratifiedKFold
 from cluster import cluster
 import collections
+from sklearn.neighbors import NearestNeighbors
 
 class pagesCluster:
 
@@ -135,7 +136,7 @@ class pagesCluster:
                     vector.append(page.selected_tfidf[key])
                 #for key,value in page.bigram_dict.iteritems():
                 #    vector.append(value)
-                vector = normalize(vector,norm='l1')[0]
+                #vector = normalize(vector,norm='l1')[0]
                 feature_matrix.append(vector)
 
             elif features == "log-tf-idf":
@@ -144,7 +145,7 @@ class pagesCluster:
                     vector.append(page.selected_logtfidf[key])
                 #for key,value in page.bigram_dict.iteritems():
                 #    vector.append(value)
-                vector = normalize(vector,norm='l1')[0]
+                #vector = normalize(vector,norm='l1')[0]
                 feature_matrix.append(vector)
 
             elif features == "binary":
@@ -153,10 +154,10 @@ class pagesCluster:
                     vector.append(page.Leung[key])
                 #for key,value in page.bigram_dict.iteritems():
                 #    vector.append(value)
-                vector = normalize(vector,norm='l1')[0]
+                #vector = normalize(vector,norm='l1')[0]
                 feature_matrix.append(vector)
 
-        self.X = np.array(feature_matrix)
+        self.X = normalize(np.array(feature_matrix), norm='l1')
         print "the size of vector is " + str(self.X.shape)
 
         #self.X = scale(self.X)
@@ -218,7 +219,25 @@ class pagesCluster:
         self.UP_pages.updateCategory(self.pre_y)
         print self.pre_y
 
-    def DBSCAN(self, features, num_clusters, cv=False, replicates=100):
+    def findEps(self, X):
+        K = 4
+        bin_num = 100
+        default_eps = 0.2
+        kdist_list = []
+        nbrs = NearestNeighbors(n_neighbors=K, algorithm="ball_tree").fit(X)
+        distances, indices = nbrs.kneighbors(X)
+        for dist in distances:
+            kdist_list += dist.tolist()[1:]
+        n, bins = np.histogram(kdist_list, bins=bin_num)
+        threshold = np.mean(n[bin_num/3:])
+        eps = default_eps
+        for idx, val in enumerate(n):
+            if val < threshold:
+                eps = bins[idx]
+                break
+        return eps
+
+    def DBSCAN(self, features, cv=False):
         # default file path is
         feature_matrix = []
         y = []
@@ -228,10 +247,19 @@ class pagesCluster:
                 vector = []
                 for key in page.selected_tfidf:
                     vector.append(page.selected_tfidf[key])
-                #for key,value in page.bigram_dict.iteritems():
-                #    vector.append(value)
-                #vector = normalize(vector,norm='l1')[0]
                 feature_matrix.append(vector)
+            elif features == "log-tf-idf":
+                vector = []
+                for key in page.selected_tfidf:
+                    vector.append(page.selected_logtfidf[key])
+                feature_matrix.append(vector)
+
+            elif features == "binary":
+                vector = []
+                for key in page.Leung:
+                    vector.append(page.Leung[key])
+                feature_matrix.append(vector)
+
         self.X = normalize(np.array(feature_matrix), norm='l1')
         print "the size of vector is " + str(self.X.shape)
 
@@ -242,12 +270,15 @@ class pagesCluster:
             for train, test in skf:
                 #print train, test
                 train_x, test_x, train_gold, test_gold = self.X[train], self.X[test], labels_true[train], labels_true[test]
-                db = Cluster.DBSCAN(eps=0.18, min_samples=3).fit(train_x)
+                eps = self.findEps(train_x)
+                db = Cluster.DBSCAN(eps=eps, min_samples=3).fit(train_x)
                 train_y = db.labels_
                 #self.get_cluster_number_shift(train_gold, train_y)
 
                 # determine the number of clusters by DBSCAN
-                num_clusters = len(set(train_y)) - 1
+                num_clusters = len(set(train_y
+
+                    )) - 1
 
                 km_train_x = []
                 km_train_gold = []
@@ -262,17 +293,26 @@ class pagesCluster:
                 #km_train_gold = train_gold
 
                 t = KMeans()
-                train_y, final_centroids, final_ite, final_dist = t.k_means(km_train_x, num_clusters, replicates=replicates)
+                train_y, final_centroids, final_ite, final_dist = t.k_means(km_train_x, num_clusters, replicates=20)
                 test_y = t.k_means_classify(test_x)
                 path_list = [self.UP_pages.path_list[idx] for idx in test]
                 results.append(self.Evaluation_CV(test_gold,test_y,km_train_gold,train_y, path_list=path_list))
             result = np.mean(results,axis=0)
             cv_batch_file = open("./results/cv_batch.results","a")
-            cv_batch_file.write("=====" + str(self.UP_pages.folder_path[0]) +"\t" + features + "\tkmeans =====\n")
+            cv_batch_file.write("=====" + str(self.UP_pages.folder_path[0]) +"\t" + features + "\tDBSCAN =====\n")
             metrics = ['micro_f', 'macro_f', 'mutual_info_score', 'rand_score', 'cv_micro_precision','cv_macro_precision']
             for index,metric in enumerate(metrics):
                 print metric + "\t" + str(result[index])
                 cv_batch_file.write(metric + "\t" + str(result[index])+"\n")
+        else:
+            print "the size of vector is " + str(self.X.shape)
+            eps = self.findEps(self.X)
+            db = Cluster.DBSCAN(eps=eps, min_samples=3).fit(self.X)
+            self.pre_y = db.labels_
+            self.UP_pages.updateCategory(self.pre_y)
+            num_clusters = len(set(self.pre_y)) - 1
+            print "number of dbscan cluster is " + str(num_clusters)
+
 
     def get_affinity_matrix(self):
         return self.UP_pages.get_affinity_matrix()
@@ -303,8 +343,8 @@ class pagesCluster:
         fscore = {}
         labels = {}
         # final return
-        weighted_f1 = 0.0
-        macro_f1 = 0.0
+        weighted_f1,weighted_p = 0.0,0.0
+        macro_f1,macro_p = 0.0,0.0
         for item in ground_truth_set:
             labels[item] = {}
             precision[item] = {}
@@ -344,7 +384,17 @@ class pagesCluster:
             macro_f1 += tmp_max/float(len(ground_truth_set))
             #weighted_f1 += tmp_max/float(len(ground_truth_set))
 
-        return [weighted_f1,macro_f1]
+        p = {}
+        for j in labels_set:
+            p[j] = {}
+            for i in ground_truth_set:
+                p[j][i] = precision[i][j]
+        for j in labels_set:
+            tmp_max = max(p[j].iteritems(), key=operator.itemgetter(1))[1]
+            weighted_p += tmp_max*nc[j]/float(length)
+            macro_p += tmp_max/float(len(labels_set))
+
+        return [weighted_f1,macro_f1,weighted_p,macro_p]
 
 
     def Evaluation_CV(self, test_gold, test_y, train_gold, train_y, path_list=None):
@@ -390,7 +440,7 @@ class pagesCluster:
         print "Adjusted Rand Score is " + str(rand_score)
         #silhouette_score = metrics.silhouette_score(self.X,np.array(labels_pred), metric='euclidean')
         #print "Silhouette score is " + str(silhouette_score)
-        [micro_f, macro_f] = self.F_Measure(test_gold,test_y)
+        [micro_f, macro_f, micro_p, macro_p] = self.F_Measure(test_gold,test_y)
         print "Micro F-Measure is " + str(micro_f)
         print "Macro F-Measure is " + str(macro_f)
         print "Micro CV precision is " + str(micro_precision)
@@ -409,23 +459,23 @@ class pagesCluster:
         #self.Precision_Recall_F(labels_true,labels_pred)
         mutual_info_score = metrics.adjusted_mutual_info_score(labels_true, labels_pred)
         rand_score = metrics.adjusted_rand_score(labels_true, labels_pred)
-        print "Mutual Info Score is " + str(mutual_info_score)
-        print "Adjusted Rand Score is " + str(rand_score)
+        #print "Mutual Info Score is " + str(mutual_info_score)
+        #print "Adjusted Rand Score is " + str(rand_score)
         #silhouette_score = metrics.silhouette_score(self.X,np.array(labels_pred), metric='euclidean')
         #print "Silhouette score is " + str(silhouette_score)
-        [micro_f, macro_f] = self.F_Measure(labels_true,labels_pred)
-        print "Micro F-Measure is " + str(micro_f)
-        print "Macro F-Measure is " + str(macro_f)
+        [micro_f, macro_f,micro_p,macro_p] = self.F_Measure(labels_true,labels_pred)
+        #print "Micro F-Measure is " + str(micro_f)
+        #print "Macro F-Measure is " + str(macro_f)
 
         train_batch_file = open("./results/train_batch.results","a")
         train_batch_file.write("=====" + str(dataset) + "\t" + str(algo) +  "\t" + str(feature) +  "=====\n")
-        metrics_list = ['micro_f', 'macro_f', 'mutual_info_score', 'rand_score']
-        result = [micro_f,macro_f,mutual_info_score,rand_score]
+        metrics_list = ['micro_f', 'macro_f', 'micro_p', 'macro_p', 'mutual_info_score', 'rand_score']
+        result = [micro_f,macro_f,micro_p,macro_p,mutual_info_score,rand_score]
         for index,metric in enumerate(metrics_list):
             print metric + "\t" + str(result[index])
             train_batch_file.write(metric + "\t" + str(result[index])+"\n")
 
-        return micro_f, macro_f, mutual_info_score, rand_score
+        return micro_f, macro_f, micro_p, macro_p, mutual_info_score, rand_score
 
     def get_cluster_number_shift(self, labels_true, labels_pred):
         true_set = set(labels_true)
@@ -529,8 +579,11 @@ if __name__=='__main__':
         cluster_labels.Evaluation()
 
     elif args.clustering == 'dbscan':
-        cluster_labels.DBSCAN(features_type, cluster_labels.num_clusters, cv=True)
-
+        if args.test_type == "cv":
+            cluster_labels.DBSCAN(features_type,  cv=True)
+        else:
+            cluster_labels.DBSCAN(features_type, cv=False)
+            cluster_labels.Evaluation(args.datasets,args.clustering,features_type)
     #visualization
     '''
     if args.test_type != "cv":
