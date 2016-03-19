@@ -1,21 +1,16 @@
 from lxml import etree
 import re
-import  gensim.models
 import copy
 import math
 
 class Page:
-    def __init__(self,path):
+    def __init__(self,path,mode="raw"):
+
         self.path = path.replace("_","/").replace(".html","")
-        self.original = open(path,"r").read()
-        self.contents = self.original.replace("\n","")
         self.xpaths = {} # tf
         self.xpaths_list = []
         self.dfs_xpaths_list = []
         self.filtered_dfs_xpaths_list = []
-        # getting xpaths from original content
-        self.getXpaths()
-        root = etree.HTML(str(self.contents))
         #self.getDFSXpaths(root)
         # self.generalize_xpath()
         self.onehot = {}
@@ -29,6 +24,25 @@ class Page:
         self.embedding = []
         #self.getEmbedding()
         self.Leung = {}
+        if mode == "raw":
+        # getting xpaths from original content
+            self.original = open(path,"r").read()
+            self.contents = self.original.replace("\n","")
+            self.getXpaths()
+            root = etree.HTML(str(self.contents))
+        #else:
+         #   a = "read_features"
+            #self.read_features()
+    def read_tf_idf(self,features_str): #features_str is a string like num1 num2 num3 ...(space split)
+        features = features_str.strip().split()
+        for index,feature in enumerate(features):
+            self.selected_tfidf[index] = float(feature)
+
+
+    def read_log_tf_idf(self,features_str): #features_str is a string like num1 num2 num3 ...(space split)
+        features = features_str.strip().split()
+        for index,feature in enumerate(features):
+            self.selected_logtfidf[index] = float(feature)
 
 
     def generalize_xpath(self):
@@ -114,7 +128,7 @@ class Page:
                 xpath = self.removeIndex(xpath)
             #xpath = "/".join(xpath.split('/')[:-1]) # prune the leaf level
 
-            xpath = self.stemming(xpath)
+            #xpath = self.stemming(xpath)
             #if s_xpath != xpath:
             #    self.dfs_xpaths_list.append(s_xpath)
             #    self.addXpath(s_xpath)

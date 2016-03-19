@@ -2,7 +2,7 @@
 command=python
 class=pageCluster.py
 train=train
-declare -a algo_array=("kmeans" "dbscan")
+declare -a algo_array=("dbscan")
 declare -a feature_array=("tf-idf" "log-tf-idf")
 #declare -a data_array=("medhelp")
 declare -a data_array=("stackexchange" "zhihu" "rottentomatoes" "asp")

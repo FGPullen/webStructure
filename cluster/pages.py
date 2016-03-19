@@ -4,40 +4,90 @@ import numpy as np
 import os
 from sklearn.preprocessing import scale,normalize
 import math
-import distance
 import collections
+from sets import Set
 
-threshold = 0.01 
+
 class allPages:
-    def __init__(self, folder_path ,dm="no"):
+    def __init__(self, folder_path ,dataset,mode="read"): # mode: {raw, read, write}
         self.folder_path = folder_path
+        self.dataset = dataset
         print folder_path
-        # initialize data structure
+        self.threshold = 0.01 
         self.pages = []
         self.path_list = []
-        self.category = []
-        self.full_xpaths = []
-        self.ground_truth = []
+        self.category = [] # prediction
+        self.xpaths_set = Set()
+        self.ground_truth = []  # ground truth list for all pages
         self.idf = {}
         self.selected_df = {}
         self.df = {}
-        #  update attributes
-        self.addPages(folder_path)
-        self.expandXpaths()
-        self.updateidf()
-        self.get_ground_truth()
-        self.num = len(self.pages)
-        #self.top_local_stop_structure_gt(0.9)
-        #self.heuristic_weight_zhihu()
-        #self.heuristic_weight()
-        self.updatetfidf()
-        self.filter_df(0.01,1.0)
-        self.filter_dfs_xpaths_list()
-        self.Leung_baseline()  # binary feature
-        self.selected_tfidf()
+        if not os.path.exists("./feature/"+dataset):
+            os.makedirs("./feature/"+dataset)
+        if mode == "read":
+            page_list = open("./feature/"+dataset+"/pages.txt","r").readlines()
+            tf_idf_lines = open("./feature/"+dataset+"/tf_idf.txt","r").readlines()
+            log_tf_idf_lines = open("./feature/" + dataset + "/log_tf_idf.txt","r").readlines()
+            for i in range(len(page_list)):
+
+                    pid = page_list[i].strip().split(":")[0]
+                    file_path = "".join(page_list[i].strip().split(":")[1:])
+                    file_page = Page(file_path,mode="read")
+                    self.path_list.append(file_path)
+
+                    tf_idf_features = tf_idf_lines[i].strip().split(":")[-1]
+                    file_page.read_tf_idf(tf_idf_features)
+                    
+                    log_tf_idf_features = log_tf_idf_lines[i].strip().split(":")[-1]
+                    file_page.read_log_tf_idf(log_tf_idf_features)
+                    
+                    self.pages.append(file_page)
+            
+            self.category = [0 for i in range(len(page_list))]
+            self.get_ground_truth()
+        else:
+        # initialize data structure
+            #  update attributes
+            self.addPages(folder_path)
+            self.expandXpaths()
+            self.updateidf()
+            self.get_ground_truth()
+            self.num = len(self.pages)
+            #self.top_local_stop_structure_gt(0.9)
+            self.updatetfidf()
+            self.filter_df(0.01,1.0)
+            #self.filter_dfs_xpaths_list()
+            #self.Leung_baseline()  # binary feature
+            self.selected_tfidf()
+            
+            if mode=="write":
+                # filtered xpath :  id xpath
+                xpath_file =  open("./feature/"+dataset+"/xpaths.txt","w")
+                for page in self.pages:
+                    xpath_id = 0
+                    for xpath in page.selected_tfidf:
+                        xpath_file.write(str(xpath_id)+":"+xpath+"\n")
+                        xpath_id+=1
+                    break
+
+                page_file =  open("./feature/"+dataset + "/pages.txt","w")# id file_path 
+                tf_idf_file =  open("./feature/" + dataset + "/tf_idf.txt","w")  # pid features..
+                log_tf_idf_file = open("./feature/" + dataset +"/log_tf_idf.txt","w")
+                page_id = 0
+                for page in self.pages:
+                    page_file.write(str(page_id)+":"+page.path+"\n")
+                    vector = []
+                    for key in page.selected_tfidf:
+                        vector.append(page.selected_tfidf[key])
+                    tf_idf_file.write(str(page_id)+":" +" ".join(str(feat) for feat in vector) + "\n")
+                    vector = []
+                    for key in page.selected_logtfidf:
+                        vector.append(page.selected_logtfidf[key])
+                    log_tf_idf_file.write(str(page_id)+":" + " ".join(str(feat) for feat in vector)+"\n")
+
+                    page_id += 1
+
         #self.update_bigram()
-        if dm=="yes":
-            self.getDistanceMatrix("./Data/edit_distance.matrix")
 
     def filter_dfs_xpaths_list(self):
         print "start filtering for xpaths list"
@@ -46,10 +96,9 @@ class allPages:
             #print "we filterd " + str(len(page.dfs_xpaths_list) - len(page.filtered_dfs_xpaths_list))
         print "end filtering for xpaths list"
 
-    def update_full_xpaths(self,_page_):
-        for xpath in _page_.xpaths.keys():
-            if xpath not in self.full_xpaths:
-                self.full_xpaths.append(xpath)
+    def update_xpaths_set(self,_page_):
+        for xpath in _page_.xpaths.keys(): # xpaths set
+            self.xpaths_set.add(xpath)
 
     def addPages(self,folder_path_list):
         category_num = 0
@@ -63,25 +112,25 @@ class allPages:
                     self.pages.append(file_page)
                     self.path_list.append(file_page.path)
                     self.category.append(category_num)
-                    self.update_full_xpaths(file_page)
+                    self.update_xpaths_set(file_page)
             category_num+=1
 
     def expandXpaths(self):
         for page in self.pages:
-            page.expandXpaths(self.full_xpaths)
+            page.expandXpaths(self.xpaths_set)
 
     def updateidf(self):
         N = len(self.pages)
         # initiate
-        for xpath in self.full_xpaths:
+        for xpath in self.xpaths_set:
             self.df[xpath] = 0
         # count document frequency
         for page in self.pages:
-            for xpath in self.full_xpaths:
+            for xpath in self.xpaths_set:
                 if page.xpaths[xpath] !=0:
                     self.df[xpath] +=1
         # log(n/N)
-        for xpath in self.full_xpaths:
+        for xpath in self.xpaths_set:
             self.idf[xpath] = math.log((float(N))/(float(self.df[xpath])),2)
             # add sqrt into idf so that calculating distance there will be only one power of idf
             #self.idf[xpath] = math.sqrt(self.idf[xpath])
@@ -115,79 +164,6 @@ class allPages:
         else:
             distance = float(m)/float(s+t-m)
         return distance
-
-
-    def heuristic_weight(self):
-        # user
-        x = []
-        x.append("/html/body/div/div/div/div/div/div/div/div/div/div/ul/li/span")
-        x.append("/html/body/div/div/div/div/div/a/div")
-        x.append("/html/body/div/div/noscript/div/img")
-        x.append("/html/body/div/div/div/div/div/div/div/h3/span")
-        x.append("/html/body/div/div/div/div/div/div/div/ul/li/a/span")
-
-        # Question
-        x.append("/html/body/div/div/div/link")
-        x.append("/html/body/div/div/div/div/div/ul/li/div")
-        x.append("/html/body/div/div/div/div/div/table/tr/td/div/div/b")
-        x.append("/html/body/div/div/div/div/div/table/tr/td/div/table/tr/td/div/div/br")
-        x.append("/html/body/div/div/div/div/div/table/tr/td/div/input")
-
-        #list
-        x.append("/html/body/div/div/div/div/div/div/div")
-        x.append("/html/body/div/div/div/div/div/div/h3/a")
-        x.append("/html/body/div/div/div/div/ul/li/div")
-        x.append("/html/body/div/div/div/div/h4/a")
-        x.append("/html/body/div/div/div/div/div/div/div/div/div/br")
-
-        # tag
-        x.append("/html/body/div/div/div/div/br")
-        x.append("/html/body/div/div/div/div/h2/a")
-
-        # post
-        x.append("/html/body/div/div/div/div/div/p/i")
-        x.append("/html/body/div/div/div/div/div/p/a")
-        x.append("/html/body/div/div/div/form/div/div/span")
-
-        # feeds
-        x.append("/html/body/feed/subtitle")
-        x.append("/html/body/feed/entry/link")
-        x.append("/html/body/feed/entry/category")
-
-        for page in self.pages:
-            for item in x:
-                page.xpaths[item] *= 20
-
-    def heuristic_weight_zhihu(self):
-        # 0 for people
-        x = []
-        x.append("/html/body/div/div/div/div/div/a/span")
-        x.append("/html/body/div/div/div/div/div/div/div/div/div/div/span/span")
-        x.append("/html/body/div/div/div/div/div/div/div/div/div/div/span/input")
-        x.append("/html/body/div/div/div/div/div/div/span/span")
-        x.append("/html/body/div/div/div/a/br")
-
-        # Question
-        x.append("/html/body/div/div/div/div")
-        x.append("/html/body/div/div/div/div/button")
-        x.append("/html/body/div/div/div/div/div")
-
-        #list
-        x.append("/html/body/div/div/div/div/div/form/input")
-        x.append("/html/body/div/div/div/div/div/form/div/div/div/img")
-        #x.append("/html/body/div/div/div/div/div/form/div/a")
-
-        # tag
-        x.append("/html/body/div/div/div/div/div/div/div/div/div/div/div/div/span/span")
-        x.append("/html/body/div/div/div/div/div/div/div/div/div/div/div/div/span/span/a")
-        #x.append("/html/body/div/div/div/div/div/div/div/div/div/div/div/div/a/i")
-        # post
-        x.append("/html/body/div/div/div/div/div/h2/a")
-        x.append("/html/body/div/div/div/div/div/div/div/div/textarea/span/a")
-
-        for page in self.pages:
-            for item in x:
-                page.xpaths[item] *= 20
 
     def get_affinity_matrix(self):
         # calculate affinity matrix based on Xpath
@@ -375,7 +351,7 @@ class allPages:
         N = self.num
         for key in self.idf:
             #print key
-            if float(self.df[key])/float(N) >= 0.01:
+            if float(self.df[key])/float(N) >= self.threshold:
                 for page in self.pages:
                     page.update_Leung(key)
 
@@ -397,7 +373,7 @@ class allPages:
     def selected_tfidf(self):
         N = self.num
         for key in self.idf:
-            if float(self.df[key])/float(N) >= threshold:
+            if float(self.df[key])/float(N) >= self.threshold:
                 for page in self.pages:
                     page.update_selected_tfidf(key)
 
@@ -521,154 +497,4 @@ if __name__=='__main__':
     print "we have " + str(len(sorted_df)) + " xpahts in total "
     for item in sorted_df:
         print item[0], item[1]
-    #test_xpath = "/html/body/div/div/div/div/h3/a"
-    #pages.examine_one_xpath(test_xpath)
-    #pages.update_bigram()
-
-
-    #pages.find_important_xpath()
-    '''
-    for page in pages.pages:
-        if page.path.endswith("show/220") or page.path.endswith("show/1549"):
-            print len(page.selected_tfidf)
-            keys = page.selected_tfidf.keys()
-            #print keys
-            print page.path, page.selected_tfidf["/html/body/div/div/div/div/div/div/div/div/script"]
-    length = len(pages.pages)
-    print "numer of pages " + str(length)
-    print "number of xpath " + str(len(pages.idf))
-    num_groups = len(set(pages.ground_truth))
-    counter = collections.Counter(pages.ground_truth)
-    results = dict((key,{}) for key in counter)
-    info =  dict((key,{}) for key in counter)
-    print results
-    print counter
-    for xpath in pages.df:
-        print "---- " + xpath + " -----"
-        df = pages.df[xpath]
-        dic = dict((key,0) for key in counter)
-        assert len(pages.ground_truth) == len(pages.pages)
-        for index, group in enumerate(pages.ground_truth):
-            page = pages.pages[index]
-            if xpath in page.xpaths_list:
-                dic[group] += 1
-        for key, value in dic.iteritems():
-            info[key][xpath] = str(value) + "\t" + str(df) + "\t" + str(counter[key]) + "\t" + str(length)
-            tmp = float(value **2 * length)/ float((counter[key]**2 * df))
-            results[key][xpath] = tmp
-        #print pages.ground_truth
-        print "------------------------"
-
-    for key in counter:
-        xpaths = results[key]
-        sorted_list = sorted(xpaths.iteritems(), key=lambda x:x[1], reverse=True)
-        top = 10
-        print "========" + str(key) + "======="
-        for i in range(top):
-            print str(sorted_list[i][0]) + "\t" + str(sorted_list[i][1])
-            print info[key][sorted_list[i][0]]
-        print "=========================="
-        '''
-    '''
-    depth = []
-    for key in pages.idf:
-        depth.append(key.count("/"))
-
-    for page in pages.pages:
-        for xpath in page.xpaths:
-            if xpath.count("/") >110 and  page.tfidf[xpath]>0:
-                print page.path
-                print xpath
-    average = sum(depth) / len(depth)
-    max_depth = max(depth)
-    print "average depth of xpath is " + str(average)
-    print "max depth of xpath is " + str(max_depth)
-    g_dict = {}
-    for key in pages.ground_truth:
-        if key not in g_dict:
-            g_dict[key] = 1
-        else:
-            g_dict[key] += 1
-    for key in g_dict:
-        g_dict[key] = float(g_dict[key])/float(len(pages.pages))
-    print g_dict
-
-    length = len(pages.df)
-    threshold = [0.0,0.01,0.02,0.05,0.10,0.15,0.20,0.25,0.30,0.35,0.40,0.45,0.50]
-    for t in threshold:
-        count = 0
-        for xpath in pages.df:
-            if float(pages.df[xpath])/float(length) >= t:
-                count += 1
-        print float(count)/float(length)
-
-
-
-    edit_lines = open("./Data/edit_distance.matrix").readlines()
-    length = len(edit_lines) - 2
-    for i in range(length):
-        print "=================="
-        print pages[i].path
-        dis = edit_lines[i].strip().split("\t")
-        sub_dis = {}
-        for j in range(length):
-            sub_dis[j] = dis[j]
-            sorted_dict= sorted(sub_dis.iteritems(), key=lambda d:d[1], reverse = False)
-
-        # find the top 10 , the first one will be it self
-
-        for j in range(1,11):
-            print str(sorted_dict[j][1]) + "\t" + pages[sorted_dict[j][0]].path
-        print "================="
-    '''
-
-    '''
-    page1 = UP_pages.pages[451]
-    page2 = UP_pages.pages[452]
-    x1 = page1.dfs_xpaths_list
-    x2 = page2.dfs_xpaths_list
-    print page1.path
-    print page2.path
-    d = distance.levenshtein(x1,x2)
-    print d
-    '''
-    # portiaon of d/ min(len(x1),len(x2))
-
-    '''
-    count_zero = 0
-    count_one = 0
-    for item in UP_pages.category:
-        if item == 0:
-            count_zero+=1
-        elif item == 1:
-            count_one+=1
-    max_D = 0
-    min_D = 999
-    page_pair = []
-    for i in range(count_zero):
-        for j in range(i,count_zero):
-            D = distance(UP_pages.pages[i],UP_pages.pages[j])
-            if D >max_D:
-                max_D = D
-                print max_D
-                #print str(i) + "\t" + str(j)
-                page_pair = [i,j]
-
-
-    i = page_pair[0]
-    j = page_pair[1]
-    print str(i) + "\t" + str(j)
-    print UP_pages.pages[i].path, UP_pages.pages[j].path
-    dif_dict = {}
-    for item in UP_pages.pages[i].tfidf:
-        dif_dict[item] = UP_pages.pages[i].normtfidf[item]-UP_pages.pages[j].normtfidf[item]
-
-    # Top 10 i > j
-    g_sorted_result_dict= sorted(dif_dict.iteritems(), key=lambda d:d[1], reverse = True)
-    l_sorted_result_dict= sorted(dif_dict.iteritems(), key=lambda d:d[1], reverse = False)
-    for i in range(10):
-        print str(g_sorted_result_dict[i][0]) + "\t" + str(g_sorted_result_dict[i][1])
-        print str(l_sorted_result_dict[i][0]) + "\t" + str(l_sorted_result_dict[i][1])
-    # Top 10 j > i
-    '''
 

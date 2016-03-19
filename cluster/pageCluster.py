@@ -4,11 +4,10 @@ from wkmeans import WKMeans
 from kmeans import KMeans
 import numpy as np
 import scipy as sp
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from sklearn import metrics
 import sklearn.cluster as Cluster
-from gensim.models import word2vec
-from visualization import visualizer
+#from visualization import visualizer
 from sklearn.utils import shuffle
 from sklearn.preprocessing import scale,normalize
 from time import time
@@ -16,17 +15,19 @@ import operator
 from sklearn.cross_validation import StratifiedKFold
 from cluster import cluster
 import collections
-from sklearn.neighbors import NearestNeighbors
+from sklearn.neighbors import NearestNeighbors,KNeighborsClassifier
 
 class pagesCluster:
 
 
-    def __init__(self, path_list=None,num_clusters=None):
+    def __init__(self, dataset, path_list=None,num_clusters=None):
         if path_list is None and num_clusters is None:
             self.t0 = time()
         else:
             self.t0 = time()
-            self.UP_pages = allPages(path_list)
+            self.dataset = dataset
+            self.UP_pages = allPages(path_list,dataset)
+            self.path_list = self.UP_pages.path_list
             self.num_clusters = num_clusters
         #self.clustering(num_clusters)
 
@@ -158,6 +159,7 @@ class pagesCluster:
                 feature_matrix.append(vector)
 
         self.X = normalize(np.array(feature_matrix), norm='l1')
+        #print self.X
         print "the size of vector is " + str(self.X.shape)
 
         #self.X = scale(self.X)
@@ -178,6 +180,7 @@ class pagesCluster:
             t = KMeans()
             final_u, final_centroids, final_ite, final_dist = t.k_means(self.X,num_clusters, replicates=replicates)
             self.pre_y = final_u
+            print self.pre_y
             self.UP_pages.updateCategory(self.pre_y)
             print "we have avg interation for " + str(final_ite)
             keys = []
@@ -195,15 +198,19 @@ class pagesCluster:
                 t = KMeans()
                 train_y, final_centroids, final_ite, final_dist = t.k_means(train_x,num_clusters,replicates=replicates)
                 test_y = t.k_means_classify(test_x)
-                path_list = [self.UP_pages.path_list[idx] for idx in test]
+                path_list = self.path_list
                 results.append(self.Evaluation_CV(test_gold,test_y,train_gold,train_y, path_list=path_list))
             result = np.mean(results,axis=0)
+
             cv_batch_file = open("./results/cv_batch.results","a")
-            cv_batch_file.write("=====" + str(self.UP_pages.folder_path[0]) +"\t" + features + "\tkmeans =====\n")
-            metrics = ['micro_f', 'macro_f', 'mutual_info_score', 'rand_score', 'cv_micro_precision','cv_macro_precision']
+            algo = "kmeans"
+            dataset = self.dataset
+            prefix =  str(dataset) + "\t" + str(algo) + "\t" + str(features) + "\t"
+            metrics = ['cv_micro_precision','cv_macro_precision']
             for index,metric in enumerate(metrics):
-                print metric + "\t" + str(result[index])
-                cv_batch_file.write(metric + "\t" + str(result[index])+"\n")
+                line =  prefix + metric + "\t" + str(result[index])
+                cv_batch_file.write(line + "\n" )
+
 
     def AgglomerativeClustering(self, num_clusters):
 
@@ -232,7 +239,7 @@ class pagesCluster:
         threshold = np.mean(n[bin_num/3:])
         eps = default_eps
         for idx, val in enumerate(n):
-            if val < threshold:
+            if idx > 5 and val < threshold:
                 eps = bins[idx]
                 break
         return eps
@@ -276,34 +283,47 @@ class pagesCluster:
                 #self.get_cluster_number_shift(train_gold, train_y)
 
                 # determine the number of clusters by DBSCAN
-                num_clusters = len(set(train_y
-
-                    )) - 1
-
+                num_clusters = len(set(train_y)) - 1
+                '''
                 km_train_x = []
                 km_train_gold = []
                 for idx, val in enumerate(train_y):
                     if val != -1:
                         km_train_x.append(train_x[idx])
                         km_train_gold.append(train_gold[idx])
-                km_train_x = np.array(km_train_x)
-                km_train_gold = np.array(km_train_gold)
-
+                train_x = np.array(km_train_x)
+                train_gold = np.array(km_train_gold)
+                '''
                 #km_train_x = train_x
                 #km_train_gold = train_gold
+                K = 4
+                nbrs = KNeighborsClassifier(n_neighbors=K,weights="distance",algorithm="ball_tree").fit(train_x,train_y)
+                test_y = nbrs.predict(test_x)
+                path_list = self.UP_pages.path_list
+                for i in [test_gold,test_y,train_gold,train_y]:
+                    print len(i)
+                results.append(self.Evaluation_CV(test_gold,test_y, train_gold, train_y, path_list=path_list))
 
+                '''
                 t = KMeans()
                 train_y, final_centroids, final_ite, final_dist = t.k_means(km_train_x, num_clusters, replicates=20)
                 test_y = t.k_means_classify(test_x)
                 path_list = [self.UP_pages.path_list[idx] for idx in test]
                 results.append(self.Evaluation_CV(test_gold,test_y,km_train_gold,train_y, path_list=path_list))
+                '''
             result = np.mean(results,axis=0)
             cv_batch_file = open("./results/cv_batch.results","a")
-            cv_batch_file.write("=====" + str(self.UP_pages.folder_path[0]) +"\t" + features + "\tDBSCAN =====\n")
-            metrics = ['micro_f', 'macro_f', 'mutual_info_score', 'rand_score', 'cv_micro_precision','cv_macro_precision']
+            algo = "dbscan"
+            dataset = self.dataset
+            prefix =  str(dataset) + "\t" + str(algo) + "\t" + str(features) + "\t"
+            metrics = ['cv_micro_precision','cv_macro_precision']
             for index,metric in enumerate(metrics):
-                print metric + "\t" + str(result[index])
-                cv_batch_file.write(metric + "\t" + str(result[index])+"\n")
+                line =  prefix + metric + "\t" + str(result[index])
+                print line
+                cv_batch_file.write(line + "\n" )
+
+
+
         else:
             print "the size of vector is " + str(self.X.shape)
             eps = self.findEps(self.X)
@@ -330,49 +350,48 @@ class pagesCluster:
             tmp = self.filename2Url(self.UP_pages.pages[i].path) + "\t" + str(self.pre_y[i])
             write_file.write(tmp + "\n")
 
-    @staticmethod
-    def F_Measure(labels_true,labels_pred):
+    def F_Measure(self,labels_true,labels_pred):
         ground_truth_set = set(labels_true)
-        labels_set = set(labels_pred)
+        pre_set = set(labels_pred)
         # dict with index and cluster_index:
         length = len(labels_true)
         ng = {}
-        nc = {}
+        np = {}
         precision = {}
         recall = {}
         fscore = {}
         labels = {}
         # final return
-        weighted_f1,weighted_p = 0.0,0.0
+        micro_f1,micro_p = 0.0,0.0
         macro_f1,macro_p = 0.0,0.0
         for item in ground_truth_set:
             labels[item] = {}
             precision[item] = {}
             recall[item] = {}
             fscore[item] = {}
-            for item2 in labels_set:
+            for item2 in pre_set:
                 labels[item][item2] = 0
 
         # get the distribution of clustering results
         for i in range(length):
             g_index = labels_true[i]
-            c_index = labels_pred[i]
-            labels[g_index][c_index] += 1
+            p_index = labels_pred[i]
+            labels[g_index][p_index] += 1
             if ng.has_key(g_index):  # number of ground truth
                 ng[g_index] += 1
             else:
                 ng[g_index] = 1
-            if nc.has_key(c_index):
-                nc[c_index] += 1
+            if np.has_key(p_index):
+                np[p_index] += 1
             else:
-                nc[c_index] = 1
+                np[p_index] = 1
         # get the statistical results
         for i in ground_truth_set:
-            for j in labels_set:
-                if nc[j]==0:
+            for j in pre_set:
+                if np[j]==0:
                     print str(j) + " is zero"
                 recall[i][j] = float(labels[i][j])/float(ng[i])
-                precision[i][j] = float(labels[i][j])/float(nc[j])
+                precision[i][j] = float(labels[i][j])/float(np[j])
                 if recall[i][j]*precision[i][j]==0:
                     fscore[i][j] = 0.0
                 else:
@@ -380,31 +399,76 @@ class pagesCluster:
 
         for i in ground_truth_set:
             tmp_max = max(fscore[i].iteritems(), key=operator.itemgetter(1))[1]
-            weighted_f1 += tmp_max*ng[i]/float(length)
+            micro_f1 += tmp_max*ng[i]/float(length)
             macro_f1 += tmp_max/float(len(ground_truth_set))
-            #weighted_f1 += tmp_max/float(len(ground_truth_set))
+            #micro_f1 += tmp_max/float(len(ground_truth_set))
 
-        p = {}
-        for j in labels_set:
-            p[j] = {}
-            for i in ground_truth_set:
-                p[j][i] = precision[i][j]
-        for j in labels_set:
-            tmp_max = max(p[j].iteritems(), key=operator.itemgetter(1))[1]
-            weighted_p += tmp_max*nc[j]/float(length)
-            macro_p += tmp_max/float(len(labels_set))
 
-        return [weighted_f1,macro_f1,weighted_p,macro_p]
+        ## flawed !!!1
+        cluster_dict = self.get_cluster_number_shift(labels_true, labels_pred)
+        right_guess = 0
+        test_gold_counter = collections.Counter(labels_true)
+        test_gold_right = dict([(index,0.0) for index in test_gold_counter])
+        for index,item in enumerate(labels_pred):
+            if cluster_dict[item] == labels_true[index]:
+                test_gold_right[labels_true[index]] += 1
+                right_guess += 1
 
+        micro_p = float(right_guess)/float(len(labels_true))
+        avg = 0.0
+        for index in test_gold_counter:
+            avg += float(test_gold_right[index])/float(test_gold_counter[index])
+        macro_p = avg/float(len(test_gold_counter))
+
+        return [micro_f1,macro_f1,micro_p,macro_p]
+
+    def get_cluster_number_shift(self,labels_true, labels_pred):
+        true_set = set(labels_true)
+        pre_set = set(labels_pred)
+        print pre_set
+        dic = {}
+        for item in pre_set:
+            dic[item] = {}
+            for item_2 in true_set:
+                dic[item][item_2] = 0
+        assert len(labels_true) == len(labels_pred)
+
+        for i in range(len(labels_true)):
+            dic[labels_pred[i]][labels_true[i]] += 1
+        print "ground truth data"
+        print dic
+        final_dict = collections.defaultdict(dict)
+        #used_list = set()
+        for pred_key in pre_set:
+            max_value = -1
+            print dic[pred_key]
+            for index, value in dic[pred_key].iteritems():
+                #if index not in used_list:
+                if value > max_value:
+                    max_label = index
+                    max_value = value
+                final_dict[pred_key] = max_label
+                #used_list.add(max_label)
+        return final_dict
 
     def Evaluation_CV(self, test_gold, test_y, train_gold, train_y, path_list=None):
         if test_gold is None or test_y is None or train_gold is None or train_y is None:
             raise "Labels are None"
 
+        new_test_gold = []
+        new_test_y = []
+        for idx, val in enumerate(test_y):
+            if val != -1:
+                new_test_y.append(val)
+                new_test_gold.append(test_gold[idx])
+        print "number of -1 " + str(len(new_test_gold)-len(test_gold))
+        test_gold, test_y = new_test_gold, new_test_y
+
+
         #test_gold,test_y,train_gold,train_y
         test_gold_counter = collections.Counter(test_gold)
         test_gold_right = dict([(index,0.0) for index in test_gold_counter])
-        cluster_dict = self.get_cluster_number_shift(train_gold, train_y)
+        cluster_dict = self.get_cluster_number_shift(train_gold, train_y) # cluster_dict: key: cluster_id value: class_id
         print cluster_dict
         right_guess = 0
         for index,item in enumerate(test_y):
@@ -441,16 +505,32 @@ class pagesCluster:
         #silhouette_score = metrics.silhouette_score(self.X,np.array(labels_pred), metric='euclidean')
         #print "Silhouette score is " + str(silhouette_score)
         [micro_f, macro_f, micro_p, macro_p] = self.F_Measure(test_gold,test_y)
+        # here the micro_p and macro_p is useless
         print "Micro F-Measure is " + str(micro_f)
         print "Macro F-Measure is " + str(macro_f)
         print "Micro CV precision is " + str(micro_precision)
         print "Macro CV precision is " + str(macro_precision)
-        return micro_f, macro_f, mutual_info_score, rand_score, micro_precision, macro_precision
+        return micro_precision, macro_precision, micro_f, macro_f, mutual_info_score, rand_score
 
     def Evaluation(self,dataset,algo,feature):
         labels_true = self.UP_pages.ground_truth
         labels_pred = self.UP_pages.category
 
+        new_labels_true = []
+        new_labels_pred = []
+        for idx, val in enumerate(labels_pred):
+            if val != -1:
+                new_labels_pred.append(val)
+                new_labels_true.append(labels_true[idx])
+        print "number of -1 " + str(len(labels_true)-len(new_labels_true))
+        labels_true, labels_pred = new_labels_true, new_labels_pred
+
+        path_list = self.path_list
+
+        pred_result_file = open("./clustering/{}_{}_{}.txt".format(dataset,algo,feature),"w")
+        for index,label_pred in enumerate(labels_pred):
+            print path_list[index] + "\t" + str(label_pred)
+            pred_result_file.write(path_list[index] + "\t" + str(label_pred) + "\n")
 
         print "We have %d pages for ground truth!" %(len(labels_true))
         print "We have %d pages after prediction!" %(len(labels_pred))
@@ -459,52 +539,25 @@ class pagesCluster:
         #self.Precision_Recall_F(labels_true,labels_pred)
         mutual_info_score = metrics.adjusted_mutual_info_score(labels_true, labels_pred)
         rand_score = metrics.adjusted_rand_score(labels_true, labels_pred)
-        #print "Mutual Info Score is " + str(mutual_info_score)
-        #print "Adjusted Rand Score is " + str(rand_score)
+        print "Mutual Info Score is " + str(mutual_info_score)
+        print "Adjusted Rand Score is " + str(rand_score)
         #silhouette_score = metrics.silhouette_score(self.X,np.array(labels_pred), metric='euclidean')
         #print "Silhouette score is " + str(silhouette_score)
         [micro_f, macro_f,micro_p,macro_p] = self.F_Measure(labels_true,labels_pred)
-        #print "Micro F-Measure is " + str(micro_f)
-        #print "Macro F-Measure is " + str(macro_f)
+        print "Micro F-Measure is " + str(micro_f)
+        print "Macro F-Measure is " + str(macro_f)
+        print "Micro Precision is " + str(micro_p)
+        print "Macro Precision is " + str(macro_p)
 
         train_batch_file = open("./results/train_batch.results","a")
-        train_batch_file.write("=====" + str(dataset) + "\t" + str(algo) +  "\t" + str(feature) +  "=====\n")
-        metrics_list = ['micro_f', 'macro_f', 'micro_p', 'macro_p', 'mutual_info_score', 'rand_score']
-        result = [micro_f,macro_f,micro_p,macro_p,mutual_info_score,rand_score]
+        prefix =  str(dataset) + "\t" + str(algo) + "\t" + str(feature) + "\t"
+        #train_batch_file.write("=====" + str(dataset) + "\t" + str(algo) +  "\t" + str(feature) +  "=====\n")
+        metrics_list = ['micro_f', 'macro_f', 'micro_p', 'macro_p']
+        result = [micro_f,macro_f,micro_p,macro_p]
         for index,metric in enumerate(metrics_list):
-            print metric + "\t" + str(result[index])
-            train_batch_file.write(metric + "\t" + str(result[index])+"\n")
-
+            line =  prefix + metric + "\t" + str(result[index])
+            train_batch_file.write(line + "\n" )
         return micro_f, macro_f, micro_p, macro_p, mutual_info_score, rand_score
-
-    def get_cluster_number_shift(self, labels_true, labels_pred):
-        true_set = set(labels_true)
-        pre_set = set(labels_pred)
-        print pre_set
-        dic = {}
-        for item in pre_set:
-            dic[item] = {}
-            for item_2 in true_set:
-                dic[item][item_2] = 0
-        assert len(labels_true) == len(labels_pred)
-
-        for i in range(len(labels_true)):
-            dic[labels_pred[i]][labels_true[i]] += 1
-        print "ground truth data"
-        print dic
-        final_dict = collections.defaultdict(dict)
-        #used_list = set()
-        for pred_key in pre_set:
-            max_value = -1
-            print dic[pred_key]
-            for index, value in dic[pred_key].iteritems():
-                #if index not in used_list:
-                if value > max_value:
-                    max_label = index
-                    max_value = value
-                final_dict[pred_key] = max_label
-                #used_list.add(max_label)
-        return final_dict
 
 
     def filename2Url(self,filename):
@@ -538,23 +591,23 @@ if __name__=='__main__':
     if args.datasets == "zhihu":
         num_clusters = 4
         #cluster_labels = pagesCluster(["../Crawler/crawl_data/Zhihu/"],num_clusters)
-        cluster_labels = pagesCluster(["../Crawler/test_data/zhihu/"],num_clusters)
+        cluster_labels = pagesCluster(args.datasets,["../Crawler/test_data/zhihu/"],num_clusters)
     elif args.datasets == "stackexchange":
         num_clusters = 5
         #cluster_labels = pagesCluster(["../Crawler/crawl_data/Questions/"],num_clusters)
-        cluster_labels = pagesCluster(["../Crawler/test_data/stackexchange/"],num_clusters)
+        cluster_labels = pagesCluster(args.datasets,["../Crawler/test_data/stackexchange/"],num_clusters)
     elif args.datasets == "test":
         num_clusters = 5
-        cluster_labels = pagesCluster(["../Crawler/test_data/train/"],num_clusters)
+        cluster_labels = pagesCluster(args.datasets,["../Crawler/test_data/train/"],num_clusters)
     elif args.datasets == "rottentomatoes":
         num_clusters = 7
-        cluster_labels = pagesCluster(["../Crawler/test_data/rottentomatoes/"],num_clusters)
+        cluster_labels = pagesCluster(args.datasets,["../Crawler/test_data/rottentomatoes/"],num_clusters)
     elif args.datasets == "medhelp":
         num_clusters = 4
-        cluster_labels = pagesCluster(["../Crawler/test_data/medhelp/"],num_clusters)
+        cluster_labels = pagesCluster(args.datasets,["../Crawler/test_data/medhelp/"],num_clusters)
     elif args.datasets == "asp":
         num_clusters = 6
-        cluster_labels = pagesCluster(["../Crawler/test_data/ASP/"],num_clusters)
+        cluster_labels = pagesCluster(args.datasets,["../Crawler/test_data/ASP/"],num_clusters)
     else:
         print "error"
 

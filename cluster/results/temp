@@ -1,0 +1,40 @@
+\begin{tabular}{lrrrrll}
+\hline
+ method             &   micro\_p &   macro\_p &   cv\_micro\_p &   cv\_macro\_p & cv\_micro\_filter   & cv\_macro\_filter   \\
+\hline
+ kmeans(tf-idf)     &    0.9920 &    0.9911 &       0.9920 &       0.9911 & null              & null              \\
+ kmeans(log-tf-idf) &    0.9920 &    0.9911 &       0.9840 &       0.9126 & null              & null              \\
+ dbscan(tf-idf)     &    1.0000 &    1.0000 &       0.9973 &       0.9977 & 0.998571428571    & 0.998518518519    \\
+ dbscan(log-tf-idf) &    1.0000 &    1.0000 &       0.9920 &       0.9965 & 1.0               & 1.0               \\
+\hline
+\end{tabular}
+\begin{tabular}{lrrrrll}
+\hline
+ method             &   micro\_p &   macro\_p &   cv\_micro\_p &   cv\_macro\_p & cv\_micro\_filter   & cv\_macro\_filter   \\
+\hline
+ kmeans(tf-idf)     &    0.9956 &    0.9847 &       0.9956 &       0.9850 & null              & null              \\
+ kmeans(log-tf-idf) &    0.9277 &    0.7500 &       0.9277 &       0.7500 & null              & null              \\
+ dbscan(tf-idf)     &    1.0000 &    1.0000 &       0.9853 &       0.9500 & 0.985294117647    & 0.95              \\
+ dbscan(log-tf-idf) &    1.0000 &    1.0000 &       0.8485 &       0.7155 & 1.0               & 1.0               \\
+\hline
+\end{tabular}
+\begin{tabular}{lrrrrll}
+\hline
+ method             &   micro\_p &   macro\_p &   cv\_micro\_p &   cv\_macro\_p & cv\_micro\_filter   & cv\_macro\_filter   \\
+\hline
+ kmeans(tf-idf)     &    0.9479 &    0.8011 &       0.9364 &       0.8006 & null              & null              \\
+ kmeans(log-tf-idf) &    0.9952 &    0.9766 &       0.9952 &       0.9768 & null              & null              \\
+ dbscan(tf-idf)     &    1.0000 &    1.0000 &       0.9981 &       0.9930 & 0.99806763285     & 0.990659340659    \\
+ dbscan(log-tf-idf) &    1.0000 &    1.0000 &       0.9981 &       0.9930 & 0.99806763285     & 0.990659340659    \\
+\hline
+\end{tabular}
+\begin{tabular}{lrrrrll}
+\hline
+ method             &   micro\_p &   macro\_p &   cv\_micro\_p &   cv\_macro\_p & cv\_micro\_filter   & cv\_macro\_filter   \\
+\hline
+ kmeans(tf-idf)     &    0.9977 &    0.9986 &       0.9931 &       0.9320 & null              & null              \\
+ kmeans(log-tf-idf) &    0.9885 &    0.9954 &       0.9947 &       0.9333 & null              & null              \\
+ dbscan(tf-idf)     &    1.0000 &    1.0000 &       0.9977 &       0.9986 & 1.0               & 1.0               \\
+ dbscan(log-tf-idf) &    1.0000 &    1.0000 &       0.9977 &       0.9986 & 1.0               & 1.0               \\
+\hline
+\end{tabular}

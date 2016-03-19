@@ -1,0 +1,277 @@
+=******=
+=******=
+=******=
+=====stackexchange	kmeans	tf-idf=====
+micro_f	0.991975474724
+macro_f	0.99374025974
+micro_p	0.99203187251
+macro_p	0.996600566572
+mutual_info_score	0.966249502446
+rand_score	0.977665047926
+=====stackexchange	kmeans	log-tf-idf=====
+micro_f	0.991975474724
+macro_f	0.99374025974
+micro_p	0.99203187251
+macro_p	0.996600566572
+mutual_info_score	0.96624950242
+rand_score	0.977665047926
+=====stackexchange	dbscan	tf-idf=====
+micro_f	0.99381783212
+macro_f	0.993103448276
+micro_p	1.0
+macro_p	1.0
+mutual_info_score	0.9542402168
+rand_score	0.990864882826
+=====stackexchange	dbscan	log-tf-idf=====
+micro_f	0.995925389352
+macro_f	0.995454545455
+micro_p	1.0
+macro_p	1.0
+mutual_info_score	0.969003486962
+rand_score	0.9938448857
+=====zhihu	kmeans	tf-idf=====
+micro_f	0.995526032847
+macro_f	0.98976881456
+micro_p	0.995575221239
+macro_p	0.99537037037
+mutual_info_score	0.979128957906
+rand_score	0.99452099121
+=====zhihu	kmeans	log-tf-idf=====
+micro_f	0.774612532239
+macro_f	0.761748374865
+micro_p	0.927728613569
+macro_p	0.947872340426
+mutual_info_score	0.680673483977
+rand_score	0.536199743493
+=====zhihu	dbscan	tf-idf=====
+micro_f	0.977025187202
+macro_f	0.990384615385
+micro_p	1.0
+macro_p	1.0
+mutual_info_score	0.869757817116
+rand_score	0.898205835151
+=====zhihu	dbscan	log-tf-idf=====
+micro_f	0.993288256935
+macro_f	0.997191011236
+micro_p	1.0
+macro_p	1.0
+mutual_info_score	0.935804266117
+rand_score	0.96792088797
+=====rottentomatoes	kmeans	tf-idf=====
+micro_f	0.951471788596
+macro_f	0.88161679119
+micro_p	0.947876447876
+macro_p	0.912585848486
+mutual_info_score	0.897136172231
+rand_score	0.914241224919
+=====rottentomatoes	kmeans	log-tf-idf=====
+micro_f	0.998072415514
+macro_f	0.993837802443
+micro_p	0.998069498069
+macro_p	0.995391705069
+mutual_info_score	0.993646911515
+rand_score	0.998988470803
+=====rottentomatoes	dbscan	tf-idf=====
+micro_f	0.968892044057
+macro_f	0.93733974426
+micro_p	0.996138996139
+macro_p	0.964285714286
+mutual_info_score	0.873596550312
+rand_score	0.926894850183
+=====rottentomatoes	dbscan	log-tf-idf=====
+micro_f	0.968892044057
+macro_f	0.93733974426
+micro_p	0.998069498069
+macro_p	0.974358974359
+mutual_info_score	0.885236593179
+rand_score	0.928051163177
+=====asp	kmeans	log-tf-idf=====
+micro_f	0.990267499092
+macro_f	0.94449155049
+micro_p	0.988514548239
+macro_p	0.91935483871
+mutual_info_score	0.962307679491
+rand_score	0.976702932765
+=====asp	dbscan	tf-idf=====
+micro_f	0.984208701934
+macro_f	0.993415680486
+micro_p	0.996937212864
+macro_p	0.971428571429
+mutual_info_score	0.897800258277
+rand_score	0.941519464347
+=====asp	dbscan	log-tf-idf=====
+micro_f	0.991453662691
+macro_f	0.996298653902
+micro_p	0.999234303216
+macro_p	0.972222222222
+mutual_info_score	0.940633949723
+rand_score	0.968634782773
+-stemming---
+=====stackexchange	kmeans	tf-idf=====
+micro_f	0.872171855288
+macro_f	0.796499841622
+micro_p	0.966799468792
+macro_p	0.96800850676
+mutual_info_score	0.762247911591
+rand_score	0.731117093315
+=====stackexchange	kmeans	log-tf-idf=====
+micro_f	0.991975474724
+macro_f	0.99374025974
+micro_p	0.99203187251
+macro_p	0.996600566572
+mutual_info_score	0.966249502446
+rand_score	0.977665047926
+=====zhihu	kmeans	tf-idf=====
+micro_f	0.995526032847
+macro_f	0.98976881456
+micro_p	0.995575221239
+macro_p	0.99537037037
+mutual_info_score	0.979128957925
+rand_score	0.99452099121
+=====zhihu	kmeans	log-tf-idf=====
+micro_f	0.774612532239
+macro_f	0.761748374865
+micro_p	0.927728613569
+macro_p	0.947872340426
+mutual_info_score	0.680673483746
+rand_score	0.536199743493
+=====rottentomatoes	kmeans	tf-idf=====
+micro_f	0.88218477097
+macro_f	0.83833443321
+micro_p	0.915057915058
+macro_p	0.885606666851
+mutual_info_score	0.819607265391
+rand_score	0.788717733449
+=====rottentomatoes	kmeans	log-tf-idf=====
+micro_f	0.995028864828
+macro_f	0.985572450359
+micro_p	0.995173745174
+macro_p	0.996277817375
+mutual_info_score	0.981421745461
+rand_score	0.991066846498
+=====asp	kmeans	tf-idf=====
+micro_f	0.985836099824
+macro_f	0.982103797024
+micro_p	0.985451761103
+macro_p	0.972673522178
+mutual_info_score	0.94967876076
+rand_score	0.96674453232
+=====asp	kmeans	log-tf-idf=====
+micro_f	0.988549722098
+macro_f	0.99434525614
+micro_p	0.988514548239
+macro_p	0.993455497382
+mutual_info_score	0.961426687804
+rand_score	0.962010852522
+=====stackexchange	kmeans	tf-idf=====
+micro_f	0.872171855288
+macro_f	0.796499841622
+micro_p	0.966799468792
+macro_p	0.96800850676
+mutual_info_score	0.762247912215
+rand_score	0.731117093315
+=====stackexchange	kmeans	log-tf-idf=====
+micro_f	0.991975474724
+macro_f	0.99374025974
+micro_p	0.99203187251
+macro_p	0.996600566572
+mutual_info_score	0.966249502498
+rand_score	0.977665047926
+=====stackexchange	dbscan	tf-idf=====
+micro_f	0.991146392275
+macro_f	0.991944027986
+micro_p	1.0
+macro_p	1.0
+mutual_info_score	0.932767193064
+rand_score	0.980009347428
+=====stackexchange	dbscan	log-tf-idf=====
+micro_f	0.967047413938
+macro_f	0.937129477909
+micro_p	0.993359893758
+macro_p	0.965034965035
+mutual_info_score	0.823795036117
+rand_score	0.922541642566
+=====zhihu	kmeans	tf-idf=====
+micro_f	0.995526032847
+macro_f	0.98976881456
+micro_p	0.995575221239
+macro_p	0.99537037037
+mutual_info_score	0.979128957943
+rand_score	0.99452099121
+=====zhihu	kmeans	log-tf-idf=====
+micro_f	0.774612532239
+macro_f	0.761748374865
+micro_p	0.927728613569
+macro_p	0.947872340426
+mutual_info_score	0.680673484207
+rand_score	0.536199743493
+=====zhihu	dbscan	tf-idf=====
+micro_f	0.991776224706
+macro_f	0.996558197747
+micro_p	1.0
+macro_p	1.0
+mutual_info_score	0.924612273132
+rand_score	0.960876687142
+=====zhihu	dbscan	log-tf-idf=====
+micro_f	0.562382344084
+macro_f	0.359404413979
+micro_p	0.597345132743
+macro_p	0.597345132743
+mutual_info_score	-6.00791163365e-16
+rand_score	0.0
+=====rottentomatoes	kmeans	tf-idf=====
+micro_f	0.88218477097
+macro_f	0.83833443321
+micro_p	0.915057915058
+macro_p	0.885606666851
+mutual_info_score	0.819607264998
+rand_score	0.788717733449
+=====rottentomatoes	kmeans	log-tf-idf=====
+micro_f	0.995028864828
+macro_f	0.985572450359
+micro_p	0.995173745174
+macro_p	0.996277817375
+mutual_info_score	0.981421745461
+rand_score	0.991066846498
+=====rottentomatoes	dbscan	tf-idf=====
+micro_f	0.909329216493
+macro_f	0.855717522657
+micro_p	0.939189189189
+macro_p	0.949769159741
+mutual_info_score	0.891957891668
+rand_score	0.845948654626
+=====rottentomatoes	dbscan	log-tf-idf=====
+micro_f	0.875186869491
+macro_f	0.899572674099
+micro_p	0.995173745174
+macro_p	0.967320261438
+mutual_info_score	0.710758033027
+rand_score	0.711482956774
+=====asp	kmeans	tf-idf=====
+micro_f	0.985836099824
+macro_f	0.982103797024
+micro_p	0.985451761103
+macro_p	0.972673522178
+mutual_info_score	0.949678760828
+rand_score	0.96674453232
+=====asp	kmeans	log-tf-idf=====
+micro_f	0.988549722098
+macro_f	0.99434525614
+micro_p	0.988514548239
+macro_p	0.993455497382
+mutual_info_score	0.96142668783
+rand_score	0.962010852522
+=====asp	dbscan	tf-idf=====
+micro_f	0.980076186149
+macro_f	0.991771236362
+micro_p	0.999234303216
+macro_p	0.995614035088
+mutual_info_score	0.876940369892
+rand_score	0.926880163153
+=====asp	dbscan	log-tf-idf=====
+micro_f	0.92370865721
+macro_f	0.963976909001
+micro_p	0.999234303216
+macro_p	0.995833333333
+mutual_info_score	0.726300387587
+rand_score	0.77500915114
