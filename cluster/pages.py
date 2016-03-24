@@ -9,7 +9,7 @@ from sets import Set
 
 
 class allPages:
-    def __init__(self, folder_path ,dataset,mode="read"): # mode: {raw, read, write}
+    def __init__(self, folder_path ,dataset,mode="raw"): # mode: {raw, read, write}
         self.folder_path = folder_path
         self.dataset = dataset
         print folder_path
@@ -51,7 +51,7 @@ class allPages:
             self.addPages(folder_path)
             self.expandXpaths()
             self.updateidf()
-            self.get_ground_truth()
+            self.get_ground_truth(dataset)
             self.num = len(self.pages)
             #self.top_local_stop_structure_gt(0.9)
             self.updatetfidf()
@@ -233,117 +233,152 @@ class allPages:
                 matrix[i][j] = float(item)
         return matrix
 
-    def get_ground_truth(self):
-        # /users/ /questions/ /q/ /questions/tagged/   /tags/ /posts/ /feeds/ /others
-        if "../Crawler/crawl_data/Questions/"  in self.folder_path or "../Crawler/test_data/train/" in self.folder_path or "../Crawler/test_data/stackexchange/" in self.folder_path:
-            print "????"
+    def build_gold(self,lines):
+        gold_dict = {}
+        for line in lines:
+            line = line.strip()
+            if line!="":
+                [path,id] = line.split()
+                path = path.replace("_","/").replace(".html","")
+                gold_dict[path] = id
+        return gold_dict
+
+
+    def get_ground_truth(self,dataset):
+        if dataset == "new_stackexchange":
+            gold_file = open("./Data/site.gold/stackexchange/stackexchange.gold").readlines()
+            gold_dict = self.build_gold(gold_file)
+            print self.folder_path
             for i in range(len(self.pages)):
-                path = self.pages[i].path.replace("../Crawler/crawl_data/Questions/", "")
-                if "/users/" in path:
-                    tag = 1
-                elif "/questions/tagged/" in path:
-                    tag = 3
-                elif "/questions/" in path or "/q/" in path or "/a/" in path:
-                    tag = 2
-                #elif "/tags/" in path:
-                #    tag = 6
-                elif "/posts/" in path:
-                    tag = 5
-                elif "/feeds/" in path:
-                    tag = 4
-                #else:
-                #    tag = 0
-                #print "tag is " + str(tag)
-                self.ground_truth.append(tag)
-        # zhihu
-        # /people/  /question/ /question/answer/ /topic/  (people/followed/ people/follower/ -> index ) /ask /collection
-        elif "../Crawler/crawl_data/Zhihu/" in self.folder_path or "../Crawler/test_data/zhihu/" in self.folder_path:
-            print "!!!!"
+                path = self.pages[i].path.replace("../Crawler/Mar15/samples/stackexchange/","")
+                id = gold_dict[path]
+                self.ground_truth.append(id)
+        elif dataset == "new_rottentomatoes":
+            gold_file = open("./Data/site.gold/rottentomatoes/rottentomatoes.gold").readlines()
+            gold_dict = self.build_gold(gold_file)
+            print self.folder_path
             for i in range(len(self.pages)):
-                path = self.pages[i].path.replace("../Crawler/test_data/zhihu/","")
-                if "follow" in path:
-                    tag = 2
-                elif "/people/" in path:
-                    tag = 0
-                elif "/question/" in path:
-                    tag = 1
-                elif "/topic/" in path:
-                    tag = 3
-                elif "/collection/" in path:
-                    tag = 4
-                else:
-                    tag =5
-                self.ground_truth.append(tag)
-        elif "../Crawler/test_data/rottentomatoes/" in self.folder_path:
-            print "rottentomatoes datasets"
+                path = self.pages[i].path.replace("../Crawler/Mar15/samples/rottentomatoes/","")
+                id = gold_dict[path]
+                self.ground_truth.append(id)
+        elif dataset == "new_asp":
+            gold_file = open("./Data/site.gold/asp/asp.gold").readlines()
+            gold_dict = self.build_gold(gold_file)
+            print self.folder_path
             for i in range(len(self.pages)):
-                path = self.pages[i].path.replace("../Crawler/test_data/rottentomatoes/","")
-                if "/top/" in path:
-                    tag = 2
-                elif "/guides/" in path:
-                    tag = 5
-                elif "/celebrity/" in path:
-                    if "/pictures/" in path:
-                        tag = 6
-                    else:
-                        tag = 0
-                elif "/critic/" in path:
+                path = self.pages[i].path.replace("../Crawler/Mar15/samples/asp/","")
+                id = gold_dict[path]
+                self.ground_truth.append(id)
+        else:
+            # /users/ /questions/ /q/ /questions/tagged/   /tags/ /posts/ /feeds/ /others
+            if "../Crawler/crawl_data/Questions/"  in self.folder_path or "../Crawler/test_data/train/" in self.folder_path or "../Crawler/test_data/stackexchange/" in self.folder_path:
+                print "????"
+                for i in range(len(self.pages)):
+                    path = self.pages[i].path.replace("../Crawler/crawl_data/Questions/", "")
+                    if "/users/" in path:
                         tag = 1
-                elif "/m/" in path or "/tv/" in path:
-                    if "/trailers/" in path:
-                        tag = 4
-                    elif "/pictures/" in path:
-                        tag = 6
-                    else:
+                    elif "/questions/tagged/" in path:
                         tag = 3
-                else: # guide
-                    print path
-                    tag =0
-                self.ground_truth.append(tag)
-
-        elif "../Crawler/test_data/medhelp/" in self.folder_path or "../Crawler/test_data/test" in self.folder_path:
-            print "medhelp datasets"
-            for i in range(len(self.pages)):
-                path = self.pages[i].path.replace("../Crawler/test_data/medhelp/","")
-                if "/forums/" in path:
-                    tag = 2
-                elif "/groups/" in path:
+                    elif "/questions/" in path or "/q/" in path or "/a/" in path:
                         tag = 2
-                elif "/personal/" in path:
-                        tag = 1
-                elif "/posts/" in path:
-                    tag = 3
-
-                elif "/tags/" in path:
-                    tag =4
-                else:
-                    tag = 5
-                self.ground_truth.append(tag)
-
-        elif "../Crawler/test_data/ASP/" in self.folder_path:
-            print "asp.net datasets"
-            for i in range(len(self.pages)):
-                path = self.pages[i].path.replace("../Crawler/test_data/ASP/","")
-                if "/f/" in path:
-                    if "/topanswerers/" in path:
-                        print path
+                    #elif "/tags/" in path:
+                    #    tag = 6
+                    elif "/posts/" in path:
                         tag = 5
+                    elif "/feeds/" in path:
+                        tag = 4
+                    #else:
+                    #    tag = 0
+                    #print "tag is " + str(tag)
+                    self.ground_truth.append(tag)
+            # zhihu
+            # /people/  /question/ /question/answer/ /topic/  (people/followed/ people/follower/ -> index ) /ask /collection
+            elif "../Crawler/crawl_data/Zhihu/" in self.folder_path or "../Crawler/test_data/zhihu/" in self.folder_path:
+                print "!!!!"
+                for i in range(len(self.pages)):
+                    path = self.pages[i].path.replace("../Crawler/test_data/zhihu/","")
+                    if "follow" in path:
+                        tag = 2
+                    elif "/people/" in path:
+                        tag = 0
+                    elif "/question/" in path:
+                        tag = 1
+                    elif "/topic/" in path:
+                        tag = 3
+                    elif "/collection/" in path:
+                        tag = 4
+                    else:
+                        tag =5
+                    self.ground_truth.append(tag)
+            elif "../Crawler/test_data/rottentomatoes/" in self.folder_path:
+                print "rottentomatoes datasets"
+                for i in range(len(self.pages)):
+                    path = self.pages[i].path.replace("../Crawler/test_data/rottentomatoes/","")
+                    if "/top/" in path:
+                        tag = 2
+                    elif "/guides/" in path:
+                        tag = 5
+                    elif "/celebrity/" in path:
+                        if "/pictures/" in path:
+                            tag = 6
+                        else:
+                            tag = 0
+                    elif "/critic/" in path:
+                            tag = 1
+                    elif "/m/" in path or "/tv/" in path:
+                        if "/trailers/" in path:
+                            tag = 4
+                        elif "/pictures/" in path:
+                            tag = 6
+                        else:
+                            tag = 3
+                    else: # guide
+                        print path
+                        tag =0
+                    self.ground_truth.append(tag)
+
+            elif "../Crawler/test_data/medhelp/" in self.folder_path or "../Crawler/test_data/test" in self.folder_path:
+                print "medhelp datasets"
+                for i in range(len(self.pages)):
+                    path = self.pages[i].path.replace("../Crawler/test_data/medhelp/","")
+                    if "/forums/" in path:
+                        tag = 2
+                    elif "/groups/" in path:
+                            tag = 2
+                    elif "/personal/" in path:
+                            tag = 1
+                    elif "/posts/" in path:
+                        tag = 3
+
+                    elif "/tags/" in path:
+                        tag =4
+                    else:
+                        tag = 5
+                    self.ground_truth.append(tag)
+
+            elif "../Crawler/test_data/ASP/" in self.folder_path:
+                print "asp.net datasets"
+                for i in range(len(self.pages)):
+                    path = self.pages[i].path.replace("../Crawler/test_data/ASP/","")
+                    if "/f/" in path:
+                        if "/topanswerers/" in path:
+                            print path
+                            tag = 5
+                        else:
+                            tag = 2
+                    elif "/members/" in path:
+                        tag = 0
+                    elif "RedirectToLogin" in path or "/private-message/" in path:
+                        tag = 1
+                    elif "/post/" in path:
+                        tag = 3
+                    elif "/t/" in path or "/p/" in path:
+                        tag =3
+                    elif "search?" in path:
+                        tag =4
                     else:
                         tag = 2
-                elif "/members/" in path:
-                    tag = 0
-                elif "RedirectToLogin" in path or "/private-message/" in path:
-                    tag = 1
-                elif "/post/" in path:
-                    tag = 3
-                elif "/t/" in path or "/p/" in path:
-                    tag =3
-                elif "search?" in path:
-                    tag =4
-                else:
-                    tag = 2
-
-                self.ground_truth.append(tag)
+                    self.ground_truth.append(tag)
 
     def Leung_baseline(self):
         # one-hot representation

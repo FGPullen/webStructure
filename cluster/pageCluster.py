@@ -15,6 +15,7 @@ import operator
 from sklearn.cross_validation import StratifiedKFold
 from cluster import cluster
 import collections
+from sets import Set
 from sklearn.neighbors import NearestNeighbors,KNeighborsClassifier
 
 class pagesCluster:
@@ -300,8 +301,8 @@ class pagesCluster:
                 nbrs = KNeighborsClassifier(n_neighbors=K,weights="distance",algorithm="ball_tree").fit(train_x,train_y)
                 test_y = nbrs.predict(test_x)
                 path_list = self.UP_pages.path_list
-                for i in [test_gold,test_y,train_gold,train_y]:
-                    print len(i)
+                #for i in [test_gold,test_y,train_gold,train_y]:
+                #    print len(i)
                 results.append(self.Evaluation_CV(test_gold,test_y, train_gold, train_y, path_list=path_list))
 
                 '''
@@ -332,7 +333,12 @@ class pagesCluster:
             self.UP_pages.updateCategory(self.pre_y)
             num_clusters = len(set(self.pre_y)) - 1
             print "number of dbscan cluster is " + str(num_clusters)
-
+            '''
+            write_file = open(self.dataset+".txt","w")
+            for i in xrange(len(self.UP_pages.pages)):
+                write_file.write(self.UP_pages.pages[i].path + " gold:" + str(self.UP_pages.ground_truth[i]) \
+                                + " cluster: " + str(self.UP_pages.category[i]))
+            '''
 
     def get_affinity_matrix(self):
         return self.UP_pages.get_affinity_matrix()
@@ -523,14 +529,15 @@ class pagesCluster:
                 new_labels_pred.append(val)
                 new_labels_true.append(labels_true[idx])
         print "number of -1 " + str(len(labels_true)-len(new_labels_true))
+        print "we have {0} classes from ground truth".format(len(Set(labels_true)))
         labels_true, labels_pred = new_labels_true, new_labels_pred
 
         path_list = self.path_list
 
         pred_result_file = open("./clustering/{}_{}_{}.txt".format(dataset,algo,feature),"w")
-        for index,label_pred in enumerate(labels_pred):
-            print path_list[index] + "\t" + str(label_pred)
-            pred_result_file.write(path_list[index] + "\t" + str(label_pred) + "\n")
+        for index,label_pred in enumerate(self.UP_pages.category):
+            #print path_list[index] + "\t" + str(label_true) + "\t" + str(label_pred)
+            pred_result_file.write(path_list[index] + "\tgold: " + self.UP_pages.ground_truth[index] + "\tcluster: " + str(label_pred) + "\n")
 
         print "We have %d pages for ground truth!" %(len(labels_true))
         print "We have %d pages after prediction!" %(len(labels_pred))
@@ -580,7 +587,8 @@ class pagesCluster:
 if __name__=='__main__':
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("datasets", choices=["zhihu","stackexchange","rottentomatoes","medhelp","asp"], help="the dataset for experiments")
+    parser.add_argument("datasets", choices=["zhihu","stackexchange","rottentomatoes","medhelp","asp","new_stackexchange",\
+                        "new_rottentomatoes","new_asp"], help="the dataset for experiments")
     parser.add_argument("clustering", choices=["wkmeans","kmeans","ahc", "dbscan"], help="the algorithm for clustering")
     parser.add_argument("features_type", choices=["tf-idf","log-tf-idf","binary"], help="the features type for clustering")
     parser.add_argument("test_type", choices=["train","cv"], help="clustering or cv?")
@@ -608,6 +616,15 @@ if __name__=='__main__':
     elif args.datasets == "asp":
         num_clusters = 6
         cluster_labels = pagesCluster(args.datasets,["../Crawler/test_data/ASP/"],num_clusters)
+    elif args.datasets == "new_stackexchange":
+        num_clusters = 12
+        cluster_labels = pagesCluster(args.datasets,["../Crawler/Mar15_samples/stackexchange/"],num_clusters)
+    elif args.datasets == "new_rottentomatoes":
+        num_clusters = 16
+        cluster_labels = pagesCluster(args.datasets,["../Crawler/Mar15_samples/rottentomatoes/"],num_clusters)
+    elif args.datasets == "new_asp":
+        num_clusters = 10
+        cluster_labels = pagesCluster(args.datasets,["../Crawler/Mar15_samples/asp/"],num_clusters)
     else:
         print "error"
 

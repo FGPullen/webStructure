@@ -3,9 +3,9 @@ command=python
 class=pageCluster.py
 cv=cv
 #cv=train
-declare -a algo_array=("dbscan")
+declare -a algo_array=("dbscan" "kmeans")
 declare -a feature_array=("log-tf-idf" "tf-idf")
-declare -a data_array=("stackexchange" "zhihu" "rottentomatoes" "asp")
+declare -a data_array=("new_stackexchange" "new_rottentomatoes")
 #declare -a data_array=("zhihu")
 for data in "${data_array[@]}"
 do
