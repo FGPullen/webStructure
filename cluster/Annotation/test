@@ -1,0 +1,9 @@
+from sklearn import metrics
+
+y_pred = [1,2,2,2,1]
+y_true = [2,1,1,1,2]
+
+precision = metrics.precision_score(y_true, y_pred,average='micro')
+f1 = metrics.f1_score(y_true,y_pred,average="macro")
+print "precision is {0}".format(precision)
+print "f1 score is {0}".format(f1)
