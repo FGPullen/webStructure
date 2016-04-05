@@ -1,0 +1,476 @@
+python pageCluster.py new_stackexchange dbscan log-tf-idf train
+['../Crawler/Mar15_samples/stackexchange/']
+The feature is log-tf-idf with DBSCAN
+the size of vector is (1000, 430)
+the size of vector is (1000, 430)
+we have number of classes from ground truth is 12
+we have number of classes from clusters is 16
+Outlier: Cover 15 of 20 total ground truth, and create 4 outlier in prediction. 
+We have 976 pages for ground truth!
+We have 976 pages after prediction!
+ground truth data
+cluster No. is 0 ->{  '0': 368,   }
+cluster No. is 1 ->{  '1': 16,   }
+cluster No. is 2 ->{  '2': 43,   }
+cluster No. is 3 ->{  '2': 11,   }
+cluster No. is 4 ->{  '4': 23,   }
+cluster No. is 5 ->{  '5': 13,   }
+cluster No. is 6 ->{  '8': 187,   }
+cluster No. is 7 ->{  '9': 4,   }
+cluster No. is 8 ->{  '10': 32,   }
+cluster No. is 9 ->{  '11': 9,   }
+cluster No. is 10 ->{  '11': 10,   }
+cluster No. is 11 ->{  '11': 9,   }
+cluster No. is 12 ->{  '12': 232,   }
+cluster No. is 13 ->{  '12': 7,   }
+cluster No. is 14 ->{  '12': 7,   }
+cluster No. is 15 ->{  '13': 5,   }
+Mutual Info Score is 0.928024969228
+Adjusted Rand Score is 0.977000036055
+Micro F-Measure is 0.972754210906
+Macro F-Measure is 0.943965911335
+Micro Precision is 1.0
+Macro Precision is 1.0
+python pageCluster.py new_stackexchange dbscan tf-idf train
+['../Crawler/Mar15_samples/stackexchange/']
+The feature is tf-idf with DBSCAN
+the size of vector is (1000, 430)
+the size of vector is (1000, 430)
+we have number of classes from ground truth is 12
+we have number of classes from clusters is 14
+Outlier: Cover 12 of 20 total ground truth, and create 3 outlier in prediction. 
+We have 977 pages for ground truth!
+We have 977 pages after prediction!
+ground truth data
+cluster No. is 0 ->{  '0': 368,  '12': 232,   }
+cluster No. is 1 ->{  '1': 16,   }
+cluster No. is 2 ->{  '2': 43,   }
+cluster No. is 3 ->{  '2': 11,   }
+cluster No. is 4 ->{  '4': 23,   }
+cluster No. is 5 ->{  '5': 13,   }
+cluster No. is 6 ->{  '8': 189,   }
+cluster No. is 7 ->{  '9': 4,   }
+cluster No. is 8 ->{  '10': 32,   }
+cluster No. is 9 ->{  '11': 8,   }
+cluster No. is 10 ->{  '11': 10,   }
+cluster No. is 11 ->{  '11': 9,   }
+cluster No. is 12 ->{  '12': 14,   }
+cluster No. is 13 ->{  '13': 5,   }
+Mutual Info Score is 0.745668587974
+Adjusted Rand Score is 0.591726553841
+Micro F-Measure is 0.777067064445
+Macro F-Measure is 0.885084764925
+Micro Precision is 0.762538382805
+Macro Precision is 0.914264597191
+python pageCluster.py rottentomatoes dbscan log-tf-idf train
+['../Crawler/test_data/rottentomatoes/']
+rottentomatoes datasets
+The feature is log-tf-idf with DBSCAN
+the size of vector is (1036, 288)
+the size of vector is (1036, 288)
+we have number of classes from ground truth is 7
+we have number of classes from clusters is 13
+Outlier: Cover 0 of 0 total ground truth, and create 11 outlier in prediction. 
+We have 1025 pages for ground truth!
+We have 1025 pages after prediction!
+ground truth data
+cluster No. is 0 ->{  '0': 285,   }
+cluster No. is 1 ->{  '6': 65,   }
+cluster No. is 2 ->{  '0': 15,   }
+cluster No. is 3 ->{  '1': 60,   }
+cluster No. is 4 ->{  '5': 14,   }
+cluster No. is 5 ->{  '5': 6,   }
+cluster No. is 6 ->{  '3': 372,   }
+cluster No. is 7 ->{  '4': 69,   }
+cluster No. is 8 ->{  '3': 28,   }
+cluster No. is 9 ->{  '2': 8,   }
+cluster No. is 10 ->{  '2': 55,   }
+cluster No. is 11 ->{  '6': 41,   }
+cluster No. is 12 ->{  '3': 7,   }
+Mutual Info Score is 0.837047209092
+Adjusted Rand Score is 0.893917842781
+Micro F-Measure is 0.942249390227
+Macro F-Measure is 0.920770899631
+Micro Precision is 1.0
+Macro Precision is 1.0
+python pageCluster.py rottentomatoes dbscan tf-idf train
+['../Crawler/test_data/rottentomatoes/']
+rottentomatoes datasets
+The feature is tf-idf with DBSCAN
+the size of vector is (1036, 288)
+the size of vector is (1036, 288)
+we have number of classes from ground truth is 7
+we have number of classes from clusters is 10
+Outlier: Cover 0 of 0 total ground truth, and create 9 outlier in prediction. 
+We have 1027 pages for ground truth!
+We have 1027 pages after prediction!
+ground truth data
+cluster No. is 0 ->{  '0': 300,   }
+cluster No. is 1 ->{  '6': 106,   }
+cluster No. is 2 ->{  '1': 60,   }
+cluster No. is 3 ->{  '5': 20,   }
+cluster No. is 4 ->{  '3': 374,   }
+cluster No. is 5 ->{  '4': 69,   }
+cluster No. is 6 ->{  '3': 16,   }
+cluster No. is 7 ->{  '3': 12,   }
+cluster No. is 8 ->{  '2': 63,   }
+cluster No. is 9 ->{  '3': 7,   }
+Mutual Info Score is 0.909505595445
+Adjusted Rand Score is 0.932403606156
+Micro F-Measure is 0.982198395555
+Macro F-Measure is 0.993614303959
+Micro Precision is 1.0
+Macro Precision is 1.0
+python pageCluster.py new_asp dbscan log-tf-idf train
+['../Crawler/Mar15_samples/asp/']
+The feature is log-tf-idf with DBSCAN
+the size of vector is (1000, 188)
+the size of vector is (1000, 188)
+we have number of classes from ground truth is 9
+we have number of classes from clusters is 10
+Outlier: Cover 2 of 2 total ground truth, and create 37 outlier in prediction. 
+We have 961 pages for ground truth!
+We have 961 pages after prediction!
+ground truth data
+cluster No. is 0 ->{  '0': 105,   }
+cluster No. is 1 ->{  '1': 4,   }
+cluster No. is 2 ->{  '4': 172,   }
+cluster No. is 3 ->{  '5': 187,   }
+cluster No. is 4 ->{  '6': 408,   }
+cluster No. is 5 ->{  '6': 7,   }
+cluster No. is 6 ->{  '9': 42,   }
+cluster No. is 7 ->{  '6': 4,   }
+cluster No. is 8 ->{  '6': 4,   }
+cluster No. is 9 ->{  '13': 28,   }
+Mutual Info Score is 0.945791954976
+Adjusted Rand Score is 0.966026130886
+Micro F-Measure is 0.99205475644
+Macro F-Measure is 0.997421351212
+Micro Precision is 1.0
+Macro Precision is 1.0
+python pageCluster.py new_asp dbscan tf-idf train
+['../Crawler/Mar15_samples/asp/']
+The feature is tf-idf with DBSCAN
+the size of vector is (1000, 188)
+the size of vector is (1000, 188)
+we have number of classes from ground truth is 9
+we have number of classes from clusters is 5
+Outlier: Cover 2 of 2 total ground truth, and create 15 outlier in prediction. 
+We have 983 pages for ground truth!
+We have 983 pages after prediction!
+ground truth data
+cluster No. is 0 ->{  '0': 105,   }
+cluster No. is 1 ->{  '1': 4,  '13': 28,   }
+cluster No. is 2 ->{  '4': 172,   }
+cluster No. is 3 ->{  '5': 186,  '6': 446,   }
+cluster No. is 4 ->{  '9': 42,   }
+Mutual Info Score is 0.725399432403
+Adjusted Rand Score is 0.642835356541
+Micro F-Measure is 0.813484640364
+Macro F-Measure is 0.776825933964
+Micro Precision is 0.806714140387
+Macro Precision is 0.714285714286
+python pageCluster.py new_douban dbscan log-tf-idf train
+['../Crawler/Mar15_samples/douban/']
+The feature is log-tf-idf with DBSCAN
+the size of vector is (1000, 329)
+the size of vector is (1000, 329)
+we have number of classes from ground truth is 9
+we have number of classes from clusters is 21
+Outlier: Cover 5 of 5 total ground truth, and create 11 outlier in prediction. 
+We have 984 pages for ground truth!
+We have 984 pages after prediction!
+ground truth data
+cluster No. is 0 ->{  '0': 7,   }
+cluster No. is 1 ->{  '1': 72,   }
+cluster No. is 2 ->{  '2': 17,   }
+cluster No. is 3 ->{  '3': 66,  '5': 12,   }
+cluster No. is 4 ->{  '4': 88,   }
+cluster No. is 5 ->{  '5': 148,   }
+cluster No. is 6 ->{  '5': 75,   }
+cluster No. is 7 ->{  '5': 17,   }
+cluster No. is 8 ->{  '5': 17,   }
+cluster No. is 9 ->{  '5': 21,   }
+cluster No. is 10 ->{  '5': 17,   }
+cluster No. is 11 ->{  '5': 13,   }
+cluster No. is 12 ->{  '5': 18,   }
+cluster No. is 13 ->{  '5': 35,   }
+cluster No. is 14 ->{  '5': 17,   }
+cluster No. is 15 ->{  '5': 18,   }
+cluster No. is 16 ->{  '5': 21,  '6': 270,   }
+cluster No. is 17 ->{  '0': 6,   }
+cluster No. is 18 ->{  '5': 8,   }
+cluster No. is 19 ->{  '5': 4,   }
+cluster No. is 20 ->{  '7': 17,   }
+Mutual Info Score is 0.56571160064
+Adjusted Rand Score is 0.483178518817
+Micro F-Measure is 0.757231847674
+Macro F-Measure is 0.885222525111
+Micro Precision is 0.966463414634
+Macro Precision is 0.990646258503
+python pageCluster.py new_douban dbscan tf-idf train
+['../Crawler/Mar15_samples/douban/']
+The feature is tf-idf with DBSCAN
+the size of vector is (1000, 329)
+the size of vector is (1000, 329)
+we have number of classes from ground truth is 9
+we have number of classes from clusters is 21
+Outlier: Cover 4 of 5 total ground truth, and create 15 outlier in prediction. 
+We have 980 pages for ground truth!
+We have 980 pages after prediction!
+ground truth data
+cluster No. is 0 ->{  '0': 7,   }
+cluster No. is 1 ->{  '1': 72,   }
+cluster No. is 2 ->{  '5': 18,   }
+cluster No. is 3 ->{  '2': 17,   }
+cluster No. is 4 ->{  '3': 66,  '5': 12,   }
+cluster No. is 5 ->{  '4': 88,   }
+cluster No. is 6 ->{  '5': 149,   }
+cluster No. is 7 ->{  '5': 75,   }
+cluster No. is 8 ->{  '5': 17,   }
+cluster No. is 9 ->{  '5': 15,   }
+cluster No. is 10 ->{  '5': 21,   }
+cluster No. is 11 ->{  '5': 16,   }
+cluster No. is 12 ->{  '5': 13,   }
+cluster No. is 13 ->{  '5': 18,   }
+cluster No. is 14 ->{  '5': 35,   }
+cluster No. is 15 ->{  '5': 17,   }
+cluster No. is 16 ->{  '5': 21,  '6': 270,   }
+cluster No. is 17 ->{  '0': 4,   }
+cluster No. is 18 ->{  '5': 8,   }
+cluster No. is 19 ->{  '5': 4,   }
+cluster No. is 20 ->{  '7': 17,   }
+Mutual Info Score is 0.566508426977
+Adjusted Rand Score is 0.486200630708
+Micro F-Measure is 0.76064795739
+Macro F-Measure is 0.895476751307
+Micro Precision is 0.966326530612
+Macro Precision is 0.990603644647
+python pageCluster.py new_youtube dbscan log-tf-idf train
+['../Crawler/Mar15_samples/youtube/']
+The feature is log-tf-idf with DBSCAN
+the size of vector is (1000, 415)
+the size of vector is (1000, 415)
+we have number of classes from ground truth is 4
+we have number of classes from clusters is 9
+Outlier: Cover 2 of 3 total ground truth, and create 10 outlier in prediction. 
+We have 987 pages for ground truth!
+We have 987 pages after prediction!
+ground truth data
+cluster No. is 0 ->{  '0': 244,   }
+cluster No. is 1 ->{  '0': 15,   }
+cluster No. is 2 ->{  '0': 11,   }
+cluster No. is 3 ->{  '0': 7,   }
+cluster No. is 4 ->{  '1': 65,   }
+cluster No. is 5 ->{  '0': 5,   }
+cluster No. is 6 ->{  '6': 630,   }
+cluster No. is 7 ->{  '6': 6,   }
+cluster No. is 8 ->{  '6': 4,   }
+Mutual Info Score is 0.784615147605
+Adjusted Rand Score is 0.933835093373
+Micro F-Measure is 0.974253299237
+Macro F-Measure is 0.973294212748
+Micro Precision is 1.0
+Macro Precision is 1.0
+python pageCluster.py new_youtube dbscan tf-idf train
+['../Crawler/Mar15_samples/youtube/']
+The feature is tf-idf with DBSCAN
+the size of vector is (1000, 415)
+the size of vector is (1000, 415)
+we have number of classes from ground truth is 4
+we have number of classes from clusters is 4
+Outlier: Cover 2 of 3 total ground truth, and create 7 outlier in prediction. 
+We have 990 pages for ground truth!
+We have 990 pages after prediction!
+ground truth data
+cluster No. is 0 ->{  '0': 266,   }
+cluster No. is 1 ->{  '0': 15,   }
+cluster No. is 2 ->{  '1': 65,   }
+cluster No. is 3 ->{  '6': 644,   }
+Mutual Info Score is 0.932175574318
+Adjusted Rand Score is 0.983699784726
+Micro F-Measure is 0.992216497701
+Macro F-Measure is 0.990859232176
+Micro Precision is 1.0
+Macro Precision is 1.0
+python pageCluster.py new_tripadvisor dbscan log-tf-idf train
+['../Crawler/Mar15_samples/tripadvisor/']
+The feature is log-tf-idf with DBSCAN
+the size of vector is (1000, 1111)
+the size of vector is (1000, 1111)
+we have number of classes from ground truth is 19
+we have number of classes from clusters is 19
+Outlier: Cover 27 of 27 total ground truth, and create 10 outlier in prediction. 
+We have 963 pages for ground truth!
+We have 963 pages after prediction!
+ground truth data
+cluster No. is 0 ->{  '0': 8,   }
+cluster No. is 1 ->{  '1': 4,   }
+cluster No. is 2 ->{  '2': 7,   }
+cluster No. is 3 ->{  '3': 294,   }
+cluster No. is 4 ->{  '3': 15,   }
+cluster No. is 5 ->{  '4': 147,   }
+cluster No. is 6 ->{  '5': 46,   }
+cluster No. is 7 ->{  '6': 103,   }
+cluster No. is 8 ->{  '7': 7,   }
+cluster No. is 9 ->{  '8': 7,   }
+cluster No. is 10 ->{  '9': 5,   }
+cluster No. is 11 ->{  '10': 4,   }
+cluster No. is 12 ->{  '11': 10,   }
+cluster No. is 13 ->{  '12': 269,   }
+cluster No. is 14 ->{  '13': 13,   }
+cluster No. is 15 ->{  '14': 6,   }
+cluster No. is 16 ->{  '15': 10,   }
+cluster No. is 17 ->{  '16': 4,   }
+cluster No. is 18 ->{  '17': 4,   }
+Mutual Info Score is 0.965478096776
+Adjusted Rand Score is 0.971625394407
+Micro F-Measure is 0.992018102633
+Macro F-Measure is 0.998618021006
+Micro Precision is 1.0
+Macro Precision is 1.0
+python pageCluster.py new_tripadvisor dbscan tf-idf train
+['../Crawler/Mar15_samples/tripadvisor/']
+The feature is tf-idf with DBSCAN
+the size of vector is (1000, 1111)
+the size of vector is (1000, 1111)
+we have number of classes from ground truth is 19
+we have number of classes from clusters is 19
+Outlier: Cover 27 of 27 total ground truth, and create 17 outlier in prediction. 
+We have 956 pages for ground truth!
+We have 956 pages after prediction!
+ground truth data
+cluster No. is 0 ->{  '0': 8,   }
+cluster No. is 1 ->{  '2': 7,   }
+cluster No. is 2 ->{  '3': 294,   }
+cluster No. is 3 ->{  '3': 15,   }
+cluster No. is 4 ->{  '4': 147,   }
+cluster No. is 5 ->{  '5': 46,   }
+cluster No. is 6 ->{  '6': 103,   }
+cluster No. is 7 ->{  '7': 7,   }
+cluster No. is 8 ->{  '8': 7,   }
+cluster No. is 9 ->{  '9': 5,   }
+cluster No. is 10 ->{  '10': 4,   }
+cluster No. is 11 ->{  '11': 7,   }
+cluster No. is 12 ->{  '12': 269,   }
+cluster No. is 13 ->{  '13': 6,   }
+cluster No. is 14 ->{  '13': 7,   }
+cluster No. is 15 ->{  '14': 6,   }
+cluster No. is 16 ->{  '15': 10,   }
+cluster No. is 17 ->{  '16': 4,   }
+cluster No. is 18 ->{  '17': 4,   }
+Mutual Info Score is 0.959711300241
+Adjusted Rand Score is 0.971229952025
+Micro F-Measure is 0.98788015987
+Macro F-Measure is 0.980889669301
+Micro Precision is 1.0
+Macro Precision is 1.0
+python pageCluster.py new_hupu dbscan log-tf-idf train
+['../Crawler/Mar15_samples/hupu/']
+The feature is log-tf-idf with DBSCAN
+the size of vector is (1000, 200)
+the size of vector is (1000, 200)
+we have number of classes from ground truth is 3
+we have number of classes from clusters is 5
+Outlier: Cover 1 of 8 total ground truth, and create 11 outlier in prediction. 
+We have 981 pages for ground truth!
+We have 981 pages after prediction!
+ground truth data
+cluster No. is 0 ->{  '9': 212,   }
+cluster No. is 1 ->{  '0': 745,   }
+cluster No. is 2 ->{  '0': 2,   }
+cluster No. is 3 ->{  '0': 8,   }
+cluster No. is 4 ->{  '9': 14,   }
+Mutual Info Score is 0.826510059439
+Adjusted Rand Score is 0.953242176584
+Micro F-Measure is 0.987505527395
+Macro F-Measure is 0.980684931507
+Micro Precision is 1.0
+Macro Precision is 1.0
+python pageCluster.py new_hupu dbscan tf-idf train
+['../Crawler/Mar15_samples/hupu/']
+The feature is tf-idf with DBSCAN
+the size of vector is (1000, 200)
+the size of vector is (1000, 200)
+we have number of classes from ground truth is 3
+we have number of classes from clusters is 7
+Outlier: Cover 2 of 8 total ground truth, and create 20 outlier in prediction. 
+We have 972 pages for ground truth!
+We have 972 pages after prediction!
+ground truth data
+cluster No. is 0 ->{  '9': 212,   }
+cluster No. is 1 ->{  '0': 726,   }
+cluster No. is 2 ->{  '0': 2,   }
+cluster No. is 3 ->{  '0': 8,   }
+cluster No. is 4 ->{  '0': 6,   }
+cluster No. is 5 ->{  '0': 4,   }
+cluster No. is 6 ->{  '9': 14,   }
+Mutual Info Score is 0.754713146428
+Adjusted Rand Score is 0.920507571283
+Micro F-Measure is 0.982140314961
+Macro F-Measure is 0.977224786579
+Micro Precision is 1.0
+Macro Precision is 1.0
+python pageCluster.py new_baidu dbscan log-tf-idf train
+['../Crawler/Mar15_samples/baidu/']
+The feature is log-tf-idf with DBSCAN
+the size of vector is (1000, 567)
+the size of vector is (1000, 567)
+we have number of classes from ground truth is 12
+we have number of classes from clusters is 13
+Outlier: Cover 17 of 18 total ground truth, and create 5 outlier in prediction. 
+We have 977 pages for ground truth!
+We have 977 pages after prediction!
+ground truth data
+cluster No. is 0 ->{  '0': 4,   }
+cluster No. is 1 ->{  '1': 8,   }
+cluster No. is 2 ->{  '3': 72,   }
+cluster No. is 3 ->{  '3': 15,  '9': 360,   }
+cluster No. is 4 ->{  '4': 94,   }
+cluster No. is 5 ->{  '6': 9,   }
+cluster No. is 6 ->{  '7': 8,   }
+cluster No. is 7 ->{  '8': 27,   }
+cluster No. is 8 ->{  '8': 341,   }
+cluster No. is 9 ->{  '9': 22,   }
+cluster No. is 10 ->{  '10': 4,   }
+cluster No. is 11 ->{  '11': 7,   }
+cluster No. is 12 ->{  '12': 6,   }
+Mutual Info Score is 0.852076376052
+Adjusted Rand Score is 0.881791470456
+Micro F-Measure is 0.958144604345
+Macro F-Measure is 0.983518311397
+Micro Precision is 0.984646878199
+Macro Precision is 0.984326018809
+python pageCluster.py new_baidu dbscan tf-idf train
+['../Crawler/Mar15_samples/baidu/']
+The feature is tf-idf with DBSCAN
+the size of vector is (1000, 567)
+the size of vector is (1000, 567)
+we have number of classes from ground truth is 12
+we have number of classes from clusters is 16
+Outlier: Cover 17 of 18 total ground truth, and create 12 outlier in prediction. 
+We have 970 pages for ground truth!
+We have 970 pages after prediction!
+ground truth data
+cluster No. is 0 ->{  '0': 4,   }
+cluster No. is 1 ->{  '1': 8,   }
+cluster No. is 2 ->{  '3': 69,   }
+cluster No. is 3 ->{  '3': 15,   }
+cluster No. is 4 ->{  '4': 94,   }
+cluster No. is 5 ->{  '6': 9,   }
+cluster No. is 6 ->{  '7': 8,   }
+cluster No. is 7 ->{  '8': 27,   }
+cluster No. is 8 ->{  '8': 341,   }
+cluster No. is 9 ->{  '9': 348,   }
+cluster No. is 10 ->{  '9': 4,   }
+cluster No. is 11 ->{  '9': 4,   }
+cluster No. is 12 ->{  '9': 22,   }
+cluster No. is 13 ->{  '10': 4,   }
+cluster No. is 14 ->{  '11': 7,   }
+cluster No. is 15 ->{  '12': 6,   }
+Mutual Info Score is 0.832967777098
+Adjusted Rand Score is 0.892423195943
+Micro F-Measure is 0.960959553401
+Macro F-Measure is 0.983868787719
+Micro Precision is 1.0
+Macro Precision is 1.0

@@ -728,7 +728,7 @@
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/tags/multi-user/topusers	gold: 11	cluster: 10
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/tags/music/synonyms	gold: 11	cluster: 9
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/tags/nexus-4/info	gold: 11	cluster: 11
-../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/tags/onedrive/synonyms	gold: 11	cluster: 11
+../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/tags/onedrive/synonyms	gold: 11	cluster: -1
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/tags/samsung-galaxy-s-2/synonyms	gold: 11	cluster: 9
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/tags/screen/info	gold: 11	cluster: 11
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/tags/sd-card/synonyms	gold: 11	cluster: 9
@@ -789,7 +789,7 @@
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/132013/sarpsta	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/132172/user132172	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/133084/majkl	gold: 12	cluster: 0
-../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/133084/majkl?tab=topactivity	gold: 12	cluster: 13
+../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/133084/majkl?tab=topactivity	gold: 12	cluster: 12
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/133875/marcv81	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/134973/dries-hermans	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/134996/user	gold: 12	cluster: 0
@@ -827,7 +827,7 @@
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/146703/thomasuj	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/147132/mohemmad-albughdadi	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/148005/mimi-terkawi	gold: 12	cluster: 0
-../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/148234/niceman?tab=topactivity	gold: 12	cluster: 13
+../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/148234/niceman?tab=topactivity	gold: 12	cluster: 12
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/148581/medk	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/148646/kazuos	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/14877/elysium	gold: 12	cluster: 0
@@ -903,7 +903,7 @@
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/24986/gzayzay?tab=profile	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/263/steffen-opel	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/267/al-e	gold: 12	cluster: 0
-../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/2707/ephraim?tab=topactivity	gold: 12	cluster: 13
+../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/2707/ephraim?tab=topactivity	gold: 12	cluster: 12
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/27163/willlma	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/27876/ankit-sharma	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/28001/patrick	gold: 12	cluster: 0
@@ -937,7 +937,7 @@
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/42476/	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/4336/rabarberski	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/440/	gold: 12	cluster: 0
-../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/44325/andrew-t?tab=topactivity	gold: 12	cluster: 13
+../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/44325/andrew-t?tab=topactivity	gold: 12	cluster: 12
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/4433/malvineous	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/44506/eyecatchup	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/475	gold: 12	cluster: 0
@@ -990,11 +990,11 @@
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/97148/brentm	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/97575/user985366	gold: 12	cluster: 0
 ../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/9861/serpro	gold: 12	cluster: 0
-../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/login?ssrc=hero&returnurl=http%3a%2f%2fandroid.stackexchange.com%2fquestions%2f139225%2fwhats-this-option-in-the-aospa-stock-email-app	gold: -1	cluster: 14
-../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/login?ssrc=question/page&returnurl=http%3a%2f%2fandroid.stackexchange.com%2fquestions%2f129082%2fmusic-keeps-pausing%23new-answer	gold: -1	cluster: 14
-../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/login?ssrc=review/queue&returnurl=http%3a%2f%2fandroid.stackexchange.com%2freview%2fclose	gold: -1	cluster: 14
-../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/signup?ssrc=hero&returnurl=http%3a%2f%2fandroid.stackexchange.com%2fquestions%2f1184%2fhow-do-i-root-my-android-device	gold: 13	cluster: 14
-../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/signup?ssrc=hero&returnurl=http%3a%2f%2fandroid.stackexchange.com%2fquestions%2f138794%2fa-row-of-galaxy-note-3-screen-is-not-responsive	gold: 13	cluster: 14
-../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/signup?ssrc=hero&returnurl=http%3a%2f%2fandroid.stackexchange.com%2fquestions%2f139192%2ffail-to-install-cm13-on-oppo-find-7a%2f139221	gold: 13	cluster: 14
-../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/signup?ssrc=hero&returnurl=http%3a%2f%2fandroid.stackexchange.com%2fquestions%2f33113%2fhow-to-check-an-applications-checksum-or-hash-on-google-play%2f138989	gold: 13	cluster: 14
-../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/signup?ssrc=hero&returnurl=http%3a%2f%2fandroid.stackexchange.com%2fquestions%2f75684%2fwhen-will-my-device-get-the-android-5-0-update-lollipop	gold: 13	cluster: 14
+../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/login?ssrc=hero&returnurl=http%3a%2f%2fandroid.stackexchange.com%2fquestions%2f139225%2fwhats-this-option-in-the-aospa-stock-email-app	gold: -1	cluster: -1
+../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/login?ssrc=question/page&returnurl=http%3a%2f%2fandroid.stackexchange.com%2fquestions%2f129082%2fmusic-keeps-pausing%23new-answer	gold: -1	cluster: -1
+../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/login?ssrc=review/queue&returnurl=http%3a%2f%2fandroid.stackexchange.com%2freview%2fclose	gold: -1	cluster: -1
+../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/signup?ssrc=hero&returnurl=http%3a%2f%2fandroid.stackexchange.com%2fquestions%2f1184%2fhow-do-i-root-my-android-device	gold: 13	cluster: 13
+../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/signup?ssrc=hero&returnurl=http%3a%2f%2fandroid.stackexchange.com%2fquestions%2f138794%2fa-row-of-galaxy-note-3-screen-is-not-responsive	gold: 13	cluster: 13
+../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/signup?ssrc=hero&returnurl=http%3a%2f%2fandroid.stackexchange.com%2fquestions%2f139192%2ffail-to-install-cm13-on-oppo-find-7a%2f139221	gold: 13	cluster: 13
+../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/signup?ssrc=hero&returnurl=http%3a%2f%2fandroid.stackexchange.com%2fquestions%2f33113%2fhow-to-check-an-applications-checksum-or-hash-on-google-play%2f138989	gold: 13	cluster: 13
+../Crawler/Mar15/samples/stackexchange/http://android.stackexchange.com/users/signup?ssrc=hero&returnurl=http%3a%2f%2fandroid.stackexchange.com%2fquestions%2f75684%2fwhen-will-my-device-get-the-android-5-0-update-lollipop	gold: 13	cluster: 13

@@ -9,11 +9,11 @@ from sets import Set
 
 
 class allPages:
-    def __init__(self, folder_path ,dataset,mode="raw"): # mode: {raw, read, write}
+    def __init__(self, folder_path ,dataset,mode="read"): # mode: {raw, read, write}
         self.folder_path = folder_path
         self.dataset = dataset
         print folder_path
-        self.threshold = 0.01 
+        self.threshold = 0.004
         self.pages = []
         self.path_list = []
         self.category = [] # prediction
@@ -31,7 +31,7 @@ class allPages:
             for i in range(len(page_list)):
 
                     pid = page_list[i].strip().split(":")[0]
-                    file_path = "".join(page_list[i].strip().split(":")[1:])
+                    file_path = ":".join(page_list[i].strip().split(":")[1:])
                     file_page = Page(file_path,mode="read")
                     self.path_list.append(file_path)
 
@@ -44,7 +44,7 @@ class allPages:
                     self.pages.append(file_page)
             
             self.category = [0 for i in range(len(page_list))]
-            self.get_ground_truth()
+            self.get_ground_truth(dataset)
         else:
         # initialize data structure
             #  update attributes
@@ -243,31 +243,43 @@ class allPages:
                 gold_dict[path] = id
         return gold_dict
 
-
     def get_ground_truth(self,dataset):
         if dataset == "new_stackexchange":
-            gold_file = open("./Data/site.gold/stackexchange/stackexchange.gold").readlines()
+            gold_file = open("./Annotation/site.gold/stackexchange/stackexchange.gold").readlines()
             gold_dict = self.build_gold(gold_file)
-            print self.folder_path
+            #print gold_dict.keys()[0]
             for i in range(len(self.pages)):
                 path = self.pages[i].path.replace("../Crawler/Mar15/samples/stackexchange/","")
-                id = gold_dict[path]
+                id = int(gold_dict[path])
                 self.ground_truth.append(id)
         elif dataset == "new_rottentomatoes":
-            gold_file = open("./Data/site.gold/rottentomatoes/rottentomatoes.gold").readlines()
+            gold_file = open("./Annotation/site.gold/rottentomatoes/rottentomatoes.gold").readlines()
             gold_dict = self.build_gold(gold_file)
             print self.folder_path
             for i in range(len(self.pages)):
                 path = self.pages[i].path.replace("../Crawler/Mar15/samples/rottentomatoes/","")
-                id = gold_dict[path]
+                id = int(gold_dict[path])
                 self.ground_truth.append(id)
-        elif dataset == "new_asp":
-            gold_file = open("./Data/site.gold/asp/asp.gold").readlines()
+        elif dataset == "new_biketo":
+            gold_file = open("./Annotation/site.gold/biketo/biketo.gold").readlines()
             gold_dict = self.build_gold(gold_file)
             print self.folder_path
             for i in range(len(self.pages)):
-                path = self.pages[i].path.replace("../Crawler/Mar15/samples/asp/","")
-                id = gold_dict[path]
+                path = self.pages[i].path.replace("../Crawler/Mar15/samples/biketo/","")
+                if ".jpg.html" in path:
+                    print path
+                    id = -1
+                else:
+                    id = int(gold_dict[path])
+                self.ground_truth.append(id)
+        elif "new_" in dataset:
+            data = dataset.replace("new_","")
+            gold_file = open("./Annotation/site.gold/{0}/{0}.gold".format(data)).readlines()
+            gold_dict = self.build_gold(gold_file)
+            #print self.folder_path
+            for i in range(len(self.pages)):
+                path = self.pages[i].path.replace("../Crawler/Mar15/samples/{}/".format(data),"")
+                id = int(gold_dict[path.strip()])
                 self.ground_truth.append(id)
         else:
             # /users/ /questions/ /q/ /questions/tagged/   /tags/ /posts/ /feeds/ /others

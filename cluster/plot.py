@@ -1,4 +1,5 @@
 from pages import allPages
+from sklearn.preprocessing import normalize
 from collections import Counter
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,7 +16,34 @@ plt.show()
 
 
 '''
-pages = allPages(["../Crawler/test_data/zhihu/"],dataset="rottentomatoes",mode="raw")
+#pages = allPages(["../Crawler/test_data/zhihu/"],dataset="rottentomatoes",mode="raw")
+pages = allPages(["../Crawler/Mar15_samples/asp/"],dataset="new_asp",mode="read")
+
+tf_matrix = []
+log_tf_matrix = []
+for index, page in enumerate(pages.pages):
+    if index == 1 or index == 989:
+        print page.path
+        vector = []
+        for key in page.selected_tfidf:
+            vector.append(page.selected_tfidf[key])
+        tf_vector = normalize(vector,norm='l1')[0]
+        tf_matrix.append(tf_vector)
+
+        vector = []
+        for key in page.selected_logtfidf:
+            vector.append(page.selected_logtfidf[key])
+        log_tf_vector = normalize(vector,norm='l1')[0]
+        log_tf_matrix.append(log_tf_vector)
+print tf_matrix
+print log_tf_matrix
+#ax = subplot(1,1,1)
+plt.subplot(211)
+line1 = plt.plot(tf_matrix[0],color="r",label="question_tf-idf")
+line2= plt.plot(tf_matrix[1],color="g",label="user_tf-idf")
+plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=2, mode="expand", borderaxespad=0.)
+plt.show()
+'''
 df = pages.selected_df
 print pages.num
 tmp = pages.df
@@ -31,55 +59,16 @@ x = []
 y = []
 df_counter = sorted(counter.iteritems(),key=lambda i:i[0],reverse=False)
 for index,tuple in enumerate(df_counter):
-    if tuple[0] > 10:
+    if tuple[0] > 3:
         x.append(tuple[0])
         y.append(tuple[1])
 plt.plot(x,y)
 plt.scatter(x,y,s=10)
-plt.show()
-'''
-x = []
-y = []
-for key in counter:
-    x.append(key)
-    y.append(counter[key])
-plt.plot(x,y)
-plt.show()
-'''
-'''
-N = 5
-menMeans = (20, 35, 30, 35, 27)
-menStd = (2, 3, 4, 1, 2)
 
-ind = np.arange(N)  # the x locations for the groups
-width = 0.35       # the width of the bars
-
-fig, ax = plt.subplots()
-rects1 = ax.bar(ind, menMeans, width, color='r', yerr=menStd)
-
-womenMeans = (25, 32, 34, 20, 25)
-womenStd = (3, 5, 2, 3, 3)
-rects2 = ax.bar(ind + width, womenMeans, width, color='y', yerr=womenStd)
-
-# add some text for labels, title and axes ticks
-ax.set_ylabel('Scores')
-ax.set_title('Scores by group and gender')
-ax.set_xticks(ind + width)
-ax.set_xticklabels(('G1', 'G2', 'G3', 'G4', 'G5'))
-
-ax.legend((rects1[0], rects2[0]), ('Men', 'Women'))
-
-
-def autolabel(rects):
-    # attach some text labels
-    for rect in rects:
-        height = rect.get_height()
-        ax.text(rect.get_x() + rect.get_width()/2., 1.05*height,
-                '%d' % int(height),
-                ha='center', va='bottom')
-
-autolabel(rects1)
-autolabel(rects2)
+axis = []
+for key in g_cnt:
+    axis.append(g_cnt[key])
+    plt.plot([g_cnt[key],g_cnt[key]],[0,50],color="r")
 
 plt.show()
 '''

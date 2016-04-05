@@ -107,7 +107,7 @@ class pagesCluster:
             '''
         else :
             labels_true = np.array(self.UP_pages.ground_truth)
-            skf = StratifiedKFold(labels_true, n_folds=5)
+            skf = StratifiedKFold(labels_true, n_folds=4)
             results = []
             for train, test in skf:
                 train_x, test_x,train_gold,test_gold = self.X[train], self.X[test], labels_true[train], labels_true[test]
@@ -246,6 +246,7 @@ class pagesCluster:
         return eps
 
     def DBSCAN(self, features, cv=False):
+        print "The feature is " + str(features) + " with DBSCAN"
         # default file path is
         feature_matrix = []
         y = []
@@ -273,13 +274,14 @@ class pagesCluster:
 
         if cv:
             labels_true = np.array(self.UP_pages.ground_truth)
-            skf = StratifiedKFold(labels_true, n_folds=5)
+            skf = StratifiedKFold(labels_true, n_folds=4)
             results = []
             for train, test in skf:
                 #print train, test
                 train_x, test_x, train_gold, test_gold = self.X[train], self.X[test], labels_true[train], labels_true[test]
                 eps = self.findEps(train_x)
-                db = Cluster.DBSCAN(eps=eps, min_samples=3).fit(train_x)
+                print "eps is " + str(eps)
+                db = Cluster.DBSCAN(eps=eps, min_samples=4).fit(train_x)
                 train_y = db.labels_
                 #self.get_cluster_number_shift(train_gold, train_y)
 
@@ -297,7 +299,7 @@ class pagesCluster:
                 '''
                 #km_train_x = train_x
                 #km_train_gold = train_gold
-                K = 4
+                K = 3
                 nbrs = KNeighborsClassifier(n_neighbors=K,weights="distance",algorithm="ball_tree").fit(train_x,train_y)
                 test_y = nbrs.predict(test_x)
                 path_list = self.UP_pages.path_list
@@ -323,16 +325,15 @@ class pagesCluster:
                 print line
                 cv_batch_file.write(line + "\n" )
 
-
-
         else:
             print "the size of vector is " + str(self.X.shape)
             eps = self.findEps(self.X)
-            db = Cluster.DBSCAN(eps=eps, min_samples=3).fit(self.X)
+            #print "eps is " + str(eps)
+            db = Cluster.DBSCAN(eps=eps, min_samples=4).fit(self.X)
             self.pre_y = db.labels_
             self.UP_pages.updateCategory(self.pre_y)
             num_clusters = len(set(self.pre_y)) - 1
-            print "number of dbscan cluster is " + str(num_clusters)
+            #print "number of dbscan cluster is " + str(num_clusters)
             '''
             write_file = open(self.dataset+".txt","w")
             for i in xrange(len(self.UP_pages.pages)):
@@ -431,7 +432,7 @@ class pagesCluster:
     def get_cluster_number_shift(self,labels_true, labels_pred):
         true_set = set(labels_true)
         pre_set = set(labels_pred)
-        print pre_set
+        #print pre_set
         dic = {}
         for item in pre_set:
             dic[item] = {}
@@ -442,12 +443,15 @@ class pagesCluster:
         for i in range(len(labels_true)):
             dic[labels_pred[i]][labels_true[i]] += 1
         print "ground truth data"
-        print dic
+
+        #print dic
+        self.output_dict(dic)
+
         final_dict = collections.defaultdict(dict)
         #used_list = set()
         for pred_key in pre_set:
             max_value = -1
-            print dic[pred_key]
+            #print dic[pred_key]
             for index, value in dic[pred_key].iteritems():
                 #if index not in used_list:
                 if value > max_value:
@@ -457,6 +461,18 @@ class pagesCluster:
                 #used_list.add(max_label)
         return final_dict
 
+    def output_dict(self,dic):
+        for key in dic:
+            print "cluster No. is " + str(key) + " ->{ ",
+            value_dic = dic[key]
+            for class_key in value_dic:
+                if value_dic[class_key]!=0:
+                    print "'"+str(class_key)+"'" + ": " + str(value_dic[class_key]) + ", ",
+            print " }"
+
+
+
+
     def Evaluation_CV(self, test_gold, test_y, train_gold, train_y, path_list=None):
         if test_gold is None or test_y is None or train_gold is None or train_y is None:
             raise "Labels are None"
@@ -464,9 +480,10 @@ class pagesCluster:
         new_test_gold = []
         new_test_y = []
         for idx, val in enumerate(test_y):
-            if val != -1:
+            if val != -1 and test_gold[idx]!=-1:
                 new_test_y.append(val)
                 new_test_gold.append(test_gold[idx])
+
         print "number of -1 " + str(len(new_test_gold)-len(test_gold))
         test_gold, test_y = new_test_gold, new_test_y
 
@@ -475,7 +492,7 @@ class pagesCluster:
         test_gold_counter = collections.Counter(test_gold)
         test_gold_right = dict([(index,0.0) for index in test_gold_counter])
         cluster_dict = self.get_cluster_number_shift(train_gold, train_y) # cluster_dict: key: cluster_id value: class_id
-        print cluster_dict
+        #print cluster_dict
         right_guess = 0
         for index,item in enumerate(test_y):
             if cluster_dict[item] == test_gold[index]:
@@ -524,12 +541,30 @@ class pagesCluster:
 
         new_labels_true = []
         new_labels_pred = []
+        outlier_list = [0,0,0] # #outlier from true, common, pred
         for idx, val in enumerate(labels_pred):
-            if val != -1:
+            if val == -1 and labels_true[idx] == -1:
+                outlier_list[1] +=1
+            elif val !=-1 and labels_true[idx] == -1:
+                #print str(val) + " " + str(labels_true[idx])
+                outlier_list[0] += 1
+            elif val ==-1 and labels_true[idx] != -1:
+                outlier_list[2] += 1
+            if val != -1 and labels_true[idx]!= -1:
                 new_labels_pred.append(val)
                 new_labels_true.append(labels_true[idx])
-        print "number of -1 " + str(len(labels_true)-len(new_labels_true))
-        print "we have {0} classes from ground truth".format(len(Set(labels_true)))
+
+        train_batch_file = open("./results/train_batch.results","a")
+        prefix =  str(dataset) + "\t" + str(algo) + "\t" + str(feature) + "\t"
+        train_batch_file.write(prefix + "#class/#cluster\t" + "{}/{}".format(len(Set(labels_true))-1,len(Set(labels_pred))-1)+"\n")
+        train_batch_file.write(prefix + "#new_outlier\t" + str(outlier_list[2])+"\n")
+
+        #print "number of -1 " + str(len(labels_true)-len(new_labels_true))
+        print "we have number of classes from ground truth is {0}".format(len(Set(labels_true)))
+        print "we have number of classes from clusters is {0}".format(len(Set(labels_pred))-1)
+
+        print "Outlier: Cover {1} of {0} total ground truth, and create {2} outlier in prediction. ".format(outlier_list[0]+outlier_list[1],outlier_list[1],outlier_list[2])
+
         labels_true, labels_pred = new_labels_true, new_labels_pred
 
         path_list = self.path_list
@@ -537,7 +572,7 @@ class pagesCluster:
         pred_result_file = open("./clustering/{}_{}_{}.txt".format(dataset,algo,feature),"w")
         for index,label_pred in enumerate(self.UP_pages.category):
             #print path_list[index] + "\t" + str(label_true) + "\t" + str(label_pred)
-            pred_result_file.write(path_list[index] + "\tgold: " + self.UP_pages.ground_truth[index] + "\tcluster: " + str(label_pred) + "\n")
+            pred_result_file.write(path_list[index] + "\tgold: " + str(self.UP_pages.ground_truth[index]) + "\tcluster: " + str(label_pred) + "\n")
 
         print "We have %d pages for ground truth!" %(len(labels_true))
         print "We have %d pages after prediction!" %(len(labels_pred))
@@ -546,18 +581,19 @@ class pagesCluster:
         #self.Precision_Recall_F(labels_true,labels_pred)
         mutual_info_score = metrics.adjusted_mutual_info_score(labels_true, labels_pred)
         rand_score = metrics.adjusted_rand_score(labels_true, labels_pred)
-        print "Mutual Info Score is " + str(mutual_info_score)
-        print "Adjusted Rand Score is " + str(rand_score)
+
         #silhouette_score = metrics.silhouette_score(self.X,np.array(labels_pred), metric='euclidean')
         #print "Silhouette score is " + str(silhouette_score)
         [micro_f, macro_f,micro_p,macro_p] = self.F_Measure(labels_true,labels_pred)
+        print "Mutual Info Score is " + str(mutual_info_score)
+        print "Adjusted Rand Score is " + str(rand_score)
         print "Micro F-Measure is " + str(micro_f)
         print "Macro F-Measure is " + str(macro_f)
         print "Micro Precision is " + str(micro_p)
         print "Macro Precision is " + str(macro_p)
 
-        train_batch_file = open("./results/train_batch.results","a")
-        prefix =  str(dataset) + "\t" + str(algo) + "\t" + str(feature) + "\t"
+
+
         #train_batch_file.write("=====" + str(dataset) + "\t" + str(algo) +  "\t" + str(feature) +  "=====\n")
         metrics_list = ['micro_f', 'macro_f', 'micro_p', 'macro_p']
         result = [micro_f,macro_f,micro_p,macro_p]
@@ -588,7 +624,7 @@ if __name__=='__main__':
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("datasets", choices=["zhihu","stackexchange","rottentomatoes","medhelp","asp","new_stackexchange",\
-                        "new_rottentomatoes","new_asp"], help="the dataset for experiments")
+                        "new_rottentomatoes","new_asp","new_douban","new_youtube","new_tripadvisor","new_hupu","new_baidu","new_amazon","new_biketo"], help="the dataset for experiments")
     parser.add_argument("clustering", choices=["wkmeans","kmeans","ahc", "dbscan"], help="the algorithm for clustering")
     parser.add_argument("features_type", choices=["tf-idf","log-tf-idf","binary"], help="the features type for clustering")
     parser.add_argument("test_type", choices=["train","cv"], help="clustering or cv?")
@@ -625,6 +661,27 @@ if __name__=='__main__':
     elif args.datasets == "new_asp":
         num_clusters = 10
         cluster_labels = pagesCluster(args.datasets,["../Crawler/Mar15_samples/asp/"],num_clusters)
+    elif args.datasets == "new_douban":
+        num_clusters = 8
+        cluster_labels = pagesCluster(args.datasets, ["../Crawler/Mar15_samples/douban/"], num_clusters)
+    elif args.datasets == "new_youtube":
+        num_clusters = 4
+        cluster_labels = pagesCluster(args.datasets, ["../Crawler/Mar15_samples/youtube/"], num_clusters)
+    elif args.datasets == "new_tripadvisor":
+        num_clusters = 18
+        cluster_labels = pagesCluster(args.datasets,["../Crawler/Mar15_samples/tripadvisor/"], num_clusters)
+    elif args.datasets == "new_hupu":
+        num_clusters = 3
+        cluster_labels = pagesCluster(args.datasets,["../Crawler/Mar15_samples/hupu/"], num_clusters)
+    elif args.datasets == "new_baidu":
+        num_clusters = 12
+        cluster_labels = pagesCluster(args.datasets, ["../Crawler/Mar15_samples/baidu/"], num_clusters)
+    elif args.datasets == "new_amazon":
+        num_clusters = 10;
+        cluster_labels = pagesCluster(args.datasets, ["../Crawler/Mar15_samples/amazon/"], num_clusters)
+    elif args.datasets == "new_biketo":
+        num_clusters = 10;
+        cluster_labels = pagesCluster(args.datasets, ["../Crawler/Mar15_samples/biketo/"],num_clusters)
     else:
         print "error"
 

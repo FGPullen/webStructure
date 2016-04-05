@@ -81,18 +81,46 @@ def match(url, rule):
 stackexchange_rules = [["a","^[0-9]+.html$"],["feeds"],["help","badges"],["help","priviledges"],["posts","^[0-9]+$", "edit.html"] , ["posts","^[0-9]+$","revisions.html"],\
 ["q","^[0-9]+.html$"],["questions","^[0-9]+$"],["questions","tagged"], ["revisions","view-source.html"], ["^search?(.*)$"], ["tags"],["users","^[0-9]+(.*)$"],\
 ["users","^signup?(.*)$"]]
+
 rotten_rules = [["browse"],["celebrity","pictures"],["celebrity"],["critic"],["critics"],["guides"],["m"+"^[0-9]+$"+"pictures"],["m","trailers"],["m","reviews"],\
 ["m"],["tv"+"^[0-9]+$"+"pictures"],["tv","trailers"],["tv","reviews"],\
 ["tv"],["showtimes"],["^source-[0-9]+$"],["top"],["user","^[0-9]+$"]]
+
 
 asp_rules = [["^[0-9]+.aspx$"],["f","rss"],["f","topanswerers"],["f"],["login","^RedirectToLogin?(.*)$"],["members"],["p","^[0-9]+$"]\
              ,["post","^[0-9]+.aspx.html$"],["private-message"],["^search?(.*)$"],["t","^[0-9]+.aspx(.*)$"],["t","next","^[0-9]+.html$"],["t","prev","^[0-9]+.html$"]\
              ,["t","rss","^[0-9]+.html$"]]
 
+douban_rules = [["awards"],["celebrity","^[0-9]+$"],["feed","subject","^[0-9]+$"],["photos","photo"],["review","^[0-9]+$"],\
+                ["subject","^[0-9]+$"],["ticket","^[0-9]+$"],["trailer","^[0-9]+$"]]
+
+youtube_rules = [["channel","^(.*).html$"],["^playlist\?list=(.*)$"],["user","^playlists(.*).html$"],["user","^videos(.*).html$"],["user","^discussion(.*).html$"],["user","^(.*).html$"],["^watch\?v=(.*)$"]]
+
+tripadvisor_rules = [["^AllLocations(.*)$"],["^Attractions(.*)$"],["^Flights(.*)$"],["Hotel","^Review-(.*)$"],["^Hotels-(.*)$"],["^HotelsList-(.*)$"],["^HotelsNear-(.*)$"]\
+                     ,["^LastMinute(.*)$"],["^LocalMaps(.*)$"],["^Offers(.*)$"],["^Restaurants(.*)$"],["^ShowForum(.*)$"],\
+                     ["^ShowUserReviews(.*)$"],["^Tourism(.*)$"],["Travel","^Guide(.*)$"],["^TravelersChoice(.*)$"],["^VacationRentals(.*)$"],["UserReview-e"]]
+
+biketo_rules = [["^forum-[0-9]+-[0-9]+(.*)$"],["^space-uid-[0-9]+(.*)$"],["^thread-[0-9]+-(.*)$"],["columns","^[0-9]+$"],["daily","^[0-9]+(.*)$"],\
+               ["c?aid=[0-9]+(.*)"],["edge","beginner","index"],["edge","health","^[0-9]+$(.*)"],["edge","knowledge","^[0-9]+$(.*)"],\
+                ["edge","Photographic","^[0-9]+(.*)$"],["edge","repair","^[0-9]+(.*)$"],["edge","safe","^[0-9]+(.*)$"],["Gallery","photograph","^[0-9]+(.*)$"],\
+                ["industry","business","^[0-9]+(.*)$"],["industry","cover","^[0-9]+(.*)$"],["industry","exhibition","^[0-9]+(.*)$"],["info"],["news","activity","^[0-9]+(.*)$"],["news","bikenews","^[0-9]+(.*)$"],\
+                ["news","girl","^[0-9]+(.*)$"],["international","^[0-9]+(.*)$"],["news","picture","^[0-9]+(.*)$"],["product","bikes","index"],["product","bikes","^[0-9]+(.*)$"],["product","equipment","^[0-9]+(.*)$"],\
+                ["gearest","^[0-9]+(.*)$"],["racing","column","^[0-9]+(.*)$"],["racing","cover"],["racing","Events","^[0-9]+(.*)$"],["racing","herald","^[0-9]+(.*)$"],\
+                ["racing","index"],["racing","internal","^[0-9]+(.*)$"],["racing","news","^[0-9]+(.*)$"],["s"],["z","all","^[0-9]+(.*)$"],["z","^[0-9]+(.*)$"]]
+
+
+hupu_rules = [["cba","^[0-9]+(.*)$"],["china","^[0-9]+(.*)$"],["f1","^[0-9]+(.*)$"],["other","^[0-9]+(.*)$"],["soccer","^[0-9]+(.*)$"],["sports","^[0-9]+(.*)$"],\
+              ["tennis","^[0-9]+(.*)$"],["zb","^[0-9]+(.*)$"],["nba","^[0-9]+(.*)$"],["o"],["people","^[0-9]+(.*)$"]]
+
+
+baidu_rules = [["bawu2","platform","^detailsInfo(.*)$"],["bawu2","platform","^listMemberInfo(.*)$"],["^f\?ie=utf-8(.*)$"],["f","^good\?kw(.*)$"],["f","index"],["^f\?kw(.*)$"],["f","like"],["game","^index?(.*)$"],["home","^main(.*)$"],["p","^[0-9]+(.*)$"],["shipin","bw"],\
+               ["sign","^index(.*)$"],["tousu","new","^add(.*)$"]]
+
+
 if __name__ == "__main__":
     data_folder = "./site.sample/"
     write_folder = "./site.gold/"
-    datasets = ["asp"]
+    datasets = ["youtube"]
     read_suffix = "_urls.txt.sample.sample"
     write_suffix = ".txt.clusters"
 
@@ -114,8 +142,7 @@ if __name__ == "__main__":
         break
         '''
 
-        class_list = get_ground_truth(url_lines,asp_rules)
-
+        class_list = get_ground_truth(url_lines,youtube_rules)
 
         folder = write_folder+"/"+dataset
         if not os.path.exists(folder):
@@ -124,7 +151,7 @@ if __name__ == "__main__":
         write_file = open(file_path,"w")
         for index in xrange(len(class_list)):
             write_file.write(url_lines[index].strip() + " " + str(class_list[index]) + "\n")
-            if class_list[index]==-1:
+            if class_list[index]!=-1:
                 print url_lines[index].strip() + " " + str(class_list[index])
 
         break
