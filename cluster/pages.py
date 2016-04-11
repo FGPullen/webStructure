@@ -51,7 +51,7 @@ class allPages:
             self.addPages(folder_path)
             self.expandXpaths()
             self.updateidf()
-            self.get_ground_truth(dataset)
+            #self.get_ground_truth(dataset)
             self.num = len(self.pages)
             #self.top_local_stop_structure_gt(0.9)
             self.updatetfidf()
@@ -534,7 +534,7 @@ class allPages:
 if __name__=='__main__':
     #UP_pages = allPages(["../Crawler/crawl_data/Questions/"])
     #pages = allPages(["../Crawler/crawl_data/Questions/"])
-    import argparse 
+    import argparse
     #parser = argparse.ArgumentParser()
     #parser.add_argument("datasets", choices=["zhihu","stackexchange","rottentomatoes","medhelp","asp"], help="the dataset for experiments")
 

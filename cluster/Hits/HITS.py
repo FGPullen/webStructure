@@ -21,15 +21,15 @@ class HITS:
 			if col_i > max_id:
 				max_id = col_i
 			data_i = float(data_i)
-			row.append(row_i-1)
-			col.append(col_i-1)
+			row.append(row_i)
+			col.append(col_i)
 			data.append(data_i)
 
-		self.doc_num = max_id
+		self.doc_num = max_id+1
 		print self.doc_num
 		# self-contained
 
-		trans_mat = sps.csr_matrix((data,(row,col)), shape=(max_id,max_id))
+		trans_mat = sps.csr_matrix((data,(row,col)), shape=(max_id+1,max_id+1))
 		#trans_mat = normalize(trans_mat, norm='l1', axis=1)
 		self.trans_mat = trans_mat
 
@@ -65,4 +65,4 @@ class HITS:
 		print self.hub_score
 
 if __name__ == "__main__":
-	h = HITS("./Hits/zhihu_mat.txt")
+	h = HITS("./Transition/youtube.mat")
