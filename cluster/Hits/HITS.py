@@ -65,4 +65,4 @@ class HITS:
 		print self.hub_score
 
 if __name__ == "__main__":
-	h = HITS("./Transition/youtube.mat")
+	h = HITS("./Transition/tripadvisor.mat")

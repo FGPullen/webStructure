@@ -1,15 +1,17 @@
-from page import Page
-from cluster import cluster
-import numpy as np
-import os
-from sklearn.preprocessing import scale,normalize
-import math
 import collections
+import math
+import os
 from sets import Set
+
+import numpy as np
+from sklearn.preprocessing import normalize
+
+from cluster import cluster
+from page import Page
 
 
 class allPages:
-    def __init__(self, folder_path ,dataset,mode="read"): # mode: {raw, read, write}
+    def __init__(self, folder_path ,dataset,mode="write"): # mode: {raw, read, write}
         self.folder_path = folder_path
         self.dataset = dataset
         print folder_path
@@ -59,6 +61,7 @@ class allPages:
             #self.filter_dfs_xpaths_list()
             #self.Leung_baseline()  # binary feature
             self.selected_tfidf()
+            self.get_ground_truth(dataset)
             
             if mode=="write":
                 # filtered xpath :  id xpath
@@ -244,13 +247,23 @@ class allPages:
         return gold_dict
 
     def get_ground_truth(self,dataset):
+        print "our dataset is {0}".format(dataset)
         if dataset == "new_stackexchange":
-            gold_file = open("./Annotation/site.gold/stackexchange/stackexchange.gold").readlines()
+            #gold_file = open("./Annotation/site.gold/stackexchange/stackexchange.gold").readlines()
+            try:
+                gold_file = open("./crawling/site.gold/stackexchange/stackexchange.gold").readlines()
+            except:
+                gold_file = open("./site.gold/stackexchange/stackexchange.gold").readlines()
             gold_dict = self.build_gold(gold_file)
             #print gold_dict.keys()[0]
             for i in range(len(self.pages)):
-                path = self.pages[i].path.replace("../Crawler/Mar15/samples/stackexchange/","")
-                id = int(gold_dict[path])
+                path = self.pages[i].path.replace("../Crawler/Apr17/samples/stackexchange/","")
+                if path not in gold_dict:
+                    print path + " is lacking"
+                    id = "-2"
+                else:
+                    id = int(gold_dict[path])
+                print path, id
                 self.ground_truth.append(id)
         elif dataset == "new_rottentomatoes":
             gold_file = open("./Annotation/site.gold/rottentomatoes/rottentomatoes.gold").readlines()
@@ -274,11 +287,15 @@ class allPages:
                 self.ground_truth.append(id)
         elif "new_" in dataset:
             data = dataset.replace("new_","")
-            gold_file = open("./Annotation/site.gold/{0}/{0}.gold".format(data)).readlines()
+            #gold_file = open("./Annotation/site.gold/{0}/{0}.gold".format(data)).readlines()
+            try:
+                gold_file = open("./crawling/site.gold/{0}/{0}.gold".format(data)).readlines()
+            except:
+                gold_file = open("./site.gold/{0}/{0}.gold".format(data)).readlines()
             gold_dict = self.build_gold(gold_file)
             #print self.folder_path
             for i in range(len(self.pages)):
-                path = self.pages[i].path.replace("../Crawler/Mar15/samples/{}/".format(data),"")
+                path = self.pages[i].path.replace("../Crawler/Apr17/samples/{}/".format(data),"")
                 id = int(gold_dict[path.strip()])
                 self.ground_truth.append(id)
         else:
@@ -534,7 +551,6 @@ class allPages:
 if __name__=='__main__':
     #UP_pages = allPages(["../Crawler/crawl_data/Questions/"])
     #pages = allPages(["../Crawler/crawl_data/Questions/"])
-    import argparse
     #parser = argparse.ArgumentParser()
     #parser.add_argument("datasets", choices=["zhihu","stackexchange","rottentomatoes","medhelp","asp"], help="the dataset for experiments")
 
