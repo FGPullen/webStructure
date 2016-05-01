@@ -19,7 +19,6 @@ class sitemap:
         self.get_trans_mat(self.dataset)
         self.write()
 
-
     def get_clustering(self, dataset):
         #path = "../clustering/new_{0}_dbscan_log-tf-idf.txt".format(dataset)
         path = "./Apr17/new_{0}.txt".format(dataset)
@@ -111,6 +110,9 @@ class sitemap:
         tripadvisor_rules = [["^AllLocations(.*)$"],["^Attractions(.*)$"],["^Flights(.*)$"],["Hotel","^Review-(.*)$"],["^Hotels-(.*)$"],["^HotelsList-(.*)$"],["^HotelsNear-(.*)$"]\
                      ,["^LastMinute(.*)$"],["^LocalMaps(.*)$"],["^Offers(.*)$"],["^Restaurants(.*)$"],["^ShowForum(.*)$"],\
                      ["^ShowUserReviews(.*)$"],["^Tourism(.*)$"],["Travel","^Guide(.*)$"],["^TravelersChoice(.*)$"],["^VacationRentals(.*)$"],["UserReview-e"]]
+        asp_rules = [["^[0-9]+.aspx$"],["f","rss"],["f","topanswerers"],["f"],["login","^RedirectToLogin?(.*)$"],["members"],["p","^[0-9]+$"]\
+             ,["post","^[0-9]+.aspx.html$"],["private-message"],["^search?(.*)$"],["t","^[0-9]+.aspx(.*)$"],["t","next","^[0-9]+.html$"],["t","prev","^[0-9]+.html$"]\
+             ,["t","rss","^[0-9]+.html$"]]
 
         if self.dataset == "stackexchange":
             self.rules = stackexchange_rules
@@ -122,6 +124,8 @@ class sitemap:
             self.rules = baidu_rules
         elif self.dataset == "tripadvisor":
             self.rules = tripadvisor_rules
+        elif self.dataset == "asp":
+            self.rules = asp_rules
 
     def get_gold_map_dict(self, dataset):
         path = "./site.gold/{0}/{0}.combine".format(dataset)
@@ -225,7 +229,7 @@ class sitemap:
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("dataset",choices=["stackexchange","douban","youtube","baidu","tripadvisor"],help="dataset for computing transition matrix")
+    parser.add_argument("dataset",choices=["stackexchange","douban","youtube","baidu","tripadvisor","asp"],help="dataset for computing transition matrix")
     args = parser.parse_args()
     s = sitemap(args.dataset)
     #s.analyze_xpaths()

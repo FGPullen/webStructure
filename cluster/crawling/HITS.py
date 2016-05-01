@@ -41,7 +41,7 @@ class HITS:
 
     def compute_scores(self, max_iter=100):
         trans_mat = self.trans_mat  # need normalization
-        print trans_mat
+        #print trans_mat
         # page rank score vector
         auth_score = np.ones((self.doc_num, 1)) / float(self.doc_num)
         hub_score = np.ones((self.doc_num, 1)) / float(self.doc_num)
@@ -51,16 +51,16 @@ class HITS:
             # previous_pr = pr_score
             hub_score = trans_mat.dot(auth_score)
             auth_score = trans_mat.T.dot(hub_score)
-            auth_score = normalize(auth_score, norm='l1', axis=0)
-            hub_score = normalize(hub_score, norm='l1', axis=0)
+            auth_score = normalize(auth_score, norm='l2', axis=0)
+            hub_score = normalize(hub_score, norm='l2', axis=0)
             ite += 1
             # change = np.sum(np.abs(pr_score-previous_pr))
         self.auth_score = auth_score
         self.hub_score = hub_score
-        print "authorative scores"
-        print self.auth_score
-        print "hub score "
-        print self.hub_score
+        #print "authorative scores"
+        #print self.auth_score
+        #print "hub score "
+        #print self.hub_score
 
 
 if __name__ == "__main__":
@@ -103,8 +103,8 @@ if __name__ == "__main__":
     print "transfer hub"
     transfer_hub = normalize(transfer_hub, norm='l1', axis=0)
 
-    print transfer_hub
-    print estimate_hub
+    print transfer_auth
+    print estimate_auth
     # kendall tau for hub
     right = 0
     count = 0
@@ -121,4 +121,24 @@ if __name__ == "__main__":
             elif t1 * t2 >0:
                 right += 1
     print count , right
-    print "kendall's tau is {}".format(float(2*right-count)/float(count))
+    print "kendall's tau  for authority score is {}".format(float(2*right-count)/float(count))
+
+    print transfer_hub
+    print estimate_hub
+    # kendall tau for hub
+    right = 0
+    count = 0
+    for i in range(transfer_hub.shape[0]-1):
+        for j in range(i+1,transfer_hub.shape[0]-1):
+            if transfer_hub[i,:] ==0 or transfer_hub[j,:] == 0:
+                continue
+            count += 1
+            t1 = transfer_hub[i,:] - transfer_hub[j,:]
+            t2 = estimate_hub[i,:] - estimate_hub[j,:]
+
+            if t1 ==0 and t2 == 0:
+                right += 1
+            elif t1 * t2 >0:
+                right += 1
+    print count , right
+    print "kendall's tau for hub is {}".format(float(2*right-count)/float(count))

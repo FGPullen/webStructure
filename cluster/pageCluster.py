@@ -13,10 +13,9 @@ from time import time
 import operator
 from sklearn.cross_validation import StratifiedKFold
 import collections
-from sets import Set
 from sklearn.neighbors import NearestNeighbors,KNeighborsClassifier
 
-class pagesCluster:
+class pageCluster:
 
 
     def __init__(self, dataset, path_list=None,num_clusters=None):
@@ -28,6 +27,7 @@ class pagesCluster:
             self.UP_pages = allPages(path_list,dataset)
             self.path_list = self.UP_pages.path_list
             self.num_clusters = num_clusters
+            self.features = self.UP_pages.features
         #self.clustering(num_clusters)
 
     def wkmeans(self,num_clusters,features, weight_method=None, cv=False, beta=2, replicates=100):
@@ -259,12 +259,12 @@ class pagesCluster:
         return eps
     '''
 
-    def DBSCAN(self, features, cv=False, eps_val=None):
+    def DBSCAN(self, features="log-tf-idf", cv=False, eps_val=None):
         print "The feature is " + str(features)  +  " with DBSCAN"
         # default file path is
         feature_matrix = []
         y = []
-
+        #self.keys = self.UP_pages.pages[0].selected_tfidf.keys() # the keys for features
         for page in self.UP_pages.pages:
             if features == "tf-idf":
                 vector = []
@@ -297,6 +297,7 @@ class pagesCluster:
                     eps = self.findEps(train_x)
                 else:
                     eps = float(eps_val)
+                self.eps = eps
                 print "eps is " + str(eps)
                 db = Cluster.DBSCAN(eps=eps, min_samples=4).fit(train_x)
                 train_y = db.labels_
@@ -349,11 +350,16 @@ class pagesCluster:
             else:
                 eps = float(eps_val)
             print "eps is {0}".format(eps)
+            self.eps = eps
             #print "eps is " + str(eps)
             db = Cluster.DBSCAN(eps=eps, min_samples=4).fit(self.X)
             self.pre_y = db.labels_
             self.UP_pages.updateCategory(self.pre_y)
             num_clusters = len(set(self.pre_y)) - 1
+            K = 3 # not including itself
+            self.nbrs = KNeighborsClassifier(n_neighbors=K,weights="distance",algorithm="ball_tree").fit(self.X,self.pre_y)
+            #self.nbrs = KNeighborsClassifier(n_neighbors=K,weights="distance",algorithm="ball_tree").fit(self.X,self.UP_pages.ground_truth)
+
             #print "number of dbscan cluster is " + str(num_clusters)
 
             #write_file = open("./crawling/Apr17/"+self.dataset+".txt","w")
@@ -656,54 +662,55 @@ if __name__=='__main__':
     if args.datasets == "zhihu":
         num_clusters = 4
         #cluster_labels = pagesCluster(["../Crawler/crawl_data/Zhihu/"],num_clusters)
-        cluster_labels = pagesCluster(args.datasets,["../Crawler/test_data/zhihu/"],num_clusters)
+        cluster_labels = pageCluster(args.datasets,["../Crawler/test_data/zhihu/"],num_clusters)
     elif args.datasets == "stackexchange":
         num_clusters = 5
         #cluster_labels = pagesCluster(["../Crawler/crawl_data/Questions/"],num_clusters)
-        cluster_labels = pagesCluster(args.datasets,["../Crawler/test_data/stackexchange/"],num_clusters)
+        cluster_labels = pageCluster(args.datasets,["../Crawler/test_data/stackexchange/"],num_clusters)
     elif args.datasets == "test":
         num_clusters = 5
-        cluster_labels = pagesCluster(args.datasets,["../Crawler/test_data/train/"],num_clusters)
+        cluster_labels = pageCluster(args.datasets,["../Crawler/test_data/train/"],num_clusters)
     elif args.datasets == "rottentomatoes":
         num_clusters = 7
-        cluster_labels = pagesCluster(args.datasets,["../Crawler/test_data/rottentomatoes/"],num_clusters)
+        cluster_labels = pageCluster(args.datasets,["../Crawler/test_data/rottentomatoes/"],num_clusters)
     elif args.datasets == "medhelp":
         num_clusters = 4
-        cluster_labels = pagesCluster(args.datasets,["../Crawler/test_data/medhelp/"],num_clusters)
+        cluster_labels = pageCluster(args.datasets,["../Crawler/test_data/medhelp/"],num_clusters)
     elif args.datasets == "asp":
         num_clusters = 6
-        cluster_labels = pagesCluster(args.datasets,["../Crawler/test_data/ASP/"],num_clusters)
+        cluster_labels = pageCluster(args.datasets,["../Crawler/test_data/ASP/"],num_clusters)
     elif args.datasets == "new_stackexchange":
         num_clusters = 12
-        cluster_labels = pagesCluster(args.datasets,["../Crawler/Apr17_samples/stackexchange/"],num_clusters)
+        cluster_labels = pageCluster(args.datasets,["../Crawler/Apr17_samples/stackexchange/"],num_clusters)
     elif args.datasets == "new_rottentomatoes":
         num_clusters = 16
-        cluster_labels = pagesCluster(args.datasets,["../Crawler/Mar15_samples/rottentomatoes/"],num_clusters)
+        cluster_labels = pageCluster(args.datasets,["../Crawler/Mar15_samples/rottentomatoes/"],num_clusters)
     elif args.datasets == "new_asp":
         num_clusters = 10
-        cluster_labels = pagesCluster(args.datasets,["../Crawler/Apr17_samples/asp/"],num_clusters)
+        cluster_labels = pageCluster(args.datasets,["../Crawler/Apr17_samples/asp/"],num_clusters)
     elif args.datasets == "new_douban":
         num_clusters = 8
-        cluster_labels = pagesCluster(args.datasets, ["../Crawler/Apr17_samples/douban/"], num_clusters)
+        cluster_labels = pageCluster(args.datasets, ["../Crawler/Apr17_samples/douban/"], num_clusters)
     elif args.datasets == "new_youtube":
         num_clusters = 4
-        cluster_labels = pagesCluster(args.datasets, ["../Crawler/Mar15_samples/youtube/"], num_clusters)
+        cluster_labels = pageCluster(args.datasets, ["../Crawler/Apr17_samples/youtube/"], num_clusters)
     elif args.datasets == "new_tripadvisor":
         num_clusters = 18
-        cluster_labels = pagesCluster(args.datasets,["../Crawler/Apr17_samples/tripadvisor/"], num_clusters)
+        cluster_labels = pageCluster(args.datasets,["../Crawler/Apr17_samples/tripadvisor/"], num_clusters)
     elif args.datasets == "new_hupu":
         num_clusters = 3
-        cluster_labels = pagesCluster(args.datasets,["../Crawler/Mar15_samples/hupu/"], num_clusters)
+        cluster_labels = pageCluster(args.datasets,["../Crawler/Mar15_samples/hupu/"], num_clusters)
     elif args.datasets == "new_baidu":
         num_clusters = 12
-        cluster_labels = pagesCluster(args.datasets, ["../Crawler/Mar15_samples/baidu/"], num_clusters)
+        cluster_labels = pageCluster(args.datasets, ["../Crawler/Mar15_samples/baidu/"], num_clusters)
     elif args.datasets == "new_amazon":
         num_clusters = 10;
-        cluster_labels = pagesCluster(args.datasets, ["../Crawler/Mar15_samples/amazon/"], num_clusters)
+        cluster_labels = pageCluster(args.datasets, ["../Crawler/Mar15_samples/amazon/"], num_clusters)
     elif args.datasets == "new_biketo":
         num_clusters = 10;
-        cluster_labels = pagesCluster(args.datasets, ["../Crawler/Mar15_samples/biketo/"],num_clusters)
+        cluster_labels = pageCluster(args.datasets, ["../Crawler/Mar15_samples/biketo/"],num_clusters)
     else:
+
         print "error"
 
 

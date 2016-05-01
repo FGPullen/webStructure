@@ -8,10 +8,10 @@ from sklearn.preprocessing import normalize
 
 from cluster import cluster
 from page import Page
-
+import pickle
 
 class allPages:
-    def __init__(self, folder_path ,dataset,mode="write"): # mode: {raw, read, write}
+    def __init__(self, folder_path ,dataset, mode="read"): # mode: {raw, read, write}
         self.folder_path = folder_path
         self.dataset = dataset
         print folder_path
@@ -24,12 +24,16 @@ class allPages:
         self.idf = {}
         self.selected_df = {}
         self.df = {}
+        self.features = []
         if not os.path.exists("./feature/"+dataset):
             os.makedirs("./feature/"+dataset)
         if mode == "read":
             page_list = open("./feature/"+dataset+"/pages.txt","r").readlines()
             tf_idf_lines = open("./feature/"+dataset+"/tf_idf.txt","r").readlines()
             log_tf_idf_lines = open("./feature/" + dataset + "/log_tf_idf.txt","r").readlines()
+            features = open("./feature/" + dataset + "/xpaths.txt","r").readlines()
+            idf_file = open("./feature/" + dataset  + "/idf.txt","r")
+
             for i in range(len(page_list)):
 
                     pid = page_list[i].strip().split(":")[0]
@@ -42,9 +46,15 @@ class allPages:
                     
                     log_tf_idf_features = log_tf_idf_lines[i].strip().split(":")[-1]
                     file_page.read_log_tf_idf(log_tf_idf_features)
-                    
+
                     self.pages.append(file_page)
-            
+
+            for i in range(len(features)):
+                fid =features[i].strip().split(":")[0]
+                xpath = features[i].strip().split(":")[1]
+                self.features.append(xpath)
+
+            self.idf = pickle.load(idf_file)
             self.category = [0 for i in range(len(page_list))]
             self.get_ground_truth(dataset)
         else:
@@ -64,14 +74,18 @@ class allPages:
             self.get_ground_truth(dataset)
             
             if mode=="write":
-                # filtered xpath :  id xpath
+                print "write mode !"
                 xpath_file =  open("./feature/"+dataset+"/xpaths.txt","w")
+                print len(self.pages)
+                # filtered xpath :  id xpath
                 for page in self.pages:
                     xpath_id = 0
                     for xpath in page.selected_tfidf:
                         xpath_file.write(str(xpath_id)+":"+xpath+"\n")
+                        self.features.append(xpath)
                         xpath_id+=1
                     break
+
 
                 page_file =  open("./feature/"+dataset + "/pages.txt","w")# id file_path 
                 tf_idf_file =  open("./feature/" + dataset + "/tf_idf.txt","w")  # pid features..
@@ -89,6 +103,8 @@ class allPages:
                     log_tf_idf_file.write(str(page_id)+":" + " ".join(str(feat) for feat in vector)+"\n")
 
                     page_id += 1
+                idf_file = open("./feature/"+ dataset + "/idf.txt","w")
+                pickle.dump(self.idf,idf_file)
 
         #self.update_bigram()
 
@@ -110,6 +126,7 @@ class allPages:
             for html_file in os.listdir(folder_path):
                 if ".DS_Store" not in html_file:
                     file_path = folder_path + html_file
+                    print file_path
                     file_page = Page(file_path)
                     # the same number for pags & category
                     self.pages.append(file_page)
@@ -257,13 +274,14 @@ class allPages:
             gold_dict = self.build_gold(gold_file)
             #print gold_dict.keys()[0]
             for i in range(len(self.pages)):
-                path = self.pages[i].path.replace("../Crawler/Apr17/samples/stackexchange/","")
+                path = self.pages[i].path.replace("../../Crawler/Apr17/samples/stackexchange/","")
+                path = path.replace("../Crawler/Apr17/samples/stackexchange/","")
                 if path not in gold_dict:
                     print path + " is lacking"
                     id = "-2"
                 else:
                     id = int(gold_dict[path])
-                print path, id
+                #print path, id
                 self.ground_truth.append(id)
         elif dataset == "new_rottentomatoes":
             gold_file = open("./Annotation/site.gold/rottentomatoes/rottentomatoes.gold").readlines()
@@ -294,8 +312,11 @@ class allPages:
                 gold_file = open("./site.gold/{0}/{0}.gold".format(data)).readlines()
             gold_dict = self.build_gold(gold_file)
             #print self.folder_path
+            print gold_dict.keys()
+            print "length is ", len(gold_dict.keys())
             for i in range(len(self.pages)):
-                path = self.pages[i].path.replace("../Crawler/Apr17/samples/{}/".format(data),"")
+                path = self.pages[i].path.replace("../../Crawler/Apr17/samples/{}/".format(data),"")
+                print path.strip()
                 id = int(gold_dict[path.strip()])
                 self.ground_truth.append(id)
         else:

@@ -19,7 +19,7 @@ def read_trans_dict(dataset):
     return dict
 
 def get_cluster_dict(dataset):
-    path = "./Apr17/new_{0}.txt".format(dataset)
+    path = "./Apr17/{0}.txt".format(dataset)
     lines = open(path,'r').readlines()
     cluster_dict = {}
     for line in lines:
@@ -36,18 +36,22 @@ def get_trans_mat(dataset,cluster_dict,trans_dict):
     print "cluster number is {}".format(cluster_num)
     trans_mat = np.zeros((cluster_num, cluster_num))
     count_list = {}
+    xpath_count_dict = {}
     print len(trans_dict)
     for key in trans_dict:
         trans = trans_dict[key]
         print key
         if key not in cluster_dict:
             continue
+
         cluster_id = cluster_dict[key]
         if cluster_id not in count_list:
             count_list[cluster_id] =1
+            xpath_count_dict[cluster_id] = {} # (cluster_id, xpath) counter to have a better average
         else:
             count_list[cluster_id] +=1
         print key
+
         for xpath,url_list in trans.iteritems():
             length = len(url_list)
             count = 0
@@ -58,6 +62,7 @@ def get_trans_mat(dataset,cluster_dict,trans_dict):
             print "for xpath: {0}  --- {1} out of {2} have been crawled and have cluster id".format(xpath,count, length)
             if count == 0:
                 continue
+
             ratio = float(length)/float(count)
             for url in url_list:
                 if url in cluster_dict:
@@ -70,6 +75,7 @@ def get_trans_mat(dataset,cluster_dict,trans_dict):
     print sum(count_list.values())
     for i in range(cluster_num):
         for j in range(cluster_num):
+            # neglect self links
             if i not in count_list:
                 trans_mat[i,j] = 0
             else:
@@ -84,6 +90,11 @@ def get_trans_mat(dataset,cluster_dict,trans_dict):
             else:
                 file.write(str(i) + " " + str(j) + " " + str(trans_mat[i, j]) + "\n")
     return trans_mat
+
+def get_trans_mat_micro(dataset,cluster_dict, trans_dict):
+    folder_path = "../../Crawler/Apr17_samples/" + dataset
+    trans_mat = {}
+
 
 def transform(url,prefix):
     intra = intraJudge(url,dataset)
@@ -238,7 +249,11 @@ def intraJudge(url, site):
 
 
 if __name__ == "__main__":
-    dataset = "stackexchange"
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("dataset", choices=["youtube","douban"], help="dataset")
+    args = parser.parse_args()
+    dataset = args.dataset
     trans_dict = read_trans_dict(dataset)
     cluster_dict = get_cluster_dict(dataset)
     get_trans_mat(dataset,cluster_dict,trans_dict)

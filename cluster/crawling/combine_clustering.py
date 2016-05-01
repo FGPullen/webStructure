@@ -21,11 +21,14 @@ if __name__ == "__main__":
             line = line.strip()
             if line!="":
                 print line
-                [path,class_id] = line.split()
+                tmp = line.split()
+                class_id = tmp[-1]
+                path = "".join(tmp[:-1])
                 class_id = int(class_id)
                 if class_id in map_dict:
                     class_id = map_dict[class_id]
                 gold_class_list.append(class_id)
+                path = path.replace("_","/")
                 write_file.write(path+"\t"+str(class_id)+"\n")
 
         print len(Set(gold_class_list))

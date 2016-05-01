@@ -568,3 +568,15 @@ new_asp	dbscan	log-tf-idf	micro_f	0.991786686135
 new_asp	dbscan	log-tf-idf	macro_f	0.908400809717
 new_asp	dbscan	log-tf-idf	micro_p	0.991803278689
 new_asp	dbscan	log-tf-idf	macro_p	0.875
+new_youtube	dbscan	log-tf-idf	#class/#cluster	4/12
+new_youtube	dbscan	log-tf-idf	#new_outlier	5
+new_youtube	dbscan	log-tf-idf	micro_f	0.916296199402
+new_youtube	dbscan	log-tf-idf	macro_f	0.940695535949
+new_youtube	dbscan	log-tf-idf	micro_p	1.0
+new_youtube	dbscan	log-tf-idf	macro_p	1.0
+new_youtube	dbscan	log-tf-idf	#class/#cluster	4/12
+new_youtube	dbscan	log-tf-idf	#new_outlier	5
+new_youtube	dbscan	log-tf-idf	micro_f	0.916296199402
+new_youtube	dbscan	log-tf-idf	macro_f	0.940695535949
+new_youtube	dbscan	log-tf-idf	micro_p	1.0
+new_youtube	dbscan	log-tf-idf	macro_p	1.0
