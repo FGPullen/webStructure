@@ -220,22 +220,30 @@ class Page:
                 self.bigram_dict["("+path1+","+path2+")"] = 0
 
 
-    def getAnchor(self):
+    def getAnchor(self,use_attrib=False):
         print "start getAnchor"
         link_dict = {}
         tree= etree.HTML(str(self.contents))
         Etree = etree.ElementTree(tree)
         nodes = tree.xpath("//a")
         for node in nodes:
+            #print type(node)
+            if 'class' in node.attrib:
+                attrib = node.attrib['class']
+                #print node.attrib
+            else:
+                attrib = ""
             try:
                 xpath = self.removeIndex(Etree.getpath(node))
+                if use_attrib:
+                    xpath += "[{}]".format(attrib)
                 #print xpath,node.attrib['href']
                 if xpath not in link_dict:
                     link_dict[xpath] = []
-                else:
-                    link_dict[xpath].append(node.attrib['href'])
+                link_dict[xpath].append(node.attrib['href'])
             except:
                 err = "Oh no! " + str(node)
+        #print link_dict
         return link_dict
 
     def getEmbedding(self):
@@ -272,4 +280,5 @@ if __name__=='__main__':
     #re_href = re.compile(r'(?<='href': ').*(?=')')
     print "Main for page.py"
     #page_test = Page("./Data/test.html")
-    page_test = Page("../cluster/Data/zhihu.html")
+    page_test = Page("../Crawler/Mar15_samples/stackexchange/http:__android.stackexchange.com_users_11343_mr-buster.html")
+    page_test.getAnchor()

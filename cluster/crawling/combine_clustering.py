@@ -1,7 +1,7 @@
 import os
 from sets import Set
 if __name__ == "__main__":
-    write_folder = "./site.gold/"
+    write_folder = "./May1/site.gold/"
     datasets = ["stackexchange","asp","douban","youtube","tripadvisor","hupu","baidu","biketo"]
     for dataset in datasets:
         gold_class_list = []

@@ -1,6 +1,7 @@
 import collections
 import math
 import os
+import pickle
 from sets import Set
 
 import numpy as np
@@ -8,13 +9,14 @@ from sklearn.preprocessing import normalize
 
 from cluster import cluster
 from page import Page
-import pickle
+
 
 class allPages:
-    def __init__(self, folder_path ,dataset, mode="read"): # mode: {raw, read, write}
+    def __init__(self, folder_path, dataset, date="Apr17", mode="read"): # mode: {raw, read, write}
         self.folder_path = folder_path
         self.dataset = dataset
-        print folder_path
+        self.date = date
+        #print folder_path
         self.threshold = 0.004
         self.pages = []
         self.path_list = []
@@ -25,14 +27,14 @@ class allPages:
         self.selected_df = {}
         self.df = {}
         self.features = []
-        if not os.path.exists("./feature/"+dataset):
-            os.makedirs("./feature/"+dataset)
+        if not os.path.exists("./{}/feature/".format(date)+dataset):
+            os.makedirs("./{}/feature/".format(date)+dataset)
         if mode == "read":
-            page_list = open("./feature/"+dataset+"/pages.txt","r").readlines()
-            tf_idf_lines = open("./feature/"+dataset+"/tf_idf.txt","r").readlines()
-            log_tf_idf_lines = open("./feature/" + dataset + "/log_tf_idf.txt","r").readlines()
-            features = open("./feature/" + dataset + "/xpaths.txt","r").readlines()
-            idf_file = open("./feature/" + dataset  + "/idf.txt","r")
+            page_list = open("./{}/feature/".format(date)+dataset+"/pages.txt","r").readlines()
+            tf_idf_lines = open("./{}/feature/".format(date)+dataset+"/tf_idf.txt","r").readlines()
+            log_tf_idf_lines = open("./{}/feature/".format(date) + dataset + "/log_tf_idf.txt","r").readlines()
+            features = open("./{}/feature/".format(date) + dataset + "/xpaths.txt","r").readlines()
+            idf_file = open("./{}/feature/".format(date) + dataset  + "/idf.txt","r")
 
             for i in range(len(page_list)):
 
@@ -75,7 +77,7 @@ class allPages:
             
             if mode=="write":
                 print "write mode !"
-                xpath_file =  open("./feature/"+dataset+"/xpaths.txt","w")
+                xpath_file =  open("./{}/feature/".format(date)+dataset+"/xpaths.txt","w")
                 print len(self.pages)
                 # filtered xpath :  id xpath
                 for page in self.pages:
@@ -87,9 +89,9 @@ class allPages:
                     break
 
 
-                page_file =  open("./feature/"+dataset + "/pages.txt","w")# id file_path 
-                tf_idf_file =  open("./feature/" + dataset + "/tf_idf.txt","w")  # pid features..
-                log_tf_idf_file = open("./feature/" + dataset +"/log_tf_idf.txt","w")
+                page_file =  open("./{}/feature/".format(date)+dataset + "/pages.txt","w")# id file_path
+                tf_idf_file =  open("./{}/feature/".format(date) + dataset + "/tf_idf.txt","w")  # pid features..
+                log_tf_idf_file = open("./{}/feature/".format(date) + dataset +"/log_tf_idf.txt","w")
                 page_id = 0
                 for page in self.pages:
                     page_file.write(str(page_id)+":"+page.path+"\n")
@@ -103,7 +105,7 @@ class allPages:
                     log_tf_idf_file.write(str(page_id)+":" + " ".join(str(feat) for feat in vector)+"\n")
 
                     page_id += 1
-                idf_file = open("./feature/"+ dataset + "/idf.txt","w")
+                idf_file = open("./{}/feature/".format(date) + dataset + "/idf.txt","w")
                 pickle.dump(self.idf,idf_file)
 
         #self.update_bigram()
@@ -265,7 +267,8 @@ class allPages:
 
     def get_ground_truth(self,dataset):
         print "our dataset is {0}".format(dataset)
-        if dataset == "new_stackexchange":
+        '''
+        if dataset == "stackexchange":
             #gold_file = open("./Annotation/site.gold/stackexchange/stackexchange.gold").readlines()
             try:
                 gold_file = open("./crawling/site.gold/stackexchange/stackexchange.gold").readlines()
@@ -283,42 +286,25 @@ class allPages:
                     id = int(gold_dict[path])
                 #print path, id
                 self.ground_truth.append(id)
-        elif dataset == "new_rottentomatoes":
-            gold_file = open("./Annotation/site.gold/rottentomatoes/rottentomatoes.gold").readlines()
-            gold_dict = self.build_gold(gold_file)
-            print self.folder_path
-            for i in range(len(self.pages)):
-                path = self.pages[i].path.replace("../Crawler/Mar15/samples/rottentomatoes/","")
-                id = int(gold_dict[path])
-                self.ground_truth.append(id)
-        elif dataset == "new_biketo":
-            gold_file = open("./Annotation/site.gold/biketo/biketo.gold").readlines()
-            gold_dict = self.build_gold(gold_file)
-            print self.folder_path
-            for i in range(len(self.pages)):
-                path = self.pages[i].path.replace("../Crawler/Mar15/samples/biketo/","")
-                if ".jpg.html" in path:
-                    print path
-                    id = -1
-                else:
-                    id = int(gold_dict[path])
-                self.ground_truth.append(id)
-        elif "new_" in dataset:
-            data = dataset.replace("new_","")
-            #gold_file = open("./Annotation/site.gold/{0}/{0}.gold".format(data)).readlines()
-            try:
-                gold_file = open("./crawling/site.gold/{0}/{0}.gold".format(data)).readlines()
-            except:
-                gold_file = open("./site.gold/{0}/{0}.gold".format(data)).readlines()
-            gold_dict = self.build_gold(gold_file)
-            #print self.folder_path
-            print gold_dict.keys()
-            print "length is ", len(gold_dict.keys())
-            for i in range(len(self.pages)):
-                path = self.pages[i].path.replace("../../Crawler/Apr17/samples/{}/".format(data),"")
-                print path.strip()
-                id = int(gold_dict[path.strip()])
-                self.ground_truth.append(id)
+        else:
+        '''
+
+        data = dataset.replace("new_","")
+        try:
+            gold_file = open("./crawling/{0}/site.gold/{1}/{1}.gold".format(self.date,data)).readlines()
+        except:
+            gold_file = open("./{0}/site.gold/{1}/{1}.gold".format(self.date,data)).readlines()
+        gold_dict = self.build_gold(gold_file)
+        #print self.folder_path
+        print gold_dict.keys()
+        print "length is ", len(gold_dict.keys())
+        for i in range(len(self.pages)):
+            # here {}/sample instead of {}_samples
+            path = self.pages[i].path.replace("../../Crawler/{0}/samples/{1}/".format(self.date,data),"")
+            #print path.strip()
+            id = int(gold_dict[path.strip().replace(" ","")])
+            self.ground_truth.append(id)
+        '''
         else:
             # /users/ /questions/ /q/ /questions/tagged/   /tags/ /posts/ /feeds/ /others
             if "../Crawler/crawl_data/Questions/"  in self.folder_path or "../Crawler/test_data/train/" in self.folder_path or "../Crawler/test_data/stackexchange/" in self.folder_path:
@@ -429,6 +415,7 @@ class allPages:
                     else:
                         tag = 2
                     self.ground_truth.append(tag)
+    '''
 
     def Leung_baseline(self):
         # one-hot representation

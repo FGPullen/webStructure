@@ -12,14 +12,15 @@ from lxml import etree
 import os
 import numpy as np
 
-def read_trans_dict(dataset):
-    path = "./site.trans/{}_trans.dict".format(dataset)
+def read_trans_dict(dataset,date):
+    dataset = dataset.replace("new_","")
+    path = "./{0}/site.trans/{1}_trans.dict".format(date,dataset)
     dict_file = open(path,"r")
     dict = pickle.load(dict_file)
     return dict
 
-def get_cluster_dict(dataset):
-    path = "./Apr17/{0}.txt".format(dataset)
+def get_cluster_dict(dataset,date):
+    path = "./{0}/site.dbscan/{1}.txt".format(date,dataset)
     lines = open(path,'r').readlines()
     cluster_dict = {}
     for line in lines:

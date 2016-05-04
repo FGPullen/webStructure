@@ -118,8 +118,8 @@ baidu_rules = [["bawu2","platform","^detailsInfo(.*)$"],["bawu2","platform","^li
 
 
 if __name__ == "__main__":
-    data_folder = "./site.sample/"
-    write_folder = "./site.gold/"
+    data_folder = "./May1/site.sample/"
+    write_folder = "./May1/site.gold/"
     datasets = ["stackexchange","youtube","asp","tripadvisor","douban"]
     rules = [stackexchange_rules,youtube_rules,asp_rules,tripadvisor_rules,douban_rules]
     read_suffix = ".sample"

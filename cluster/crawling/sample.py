@@ -42,7 +42,10 @@ class sampler():
         crawl_id = 0
         while(num<size and len(self.url_stack)>0):
             first_url = self.url_stack[0]
-            print "first url is " + first_url
+            try:
+                print "first url is " + first_url
+            except:
+                traceback.print_exc()
             if first_url not in self.history_set:
                 num += 1
                 try:
@@ -107,8 +110,13 @@ class sampler():
         Etree = etree.ElementTree(tree)
         nodes = tree.xpath("//a")
         for node in nodes:
+            if 'class' in node.attrib:
+                attrib = node.attrib['class']
+            else:
+                attrib = ""
             try:
                 xpath = self.removeIndex(Etree.getpath(node))
+                xpath += "[{}]".format(attrib)
                 #print xpath,node.attrib['href']
                 if xpath not in link_dict:
                     link_dict[xpath] = []
@@ -128,6 +136,7 @@ class sampler():
         #print "examine sampled link dict ", link_dict
         return new_link_dict
 
+
     def getlinks(self,link_dict):
         # this is a better link_dict which only contain intralink and contrain #samples (not now)
         new_link_dict = {}
@@ -141,11 +150,11 @@ class sampler():
 
             ## inlink might be too many links, we have to sample at most four
             l = len(inlinks)
-            if l > 4:
+            if l > 1:
                 sub_links = []
                 inlinks = [ inlinks[i] for i in random.sample(xrange(len(inlinks)), l) ]
                 i = 0
-                while(len(sub_links)<4 and i < l):
+                while(len(sub_links)< 1 and i < l):
                     link = inlinks[i]
                     file_path = self.folder + "/" + link.replace("/","_") +".html"
 
@@ -350,7 +359,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     s = sampler(args.dataset,args.entry,args.prefix,size=1000)
     s.crawling()
-    sample_file = open("./site.sample/{}.sample".format(s.dataset),"w")
+    sample_file = open("./May1/site.sample/{}.sample".format(s.dataset),"w")
     for link in s.final_list:
         sample_file.write(link.replace("/","_") + ".html\n")
     print len(s.transition_dict.keys())
