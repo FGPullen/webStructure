@@ -59,10 +59,14 @@ class sampler():
                         self.crawl_link(first_url, self.url_stack, self.history_set)
                         self.final_list.append(first_url)
                         random_time_s = random.randint(5, 15)
+                        if self.dataset == "douban":
+                            time.sleep(random_time_s*2)
                         time.sleep(random_time_s)
                         num_web_crawl += 1
                         if num_web_crawl%10 == 9:
                             random_time_s = random.randint(60, 120)
+                            if self.dataset == "douban":
+                                time.sleep(random_time_s)
                             time.sleep(random_time_s)
                     else:
                         num -= 1
@@ -104,11 +108,12 @@ class sampler():
         else:
             return url
 
-    def getAnchor(self,contents,first_url):
+    def getAnchor(self,contents,first_url,sample_flag=True):
         link_dict = {}
         tree= etree.HTML(str(contents))
         Etree = etree.ElementTree(tree)
         nodes = tree.xpath("//a")
+        print len(nodes), " number of nodes"
         for node in nodes:
             if 'class' in node.attrib:
                 attrib = node.attrib['class']
@@ -126,18 +131,19 @@ class sampler():
 
             except:
                 err = "Oh no! " + str(node)
-        print len(link_dict)
-
+                traceback.print_exc()
+        #print len(link_dict)
+        print len(link_dict.keys())
         self.transition_dict[first_url] = link_dict
 
         #print "!!! " + str(len(self.transition_dict)) + " " + first_url
 
-        new_link_dict = self.getlinks(link_dict)
+        new_link_dict = self.getlinks(link_dict,sample_flag)
         #print "examine sampled link dict ", link_dict
         return new_link_dict
 
 
-    def getlinks(self,link_dict):
+    def getlinks(self,link_dict,sample_flag):
         # this is a better link_dict which only contain intralink and contrain #samples (not now)
         new_link_dict = {}
         #print len(link_dict)
@@ -149,24 +155,25 @@ class sampler():
                 inlinks.append(self.transform(link))
 
             ## inlink might be too many links, we have to sample at most four
-            l = len(inlinks)
-            if l > 1:
-                sub_links = []
-                inlinks = [ inlinks[i] for i in random.sample(xrange(len(inlinks)), l) ]
-                i = 0
-                while(len(sub_links)< 1 and i < l):
-                    link = inlinks[i]
-                    file_path = self.folder + "/" + link.replace("/","_") +".html"
+            if sample_flag:
+                l = len(inlinks)
+                if l > 1:
+                    sub_links = []
+                    inlinks = [ inlinks[i] for i in random.sample(xrange(len(inlinks)), l) ]
+                    i = 0
+                    while(len(sub_links)< 1 and i < l):
+                        link = inlinks[i]
+                        file_path = self.folder + "/" + link.replace("/","_") +".html"
 
-                    if os.path.isfile(file_path):
-                        sub_links.append(link)
-                    i += 1
-                inlinks = sub_links
+                        if os.path.isfile(file_path):
+                            sub_links.append(link)
+                        i += 1
+                    inlinks = sub_links
 
             if inlinks !=[]:
                 #print len(inlinks)
                 new_link_dict[key] = inlinks
-
+        #print len(new_link_dict.keys())," number of new links"
         return new_link_dict
 
 
@@ -206,9 +213,11 @@ class sampler():
             try:
                 response = urllib2.urlopen(url, timeout=30)
                 lines = response.read().replace("\n", "")
-                folder_path = "/bos/usr0/keyangx/webStructure/Crawler/full_data/" + site + "/"
+                #folder_path = "/bos/usr0/keyangx/webStructure/Crawler/full_data/" + site + "/"
+                folder_path = "../../Crawler/full_data/" + site + "/"
                 file_name = folder_path + url.replace("/", "_") + ".html"
             except:
+                print " error in crawlUrl"
                 return 0
         #if ".html.html" in file_name:
         #    file_name = file_name.replace(".html.html", ".html")

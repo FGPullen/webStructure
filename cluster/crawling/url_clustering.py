@@ -94,7 +94,7 @@ asp_rules = [["^[0-9]+.aspx$"],["f","rss"],["f","topanswerers"],["f"],["login","
 douban_rules = [["awards"],["celebrity","^[0-9]+$"],["feed","subject","^[0-9]+$"],["photos","photo"],["review","^[0-9]+$"],\
                 ["subject","^[0-9]+$"],["ticket","^[0-9]+$"],["trailer","^[0-9]+$"]]
 
-youtube_rules = [["channel","^(.*).html$"],["^playlist\?list=(.*)$"],["user","^playlists(.*).html$"],["user","^videos(.*).html$"],["user","^discussion(.*).html$"],["user","^(.*).html$"],["^watch\?v=(.*)$"],["channels","^(.*).html$"]]
+youtube_rules = [["channel","^(.*).html$"],["^playlist\?list=(.*)$"],["user","^playlists(.*).html$"],["user","^videos(.*).html$"],["user","^discussion(.*).html$"],["user","^(.*).html$"],["^watch\?v=(.*)$"]]
 
 tripadvisor_rules = [["^AllLocations(.*)$"],["^Attractions(.*)$"],["^Flights(.*)$"],["Hotel","^Review-(.*)$"],["^Hotels-(.*)$"],["^HotelsList-(.*)$"],["^HotelsNear-(.*)$"]\
                      ,["^LastMinute(.*)$"],["^LocalMaps(.*)$"],["^Offers(.*)$"],["^Restaurants(.*)$"],["^ShowForum(.*)$"],\
@@ -118,14 +118,13 @@ baidu_rules = [["bawu2","platform","^detailsInfo(.*)$"],["bawu2","platform","^li
 
 
 if __name__ == "__main__":
-    data_folder = "./May1/site.sample/"
-    write_folder = "./May1/site.gold/"
-    datasets = ["stackexchange","youtube","asp","tripadvisor","douban"]
-    rules = [stackexchange_rules,youtube_rules,asp_rules,tripadvisor_rules,douban_rules]
+    data_folder = "./site.sample/"
+    write_folder = "./site.gold/"
+    datasets = ["tripadvisor"]
     read_suffix = ".sample"
     write_suffix = ".txt.clusters"
 
-    for index, dataset in enumerate(datasets):
+    for dataset in datasets:
         pages = []
         url_lines = open(data_folder + dataset + read_suffix, "r").readlines()
         num_cluster = 0
@@ -143,7 +142,7 @@ if __name__ == "__main__":
         break
         '''
 
-        class_list = get_ground_truth(url_lines,rules[index])
+        class_list = get_ground_truth(url_lines,asp_rules)
 
         folder = write_folder+"/"+dataset
         if not os.path.exists(folder):
@@ -155,6 +154,4 @@ if __name__ == "__main__":
             if class_list[index] ==-1:
                 print url_lines[index].strip() + " " + str(class_list[index])
 
-        #break
-
-    #os.system("python combine_clustering.py")
+        break

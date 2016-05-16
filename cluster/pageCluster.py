@@ -235,6 +235,9 @@ class pageCluster:
                 eps = bins[idx]
                 break
         return eps
+
+
+
     '''
     def findEps(self, X):
         K = 4
@@ -363,7 +366,7 @@ class pageCluster:
             #self.nbrs = KNeighborsClassifier(n_neighbors=K,weights="distance",algorithm="ball_tree").fit(self.X,self.UP_pages.ground_truth)
 
             #print "number of dbscan cluster is " + str(num_clusters)
-            '''
+
             if not os.path.exists("./{}/site.dbscan/".format(self.date)):
                 os.makedirs("./{}/site.dbscan/".format(self.date))
 
@@ -371,7 +374,8 @@ class pageCluster:
             for i in xrange(len(self.UP_pages.pages)):
                 write_file.write(self.UP_pages.pages[i].path + " gold:" + str(self.UP_pages.ground_truth[i]) \
                                 + " cluster:" + str(self.UP_pages.category[i]) + "\n")
-            '''
+
+            return num_clusters
 
     def get_affinity_matrix(self):
         return self.UP_pages.get_affinity_matrix()
@@ -588,12 +592,12 @@ class pageCluster:
 
         train_batch_file = open("./results/train_batch.results","a")
         prefix =  str(dataset) + "\t" + str(algo) + "\t" + str(feature) + "\t"
-        train_batch_file.write(prefix + "#class/#cluster\t" + "{}/{}".format(len(Set(labels_true))-1,len(Set(labels_pred))-1)+"\n")
+        train_batch_file.write(prefix + "#class/#cluster\t" + "{}/{}".format(len(set(labels_true))-1,len(set(labels_pred))-1)+"\n")
         train_batch_file.write(prefix + "#new_outlier\t" + str(outlier_list[2])+"\n")
 
         print "number of -1 " + str(len(labels_true)-len(new_labels_true))
-        print "we have number of classes from ground truth is {0}".format(len(Set(labels_true)))
-        print "we have number of classes from clusters is {0}".format(len(Set(labels_pred))-1)
+        print "we have number of classes from ground truth is {0}".format(len(set(labels_true)))
+        print "we have number of classes from clusters is {0}".format(len(set(labels_pred))-1)
 
         print "Outlier: Cover {1} of {0} total ground truth, and create {2} outlier in prediction. ".format(outlier_list[0]+outlier_list[1],outlier_list[1],outlier_list[2])
 
@@ -670,34 +674,34 @@ if __name__=='__main__':
         cluster_labels = pageCluster(args.datasets,["../Crawler/test_data/zhihu/"],num_clusters)
     elif args.datasets == "stackexchange":
         num_clusters = 12
-        cluster_labels = pageCluster(args.datasets,args.date,["../Crawler/{}_samples/stackexchange/".formate(args.date)],num_clusters)
+        cluster_labels = pageCluster(args.datasets,args.date,["../Crawler/{}_samples/stackexchange/".format(args.date)],num_clusters)
     elif args.datasets == "rottentomatoes":
         num_clusters = 16
-        cluster_labels = pageCluster(args.datasets,args.date,["../Crawler/{}_samples/rottentomatoes/".formate(args.date)],num_clusters)
+        cluster_labels = pageCluster(args.datasets,args.date,["../Crawler/{}_samples/rottentomatoes/".format(args.date)],num_clusters)
     elif args.datasets == "asp":
         num_clusters = 10
-        cluster_labels = pageCluster(args.datasets,args.date,["../Crawler/{}_samples/asp/".formate(args.date)],num_clusters)
+        cluster_labels = pageCluster(args.datasets,args.date,["../Crawler/{}_samples/asp/".format(args.date)],num_clusters)
     elif args.datasets == "douban":
         num_clusters = 8
-        cluster_labels = pageCluster(args.datasets, args.date,["../Crawler/{}_samples/douban/".formate(args.date)], num_clusters)
+        cluster_labels = pageCluster(args.datasets, args.date,["../Crawler/{}_samples/douban/".format(args.date)], num_clusters)
     elif args.datasets == "youtube":
         num_clusters = 4
-        cluster_labels = pageCluster(args.datasets, args.date, ["../Crawler/{}_samples/youtube/".formate(args.date)], num_clusters)
+        cluster_labels = pageCluster(args.datasets, args.date, ["../Crawler/{}_samples/youtube/".format(args.date)], num_clusters)
     elif args.datasets == "tripadvisor":
         num_clusters = 18
-        cluster_labels = pageCluster(args.datasets,args.date,["../Crawler/{}_samples/tripadvisor/"].formate(args.date), num_clusters)
+        cluster_labels = pageCluster(args.datasets,args.date,["../Crawler/{}_samples/tripadvisor/".format(args.date)], num_clusters)
     elif args.datasets == "hupu":
         num_clusters = 3
-        cluster_labels = pageCluster(args.datasets,args.date,["../Crawler/{}_samples/hupu/".formate(args.date)], num_clusters)
+        cluster_labels = pageCluster(args.datasets,args.date,["../Crawler/{}_samples/hupu/".format(args.date)], num_clusters)
     elif args.datasets == "baidu":
         num_clusters = 12
-        cluster_labels = pageCluster(args.datasets, args.date,["../Crawler/{}_samples/baidu/".formate(args.date)], num_clusters)
+        cluster_labels = pageCluster(args.datasets, args.date,["../Crawler/{}_samples/baidu/".format(args.date)], num_clusters)
     elif args.datasets == "amazon":
         num_clusters = 10;
-        cluster_labels = pageCluster(args.datasets, args.date,["../Crawler/{}_samples/amazon/".formate(args.date)], num_clusters)
+        cluster_labels = pageCluster(args.datasets, args.date,["../Crawler/{}_samples/amazon/".format(args.date)], num_clusters)
     elif args.datasets == "biketo":
         num_clusters = 10;
-        cluster_labels = pageCluster(args.datasets, args.date,["../Crawler/{}_samples/biketo/".formate(args.date)],num_clusters)
+        cluster_labels = pageCluster(args.datasets, args.date,["../Crawler/{}_samples/biketo/".format(args.date)],num_clusters)
     else:
 
         print "error"
@@ -727,9 +731,9 @@ if __name__=='__main__':
             #for eps in [0.05,0.10,0.15,0.20,0.25,0.30]:
             cluster_labels.DBSCAN(features_type,  cv=True)
         else:
-            #for eps in [0.05,0.10,0.15,0.20,0.25,0.30]:
-            cluster_labels.DBSCAN(features_type, cv=False)
-            cluster_labels.Evaluation(args.datasets,args.clustering,features_type)
+            for eps in [0.045,0.10,0.15]:
+                cluster_labels.DBSCAN(features_type, cv=False, eps_val=eps)
+                cluster_labels.Evaluation(args.datasets,args.clustering,features_type)
     #visualization
     '''
     if args.test_type != "cv":

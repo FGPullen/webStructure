@@ -42,7 +42,7 @@
 ../../Crawler/May1/samples/asp/http://forums.asp.net//191.aspx/4/20?SQL+Server+Reporting+Services gold:0 cluster:1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//191.aspx/5/20?SQL+Server+Reporting+Services gold:0 cluster:1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//26.aspx/1?Configuration+and+Deployment gold:0 cluster:1
-../../Crawler/May1/samples/asp/http://forums.asp.net//26.aspx/2/20?Configuration+and+Deployment gold:0 cluster:1
+../../Crawler/May1/samples/asp/cluster:6 gold:0 cluster:1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//26.aspx/3/20?Configuration+and+Deployment gold:0 cluster:1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//28.aspx/10/20?WCF+ASMX+and+other+Web+Services gold:0 cluster:1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//28.aspx/11/20?WCF+ASMX+and+other+Web+Services gold:0 cluster:1

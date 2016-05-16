@@ -1,0 +1,3 @@
+asp	May1	rank:0		macro_precision:0.931312722404	macro_recall:0.991398963773
+asp	May1	rank:1		macro_precision:0.964623284424	macro_recall:0.999905267147
+stackexchange	May1	rank:0		macro_precision:0.994572917451	macro_recall:0.985523980113
