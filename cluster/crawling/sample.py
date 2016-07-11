@@ -108,6 +108,8 @@ class sampler():
         else:
             return url
 
+
+
     def getAnchor(self,contents,first_url,sample_flag=True):
         link_dict = {}
         tree= etree.HTML(str(contents))
@@ -125,13 +127,15 @@ class sampler():
                 #print xpath,node.attrib['href']
                 if xpath not in link_dict:
                     link_dict[xpath] = []
-                url = node.attrib['href']
+                if 'href' in node.attrib:
+                    url = node.attrib['href']
+                else:
+                    continue
                 if self.intraJudge(url,self.dataset):
                     link_dict[xpath].append(self.transform(url))
 
             except:
-                err = "Oh no! " + str(node)
-                traceback.print_exc()
+                pass
         #print len(link_dict)
         print len(link_dict.keys())
         self.transition_dict[first_url] = link_dict
@@ -217,6 +221,7 @@ class sampler():
                 folder_path = "../../Crawler/full_data/" + site + "/"
                 file_name = folder_path + url.replace("/", "_") + ".html"
             except:
+                traceback.print_exc()
                 print " error in crawlUrl"
                 return 0
         #if ".html.html" in file_name:

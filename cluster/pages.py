@@ -12,7 +12,7 @@ from page import Page
 
 
 class allPages:
-    def __init__(self, folder_path, dataset, date="Apr17", mode="read"): # mode: {raw, read, write}
+    def __init__(self, folder_path, dataset, date="Mar15", mode="write"): # mode: {raw, read, write}
         self.folder_path = folder_path
         self.dataset = dataset
         self.date = date
@@ -263,31 +263,11 @@ class allPages:
                 [path,id] = line.split()
                 path = path.replace("_","/").replace(".html","")
                 gold_dict[path] = id
+        #print gold_dict
         return gold_dict
 
     def get_ground_truth(self,dataset):
         print "our dataset is {0}".format(dataset)
-        '''
-        if dataset == "stackexchange":
-            #gold_file = open("./Annotation/site.gold/stackexchange/stackexchange.gold").readlines()
-            try:
-                gold_file = open("./crawling/site.gold/stackexchange/stackexchange.gold").readlines()
-            except:
-                gold_file = open("./site.gold/stackexchange/stackexchange.gold").readlines()
-            gold_dict = self.build_gold(gold_file)
-            #print gold_dict.keys()[0]
-            for i in range(len(self.pages)):
-                path = self.pages[i].path.replace("../../Crawler/Apr17/samples/stackexchange/","")
-                path = path.replace("../Crawler/Apr17/samples/stackexchange/","")
-                if path not in gold_dict:
-                    print path + " is lacking"
-                    id = "-2"
-                else:
-                    id = int(gold_dict[path])
-                #print path, id
-                self.ground_truth.append(id)
-        else:
-        '''
 
         data = dataset.replace("new_","")
         try:
@@ -300,8 +280,9 @@ class allPages:
         print "length is ", len(gold_dict.keys())
         for i in range(len(self.pages)):
             # here {}/sample instead of {}_samples
+            #path = self.pages[i].path.replace("../Crawler/{0}/samples/{1}/".format(self.date,data),"")
             path = self.pages[i].path.replace("../../Crawler/{0}/samples/{1}/".format(self.date,data),"")
-            #print path.strip()
+            print path.strip()
             id = int(gold_dict[path.strip().replace(" ","")])
             self.ground_truth.append(id)
         '''
@@ -516,7 +497,6 @@ class allPages:
                 if page.xpaths[key1] >0 and page.xpaths[key2]>0:
                     co_dict[key1][key2] += 1
                     continue
-
 
         pair_dict = {}
         for key1 in xpaths_dict:

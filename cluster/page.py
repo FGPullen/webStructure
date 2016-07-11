@@ -1,7 +1,9 @@
-from lxml import etree
-import re
 import copy
 import math
+import re
+
+from lxml import etree
+
 
 class Page:
     def __init__(self,path,mode="raw"):

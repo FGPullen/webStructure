@@ -5,12 +5,14 @@ sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), os.par
 from hits_estimate import read_trans_dict
 from pageCluster import pageCluster
 from page import Page
-import math
+import math,pickle
 from collections import defaultdict,Counter
 import re
 from sklearn.preprocessing import normalize
 import numpy as np
+import lxml
 import traceback
+from bisect import bisect
 import random,time
 from sample import sampler
 
@@ -32,16 +34,19 @@ class crawler:
         self.full_folder = "../../Crawler/full_data/" + dataset
         self.trans = {}
         self.queue = {}
+        self.crawled_cluster_count = defaultdict(int)
         self.trans_dict = read_trans_dict(dataset,date)
 
 
         #self.cluster_dict = get_cluster_dict(dataset,date)
-        self.cluster_num = int(self.sitemap.DBSCAN(eps_val=self.eps))
+        #self.cluster_num = int(self.sitemap.DBSCAN(eps_val=self.eps))
+        self.cluster_num = int(self.sitemap.DBSCAN())
         self.build_gold_cluster_dict()
         self.cluster_xpath_trans = self.get_xpath_transition()
         self.trans_prob_mat = self.calculate_trans_prob_mat()
         self.max_score = 500
         self.target_cluster = self.get_sample_cluster()
+        #self.target_cluster = 0
         #print self.cluster_xpath_trans, "self.cluster_xpath_trans"
 
     # @ input: page object and self.sitemap
@@ -118,9 +123,8 @@ class crawler:
                 print key, xpath_counts_dict[key]
         '''
         print "=========== end of training ============"
-
+        self.xpath_counts_dict = xpath_counts_dict
         return xpath_counts_dict
-
     # evaluate the entropy of xpath estination
     # micro output average for each xpath
     def entropy(self,xpath_counts_dict):
@@ -432,6 +436,140 @@ class crawler:
         else:
             return False
 
+
+    def sampling(self,num_crawl,method="uniform"):
+        # need to read the pagerank dict from file
+        if method == "pagerank":
+            path = "./src/data/{0}/{0}.pr_dict".format(self.dataset)
+            with open(path,"rb") as outfile:
+                pr_dict = pickle.load(outfile)
+            avg_pr = sum(pr_dict.values())/len(pr_dict)
+            print avg_pr, "average pagerank"
+        elif method == "indegree":
+            path = "./src/data/{0}/{0}.inlink_dict".format(self.dataset)
+            with open(path,"rb") as outfile:
+                inlink = pickle.load(outfile)
+            indegree_dict = defaultdict(int)
+            for key in inlink:
+                indegree_dict[key] = len(inlink[key])
+            avg_indegree = sum(indegree_dict.values())/len(indegree_dict)
+
+
+        write_file = open("./results/sampling/random_{0}_{1}_size{2}.txt".format(method,self.dataset,self.crawl_size),"w")
+        num_web_crawl=0
+        entry, prefix = self.entry, self.prefix
+        self.url_stack = [entry]
+        self.final_list, url_list, last_list = [], [], []
+        size, num = num_crawl,  0 # the number of crawling
+        s = sampler(self.dataset,self.entry,self.prefix,0)
+        while(num<size and len(self.url_stack) >0):
+            first_url = self.url_stack[0]
+            print "first_url", first_url
+            try:
+                sys.stdout.write("num is {}\n".format(num))
+                sys.stdout.flush()
+                #print num, "num"
+                url_list,cluster_id = self.sample_link(first_url,s,method)
+                if first_url not in self.history_set:
+                    self.final_list.append((first_url,cluster_id))
+                    num += 1
+            except:
+                print "might miss somthing here"
+                traceback.print_exc()
+                flag = s.crawlUrl(first_url,self.dataset,self.url_stack,self.history_set)
+                if flag == 1:
+                    sys.stdout.write("num is {}\n".format(num))
+                    sys.stdout.flush()
+                    #print num, "num"
+                    url_list,cluster_id = self.sample_link(first_url,s,method)
+                    print url_list
+                    if first_url not in self.history_set:
+                        num += 1
+                        self.final_list.append((first_url,cluster_id))
+                    random_time_s = random.randint(5, 10)
+                    time.sleep(random_time_s)
+                    #num_web_crawl += 1
+                    if num_web_crawl%10 == 9:
+                        random_time_s = random.randint(60, 90)
+                        time.sleep(random_time_s)
+                else:
+                    #change the first_url from parent sampling
+                    print num, "num"
+                    traceback.print_exc()
+                    pass
+
+            if self.url_stack[0] == first_url:
+                self.url_stack.pop(0)
+                self.history_set.add(first_url)
+
+            probability = 0.15
+            if method=="uniform":
+                # after processing, 0.15 random and 0.85 uniform sampling
+                # no out-links - random sample
+                if random.random() < probability:
+                    self.select_from_history_set()
+                else:
+                    try:
+                        print url_list
+                        id = random.randrange(len(url_list))
+                        self.url_stack.append(url_list[id])
+                        print url_list[id], "select from out-links"
+                    except:
+                        self.select_from_history_set()
+
+            elif method == "pagerank":
+                if random.random() < probability:
+                    url = random.sample(self.history_set,1)[0]
+                    self.url_stack.append(url)
+                    print url, "random sampled from history set"
+                else:
+                    try:
+                        id = self.sample_from_dist(url_list,pr_dict,avg_pr)
+                        self.url_stack.append(url_list[id])
+                        print url_list[id], "select from out-links"
+                    except:
+                        self.select_from_history_set()
+            elif method == "indegree":
+                print "sample from orcacle indegree"
+                if random.random() < probability:
+                    url = random.sample(self.history_set,1)[0]
+                    self.url_stack.append(url)
+                    print url, "random sampled from history set"
+                else:
+                    try:
+                        id = self.sample_from_dist(url_list,indegree_dict,avg_indegree)
+                        self.url_stack.append(url_list[id])
+                        print url_list[id], "select from out-links"
+                    except:
+                        traceback.print_exc()
+                        self.select_from_history_set()
+
+            else: # our method
+                if random.random() < probability:
+                    url = random.sample(self.history_set,1)[0]
+                    self.url_stack.append(url)
+                    print url, "random sampled from history set"
+                else:
+                    try:
+                        id = self.sample_from_prob_list(url_list)
+                        self.url_stack.append(url_list[id][0])
+                        print url_list[id], "select from out-links"
+                    except:
+                        self.select_from_history_set()
+
+
+        print len(self.final_list), "length of final list"
+        for pair in self.final_list:
+            url, cluster_id = pair[0],pair[1]
+            write_file.write(url + "\t"+ str(cluster_id) + '\n')
+                #random sample one from url list and add to ur_stack
+
+    def select_from_history_set(self):
+        url = random.sample(self.history_set,1)[0]
+        self.url_stack.append(url)
+        print url, "random sampled from history set"
+
+
     # input: entry, prefix, site, trans_xpath_dict , target_cluster id
     # target: find the cluster page that we want
     def crawling(self,num_crawl):
@@ -441,38 +579,41 @@ class crawler:
         write_file = open("./results/{0}_{1}_{2}_{3}_size{4}.txt".format(self.dataset,self.date, self.cluster_rank, self.rank_algo, self.crawl_size),"w")
         num_web_crawl = 0
         entry,prefix = self.entry, self.prefix
-        self.url_stack  = [(entry,self.max_score)]
+        self.url_stack  = [(entry,"","",self.max_score)]
         self.final_list = []
         size, num = num_crawl,  0 # the number of crawling
         crawl_id = 0
         s = sampler(self.dataset,self.entry,self.prefix,0)
         while(num<size and len(self.url_stack)>0):
-
             first_url = self.url_stack[0][0]
+            parent_url = self.url_stack[0][1]
+            parent_xpath = self.url_stack[0][2]
+            score = self.url_stack[0][3]
             print self.url_stack[0]
             print self.url_stack[-1]
 
             #first_url = self.url_stack[0][0]
             try:
-                print "first url is " + first_url, " num is {}".format(num+1)
+                print "first url is " + first_url
+
             except:
                 traceback.print_exc()
             if first_url not in self.history_set:
                 num += 1
                 try:
-                    url_list = self.crawl_link(first_url,  self.history_set, s)
+                    url_list,cluster_id = self.crawl_link(first_url,  self.history_set, s)
                     #print "url_list", url_list
                     self.sort_queue(url_list,first_url,self.rank_algo) # sort url_stack
-                    self.final_list.append(first_url)
+                    self.final_list.append((first_url,parent_url,parent_xpath,score,cluster_id))
                 except:
                     print "might miss somthing here"
                     traceback.print_exc()
                     flag = s.crawlUrl(first_url,self.dataset,self.url_stack,self.history_set)
                     if flag == 1:
-                        url_list = self.crawl_link(first_url,  self.history_set,s )
+                        url_list,cluster_id = self.crawl_link(first_url,  self.history_set,s )
                         self.sort_queue(url_list,first_url,rank_algo=self.rank_algo)
-                        self.final_list.append(first_url)
-                        random_time_s = random.randint(5, 15)
+                        self.final_list.append((first_url,parent_url,parent_xpath,score,cluster_id))
+                        random_time_s = random.randint(5, 10)
                         time.sleep(random_time_s)
                         num_web_crawl += 1
                         if num_web_crawl%10 == 9:
@@ -484,12 +625,17 @@ class crawler:
             if self.url_stack[0][0] == first_url:
                 self.url_stack.pop(0)
             crawl_id += 1
+            print " num is {}".format(num)
+            sys.stdout.flush()
             if num >= size:
                 print "crawl_id is {0} for size {1}".format(crawl_id,size)
+
                 #print "first url comes from the {} th crawled page".format(self.page_num[first_url])
             self.history_set.add(first_url)
-        for url in self.final_list:
-            write_file.write(url +'\n')
+        print len(self.final_list), "length of final list"
+        for pair in self.final_list:
+            url, parent_url,parent_xpath,score, cluster_id = pair[0],pair[1],pair[2],pair[3],pair[4]
+            write_file.write(url + "\t" + str(parent_url) +"\t" + str(parent_xpath) + "\t" + str(score) +  "\t"+ str(cluster_id) + '\n')
 
     def sort_queue(self,url_list,first_url,rank_algo):
 
@@ -502,17 +648,22 @@ class crawler:
             print "bfs for crawling frontier"
             #time.sleep(10)
             print self.url_stack[0], "first element in url stack"
-        elif rank_algo == "sort" or rank_algo == "general":
+        elif rank_algo == "sort":
             print "algo is sorting by hub and authority"
-            self.url_stack = sorted(self.url_stack,key=lambda tup:tup[1],reverse=True)  # sorts in place
+            self.url_stack = sorted(self.url_stack,key=lambda tup:tup[-1],reverse=True)  # sorts in place
             #print "===" + str(self.url_stack) + "==="
+            '''
             for url in self.url_stack:
                 url = url[0]
                 if self.match_rules(url,self.rules):
                     print url,
             print ""
-            time.sleep(2)
+            #time.sleep(2)
             print self.url_stack[0], "first element in url stack"
+            '''
+        elif rank_algo == "general":
+            print "general crawling which takes the ratio of clusters into consideration"
+
         else:
             raise
 
@@ -554,6 +705,7 @@ class crawler:
         file_path = self.full_folder + "/" + first_url.replace("/","_") +".html"
         #print file_path
         page,cluster_id = self.classify(file_path)
+        self.crawled_cluster_count[cluster_id] += 1
         available_url_list = []
         print file_path, cluster_id , "file_path for cluster_id"
         original = open(file_path,"r").read()
@@ -562,7 +714,9 @@ class crawler:
         print link_dict, "link dict"
         #self.transition_dict[url] = link_dict
         for xpath in link_dict:
-            distribution = self.cluster_xpath_trans[(cluster_id,xpath)]
+            # considering cluster
+            #distribution = self.cluster_xpath_trans[(cluster_id,xpath)]
+            distribution = self.xpath_counts_dict[(cluster_id,xpath)]
             #print distribution, (cluster_id,xpath), " cluster_id, xpath for distribution"
             score = self.calculate_url_importance(distribution) # and self.cluster_trans_prob_mat
             #print distribution, "the probability of itself"
@@ -574,8 +728,89 @@ class crawler:
                     flag += 1
 
                 if url not in history_stack and url not in available_url_list:
-                    available_url_list.append((url,score))
-        return available_url_list
+                    available_url_list.append((url,first_url,(cluster_id,xpath),score))
+        return available_url_list, cluster_id
+
+    def sample_link(self,first_url,sampler,method="uniform"):
+        #print "sample link starts"
+        file_path = self.full_folder + "/" + first_url.replace("/","_") +".html"
+        page, cluster_id = self.classify(file_path)
+        original = open(file_path,"r").read()
+        contents = original.replace("\n","")
+        link_dict = sampler.getAnchor(contents,first_url,sample_flag=False)
+        available_url_list = []
+        #print self.xpath_counts_dict, "xpath_counts_dict"
+        if method == "uniform" or method == "pagerank" or method == "indegree":
+            print "no predicting scores"
+            for xpath in link_dict:
+                link_list = link_dict[xpath]
+                for link in link_list:
+                    if link not in self.history_set:
+                        available_url_list.append(link)
+        else:
+            print "predicting scores based on distribution"
+            for xpath in link_dict:
+                distribution = self.xpath_counts_dict[(cluster_id,xpath)]
+                #print distribution, " distribution is "
+                link_list = link_dict[xpath]
+                if method == "est_pagerank":
+                    score = self.calculate_url_pr(distribution)
+                elif method == "est_degree":
+                    score = self.calculate_url_indegree(distribution)
+                #print score, "calcualte_url_pr"
+                for link in link_list:
+                    if link not in self.history_set:
+                        available_url_list.append((link,score))
+        #print "sample link ends"
+        return available_url_list, cluster_id
+
+    # input: url_list and its pagerank score distribution dict (key->value)
+    # output: an id sampled inversed to its pagerank score
+    def sample_from_dist(self,url_list,pr_dict,avg_pr):
+        pr_dist = []
+        #print url_list
+        for url in url_list:
+            if url in pr_dict:
+                if pr_dict[url] !=0:
+                    pr_dist.append(1.0/pr_dict[url])
+                else:
+                    pr_dist.append(1.0/float(avg_pr))
+            else:
+                pr_dist.append(1.0/float(avg_pr))
+        pr_dist = normalize(pr_dist,"l1")[0]
+        print len(pr_dist),
+        print pr_dist, "pagerank/indegree list"
+
+        if len(pr_dist) == 0:
+            raise Exception("Has no links")
+
+        cdf = [pr_dist[0]]
+        for i in xrange(1, len(pr_dist)):
+            cdf.append(cdf[-1] + pr_dist[i])
+        random_ind = bisect(cdf,random.random())
+        print random_ind, "random sampling id from pagerank score "
+        return random_ind
+
+
+    # input, list of pairs (url,score)
+    def sample_from_prob_list(self,url_list):
+        pr_dist = []
+        for item in url_list:
+            pr_dist.append(1.0/item[-1])
+        print pr_dist, " reversed prob list"
+        pr_dist = normalize(pr_dist,"l1")[0]
+        #print url_list, " estimated pagerank prob distribution"
+        #print pr_dist, " reversed probability distribution"
+        if len(pr_dist) == 0:
+            raise Exception("Has no links")
+
+        cdf = [pr_dist[0]]
+        for i in xrange(1, len(pr_dist)):
+            cdf.append(cdf[-1] + pr_dist[i])
+        random_ind = bisect(cdf,random.random())
+        print random_ind, "random sampling id from pagerank score "
+        return random_ind
+
 
     # @ input: cluster_xpath_trans (cluster,xpath) -> distribution
     # @ output:  self.trans_prob_mat, [cluster_id][cluster_id] -> n
@@ -591,14 +826,43 @@ class crawler:
         return trans_prob_mat
 
     def calculate_url_importance(self,distribution,target_weight=None):
-        k1, k2 = 0.8, 0.2
+        k1, k2, k3 = 0.4, 0.1, 0.5
         score = 0.0
+        total = sum(self.crawled_cluster_count.values())
         norm = sum(distribution.values())
         for dest_id, num in distribution.iteritems():
             prob = float(num)/float(norm)
+            #discount = (1-float(self.crawled_cluster_count[dest_id])/float(total))
+            ratio = float(self.crawled_cluster_count[dest_id])/float(total)
+            ratio_weight = 1 - ratio**2
+            #print total, "total", discount, "discount"
             score += k1* prob * self.auth_score[dest_id]
             score += k2* prob * self.hub_score[dest_id]
+            score += k3 * prob * ratio_weight
         return score
+
+    def calculate_url_pr(self,distribution):
+        #print distribution, " distribution "
+        if len(distribution) == 0:
+            return self.avg_pr_score
+
+        score, norm = 0.0, sum(distribution.values())
+        for dest_id, num in distribution.iteritems():
+            prob = float(num)/float(norm)
+            score += prob * self.pr_score[dest_id][0]
+            #print self.pr_score[dest_id][0]
+        return score
+
+    def calculate_url_indegree(self,distribution):
+        if len(distribution) == 0:
+            return self.avg_indegree
+        score, norm = 0.0, sum(distribution.values())
+        for dest_id, num in distribution.iteritems():
+            prob = float(num)/float(norm)
+            score += prob * self.indegree[dest_id]
+            #print self.pr_score[dest_id][0]
+        return score
+
 
     def compute_hit_scores(self,max_iter=100):
         trans_mat = self.trans_dict_to_matrix() # need normalization
@@ -616,6 +880,34 @@ class crawler:
         self.auth_score = auth_score
         self.hub_score = hub_score
         self.output_hits()  # n*1
+
+    def compute_pagerank_scores(self,max_iter=100):
+        alpha = 0.15
+        trans_mat = self.trans_dict_to_matrix()
+        trans_mat = normalize(trans_mat, norm='l1', axis=1)
+        pr_score = np.ones((self.cluster_num,1))/float(self.cluster_num)
+        ite = 0
+        while(ite < max_iter):
+            print "iteration ", ite
+            #previous_pr = pr_score
+            pr_score = trans_mat.T.dot(pr_score)*alpha + (1-alpha)*np.ones((self.cluster_num,1))/float(self.cluster_num)
+            ite += 1
+        self.pr_score = pr_score
+        self.avg_pr_score = pr_score.sum(axis=0)/self.cluster_num
+        self.output_pagerank()
+        print self.avg_pr_score, "average score is "
+
+    #
+    def compute_indegree(self):
+        self.avg_indegree = self.indegree.sum(axis=0)/self.cluster_num
+        print self.indegree, " indegree table"
+        print self.avg_indegree, "average indegree is "
+
+
+    def output_pagerank(self):
+        print "page rank scores"
+        for i in range(self.cluster_num):
+            print "pagerank score for {0} is {1}".format(i,self.pr_score[i][0])
 
     def output_hits(self):
         print "authorative scores"
@@ -636,9 +928,14 @@ class crawler:
                 if self.rank_algo == "sort":
                     if col == self.target_cluster:
                         trans_mat[row,col] = value
-                elif self.rank_algo == "general":
+                else:
                     trans_mat[row,col] = value
-        print trans_mat
+        # axis = 0 in-degree / axis = 1 out-degree
+        print trans_mat.sum(axis=1), "out-degree"
+        indegree_list = trans_mat.sum(axis=0)
+        print indegree_list, "in-degree"
+        self.indegree = indegree_list
+
         return trans_mat
 
 if __name__ == "__main__":
@@ -659,7 +956,10 @@ if __name__ == "__main__":
     pages = c.sitemap.UP_pages
     sitemap = c.sitemap
     c.compute_hit_scores()
-    c.crawling(c.crawl_size)
+    c.compute_pagerank_scores()
+    c.compute_indegree()
+    #c.crawling(c.crawl_size)
+    c.sampling(c.crawl_size,method=args.rank_algo)
     #print c.cluster_num
     #c.test_destination()
 

@@ -1,0 +1,10 @@
+http://www.tripadvisor.com			500	0
+http://www.tripadvisor.com/pages/terms.html	http://www.tripadvisor.com	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	[ 0.55085253]	-1
+http://www.tripadvisor.com/pages/privacy.html	http://www.tripadvisor.com	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	[ 0.55085253]	-1
+http://www.tripadvisor.com/Rentals	http://www.tripadvisor.com	(0, '/html/body/div/div/div/div/ul/li/a[tabLink  pid4968]')	[ 0.55085253]	-1
+http://www.tripadvisor.com/TravelersChoice	http://www.tripadvisor.com	(0, '/html/body/div/div/div/div/ul/li/a[tabLink  pid5087]')	[ 0.55085253]	-1
+http://www.tripadvisor.com/Hotels-g34438-Miami_Florida-Hotels.html	http://www.tripadvisor.com	(0, '/html/body/div/div/div/div/ul/li/div/div/div/div/a[]')	[ 0.58277973]	9
+http://www.tripadvisor.com/Hotels-g60864-New_Orleans_Louisiana-Hotels.html	http://www.tripadvisor.com	(0, '/html/body/div/div/div/div/ul/li/div/div/div/div/a[]')	[ 0.58277973]	9
+http://www.tripadvisor.com/Hotels-g45964-Laughlin_Nevada-Hotels.html	http://www.tripadvisor.com	(0, '/html/body/div/div/div/div/ul/li/div/div/div/div/a[]')	[ 0.58277973]	9
+http://www.tripadvisor.com/Hotels-g60927-Corpus_Christi_Texas-Hotels.html	http://www.tripadvisor.com	(0, '/html/body/div/div/div/div/ul/li/div/div/div/div/a[]')	[ 0.58277973]	9
+http://www.tripadvisor.com/Hotels-g57804-Hampton_Virginia-Hotels.html	http://www.tripadvisor.com	(0, '/html/body/div/div/div/div/ul/li/div/div/div/div/a[]')	[ 0.58277973]	9

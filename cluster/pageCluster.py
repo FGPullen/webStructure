@@ -218,25 +218,26 @@ class pageCluster:
 
 
     def findEps(self, X):
-        K = 4
-        bin_num = 100
-        default_eps = 0.2
+        K = 100
+        num_feat = len(X[0])
+        print num_feat, " number of features"
+        bin_num = num_feat/4.8
+        default_eps = 0.10
         kdist_list = []
         nbrs = NearestNeighbors(n_neighbors=K, algorithm="ball_tree").fit(X)
         distances, indices = nbrs.kneighbors(X)
         for dist in distances:
             #kdist_list += dist.tolist()[1:]
-            kdist_list.append(dist.tolist()[-1])
+            kdist_list+= dist.tolist()[4:5]
         n, bins = np.histogram(kdist_list, bins=bin_num)
         threshold = np.mean(n[bin_num/3:])
+        threshold = 4
         eps = default_eps
         for idx, val in enumerate(n):
             if idx > 5 and val < threshold:
                 eps = bins[idx]
                 break
         return eps
-
-
 
     '''
     def findEps(self, X):
@@ -731,9 +732,8 @@ if __name__=='__main__':
             #for eps in [0.05,0.10,0.15,0.20,0.25,0.30]:
             cluster_labels.DBSCAN(features_type,  cv=True)
         else:
-            for eps in [0.045,0.10,0.15]:
-                cluster_labels.DBSCAN(features_type, cv=False, eps_val=eps)
-                cluster_labels.Evaluation(args.datasets,args.clustering,features_type)
+            cluster_labels.DBSCAN(features_type, cv=False)
+            cluster_labels.Evaluation(args.datasets,args.clustering,features_type)
     #visualization
     '''
     if args.test_type != "cv":

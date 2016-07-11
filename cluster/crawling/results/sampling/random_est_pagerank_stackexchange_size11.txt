@@ -1,0 +1,11 @@
+http://android.stackexchange.com/questions	9
+http://android.stackexchange.com/questions/tagged/compression	9
+http://android.stackexchange.com/users/165078/vicky	16
+http://android.stackexchange.com/questions/tagged/vmware	9
+http://android.stackexchange.com/questions/tagged/screen-resolution	9
+http://android.stackexchange.com/users/21128/brian-hedley	16
+http://android.stackexchange.com/search?q=user:21128+[data-plan]	-1
+http://android.stackexchange.com/	0
+http://android.stackexchange.com/questions/144539/how-to-grant-a-permission-to-an-app	1
+http://android.stackexchange.com/questions/140683/how-to-set-sd-card-as-default-storage-on-android-marshmallow	1
+http://android.stackexchange.com/tags	11

@@ -337,7 +337,7 @@
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/user/GwenStefaniVEVO gold:0 cluster:1
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/user/HalseyVEVO gold:0 cluster:1
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/user/HalseyVEVO/about gold:0 cluster:5
-../../Crawler/May1/samples/youtube/https://www.youtube.com/user/HalseyVEVO/channels gold:0 cluster:1
+../../Crawler/May1/samples/youtube/https://www.youtube.com/user/HalseyVEVO/channels gold:0 cluster:-1
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/user/JakeBuggVEVO gold:0 cluster:1
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/user/JanniBunny212 gold:0 cluster:6
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/user/JimmyKimmelLive gold:0 cluster:1
@@ -464,7 +464,7 @@
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/user/YouTubeShowsUS/channels?view=60 gold:0 cluster:2
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/user/YouTubeShowsUS/videos gold:0 cluster:1
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/user/YouTubeShowsUS/videos?shelf/id=3&view=36&sort=dd gold:0 cluster:4
-../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=-C9aHH2V4r8&list=PLFgquLnL59alCl/2TQvOiD5Vgm1hCaGSI&index=67 gold:6 cluster:9
+../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=-C9aHH2V4r8&list=PLFgquLnL59alCl/2TQvOiD5Vgm1hCaGSI&index=67 gold:6 cluster:-1
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=-gdiL/5gWQw gold:6 cluster:9
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=-qdNy/vz-gM gold:6 cluster:9
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=-TW9PNZgnw8 gold:6 cluster:9
@@ -509,7 +509,7 @@
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=5/hTn9STHBo gold:6 cluster:9
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=5eCVirBPnkQ&index=25&list=PLS/gQd8UB-hI9MkVFdtIzfAtr4jyjhQmV gold:6 cluster:9
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=5GL9JoH4Sws gold:6 cluster:9
-../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=5hIm3nnfFuo gold:6 cluster:9
+../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=5hIm3nnfFuo gold:6 cluster:-1
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=5mZovjRlkWs gold:6 cluster:9
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=5SZfznYgToc gold:6 cluster:9
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=65Cpw6KDnvM gold:6 cluster:9
@@ -734,9 +734,9 @@
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=ljnq7SuCcso gold:6 cluster:9
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=lkN51aqPOzU&list=PLFgquLnL59alCl/2TQvOiD5Vgm1hCaGSI&index=61 gold:6 cluster:9
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=lLbZFSrIYAg&list=PLZ1f3amS4y1dxdf7gpDUa4toMdljZ/g-p gold:6 cluster:9
-../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=LpR7Mp6sjY0&list=PLbpi6ZahtOH59QD3tP0cZpCy7F-G4P3/M gold:6 cluster:9
+../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=LpR7Mp6sjY0&list=PLbpi6ZahtOH59QD3tP0cZpCy7F-G4P3/M gold:6 cluster:-1
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=lQz6xhlOt18 gold:6 cluster:-1
-../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=lRAKcK5ZD1I gold:6 cluster:9
+../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=lRAKcK5ZD1I gold:6 cluster:-1
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=LrFZkRjc4gk&index=7&list=PLS/gQd8UB-hKT1BP7ivkqL-ibBiiLV0oH gold:6 cluster:9
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=LrUvu1mlWco gold:6 cluster:9
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=LS8a98DJhhI&list=PLIqpKQ/TJ/bCDXpRkLx9bUSMDfbfhHRw4 gold:6 cluster:9
@@ -799,7 +799,7 @@
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=ONSP0EtlIVk gold:6 cluster:9
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=OPf0YbXqDm0 gold:6 cluster:9
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=oqjWwT39E0I&list=PLat/oTO7cmowQRv6krt0Y8XL3jB5GEc5- gold:6 cluster:9
-../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=orGM62l1OpM gold:6 cluster:9
+../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=orGM62l1OpM gold:6 cluster:-1
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=OubvTOHWTms gold:6 cluster:9
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=OUoYy02OrvY&index=28&list=PLat/oTO7cmowvoTNEOQWZgCdaXDLLGnv0 gold:6 cluster:9
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/watch?v=oWbTcGQGAI8&list=RDn8bk6FOZwQw&index=2 gold:6 cluster:9

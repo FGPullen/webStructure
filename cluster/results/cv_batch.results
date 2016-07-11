@@ -343,3 +343,9 @@ new_baidu	dbscan-0.141184130033	log-tf-idf	cv_micro_precision	0.940768530303
 new_baidu	dbscan-0.141184130033	log-tf-idf	cv_macro_precision	0.764815100736
 new_baidu	dbscan-0.172441195404	tf-idf	cv_micro_precision	0.961960120736
 new_baidu	dbscan-0.172441195404	tf-idf	cv_macro_precision	0.76654520751
+tripadvisor	dbscan-0.0651623414392	log-tf-idf	cv_micro_precision	0.86612632916
+tripadvisor	dbscan-0.0651623414392	log-tf-idf	cv_macro_precision	0.76354261317
+youtube	dbscan-0.133283643278	log-tf-idf	cv_micro_precision	0.97601561625
+youtube	dbscan-0.133283643278	log-tf-idf	cv_macro_precision	0.672556390977
+asp	dbscan-0.129360782806	log-tf-idf	cv_micro_precision	0.99397486696
+asp	dbscan-0.129360782806	log-tf-idf	cv_macro_precision	0.888095238095

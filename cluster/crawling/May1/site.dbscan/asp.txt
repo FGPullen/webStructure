@@ -42,7 +42,7 @@
 ../../Crawler/May1/samples/asp/http://forums.asp.net//191.aspx/4/20?SQL+Server+Reporting+Services gold:0 cluster:1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//191.aspx/5/20?SQL+Server+Reporting+Services gold:0 cluster:1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//26.aspx/1?Configuration+and+Deployment gold:0 cluster:1
-../../Crawler/May1/samples/asp/cluster:6 gold:0 cluster:1
+../../Crawler/May1/samples/asp/http://forums.asp.net//26.aspx/2/20?Configuration+and+Deployment gold:0 cluster:1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//26.aspx/3/20?Configuration+and+Deployment gold:0 cluster:1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//28.aspx/10/20?WCF+ASMX+and+other+Web+Services gold:0 cluster:1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//28.aspx/11/20?WCF+ASMX+and+other+Web+Services gold:0 cluster:1
@@ -549,7 +549,7 @@
 ../../Crawler/May1/samples/asp/http://forums.asp.net//post/6029422.aspx gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//post/6029473.aspx gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//post/6029488.aspx gold:6 cluster:-1
-../../Crawler/May1/samples/asp/http://forums.asp.net//post/6029569.aspx gold:6 cluster:2
+../../Crawler/May1/samples/asp/http://forums.asp.net//post/6029569.aspx gold:6 cluster:-1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//post/6029580.aspx gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//post/6029624.aspx gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//post/6029649.aspx gold:6 cluster:2
@@ -822,7 +822,7 @@
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087314.aspx?JavaScript+not+working+after+including+Bootstrap+CSS+on+master+page gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087316.aspx?A+Way+to+Pass+Info+from+Partial+to+View gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087337.aspx?session+variables+cleared+empty+after+RedirectToAction gold:6 cluster:2
-../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087350.aspx?dynamic+report+possible+in+SQL+Reporting+services+ gold:6 cluster:2
+../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087350.aspx?dynamic+report+possible+in+SQL+Reporting+services+ gold:6 cluster:-1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087379.aspx gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087379.aspx?Connecting+to+2+different+databases+MsSQL+MySQL+Possible+ gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087403.aspx gold:6 cluster:2
@@ -837,7 +837,7 @@
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087544.aspx?Generating+Web+API+Help+for+multiple+assemblies gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087551.aspx gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087551.aspx?Post+data+from+Two+different+models+in+MVC+at+one+go+one+in+a+partial+view+and+the+other+in+main+view+ gold:6 cluster:2
-../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087573.aspx?Split+column+with+two+character+in+c+ gold:6 cluster:2
+../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087573.aspx?Split+column+with+two+character+in+c+ gold:6 cluster:-1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087576.aspx?Limit+Text+area+characters gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087587.aspx?table+position+inside+panel gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087609.aspx?mvc+commn+line+arguments+ gold:6 cluster:2
@@ -851,7 +851,7 @@
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087713.aspx?Export+Crystal+Report+PDF+Problem+Unicode gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087740.aspx?RDLC+get+max+depth+for+recursive+hierarchy gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087742.aspx?Congratulations+on+the+much+improved+documents+for+the+ASP+NET+site+ gold:6 cluster:2
-../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087746.aspx?HttpCookie+to+Session+Cookie gold:6 cluster:2
+../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087746.aspx?HttpCookie+to+Session+Cookie gold:6 cluster:-1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2087754.aspx?Reading+and+writing+cookies gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2088178.aspx?change+data+source+for+an+rdl+file+ gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/2088473.aspx?Print+a+report+directly+at+client+side+without+displaying+it+in+an+ASP+NET+ReportViewer gold:6 cluster:2
@@ -874,7 +874,7 @@
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/next/2086239 gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/next/2086312 gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/next/2086479 gold:6 cluster:2
-../../Crawler/May1/samples/asp/http://forums.asp.net//t/next/2086699 gold:6 cluster:2
+../../Crawler/May1/samples/asp/http://forums.asp.net//t/next/2086699 gold:6 cluster:-1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/next/2086735 gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/next/2086737 gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/next/2086761 gold:6 cluster:2
@@ -890,7 +890,7 @@
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/next/2087358 gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/next/2087379 gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/next/2087403 gold:6 cluster:2
-../../Crawler/May1/samples/asp/http://forums.asp.net//t/next/2087435 gold:6 cluster:2
+../../Crawler/May1/samples/asp/http://forums.asp.net//t/next/2087435 gold:6 cluster:-1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/next/2087439 gold:6 cluster:2
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/next/2087444 gold:6 cluster:-1
 ../../Crawler/May1/samples/asp/http://forums.asp.net//t/next/2087544 gold:6 cluster:2
