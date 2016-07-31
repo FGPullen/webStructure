@@ -375,7 +375,6 @@ class pageCluster:
             for i in xrange(len(self.UP_pages.pages)):
                 write_file.write(self.UP_pages.pages[i].path + " gold:" + str(self.UP_pages.ground_truth[i]) \
                                 + " cluster:" + str(self.UP_pages.category[i]) + "\n")
-
             return num_clusters
 
     def get_affinity_matrix(self):
@@ -590,6 +589,8 @@ class pageCluster:
             if val != -1 and labels_true[idx]!= -1:
                 new_labels_pred.append(val)
                 new_labels_true.append(labels_true[idx])
+        #for i in range(len(labels_true)):
+        #    print labels_true[i], labels_pred[i]
 
         train_batch_file = open("./results/train_batch.results","a")
         prefix =  str(dataset) + "\t" + str(algo) + "\t" + str(feature) + "\t"
@@ -655,6 +656,13 @@ class pageCluster:
         #print str(index) + "\t" + str(value)
         user_cluster = clusters[index]
         user_cluster.find_local_stop_structure(pages.nidf,global_threshold)
+
+    # given features self.X and self.pre_y, calculate the similarity within each cluster
+    def calculate_cluster_similarity(self):
+        print self.X
+        print self.pre_y
+
+
 
 
 if __name__=='__main__':
@@ -734,6 +742,10 @@ if __name__=='__main__':
         else:
             cluster_labels.DBSCAN(features_type, cv=False)
             cluster_labels.Evaluation(args.datasets,args.clustering,features_type)
+            print "let's do dbscan for trainning"
+
+    cluster_labels.calculate_cluster_similarity()
+
     #visualization
     '''
     if args.test_type != "cv":

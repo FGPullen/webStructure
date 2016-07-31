@@ -1,6 +1,6 @@
 import copy
 import math
-import re
+import re,collections
 
 from lxml import etree
 
@@ -24,6 +24,8 @@ class Page:
         self.normtfidf = {}
         self.logtfidf = {}
         self.embedding = []
+        self.anchor_xpath_set = set()
+        self.anchor_xpath_dict = collections.defaultdict(int)
         #self.getEmbedding()
         self.Leung = {}
         if mode == "raw":
@@ -31,7 +33,13 @@ class Page:
             self.original = open(path,"r").read()
             self.contents = self.original.replace("\n","")
             self.getXpaths()
-            root = etree.HTML(str(self.contents))
+            #root = etree.HTML(str(self.contents))
+        elif mode == "c_baseline":
+            print "the c_baseline for page"
+            self.original = open(path,"r").read()
+            self.contents = self.original.replace("\n","")
+            self.get_anchor_xpath()
+
         #else:
          #   a = "read_features"
             #self.read_features()
@@ -138,6 +146,26 @@ class Page:
             #print xpath
             self.dfs_xpaths_list.append(xpath)
             self.addXpath(xpath)
+
+    def get_anchor_xpath(self):
+        tree= etree.HTML(str(self.contents))
+        Etree = etree.ElementTree(tree)
+        nodes = tree.xpath("//a")
+        #nodes = tree.xpath("//*[not(*)]")
+        for node in nodes:
+            # we do not consider index or predicate here
+            if 'href'not in node.attrib:
+                continue
+            else:
+                t = node.attrib['href']
+                if t.startswith('javascript:') or t.startswith('mailto:') or t == "#" or t.startswith("//"):
+                    continue
+
+            xpath = Etree.getpath(node)
+            xpath = self.removeIndex(xpath)
+            #print xpath
+            self.anchor_xpath_set.add(xpath)
+            self.anchor_xpath_dict[xpath] += 1
 
     def detect_loop(self, root):
         return False

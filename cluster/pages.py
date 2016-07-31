@@ -2,17 +2,19 @@ import collections
 import math
 import os
 import pickle
+from sklearn import metrics
 from sets import Set
-
+import operator
 import numpy as np
 from sklearn.preprocessing import normalize
+from url_annotator import  annotator
 
 from cluster import cluster
 from page import Page
 
 
 class allPages:
-    def __init__(self, folder_path, dataset, date="Mar15", mode="write"): # mode: {raw, read, write}
+    def __init__(self, folder_path, dataset, date="Mar15", mode="read"): # mode: {raw, read, write}
         self.folder_path = folder_path
         self.dataset = dataset
         self.date = date
@@ -27,6 +29,7 @@ class allPages:
         self.selected_df = {}
         self.df = {}
         self.features = []
+        self.mode = mode
         if not os.path.exists("./{}/feature/".format(date)+dataset):
             os.makedirs("./{}/feature/".format(date)+dataset)
         if mode == "read":
@@ -59,6 +62,11 @@ class allPages:
             self.idf = pickle.load(idf_file)
             self.category = [0 for i in range(len(page_list))]
             self.get_ground_truth(dataset)
+        elif mode == "c_baseline":
+            print "it is the baseline of v.crescenzi"
+            self.add_page_anchor(folder_path)
+            self.get_ground_truth(dataset)
+
         else:
         # initialize data structure
             #  update attributes
@@ -136,6 +144,18 @@ class allPages:
                     self.category.append(category_num)
                     self.update_xpaths_set(file_page)
             category_num+=1
+
+
+    def add_page_anchor(self,folder_path_list):
+        for folder_path in folder_path_list:
+            for html_file in os.listdir(folder_path):
+                if ".DS_Store" not in html_file:
+                    file_path = folder_path + html_file
+                    print file_path
+                    file_page = Page(file_path,mode="c_baseline")
+                    # the same number for pags & category
+                    self.pages.append(file_page)
+                    self.path_list.append(file_page.path)
 
     def expandXpaths(self):
         for page in self.pages:
@@ -270,10 +290,17 @@ class allPages:
         print "our dataset is {0}".format(dataset)
 
         data = dataset.replace("new_","")
-        try:
+        if os._exists("./crawling/{0}/site.gold/{1}/{1}.gold".format(self.date,data)):
+            print "./crawling/{0}/site.gold/{1}/{1}.gold".format(self.date,data)
             gold_file = open("./crawling/{0}/site.gold/{1}/{1}.gold".format(self.date,data)).readlines()
-        except:
+        elif os._exists("./{0}/site.gold/{1}/{1}.gold".format(self.date,data)):
             gold_file = open("./{0}/site.gold/{1}/{1}.gold".format(self.date,data)).readlines()
+            print "./{0}/site.gold/{1}/{1}.gold".format(self.date,data)
+        else:
+            a = annotator(dataset)
+            self.ground_truth = a.get_ground_truth(self.path_list)
+            return None
+
         gold_dict = self.build_gold(gold_file)
         #print self.folder_path
         print gold_dict.keys()
@@ -285,118 +312,6 @@ class allPages:
             print path.strip()
             id = int(gold_dict[path.strip().replace(" ","")])
             self.ground_truth.append(id)
-        '''
-        else:
-            # /users/ /questions/ /q/ /questions/tagged/   /tags/ /posts/ /feeds/ /others
-            if "../Crawler/crawl_data/Questions/"  in self.folder_path or "../Crawler/test_data/train/" in self.folder_path or "../Crawler/test_data/stackexchange/" in self.folder_path:
-                print "????"
-                for i in range(len(self.pages)):
-                    path = self.pages[i].path.replace("../Crawler/crawl_data/Questions/", "")
-                    if "/users/" in path:
-                        tag = 1
-                    elif "/questions/tagged/" in path:
-                        tag = 3
-                    elif "/questions/" in path or "/q/" in path or "/a/" in path:
-                        tag = 2
-                    #elif "/tags/" in path:
-                    #    tag = 6
-                    elif "/posts/" in path:
-                        tag = 5
-                    elif "/feeds/" in path:
-                        tag = 4
-                    #else:
-                    #    tag = 0
-                    #print "tag is " + str(tag)
-                    self.ground_truth.append(tag)
-            # zhihu
-            # /people/  /question/ /question/answer/ /topic/  (people/followed/ people/follower/ -> index ) /ask /collection
-            elif "../Crawler/crawl_data/Zhihu/" in self.folder_path or "../Crawler/test_data/zhihu/" in self.folder_path:
-                print "!!!!"
-                for i in range(len(self.pages)):
-                    path = self.pages[i].path.replace("../Crawler/test_data/zhihu/","")
-                    if "follow" in path:
-                        tag = 2
-                    elif "/people/" in path:
-                        tag = 0
-                    elif "/question/" in path:
-                        tag = 1
-                    elif "/topic/" in path:
-                        tag = 3
-                    elif "/collection/" in path:
-                        tag = 4
-                    else:
-                        tag =5
-                    self.ground_truth.append(tag)
-            elif "../Crawler/test_data/rottentomatoes/" in self.folder_path:
-                print "rottentomatoes datasets"
-                for i in range(len(self.pages)):
-                    path = self.pages[i].path.replace("../Crawler/test_data/rottentomatoes/","")
-                    if "/top/" in path:
-                        tag = 2
-                    elif "/guides/" in path:
-                        tag = 5
-                    elif "/celebrity/" in path:
-                        if "/pictures/" in path:
-                            tag = 6
-                        else:
-                            tag = 0
-                    elif "/critic/" in path:
-                            tag = 1
-                    elif "/m/" in path or "/tv/" in path:
-                        if "/trailers/" in path:
-                            tag = 4
-                        elif "/pictures/" in path:
-                            tag = 6
-                        else:
-                            tag = 3
-                    else: # guide
-                        print path
-                        tag =0
-                    self.ground_truth.append(tag)
-
-            elif "../Crawler/test_data/medhelp/" in self.folder_path or "../Crawler/test_data/test" in self.folder_path:
-                print "medhelp datasets"
-                for i in range(len(self.pages)):
-                    path = self.pages[i].path.replace("../Crawler/test_data/medhelp/","")
-                    if "/forums/" in path:
-                        tag = 2
-                    elif "/groups/" in path:
-                            tag = 2
-                    elif "/personal/" in path:
-                            tag = 1
-                    elif "/posts/" in path:
-                        tag = 3
-
-                    elif "/tags/" in path:
-                        tag =4
-                    else:
-                        tag = 5
-                    self.ground_truth.append(tag)
-
-            elif "../Crawler/test_data/ASP/" in self.folder_path:
-                print "asp.net datasets"
-                for i in range(len(self.pages)):
-                    path = self.pages[i].path.replace("../Crawler/test_data/ASP/","")
-                    if "/f/" in path:
-                        if "/topanswerers/" in path:
-                            print path
-                            tag = 5
-                        else:
-                            tag = 2
-                    elif "/members/" in path:
-                        tag = 0
-                    elif "RedirectToLogin" in path or "/private-message/" in path:
-                        tag = 1
-                    elif "/post/" in path:
-                        tag = 3
-                    elif "/t/" in path or "/p/" in path:
-                        tag =3
-                    elif "search?" in path:
-                        tag =4
-                    else:
-                        tag = 2
-                    self.ground_truth.append(tag)
-    '''
 
     def Leung_baseline(self):
         # one-hot representation
@@ -536,16 +451,199 @@ class allPages:
         dis_similarity = float(n_p1+n_p2+n_shared)/float(n_shared)
         return dis_similarity
 
+
+    def Evaluation(self):
+        labels_true = self.ground_truth
+        labels_pred = self.category
+
+        new_labels_true = []
+        new_labels_pred = []
+        outlier_list = [0,0,0] # #outlier from true, common, pred
+        for idx, val in enumerate(labels_pred):
+            if val == -1 and labels_true[idx] == -1:
+                outlier_list[1] +=1
+            elif val !=-1 and labels_true[idx] == -1:
+                #print str(val) + " " + str(labels_true[idx])
+                outlier_list[0] += 1
+            elif val ==-1 and labels_true[idx] != -1:
+                outlier_list[2] += 1
+            if val != -1 and labels_true[idx]!= -1:
+                new_labels_pred.append(val)
+                new_labels_true.append(labels_true[idx])
+        for i in range(len(labels_true)):
+            print labels_true[i], labels_pred[i]
+
+        #train_batch_file = open("./results/train_batch.results","a")
+        prefix =  str(self.dataset)
+        #train_batch_file.write(prefix + "#class/#cluster\t" + "{}/{}".format(len(set(labels_true))-1,len(set(labels_pred))-1)+"\n")
+        #train_batch_file.write(prefix + "#new_outlier\t" + str(outlier_list[2])+"\n")
+
+        print "number of -1 " + str(len(labels_true)-len(new_labels_true))
+        print "we have number of classes from ground truth is {0}".format(len(set(labels_true)))
+        print "we have number of classes from clusters is {0}".format(len(set(labels_pred))-1)
+
+        print "Outlier: Cover {1} of {0} total ground truth, and create {2} outlier in prediction. ".format(outlier_list[0]+outlier_list[1],outlier_list[1],outlier_list[2])
+
+        labels_true, labels_pred = new_labels_true, new_labels_pred
+
+        #path_list = self.path_list
+        '''
+        pred_result_file = open("./clustering/{}_{}_{}.txt".format(dataset,algo,feature),"w")
+        for index,label_pred in enumerate(self.UP_pages.category):
+            #print path_list[index] + "\t" + str(label_true) + "\t" + str(label_pred)
+            pred_result_file.write(path_list[index] + "\tgold: " + str(self.UP_pages.ground_truth[index]) + "\tcluster: " + str(label_pred) + "\n")
+        '''
+        print "We have %d pages for ground truth!" %(len(labels_true))
+        print "We have %d pages after prediction!" %(len(labels_pred))
+        assert len(labels_true) == len(labels_pred)
+        #self.Precision_Recall_F(labels_true,labels_pred)
+        mutual_info_score = metrics.adjusted_mutual_info_score(labels_true, labels_pred)
+        rand_score = metrics.adjusted_rand_score(labels_true, labels_pred)
+
+        #silhouette_score = metrics.silhouette_score(self.X,np.array(labels_pred), metric='euclidean')
+        #print "Silhouette score is " + str(silhouette_score)
+        [micro_f, macro_f,micro_p,macro_p] = self.F_Measure(labels_true,labels_pred)
+        print "Mutual Info Score is " + str(mutual_info_score)
+        print "Adjusted Rand Score is " + str(rand_score)
+        print "Micro F-Measure is " + str(micro_f)
+        print "Macro F-Measure is " + str(macro_f)
+        print "Micro Precision is " + str(micro_p)
+        print "Macro Precision is " + str(macro_p)
+
+
+
+        #train_batch_file.write("=====" + str(dataset) + "\t" + str(algo) +  "\t" + str(feature) +  "=====\n")
+        metrics_list = ['micro_f', 'macro_f', 'micro_p', 'macro_p']
+        result = [micro_f,macro_f,micro_p,macro_p]
+        #for index,metric in enumerate(metrics_list):
+            #line =  prefix + metric + "\t" + str(result[index])
+            #train_batch_file.write(line + "\n" )
+        return micro_f, macro_f, micro_p, macro_p, mutual_info_score, rand_score
+
+    def F_Measure(self,labels_true,labels_pred):
+        ground_truth_set = set(labels_true)
+        pre_set = set(labels_pred)
+        # dict with index and cluster_index:
+        length = len(labels_true)
+        ng = {}
+        np = {}
+        precision = {}
+        recall = {}
+        fscore = {}
+        labels = {}
+        # final return
+        micro_f1,micro_p = 0.0,0.0
+        macro_f1,macro_p = 0.0,0.0
+        for item in ground_truth_set:
+            labels[item] = {}
+            precision[item] = {}
+            recall[item] = {}
+            fscore[item] = {}
+            for item2 in pre_set:
+                labels[item][item2] = 0
+
+        # get the distribution of clustering results
+        for i in range(length):
+            g_index = labels_true[i]
+            p_index = labels_pred[i]
+            labels[g_index][p_index] += 1
+            if ng.has_key(g_index):  # number of ground truth
+                ng[g_index] += 1
+            else:
+                ng[g_index] = 1
+            if np.has_key(p_index):
+                np[p_index] += 1
+            else:
+                np[p_index] = 1
+        # get the statistical results
+        for i in ground_truth_set:
+            for j in pre_set:
+                if np[j]==0:
+                    print str(j) + " is zero"
+                recall[i][j] = float(labels[i][j])/float(ng[i])
+                precision[i][j] = float(labels[i][j])/float(np[j])
+                if recall[i][j]*precision[i][j]==0:
+                    fscore[i][j] = 0.0
+                else:
+                    fscore[i][j] = (2*recall[i][j]*precision[i][j])/(recall[i][j]+precision[i][j])
+
+        for i in ground_truth_set:
+            tmp_max = max(fscore[i].iteritems(), key=operator.itemgetter(1))[1]
+            micro_f1 += tmp_max*ng[i]/float(length)
+            macro_f1 += tmp_max/float(len(ground_truth_set))
+            #micro_f1 += tmp_max/float(len(ground_truth_set))
+
+
+        ## flawed !!!1
+        cluster_dict = self.get_cluster_number_shift(labels_true, labels_pred)
+        right_guess = 0
+        test_gold_counter = collections.Counter(labels_true)
+        test_gold_right = dict([(index,0.0) for index in test_gold_counter])
+        for index,item in enumerate(labels_pred):
+            if cluster_dict[item] == labels_true[index]:
+                test_gold_right[labels_true[index]] += 1
+                right_guess += 1
+
+        micro_p = float(right_guess)/float(len(labels_true))
+        avg = 0.0
+        for index in test_gold_counter:
+            avg += float(test_gold_right[index])/float(test_gold_counter[index])
+        macro_p = avg/float(len(test_gold_counter))
+
+        return [micro_f1,macro_f1,micro_p,macro_p]
+
+    def get_cluster_number_shift(self,labels_true, labels_pred):
+        true_set = set(labels_true)
+        pre_set = set(labels_pred)
+        #print pre_set
+        dic = {}
+        for item in pre_set:
+            dic[item] = {}
+            for item_2 in true_set:
+                dic[item][item_2] = 0
+        assert len(labels_true) == len(labels_pred)
+
+        for i in range(len(labels_true)):
+            dic[labels_pred[i]][labels_true[i]] += 1
+        print "ground truth data"
+
+        #print dic
+        self.output_dict(dic)
+
+        final_dict = collections.defaultdict(dict)
+        #used_list = set()
+        for pred_key in pre_set:
+            max_value = -1
+            #print dic[pred_key]
+            for index, value in dic[pred_key].iteritems():
+                #if index not in used_list:
+                if value > max_value:
+                    max_label = index
+                    max_value = value
+                final_dict[pred_key] = max_label
+                #used_list.add(max_label)
+        return final_dict
+
+    def output_dict(self,dic):
+        for key in dic:
+            print "cluster No. is " + str(key) + " ->{ ",
+            value_dic = dic[key]
+            for class_key in value_dic:
+                if value_dic[class_key]!=0:
+                    print "'"+str(class_key)+"'" + ": " + str(value_dic[class_key]) + ", ",
+            print " }"
+
+
+
+
 if __name__=='__main__':
     #UP_pages = allPages(["../Crawler/crawl_data/Questions/"])
     #pages = allPages(["../Crawler/crawl_data/Questions/"])
     #parser = argparse.ArgumentParser()
     #parser.add_argument("datasets", choices=["zhihu","stackexchange","rottentomatoes","medhelp","asp"], help="the dataset for experiments")
 
-    pages = allPages(["../Crawler/test_data/rottentomatoes/"])
-    df_dict  = pages.df
-    sorted_df = sorted(df_dict.iteritems(), key=lambda d:d[0], reverse=False)
-    print "we have " + str(len(sorted_df)) + " xpahts in total "
-    for item in sorted_df:
-        print item[0], item[1]
+    pages = allPages(["../Crawler/test_data/rottentomatoes/"],"rotten",mode="c_baseline")
+    for page in pages.pages:
+        print page.path, page.anchor_xpath_set
+
 

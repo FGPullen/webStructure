@@ -453,12 +453,21 @@ class crawler:
             for key in inlink:
                 indegree_dict[key] = len(inlink[key])
             avg_indegree = sum(indegree_dict.values())/len(indegree_dict)
+        elif method == "est_prob":
+            counter = Counter(sitemap.UP_pages.category)
+            self.c_prob = defaultdict(float)
+            total = sum(counter.values())
+            for key in counter:
+                self.c_prob[key] = float(counter[key])/float(total)
 
+        self.crawl_history = Counter()
+        for i in range(self.cluster_num):
+            self.crawl_history[i] = 1
 
         write_file = open("./results/sampling/random_{0}_{1}_size{2}.txt".format(method,self.dataset,self.crawl_size),"w")
         num_web_crawl=0
         entry, prefix = self.entry, self.prefix
-        self.url_stack = [entry]
+        self.url_stack,self.crawl_length = [entry],0
         self.final_list, url_list, last_list = [], [], []
         size, num = num_crawl,  0 # the number of crawling
         s = sampler(self.dataset,self.entry,self.prefix,0)
@@ -473,6 +482,10 @@ class crawler:
                 if first_url not in self.history_set:
                     self.final_list.append((first_url,cluster_id))
                     num += 1
+                # add url to sample history anyway
+                self.crawl_history[cluster_id] += 1
+                self.crawl_length += 1
+
             except:
                 print "might miss somthing here"
                 traceback.print_exc()
@@ -555,6 +568,7 @@ class crawler:
                         self.url_stack.append(url_list[id][0])
                         print url_list[id], "select from out-links"
                     except:
+                        traceback.print_exc()
                         self.select_from_history_set()
 
 
@@ -573,6 +587,12 @@ class crawler:
     # input: entry, prefix, site, trans_xpath_dict , target_cluster id
     # target: find the cluster page that we want
     def crawling(self,num_crawl):
+
+        counter = Counter(sitemap.UP_pages.category)
+        self.c_prob = defaultdict(float)
+        total = sum(counter.values())
+        for key in counter:
+            self.c_prob[key] = float(counter[key])/float(total)
 
         # self.entry, self.prefix, self.dataset, self.trans_xpath_dict, target_cluste id
         #self.target_cluster = self.get_sample_cluster()
@@ -617,7 +637,7 @@ class crawler:
                         time.sleep(random_time_s)
                         num_web_crawl += 1
                         if num_web_crawl%10 == 9:
-                            random_time_s = random.randint(60, 120)
+                            random_time_s = random.randint(60, 90)
                             time.sleep(random_time_s)
                     else:
                         num -= 1
@@ -727,7 +747,7 @@ class crawler:
                     #print url ,score, "url , score"
                     flag += 1
 
-                if url not in history_stack and url not in available_url_list:
+                if url not in history_stack :
                     available_url_list.append((url,first_url,(cluster_id,xpath),score))
         return available_url_list, cluster_id
 
@@ -757,6 +777,8 @@ class crawler:
                     score = self.calculate_url_pr(distribution)
                 elif method == "est_degree":
                     score = self.calculate_url_indegree(distribution)
+                elif method == "est_prob":
+                    score = self.calculate_url_prob(distribution)
                 #print score, "calcualte_url_pr"
                 for link in link_list:
                     if link not in self.history_set:
@@ -795,8 +817,12 @@ class crawler:
     # input, list of pairs (url,score)
     def sample_from_prob_list(self,url_list):
         pr_dist = []
+        print url_list, "url_list"
         for item in url_list:
-            pr_dist.append(1.0/item[-1])
+            if item[-1] == 0:
+                pr_dist.append(0.0)
+            else:
+                pr_dist.append(1.0/item[-1])
         print pr_dist, " reversed prob list"
         pr_dist = normalize(pr_dist,"l1")[0]
         #print url_list, " estimated pagerank prob distribution"
@@ -830,15 +856,19 @@ class crawler:
         score = 0.0
         total = sum(self.crawled_cluster_count.values())
         norm = sum(distribution.values())
+
         for dest_id, num in distribution.iteritems():
             prob = float(num)/float(norm)
             #discount = (1-float(self.crawled_cluster_count[dest_id])/float(total))
             ratio = float(self.crawled_cluster_count[dest_id])/float(total)
             ratio_weight = 1 - ratio**2
             #print total, "total", discount, "discount"
-            score += k1* prob * self.auth_score[dest_id]
-            score += k2* prob * self.hub_score[dest_id]
-            score += k3 * prob * ratio_weight
+            tmp = 0.0
+            tmp += k1* prob * self.auth_score[dest_id]
+            tmp += k2* prob * self.hub_score[dest_id]
+            tmp += k3 * prob * ratio_weight
+            score += tmp * self.c_prob[dest_id]
+            #print tmp, score
         return score
 
     def calculate_url_pr(self,distribution):
@@ -863,6 +893,22 @@ class crawler:
             #print self.pr_score[dest_id][0]
         return score
 
+    def calculate_url_prob(self,distribution):
+        # self.crawl_history
+        if len(distribution) == 0:
+            #return 1.0/float(sum(self.crawl_history.values()))
+            #return 1.0/float(self.cluster_num)
+            return 0
+        #c_prob = defaultdict(float)
+        #print self.crawl_history, "crawl history "
+        #for key,value in self.crawl_history.iteritems():
+        #    c_prob[key] = float(value)/float(sum(self.crawl_history.values()))
+        #print c_prob, "c_prob"
+        score, norm = 0.0, sum(distribution.values())
+        for dest_id, num in distribution.iteritems():
+            prob = float(num)/float(norm)
+            score += prob * self.c_prob[dest_id]
+        return score
 
     def compute_hit_scores(self,max_iter=100):
         trans_mat = self.trans_dict_to_matrix() # need normalization
@@ -958,8 +1004,11 @@ if __name__ == "__main__":
     c.compute_hit_scores()
     c.compute_pagerank_scores()
     c.compute_indegree()
-    #c.crawling(c.crawl_size)
-    c.sampling(c.crawl_size,method=args.rank_algo)
+    c.crawling(c.crawl_size)
+    #counter = Counter(sitemap.UP_pages.category)
+    #print counter
+
+    #c.sampling(c.crawl_size,method=args.rank_algo)
     #print c.cluster_num
     #c.test_destination()
 

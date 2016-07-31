@@ -179,10 +179,9 @@ def valid_ratio(counter,site):
             #print key, counter[key]
             num += counter[key]
     #print num, total
-
     valid_ratio = 1 - float(num)/float(total)
     #print valid_ratio, " valid ratio"
-    print
+
     return valid_ratio
 
 
@@ -219,6 +218,10 @@ if __name__ == '__main__':
     g_list = get_crawl_results(g_path,1000)
     #g_list = get_annotation_cluster(g_path,a,num=1000)
 
+    g_path = "./results/{}_May1_0_general_size1001.txt".format(site)
+    g_list_2 = get_crawl_results(g_path,1000)
+
+
     # random walk
     rw_path = "./results/sampling/random_uniform_{}_size1001.txt".format(site)
     rw_list = get_crawl_results(rw_path)
@@ -243,8 +246,8 @@ if __name__ == '__main__':
     #june = get_annotation_cluster(baseline,a,num=1000)
 
     # random walk with estimated pagerank correction
-    rwepc_path = "./results/sampling/random_our_{}_size1001.txt".format(site)
-    rwepc_list = get_crawl_results(rwepc_path)
+    rwepc_path = "./results/sampling/random_est_pagerank_{}_size5001.txt".format(site)
+    rwepc_list = get_crawl_results(rwepc_path,num=1000)
     #rwepc_list = get_annotation_cluster(rwepc_path,a,num=1000)
 
 
@@ -252,12 +255,17 @@ if __name__ == '__main__':
     rw_indegree = "./results/sampling/random_indegree_{}_size1001.txt".format(site)
     rw_indegree = get_crawl_results(rw_indegree)
 
+    # random walk with cluster ratio correction
+    rw_ratio = "./results/sampling/random_est_prob_{}_size1001.txt".format(site)
+    rw_ratio = get_crawl_results(rw_ratio)
+
     print bfs
-    #print g_list
+    print g_list
+    print g_list_2
     print may_list
     print june
     #print rw_list
-    #print rwepc_list
+    print rwepc_list
     #may_list = rescale_counter(june,may_list)
     #g_list = rescale_counter(june,g_list)
     plot_set = [may_list,june]
@@ -269,37 +277,39 @@ if __name__ == '__main__':
 
     #plt.axhline(y=1.0)
     #plot_line(g_list,max_id,"green",label="general crawling")
-    plot_line(bfs,max_id,"red",label="FIFO")
-    plot_line(may_list,max_id,"blue",label="snow-ball sampling")
-    plot_line(rwpc_list,max_id,"magenta",label="random walk with PR correction")
+    plot_line(bfs,max_id,"red",label="BFS")
+    plot_line(rw_indegree,max_id,"blue",label="RW with indegree correction")
+    plot_line(rwpc_list,max_id,"magenta",label="RW with orcacle PR correction")
     plot_line(rw_list,max_id,"green",label="random walk")
-    plot_line(june,max_id,"black",label="random sampling")
-    plot_line(rwepc_list,max_id,"cyan",label="our method")
-    plot_line(rw_indegree,max_id,"yellow",label="indegree correction")
+    plot_line(june,max_id,"black",label="uniform sampling")
+    plot_line(rwepc_list,max_id,"cyan",label="RW with predicted PageRank correction")
+    plot_line(rw_ratio,max_id,"yellow",label="RW with cluster ratio correctio")
 
 
     # bfs_crawl
 
     # compare general crawl , bfs_crawl, random_crawl, May1, random_sampling, target
-    compare_list = [bfs,may_list,rw_list,rwpc_list,rwepc_list,rw_indegree]
+    compare_list = [bfs,may_list,rw_list,rwpc_list,rwepc_list,rw_indegree,rw_ratio,g_list_2]
     #compare_list = [bfs,may_list,rwepc_list]
-    compare_name = ["FIFO","snow-ball","random walk","random walk with oracle pagerank correction","our method","indegree correction"]
+    compare_name = ["BFS","snow-ball","random walk","RW with oracle PageRank correction","RW with predicted PageRank correction","RW with predicted indegree correction","RW with cluster ratio correction","Informative Crawling"]
     for index,list in enumerate(compare_list):
         rmse = RMSE(list,june,max_id)
         print rmse, compare_name[index]
     #D = c_may
     #plt.bar(range(len(D)), D.values(), align='center')
     #plt.xticks(range(len(D)), D.keys())
-    '''
+
     print " == valid ratio == "
     for index, list in enumerate(compare_list):
         ratio = valid_ratio(list,site)
-        print str(ratio), "valid ratio {} ".format(compare_name[index])
-    '''
+        print str(ratio), " {} ".format(compare_name[index])
+
     plt.title(site)
     plt.legend()
     plt.show()
-
+    '''
     compare_methods(june,may_list)
-
-
+    compare_methods(june,rwepc_list)
+    compare_methods(june,rw_list)
+    compare_methods(june,bfs)
+    '''

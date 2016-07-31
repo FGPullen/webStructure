@@ -1,0 +1,10 @@
+http://forums.asp.net/			500	0
+http://forums.asp.net//members/Fei%20Han%20-%20MSFT.aspx	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	[ 0.1237946]	6
+http://forums.asp.net//members/Chris%20Zhao.aspx	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	[ 0.1237946]	6
+http://forums.asp.net//members/Klein%20Zhang.aspx	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	[ 0.1237946]	6
+http://forums.asp.net//members/Zhi%20Lv%20-%20MSFT.aspx	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	[ 0.1237946]	6
+http://forums.asp.net//members/a2h.aspx	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	[ 0.1237946]	6
+http://forums.asp.net//members/Mikesdotnetting.aspx	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	[ 0.1237946]	6
+http://forums.asp.net//members/PatriceSc.aspx	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	[ 0.1237946]	6
+http://forums.asp.net//members/raju%20dasa.aspx	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	[ 0.1237946]	6
+http://forums.asp.net//members/Yohann%20Lu.aspx	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	[ 0.1237946]	6
