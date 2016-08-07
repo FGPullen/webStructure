@@ -204,7 +204,7 @@ class WKMeans(object):
             ite += 1
         return np.array([-1]), np.array([-1]), np.array([-1]), np.array([-1]), np.array([-1])
 
-    def wk_means(self, data, k, beta=2, init_centroids="kmeans++", init_weights=None, weight_method=None, distance='Euclidean', replicates=50, max_ite=100):
+    def  wk_means(self, data, k, beta=2, init_centroids="kmeans++", init_weights=None, weight_method=None, distance='Euclidean', replicates=50, max_ite=100):
         #Weighted K-Means
         final_dist = float("inf")
         avg_iteration = []

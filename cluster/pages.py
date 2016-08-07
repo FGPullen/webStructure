@@ -67,6 +67,7 @@ class allPages:
             self.add_page_anchor(folder_path)
             self.get_ground_truth(dataset)
 
+
         else:
         # initialize data structure
             #  update attributes
@@ -312,6 +313,14 @@ class allPages:
             print path.strip()
             id = int(gold_dict[path.strip().replace(" ","")])
             self.ground_truth.append(id)
+        '''
+        a = annotator(dataset)
+        path_file = "./{0}/site.sample/{1}.sample".format(self.date,dataset)
+        print path_file
+        a.annotate_file(path_file)
+        self.ground_truth = a.class_list
+        a.output_results()
+        '''
 
     def Leung_baseline(self):
         # one-hot representation

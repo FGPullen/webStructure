@@ -11,9 +11,9 @@ class annotator():
 
     def get_rules(self,dataset):
         if dataset == "stackexchange":
-            rules = [["a","^[0-9]+$"],["feeds"],["help","badges"],["help","priviledges"],["posts","^[0-9]+$", "edit.html"] , ["posts","^[0-9]+$","revisions.html"],\
-            ["q","^[0-9]+$"],["questions","^[0-9]+$"],["questions","tagged"], ["revisions","view-source.html"], ["^search?(.*)$"], ["tags"],["users","^[0-9]+(.*)$"],\
-            ["users","^signup?(.*)$"]]
+            rules = [["a","^[0-9]+(.*)$"],["feeds"],["help","badges"],["help","priviledges"],["posts","^[0-9]+$", "edit"] , ["posts","^[0-9]+$","revisions"],\
+            ["q","^[0-9]+(.*)$"],["questions","^[0-9]+(.*)$"],["questions","tagged"], ["revisions","view-source.html"], ["^search?(.*)$"], ["tags"],["users","^[0-9]+(.*)$"],\
+            ["users","^signup?(.*)$"],["users","^login?(.*)$"]]
         elif dataset == "asp":
             rules = [["^[0-9]+.aspx$"],["f","rss"],["f","topanswerers"],["f"],["login","^RedirectToLogin?(.*)$"],["members"],["p","^[0-9]+$"]\
              ,["post","^[0-9]+.aspx.html$"],["private-message"],["^search?(.*)$"],["t","^[0-9]+.aspx(.*)$"],["t","next","^[0-9]+(.*)$"],["t","prev","^[0-9]+(.*)$"]\
@@ -124,19 +124,33 @@ class annotator():
         for line in lines:
             tmp = line.strip().split()
             if len(tmp) == 1:
-                tmp = line.strip.split("\t")
+                tmp = line.strip().split("\t")
             url_list.append(tmp[0])
-        print url_list
+        #print url_list
         print len(url_list), " length of url list"
 
         class_list = self.get_ground_truth(url_list)
         #for index, url in enumerate(url_list):
         #    print url, class_list[index]
+        self.url_list = url_list
+        self.class_list = class_list
 
         t = collections.Counter()
         t.update(class_list)
 
         return t
+
+
+    def output_results(self):
+        print "length of url_list is {}".format(len(self.url_list))
+        print "length of class_list is {}".format(len(self.class_list))
+        length = len(self.url_list)
+        for i in range(length):
+            if self.class_list[i] == -1:
+                print self.class_list[i], self.url_list[i]
+        c = collections.Counter(self.class_list)
+        print c[-1], " the number of -1"
+
 
 
 '''
@@ -169,9 +183,10 @@ baidu_rules = [["bawu2","platform","^detailsInfo(.*)$"],["bawu2","platform","^li
 '''
 
 if __name__ == "__main__":
-    site = "asp"
+    site = "stackexchange"
     a = annotator(site)
     #file_path = "./results/sampling/random_uniform_{0}_size1001.txt".format(site)
     #file_path = "../May1/site.dbscan/{}.txt".format(site)
-    file_path =  "../../Crawler/June29_samples/{}/".format(site)
+    file_path =  "./July30/site.sample/{}.sample".format(site)
     a.annotate_file(file_path)
+    a.output_results()

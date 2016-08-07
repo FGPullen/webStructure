@@ -148,5 +148,5 @@ if __name__ == "__main__":
     a = annotator(site)
     #file_path = "./results/sampling/random_uniform_{0}_size1001.txt".format(site)
     #file_path = "../May1/site.dbscan/{}.txt".format(site)
-    file_path =  "../../Crawler/June29_samples/{}/".format(site)
+    file_path =  "../../Crawler/May1_samples/{}/".format(site)
     a.annotate_file(file_path)

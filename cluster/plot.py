@@ -17,7 +17,7 @@ plt.show()
 
 '''
 #pages = allPages(["../Crawler/test_data/zhihu/"],dataset="rottentomatoes",mode="raw")
-pages = allPages(["../Crawler/Mar15_samples/asp/"],dataset="new_asp",mode="read")
+pages = allPages(["../Crawler/Mar15_samples/asp/"],dataset="asp",mode="read")
 
 tf_matrix = []
 log_tf_matrix = []

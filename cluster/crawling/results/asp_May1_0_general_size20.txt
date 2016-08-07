@@ -1,0 +1,20 @@
+http://forums.asp.net/			500	0
+http://forums.asp.net//t/2086818.aspx?Converting+string+to+datetime+issue	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	2
+http://forums.asp.net//t/2086688.aspx?Partial+class+VS2015	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	-1
+http://forums.asp.net//t/2087350.aspx?dynamic+report+possible+in+SQL+Reporting+services+	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	-1
+http://forums.asp.net//t/prev/2087350	http://forums.asp.net//t/2087350.aspx?dynamic+report+possible+in+SQL+Reporting+services+	(-1, '/html/body/div/div/div/a[]')	0.180912161513	2
+http://forums.asp.net//t/next/2087350	http://forums.asp.net//t/2087350.aspx?dynamic+report+possible+in+SQL+Reporting+services+	(-1, '/html/body/div/div/div/a[]')	0.180912161513	2
+http://forums.asp.net//t/2087261.aspx?Validations+for+atleast+one+checkbox+checked+in+javascript	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	2
+http://forums.asp.net//t/2087002.aspx?data+insertion+problem	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	2
+http://forums.asp.net//t/2086711.aspx?Javascript+not+firing+for+MVC+Cascading+Dropdownlist+with+Entity+Framework	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	2
+http://forums.asp.net//t/2087253.aspx?How+to+capture+stored+pro+error+	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	2
+http://forums.asp.net//t/2087379.aspx?Connecting+to+2+different+databases+MsSQL+MySQL+Possible+	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	2
+http://forums.asp.net//t/2087303.aspx?Regarding+routes+MapRoute	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	2
+http://forums.asp.net//t/2087069.aspx?Checkbox+Checked+and+Uncheck+another+one	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	2
+http://forums.asp.net//t/2087300.aspx?need+help+for+uploading+image	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	2
+http://forums.asp.net//t/2087024.aspx?How+do+i+apply+hide+or+display+on+a+button+when+UseName+and+FriendUserName+is+equal+to+false+or+true	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	2
+http://forums.asp.net//t/2086779.aspx?circlename+display	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	2
+http://forums.asp.net//t/2087061.aspx?How+to+change+text+in+an+DisplayFor+using+Ajax+	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	2
+http://forums.asp.net//t/2086762.aspx?need+help+with+upgrading+general+autocomplete+function+to+jquery+1+12+0	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	2
+http://forums.asp.net//t/2087643.aspx?Can+t+get+the+right+update	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	-1
+http://forums.asp.net//t/2086669.aspx?gridvew+responsive+using+footable+within+update+panel+	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.179683946117	2

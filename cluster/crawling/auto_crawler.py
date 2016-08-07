@@ -609,12 +609,12 @@ class crawler:
             parent_url = self.url_stack[0][1]
             parent_xpath = self.url_stack[0][2]
             score = self.url_stack[0][3]
-            print self.url_stack[0]
-            print self.url_stack[-1]
+            print self.url_stack[0],"first element"
+            print self.url_stack[-1], "last element"
 
             #first_url = self.url_stack[0][0]
             try:
-                print "first url is " + first_url
+                print "first url is ",first_url
 
             except:
                 traceback.print_exc()
@@ -660,6 +660,7 @@ class crawler:
     def sort_queue(self,url_list,first_url,rank_algo):
 
         for url in url_list:
+            #print url, "an instance in url_list"
             if url[0] not in self.history_set and url not in self.url_stack:
                 self.url_stack += url_list
 
@@ -668,24 +669,25 @@ class crawler:
             print "bfs for crawling frontier"
             #time.sleep(10)
             print self.url_stack[0], "first element in url stack"
-        elif rank_algo == "sort":
+        elif rank_algo == "target":
             print "algo is sorting by hub and authority"
+            print len(self.url_stack), "length of url_stack"
             self.url_stack = sorted(self.url_stack,key=lambda tup:tup[-1],reverse=True)  # sorts in place
             #print "===" + str(self.url_stack) + "==="
             '''
             for url in self.url_stack:
-                url = url[0]
-                if self.match_rules(url,self.rules):
-                    print url,
-            print ""
-            #time.sleep(2)
-            print self.url_stack[0], "first element in url stack"
+                print url[0],url[-1]
+            raise
             '''
         elif rank_algo == "general":
             print "general crawling which takes the ratio of clusters into consideration"
+            print len(self.url_stack), "length of url_stack"
+            self.url_stack = sorted(self.url_stack,key=lambda tup:tup[-1],reverse=True)  # sorts in place
 
         else:
             raise
+        if len(self.url_stack)>1000:
+            self.url_stack = self.url_stack[:1000]
 
 
 
@@ -734,11 +736,12 @@ class crawler:
         print link_dict, "link dict"
         #self.transition_dict[url] = link_dict
         for xpath in link_dict:
+            #print xpath,"xpath is now"
             # considering cluster
             #distribution = self.cluster_xpath_trans[(cluster_id,xpath)]
             distribution = self.xpath_counts_dict[(cluster_id,xpath)]
             #print distribution, (cluster_id,xpath), " cluster_id, xpath for distribution"
-            score = self.calculate_url_importance(distribution) # and self.cluster_trans_prob_mat
+            score = self.calculate_url_importance(distribution,self.rank_algo) # and self.cluster_trans_prob_mat
             #print distribution, "the probability of itself"
             link_list = link_dict[xpath]
             flag = 0
@@ -747,7 +750,7 @@ class crawler:
                     #print url ,score, "url , score"
                     flag += 1
 
-                if url not in history_stack :
+                if url not in history_stack and url not in available_url_list:
                     available_url_list.append((url,first_url,(cluster_id,xpath),score))
         return available_url_list, cluster_id
 
@@ -851,8 +854,11 @@ class crawler:
         #self.cluster_num = max(trans_prob_mat.keys())+1
         return trans_prob_mat
 
-    def calculate_url_importance(self,distribution,target_weight=None):
-        k1, k2, k3 = 0.4, 0.1, 0.5
+    def calculate_url_importance(self,distribution,rank_algo="general"):
+        if rank_algo == "general":
+            k1, k2, k3 = 0.4, 0.1, 0.5
+        elif rank_algo == "target":
+            k1, k2, k3 = 0.8, 0.2, 0.0
         score = 0.0
         total = sum(self.crawled_cluster_count.values())
         norm = sum(distribution.values())
@@ -867,8 +873,8 @@ class crawler:
             tmp += k1* prob * self.auth_score[dest_id]
             tmp += k2* prob * self.hub_score[dest_id]
             tmp += k3 * prob * ratio_weight
+            #print ratio_weight, k3,"ratio weight"
             score += tmp * self.c_prob[dest_id]
-            #print tmp, score
         return score
 
     def calculate_url_pr(self,distribution):
@@ -923,8 +929,8 @@ class crawler:
             auth_score = normalize(auth_score, norm='l2', axis=0)
             hub_score = normalize(hub_score, norm='l2', axis=0)
             ite += 1
-        self.auth_score = auth_score
-        self.hub_score = hub_score
+        self.auth_score = auth_score.T[0]
+        self.hub_score = hub_score.T[0]
         self.output_hits()  # n*1
 
     def compute_pagerank_scores(self,max_iter=100):
@@ -958,10 +964,10 @@ class crawler:
     def output_hits(self):
         print "authorative scores"
         for i in range(self.cluster_num):
-            print "the authority score for {0} is {1}".format(i,self.auth_score[i][0])
+            print "the authority score for {0} is {1}".format(i,self.auth_score[i])
         print "hub score "
         for i in range(self.cluster_num):
-            print "the hub score for {0} is {1}".format(i,self.hub_score[i][0])
+            print "the hub score for {0} is {1}".format(i,self.hub_score[i])
 
     def trans_dict_to_matrix(self):
         print self.cluster_num, "cluster number is "
@@ -971,7 +977,7 @@ class crawler:
             if int(row) == -1:
                 continue
             for col, value in trans.iteritems():
-                if self.rank_algo == "sort":
+                if self.rank_algo == "target":
                     if col == self.target_cluster:
                         trans_mat[row,col] = value
                 else:
@@ -1001,6 +1007,8 @@ if __name__ == "__main__":
     c = crawler(args.dataset,args.date,args.entry,args.prefix,float(args.eps),int(args.cluster),int(args.crawl_size),args.rank_algo)
     pages = c.sitemap.UP_pages
     sitemap = c.sitemap
+    sitemap.calculate_cluster_similarity()
+    #raise
     c.compute_hit_scores()
     c.compute_pagerank_scores()
     c.compute_indegree()

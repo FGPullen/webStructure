@@ -659,8 +659,35 @@ class pageCluster:
 
     # given features self.X and self.pre_y, calculate the similarity within each cluster
     def calculate_cluster_similarity(self):
-        print self.X
-        print self.pre_y
+        #print self.X
+        counter = collections.Counter(self.pre_y)
+        max_cluster = max(self.pre_y)
+        n_entities,n_feat = self.X.shape[0],self.X.shape[1]
+        #print n_entities,n_feat, "shape of feature matrix"
+        d_list = [0.0 for i in range(max_cluster+1)]
+        for i in range(max_cluster+1):
+            indexes = []
+            for j in range(len(self.pre_y)):
+                if self.pre_y[j] == i:
+                    indexes.append(j)
+            #print i, len(indexes)
+            feat = self.X[indexes,:]
+            avg = feat.sum(axis=0)/float((feat.shape[0]))
+            t = (feat-avg)
+            t = t**2
+            eculidean_sqaure = t.sum(axis=1)
+            eculidean = np.sqrt(eculidean_sqaure)
+            avg_distance = eculidean.sum(axis=0)/len(indexes)
+            d_list[i] = avg_distance
+        print d_list, "d_list"
+        norm_d = normalize(d_list,norm="l1")[0]
+        print norm_d, "norm_d"
+        for key in counter:
+            print key, counter[key], norm_d[key]
+
+        print len(d_list)
+
+
 
 
 
@@ -744,7 +771,7 @@ if __name__=='__main__':
             cluster_labels.Evaluation(args.datasets,args.clustering,features_type)
             print "let's do dbscan for trainning"
 
-    cluster_labels.calculate_cluster_similarity()
+    #cluster_labels.calculate_cluster_similarity()
 
     #visualization
     '''

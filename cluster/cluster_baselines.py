@@ -59,6 +59,7 @@ class baseline:
 
 
         length = len(self.pages.ground_truth)
+        print length, "length"
         self.pages.category = [0 for i in range(length)]
 
 
@@ -113,9 +114,10 @@ class baseline:
         count = 0
         for key,value in self.pattern.iteritems():
             if len(value) != 0:
-                #print key,len(value),value
+                print key,len(value),value
                 for id in self.pattern[key]:
-                    #print self.pages.pages[id].path,
+                    print id
+                    print self.pages.pages[id].path,
                     self.pages.category[id] = count
                 count += 1
                 print "\n"
@@ -124,9 +126,10 @@ class baseline:
 
 
 if __name__ == "__main__":
-    data_pages = allPages(["../Crawler/May1_samples/stackexchange/"],"stackexchange",mode="c_baseline")
+    dataset = "youtube"
+    data_pages = allPages(["../Crawler/July30_samples/{}/".format(dataset)],dataset,date="May1",mode="c_baseline")
     c_baseline = baseline(data_pages)
-
+    print data_pages.ground_truth
     c_baseline.run()
     print " === MDL ++++"
     #c_baseline.MDL()

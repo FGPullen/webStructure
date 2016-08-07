@@ -1,0 +1,10 @@
+http://forums.asp.net/			500	0
+http://forums.asp.net//t/2086818.aspx?Converting+string+to+datetime+issue	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.238774800758	2
+http://forums.asp.net//t/2086688.aspx?Partial+class+VS2015	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.238774800758	-1
+http://forums.asp.net//t/prev/2086688	http://forums.asp.net//t/2086688.aspx?Partial+class+VS2015	(-1, '/html/body/div/div/div/a[]')	0.253676051326	2
+http://forums.asp.net//t/next/2086688	http://forums.asp.net//t/2086688.aspx?Partial+class+VS2015	(-1, '/html/body/div/div/div/a[]')	0.253676051326	2
+http://forums.asp.net//t/2087350.aspx?dynamic+report+possible+in+SQL+Reporting+services+	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.238774800758	-1
+http://forums.asp.net//t/prev/2087350	http://forums.asp.net//t/2087350.aspx?dynamic+report+possible+in+SQL+Reporting+services+	(-1, '/html/body/div/div/div/a[]')	0.253676051326	2
+http://forums.asp.net//t/next/2087350	http://forums.asp.net//t/2087350.aspx?dynamic+report+possible+in+SQL+Reporting+services+	(-1, '/html/body/div/div/div/a[]')	0.253676051326	2
+http://forums.asp.net//t/2087261.aspx?Validations+for+atleast+one+checkbox+checked+in+javascript	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.238774800758	2
+http://forums.asp.net//t/2087002.aspx?data+insertion+problem	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.238774800758	2

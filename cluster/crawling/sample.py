@@ -147,7 +147,10 @@ class sampler():
                 else:
                     continue
                 if self.intraJudge(url,self.dataset):
-                    link_dict[xpath].append((self.transform(url),first_url,xpath,index_xpath))
+                    # for inital sampling
+                    #link_dict[xpath].append((self.transform(url),first_url,xpath,index_xpath))
+                    # for crawling
+                    link_dict[xpath].append(self.transform(url))
             except:
                 pass
         #print len(link_dict)
@@ -382,6 +385,23 @@ class sampler():
                     return 2
                 else:
                     return 0
+        elif site == "photozo":
+            if "http" in url:
+                if url.startswith("http://www.photozo.com") and not url.endswith(".jpg"):
+                    return 2
+            else:
+                return 0
+        elif site == "rottentomatoes":
+            if "http" in url:
+                if url.startswith("https://www.rottentomatoes.com"):
+                    return 2
+            elif url[0:2] == "//":
+                return 0
+            else:
+                if url[0:1] == "/":
+                    return 1
+                else:
+                    return 0
         else:
             return 0
 
@@ -390,11 +410,11 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     #"http://android.stackexchange.com/questions"
-    parser.add_argument("dataset",choices=["stackexchange","youtube","asp","douban","tripadvisor"],help="the dataset to sample data from")
+    parser.add_argument("dataset",help="the dataset to sample data from")
     parser.add_argument('entry', help='The entry page')
     parser.add_argument('prefix', help='For urls only have partial path')
     args = parser.parse_args()
-    s = sampler(args.dataset,args.entry,args.prefix,size=20)
+    s = sampler(args.dataset,args.entry,args.prefix,size=1000)
     s.crawling()
     folder_name = "./Jul30/site.sample"
     if not os.path.exists(folder_name):
