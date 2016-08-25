@@ -1,0 +1,8 @@
+http://movie.douban.com	0
+https://movie.douban.com/subject/20505982/	10
+https://movie.douban.com/review/7969688/	9
+https://movie.douban.com/review/best/	-1
+https://movie.douban.com/nowplaying/	-1
+https://movie.douban.com/subject/26817990/?from=playing_poster	10
+https://movie.douban.com/subject/26817990/reviews	16
+https://movie.douban.com/review/7960871/	9

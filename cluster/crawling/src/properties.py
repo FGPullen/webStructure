@@ -99,8 +99,8 @@ if __name__ == '__main__':
     folder_path = "../../../Crawler/May1_samples/{}/".format(site)
     date = "May1"
 
-    sitemap = pageCluster(site,date,folder_path,0)
-    c = crawler()
+    #sitemap = pageCluster(site,date,folder_path,0)
+    #c = crawler()
 
 
     prefix = "http://android.{0}.com".format(site)

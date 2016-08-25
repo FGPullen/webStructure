@@ -1,0 +1,12 @@
+http://movie.douban.com			500	0
+https://movie.douban.com/subject/20505982/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.130663096734	11
+https://movie.douban.com/celebrity/1318764/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/span/p/a[]')	0.811487077801	3
+https://movie.douban.com/celebrity/1318745/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/span/p/a[]')	0.811487077801	3
+https://movie.douban.com/celebrity/1041390/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/span/p/a[]')	0.811487077801	3
+https://movie.douban.com/celebrity/1118167/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/span/p/a[]')	0.811487077801	3
+https://movie.douban.com/celebrity/1018373/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/span/p/a[]')	0.811487077801	3
+https://movie.douban.com/celebrity/1013782/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/span/p/a[]')	0.811487077801	3
+https://movie.douban.com/celebrity/1274292/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/span/p/a[]')	0.811487077801	3
+https://movie.douban.com/celebrity/1275670/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/span/p/a[]')	0.811487077801	3
+https://movie.douban.com/celebrity/1044899/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/span/p/a[]')	0.811487077801	3
+https://movie.douban.com/celebrity/1011935/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/span/p/a[]')	0.811487077801	3

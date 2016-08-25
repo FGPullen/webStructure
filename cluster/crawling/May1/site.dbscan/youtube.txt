@@ -172,8 +172,8 @@
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/channel/UCzuqhhs6NWbgTzMuM09WKDQ/videos gold:0 cluster:4
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/channel/UCZxCNuFZP95iH1vWozZ31wA gold:0 cluster:1
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/channels gold:-1 cluster:-1
-../../Crawler/May1/samples/youtube/https://www.youtube.com/channels/animation gold:7 cluster:-1
-../../Crawler/May1/samples/youtube/https://www.youtube.com/channels/tech gold:7 cluster:-1
+../../Crawler/May1/samples/youtube/https://www.youtube.com/channels/animation gold:-1 cluster:-1
+../../Crawler/May1/samples/youtube/https://www.youtube.com/channels/tech gold:-1 cluster:-1
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/feed/history gold:-1 cluster:0
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/feed/history/search/history gold:-1 cluster:0
 ../../Crawler/May1/samples/youtube/https://www.youtube.com/feed/trending gold:-1 cluster:0

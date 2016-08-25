@@ -1,5 +1,5 @@
 import re
-import os
+import os,sys
 import collections
 
 class annotator():
@@ -11,13 +11,13 @@ class annotator():
 
     def get_rules(self,dataset):
         if dataset == "stackexchange":
-            rules = [["a","^[0-9]+$"],["feeds"],["help","badges"],["help","priviledges"],["posts","^[0-9]+$", "edit.html"] , ["posts","^[0-9]+$","revisions.html"],\
-            ["q","^[0-9]+$"],["questions","^[0-9]+$"],["questions","tagged"], ["revisions","view-source.html"], ["^search?(.*)$"], ["tags"],["users","^[0-9]+(.*)$"],\
-            ["users","^signup?(.*)$"]]
+            rules = [["a","^[0-9]+(.*)$"],["feeds"],["help","badges"],["help","priviledges"],["posts","^[0-9]+$", "edit"] , ["posts","^[0-9]+$","revisions"],\
+            ["q","^[0-9]+(.*)$"],["questions","^[0-9]+(.*)$"],["questions","tagged"], ["revisions","view-source.html"], ["^search?(.*)$"], ["tags"],["users","^[0-9]+(.*)$","^(.*)?tab=(.*)$"],["users","^[0-9]+(.*)$"],\
+            ["users","^signup?(.*)$"],["users","^login?(.*)$"],["^questions?(.*)=(.*)$"],["unanswered","tagged"],["help","^(.*)$"],["^users?(.*)=(.*)$"]]
         elif dataset == "asp":
-            rules = [["^[0-9]+.aspx$"],["f","rss"],["f","topanswerers"],["f"],["login","^RedirectToLogin?(.*)$"],["members"],["p","^[0-9]+$"]\
-             ,["post","^[0-9]+.aspx.html$"],["private-message"],["^search?(.*)$"],["t","^[0-9]+.aspx(.*)$"],["t","next","^[0-9]+(.*)$"],["t","prev","^[0-9]+(.*)$"]\
-             ,["t","rss","^[0-9]+(.*)$"]]
+            rules = [["f","rss"],["f","topanswerers"],["f"],["login","^RedirectToLogin?(.*)$"],["members"],["p","^[0-9]+$"]\
+             ,["post","^[0-9]+.aspx$"],["private-message"],["^search?(.*)$"],["t","^[0-9]+.aspx(.*)$"],["t","next","^[0-9]+(.*)$"],["t","prev","^[0-9]+(.*)$"]\
+             ,["t","rss","^[0-9]+(.*)$"],["^[0-9]+.aspx$"]]
         elif dataset == "youtube":
             rules = [["channel","^(.*)$"],["^playlist\?list=(.*)$"],["user","^playlists(.*)$"],["user","^videos(.*)$"],["user","^discussion(.*)$"],["user","^(.*)$"],["^watch\?v=(.*)$"]]
         elif dataset == "douban":
@@ -26,20 +26,45 @@ class annotator():
         elif dataset == "tripadvisor":
             rules = [["^AllLocations(.*)$"],["^Attractions(.*)$"],["^Flights(.*)$"],["Hotel","^Review-(.*)$"],["^Hotels-(.*)$"],["^HotelsList-(.*)$"],["^HotelsNear-(.*)$"]\
                      ,["^LastMinute(.*)$"],["^LocalMaps(.*)$"],["^Offers(.*)$"],["^Restaurants(.*)$"],["^ShowForum(.*)$"],\
-                     ["^ShowUserReviews(.*)$"],["^Tourism(.*)$"],["Travel","^Guide(.*)$"],["^TravelersChoice(.*)$"],["^VacationRentals(.*)$"],["UserReview-e"]]
+                     ["^ShowUserReviews(.*)$"],["^Tourism(.*)$"],["Travel","^Guide(.*)$"],["^TravelersChoice(.*)$"],["^VacationRentals(.*)$"],["UserReview-e"],["^VacationRentalReview(.*)$"]]
+        elif dataset == "rottentomatoes":
+            rules = [["browse"],["celebrity","pictures"],["celebrity"],["critic"],["critics"],["guides"],["m","pictures"],["m","trailers"],["m","reviews"]\
+                    ,["m","quotes"],["m"],["tv","pictures"],["tv","trailers"],["tv","reviews"],["tv","videos"],\
+                    ["tv"],["showtimes"],["^source-[0-9]+$"],["top"],["user","^[0-9]+$"],["help","desk"]]
+        elif dataset == "baidu":
+            rules = [["bawu2","platform","^detailsInfo(.*)$"],["bawu2","platform","^listMemberInfo(.*)$"],["^f\?ie=utf-8(.*)$"],["f","^good\?kw(.*)$"],["f","index"],["^f\?kw(.*)$"],["f","like"],["game","^index?(.*)$"],["home","^main(.*)$"],["p","^[0-9]+(.*)$"],["shipin","bw"],\
+                    ["sign","^index(.*)$"],["tousu","new","^add(.*)$"]]
+        elif dataset == "huffingtonpost":
+            rules = []
+        elif dataset == "photozo":
+            rules = [["members"],["^search.php?$"],["world-travel","^(.*)?sort=(.*)$"],["world-travel","^(.*)$"],[""]]
+        elif dataset == "hupu":
+            rules = [["cba","^[0-9]+(.*)$"],["china","^[0-9]+(.*)$"],["f1","^[0-9]+(.*)$"],["other","^[0-9]+(.*)$"],["soccer","^[0-9]+(.*)$"],["sports","^[0-9]+(.*)$"],\
+              ["tennis","^[0-9]+(.*)$"],["zb","^[0-9]+(.*)$"],["nba","^[0-9]+(.*)$"],["o"],["people","^[0-9]+(.*)$"]]
+
         return rules
 
     def get_combine_map(self,dataset):
         if dataset == "stackexchange":
-            combine_map = [(0,6),(0,7)]
+            combine_map = [(0,6),(0,7),(8,16),(8,17)]
         elif dataset == "asp":
-            combine_map = [(0,3),(4,8),(6,7),(6,10),(6,11),(6,12)]
+            combine_map = [(2,13),(3,7),(5,6),(5,9),(5,10),(5,11)]
         elif dataset == "youtube":
             combine_map = [(0,2),(0,3),(0,4),(0,5)]
         elif dataset == "douban":
             combine_map = []
         elif dataset == "tripadvisor":
             combine_map = []
+        elif dataset == "rottentomatoes":
+            combine_map = [(10,15),(4,8),(4,13),(1,6),(1,11),(7,14)]
+        elif dataset == "baidu":
+            combine_map = [(3,2),(3,5)]
+        elif dataset == "hupu":
+            combine_map = [(0,1),(0,2),(0,3),(0,4),(0,5),(0,6),(0,7),(0,8),(9,10)]
+        elif dataset == "huffingtonpost":
+            combine_map =[]
+        elif dataset == "photozo":
+            combine_map =[]
         mapping = {}
         for map in combine_map:
             mapping[map[1]] = map[0]
@@ -64,13 +89,16 @@ class annotator():
             if flag == 0:
                 class_list.append(-1)
         assert len(class_list) == len(url_list)
+        #for i in range(len(url_list)):
+        #    print class_list[i], url_list[i]
         return  class_list
 
     def match(self,url,rule):
-        strip_url = url.strip().replace("/","_")
-        print strip_url
-        temp, terms = strip_url.split("_"), []
-
+        if self.dataset != "rottetomatoes":
+            strip_url = url.strip().replace("/","_")
+            temp, terms = strip_url.split("_"), []
+        else:
+            temp,terms = url.strip().split("/"),[]
         for term in temp:
             if term != "":
                 terms.append(term)
@@ -99,19 +127,34 @@ class annotator():
         for line in lines:
             tmp = line.strip().split()
             if len(tmp) == 1:
-                tmp = line.strip.split("\t")
+                tmp = line.strip().split("\t")
             url_list.append(tmp[0])
-        print url_list
+        #print url_list
         print len(url_list), " length of url list"
 
         class_list = self.get_ground_truth(url_list)
         #for index, url in enumerate(url_list):
         #    print url, class_list[index]
+        self.url_list = url_list
+        self.class_list = class_list
 
         t = collections.Counter()
         t.update(class_list)
 
         return t
+
+
+    def output_results(self):
+        print "length of url_list is {}".format(len(self.url_list))
+        print "length of class_list is {}".format(len(self.class_list))
+        length = len(self.url_list)
+        c_list, u_list = zip(*sorted(zip(self.class_list, self.url_list)))
+        for i in range(length):
+            #if c_list[i] == 1 or c_list[i] == 4 or c_list[i] == 7 or c_list[i] == 9 or c_list[i] == 12:
+            print c_list[i],u_list[i]
+        c = collections.Counter(self.class_list)
+        print c[-1], " the number of -1"
+
 
 
 '''
@@ -144,9 +187,11 @@ baidu_rules = [["bawu2","platform","^detailsInfo(.*)$"],["bawu2","platform","^li
 '''
 
 if __name__ == "__main__":
-    site = "asp"
+
+    site = "rottentomatoes"
     a = annotator(site)
     #file_path = "./results/sampling/random_uniform_{0}_size1001.txt".format(site)
     #file_path = "../May1/site.dbscan/{}.txt".format(site)
-    file_path =  "../../Crawler/May1_samples/{}/".format(site)
+    file_path =  "./July30/site.sample/{}.sample".format(site)
     a.annotate_file(file_path)
+    a.output_results()

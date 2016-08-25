@@ -129,7 +129,7 @@ class sampler():
         tree= etree.HTML(str(contents))
         Etree = etree.ElementTree(tree)
         nodes = tree.xpath("//a")
-        print len(nodes), " number of nodes"
+        #print len(nodes), " number of nodes"
         for node in nodes:
             if 'class' in node.attrib:
                 attrib = node.attrib['class']
@@ -154,7 +154,7 @@ class sampler():
             except:
                 pass
         #print len(link_dict)
-        print len(link_dict.keys())
+        print len(link_dict.keys()),"nodes number after filtering "
         self.transition_dict[first_url] = link_dict
 
         #print "!!! " + str(len(self.transition_dict)) + " " + first_url
@@ -200,7 +200,7 @@ class sampler():
 
             if inlinks !=[]:
                 #print len(inlinks)
-                print inlinks
+                #print inlinks,"sample one"
                 new_link_dict[key] = inlinks
 
         #print len(new_link_dict.keys())," number of new links"
@@ -325,7 +325,10 @@ class sampler():
             elif url[0:2] == "//":
                 return 0
             else:
-                return 1
+                if "javascript:void(0)" in url:
+                    return 0
+                else:
+                    return 1
         elif site == "biketo":
             if "http" in url:
                 if "biketo.com" in url:

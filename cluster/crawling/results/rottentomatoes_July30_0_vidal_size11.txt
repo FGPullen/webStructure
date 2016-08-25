@@ -1,0 +1,11 @@
+http://www.rottentomatoes.com			500	-1
+http://www.rottentomatoes.com/browse/dvd-all/?services=netflix_iw	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	0
+http://www.rottentomatoes.com/browse/dvd-all/?services=itunes	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	0
+http://www.rottentomatoes.com/browse/dvd-all/?services=amazon_prime;amazon	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	0
+http://www.rottentomatoes.com/browse/dvd-all/?services=amazon;amazon_prime;flixster;hbo_go;itunes;netflix_iw;target;vudu	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	0
+http://www.rottentomatoes.com/about/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/a[unstyled articleLink]')	0.0	1
+http://www.rottentomatoes.com/news/columns/video_interviews/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/a[unstyled articleLink]')	0.0	-1
+http://www.rottentomatoes.com/lists/theater/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/a[boxofficeTab unstyled navLink fullLink]')	0.0	1
+http://www.rottentomatoes.com/dvd/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/ul/li/div/div/div/div/a[unstyled articleLink]')	0.0	1
+http://www.rottentomatoes.com/showtimes/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/ul/li/a[menuHeader]')	0.0	13
+http://www.rottentomatoes.com/browse/dvd-top-rentals/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/a[dvdTab unstyled navLink fullLink]')	0.0	0

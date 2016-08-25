@@ -1,0 +1,13 @@
+http://voice.hupu.com/hot		0
+http://voice.hupu.com/my	http://voice.hupu.com/hot	1
+http://voice.hupu.com/lgys	http://voice.hupu.com/hot	1
+http://voice.hupu.com/nba	http://voice.hupu.com/hot	1
+http://voice.hupu.com/cba	http://voice.hupu.com/hot	1
+http://voice.hupu.com/soccer	http://voice.hupu.com/hot	1
+http://voice.hupu.com/china	http://voice.hupu.com/hot	1
+http://voice.hupu.com/f1	http://voice.hupu.com/hot	1
+http://voice.hupu.com/tennis	http://voice.hupu.com/hot	1
+http://voice.hupu.com/zb	http://voice.hupu.com/hot	1
+http://voice.hupu.com/wcba	http://voice.hupu.com/hot	1
+http://voice.hupu.com/sports	http://voice.hupu.com/hot	1
+http://voice.hupu.com/	http://voice.hupu.com/hot	1

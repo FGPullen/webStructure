@@ -1,0 +1,11 @@
+http://movie.douban.com			500	0
+https://movie.douban.com/review/7968811/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.119967864146	8
+https://movie.douban.com/review/7967743/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.119967864146	9
+https://movie.douban.com/review/7967601/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.119967864146	9
+https://movie.douban.com/review/7969071/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.119967864146	9
+https://movie.douban.com/review/7968208/	https://movie.douban.com/review/7968811/	(8, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.119967864146	9
+https://movie.douban.com/review/7971595/	https://movie.douban.com/review/7968811/	(8, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.119967864146	9
+https://movie.douban.com/review/7969003/	https://movie.douban.com/review/7968811/	(8, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.119967864146	9
+https://movie.douban.com/review/7968811/?start=100#comments	https://movie.douban.com/review/7968811/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.116013880458	9
+https://movie.douban.com/review/7968811/?start=200#comments	https://movie.douban.com/review/7968811/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.116013880458	9
+https://movie.douban.com/review/7968811/?start=300#comments	https://movie.douban.com/review/7968811/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.116013880458	9

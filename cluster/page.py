@@ -1,5 +1,5 @@
 import copy
-import math
+import math,os
 import re,collections
 
 from lxml import etree
@@ -30,6 +30,7 @@ class Page:
         self.Leung = {}
         if mode == "raw":
         # getting xpaths from original content
+            self.file_size = os.path.getsize(path)
             self.original = open(path,"r").read()
             self.contents = self.original.replace("\n","")
             self.getXpaths()

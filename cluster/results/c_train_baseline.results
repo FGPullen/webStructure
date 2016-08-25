@@ -1,0 +1,42 @@
+asp#class/#cluster	8/9
+asp#new_outlier	13
+asp	micro_f	0.876897737886
+asp	macro_f	0.798444984704
+asp	micro_p	0.890704800817
+asp	macro_p	0.745535714286
+youtube#class/#cluster	3/18
+youtube#new_outlier	13
+youtube	micro_f	0.717746495886
+youtube	macro_f	0.778272159385
+youtube	micro_p	1.0
+youtube	macro_p	1.0
+douban#class/#cluster	21/31
+douban#new_outlier	15
+douban	micro_f	0.89973445297
+douban	macro_f	0.889301044965
+douban	micro_p	0.973821989529
+douban	macro_p	0.937661560512
+rottentomatoes#class/#cluster	14/16
+rottentomatoes#new_outlier	27
+rottentomatoes	micro_f	0.545994387121
+rottentomatoes	macro_f	0.398220193542
+rottentomatoes	micro_p	0.756900212314
+rottentomatoes	macro_p	0.3913011835
+hupu#class/#cluster	6/11
+hupu#new_outlier	19
+hupu	micro_f	0.81072253255
+hupu	macro_f	0.650093505522
+hupu	micro_p	0.992608236536
+hupu	macro_p	0.75
+stackexchange#class/#cluster	14/18
+stackexchange#new_outlier	55
+stackexchange	micro_f	0.812257038817
+stackexchange	macro_f	0.744911527227
+stackexchange	micro_p	0.923766816143
+stackexchange	macro_p	0.750575602887
+rottentomatoes#class/#cluster	14/16
+rottentomatoes#new_outlier	27
+rottentomatoes	micro_f	0.545994387121
+rottentomatoes	macro_f	0.398220193542
+rottentomatoes	micro_p	0.756900212314
+rottentomatoes	macro_p	0.3913011835

@@ -1,0 +1,18 @@
+asp classifying 	cv_micro_precision	0.891730371763
+asp classifying 	cv_macro_precision	0.75
+asp classifying 	non outlier ratio	0.982002501838
+youtube classifying 	cv_micro_precision	1.0
+youtube classifying 	cv_macro_precision	1.0
+youtube classifying 	non outlier ratio	0.969082644339
+douban classifying 	cv_micro_precision	0.962141381885
+douban classifying 	cv_macro_precision	0.916536571894
+douban classifying 	non outlier ratio	0.955061650087
+rottentomatoes classifying 	cv_micro_precision	0.776110166581
+rottentomatoes classifying 	cv_macro_precision	0.440582538476
+rottentomatoes classifying 	non outlier ratio	0.942281654867
+hupu classifying 	cv_micro_precision	0.986208705769
+hupu classifying 	cv_macro_precision	0.747580645161
+hupu classifying 	non outlier ratio	0.946992210702
+stackexchange classifying 	cv_micro_precision	0.943989752084
+stackexchange classifying 	cv_macro_precision	0.840906234289
+stackexchange classifying 	non outlier ratio	0.918807686433

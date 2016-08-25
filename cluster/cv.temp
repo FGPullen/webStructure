@@ -1,0 +1,6 @@
+python pageCluster.py asp July30 dbscan log-tf-idf
+python pageCluster.py youtube July30 dbscan log-tf-idf
+python pageCluster.py douban July30 dbscan log-tf-idf
+python pageCluster.py rottentomatoes July30 dbscan log-tf-idf
+python pageCluster.py hupu July30 dbscan log-tf-idf
+python pageCluster.py stackexchange July30 dbscan log-tf-idf

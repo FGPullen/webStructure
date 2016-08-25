@@ -1,0 +1,10 @@
+http://android.stackexchange.com/questions		1
+http://android.stackexchange.com/questions?pagesize=30&sort=newest	http://android.stackexchange.com/questions	2
+http://android.stackexchange.com/questions?pagesize=50&sort=newest	http://android.stackexchange.com/questions	2
+http://android.stackexchange.com/questions?pagesize=15&sort=newest	http://android.stackexchange.com/questions	2
+http://android.stackexchange.com/questions?sort=newest	http://android.stackexchange.com/questions	2
+http://android.stackexchange.com/questions?sort=featured	http://android.stackexchange.com/questions	2
+http://android.stackexchange.com/questions?sort=frequent	http://android.stackexchange.com/questions	2
+http://android.stackexchange.com/questions?sort=votes	http://android.stackexchange.com/questions	2
+http://android.stackexchange.com/questions?sort=active	http://android.stackexchange.com/questions	2
+http://android.stackexchange.com/questions?sort=unanswered	http://android.stackexchange.com/questions	2

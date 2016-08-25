@@ -1,5 +1,0 @@
-http://android.stackexchange.com/questions	9
-http://android.stackexchange.com/users/165082/gall-annonim	16
-http://android.stackexchange.com/questions/144546/how-to-find-out-which-apps-are-draining-the-battery/144556#144556	1
-http://android.stackexchange.com/q/75410	1
-http://android.stackexchange.com/questions/144546/how-to-find-out-which-apps-are-draining-the-battery	1

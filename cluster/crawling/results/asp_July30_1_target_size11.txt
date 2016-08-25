@@ -1,0 +1,11 @@
+http://forums.asp.net/			500	0
+http://forums.asp.net//t/2086818.aspx?Converting+string+to+datetime+issue	http://forums.asp.net/	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0505607739201	7
+http://forums.asp.net//login/RedirectToLogin?ReturnUrl=/post/set/37/2086818/6027032	http://forums.asp.net//t/2086818.aspx?Converting+string+to+datetime+issue	(7, '/html/body/div/div/ul/li/ul/li/a[]')	0.128747400635	-1
+http://forums.asp.net//login/RedirectToLogin?ReturnUrl=/post/set/37/2086818/6027054	http://forums.asp.net//t/2086818.aspx?Converting+string+to+datetime+issue	(7, '/html/body/div/div/ul/li/ul/li/a[]')	0.128747400635	-1
+http://forums.asp.net//login/RedirectToLogin?ReturnUrl=/post/set/37/2086818/6027084	http://forums.asp.net//t/2086818.aspx?Converting+string+to+datetime+issue	(7, '/html/body/div/div/ul/li/ul/li/a[]')	0.128747400635	-1
+http://forums.asp.net//login/RedirectToLogin?ReturnUrl=/post/set/37/2086818/6027093	http://forums.asp.net//t/2086818.aspx?Converting+string+to+datetime+issue	(7, '/html/body/div/div/ul/li/ul/li/a[]')	0.128747400635	-1
+http://forums.asp.net//login/RedirectToLogin?ReturnUrl=/post/set/37/2086818/6027126	http://forums.asp.net//t/2086818.aspx?Converting+string+to+datetime+issue	(7, '/html/body/div/div/ul/li/ul/li/a[]')	0.128747400635	-1
+http://forums.asp.net//login/RedirectToLogin?ReturnUrl=/post/set/37/2086818/6027130	http://forums.asp.net//t/2086818.aspx?Converting+string+to+datetime+issue	(7, '/html/body/div/div/ul/li/ul/li/a[]')	0.128747400635	-1
+http://forums.asp.net//login/RedirectToLogin?ReturnUrl=/post/set/37/2086818/6027168	http://forums.asp.net//t/2086818.aspx?Converting+string+to+datetime+issue	(7, '/html/body/div/div/ul/li/ul/li/a[]')	0.128747400635	-1
+http://forums.asp.net//login/RedirectToLogin?ReturnUrl=/post/set/37/2086818/6027175	http://forums.asp.net//t/2086818.aspx?Converting+string+to+datetime+issue	(7, '/html/body/div/div/ul/li/ul/li/a[]')	0.128747400635	-1
+http://forums.asp.net//login/RedirectToLogin?ReturnUrl=/post/set/37/2086818/6027197	http://forums.asp.net//t/2086818.aspx?Converting+string+to+datetime+issue	(7, '/html/body/div/div/ul/li/ul/li/a[]')	0.128747400635	-1

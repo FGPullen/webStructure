@@ -18,6 +18,7 @@ class allPages:
         self.folder_path = folder_path
         self.dataset = dataset
         self.date = date
+        print folder_path,dataset,date," creating allPages "
         #print folder_path
         self.threshold = 0.004
         self.pages = []
@@ -38,6 +39,7 @@ class allPages:
             log_tf_idf_lines = open("./{}/feature/".format(date) + dataset + "/log_tf_idf.txt","r").readlines()
             features = open("./{}/feature/".format(date) + dataset + "/xpaths.txt","r").readlines()
             idf_file = open("./{}/feature/".format(date) + dataset  + "/idf.txt","r")
+            #file_size_file = open("./{}/feature/".format(date)+ dataset +"/size.txt","r")
 
             for i in range(len(page_list)):
 
@@ -60,8 +62,10 @@ class allPages:
                 self.features.append(xpath)
 
             self.idf = pickle.load(idf_file)
+            #self.file_size_list = pickle.load(file_size_file)
             self.category = [0 for i in range(len(page_list))]
             self.get_ground_truth(dataset)
+            self.num = len(page_list)
         elif mode == "c_baseline":
             print "it is the baseline of v.crescenzi"
             self.add_page_anchor(folder_path)
@@ -83,6 +87,7 @@ class allPages:
             #self.Leung_baseline()  # binary feature
             self.selected_tfidf()
             self.get_ground_truth(dataset)
+            self.file_size_list = self.get_file_size_list()
             
             if mode=="write":
                 print "write mode !"
@@ -116,8 +121,18 @@ class allPages:
                     page_id += 1
                 idf_file = open("./{}/feature/".format(date) + dataset + "/idf.txt","w")
                 pickle.dump(self.idf,idf_file)
+                file_size_file = open("./{}/feature/".format(date)+dataset+"/size.txt","w")
+                pickle.dump(self.file_size_list,file_size_file)
 
         #self.update_bigram()
+
+    def get_file_size_list(self):
+        list = []
+        for page in self.pages:
+            list.append(page.file_size)
+        return list
+
+
 
     def filter_dfs_xpaths_list(self):
         print "start filtering for xpaths list"
@@ -289,7 +304,6 @@ class allPages:
 
     def get_ground_truth(self,dataset):
         print "our dataset is {0}".format(dataset)
-
         data = dataset.replace("new_","")
         if os._exists("./crawling/{0}/site.gold/{1}/{1}.gold".format(self.date,data)):
             print "./crawling/{0}/site.gold/{1}/{1}.gold".format(self.date,data)
@@ -298,6 +312,7 @@ class allPages:
             gold_file = open("./{0}/site.gold/{1}/{1}.gold".format(self.date,data)).readlines()
             print "./{0}/site.gold/{1}/{1}.gold".format(self.date,data)
         else:
+            print "annotation starts"
             a = annotator(dataset)
             self.ground_truth = a.get_ground_truth(self.path_list)
             return None
@@ -310,7 +325,7 @@ class allPages:
             # here {}/sample instead of {}_samples
             #path = self.pages[i].path.replace("../Crawler/{0}/samples/{1}/".format(self.date,data),"")
             path = self.pages[i].path.replace("../../Crawler/{0}/samples/{1}/".format(self.date,data),"")
-            print path.strip()
+            #print path.strip()
             id = int(gold_dict[path.strip().replace(" ","")])
             self.ground_truth.append(id)
         '''
@@ -479,13 +494,13 @@ class allPages:
             if val != -1 and labels_true[idx]!= -1:
                 new_labels_pred.append(val)
                 new_labels_true.append(labels_true[idx])
-        for i in range(len(labels_true)):
-            print labels_true[i], labels_pred[i]
+        #for i in range(len(labels_true)):
+        #    print labels_true[i], labels_pred[i]
 
-        #train_batch_file = open("./results/train_batch.results","a")
+        train_batch_file = open("./results/c_train_baseline.results","a")
         prefix =  str(self.dataset)
-        #train_batch_file.write(prefix + "#class/#cluster\t" + "{}/{}".format(len(set(labels_true))-1,len(set(labels_pred))-1)+"\n")
-        #train_batch_file.write(prefix + "#new_outlier\t" + str(outlier_list[2])+"\n")
+        train_batch_file.write(prefix + "#class/#cluster\t" + "{}/{}".format(len(set(labels_true))-1,len(set(labels_pred))-1)+"\n")
+        train_batch_file.write(prefix + "#new_outlier\t" + str(outlier_list[2])+"\n")
 
         print "number of -1 " + str(len(labels_true)-len(new_labels_true))
         print "we have number of classes from ground truth is {0}".format(len(set(labels_true)))
@@ -524,9 +539,9 @@ class allPages:
         #train_batch_file.write("=====" + str(dataset) + "\t" + str(algo) +  "\t" + str(feature) +  "=====\n")
         metrics_list = ['micro_f', 'macro_f', 'micro_p', 'macro_p']
         result = [micro_f,macro_f,micro_p,macro_p]
-        #for index,metric in enumerate(metrics_list):
-            #line =  prefix + metric + "\t" + str(result[index])
-            #train_batch_file.write(line + "\n" )
+        for index,metric in enumerate(metrics_list):
+            line =  prefix + "\t"  + metric + "\t" + str(result[index])
+            train_batch_file.write(line + "\n" )
         return micro_f, macro_f, micro_p, macro_p, mutual_info_score, rand_score
 
     def F_Measure(self,labels_true,labels_pred):

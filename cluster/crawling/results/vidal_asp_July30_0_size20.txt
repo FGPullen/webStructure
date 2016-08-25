@@ -1,0 +1,20 @@
+http://forums.asp.net/		0
+http://forums.asp.net//default.aspx/7?General+ASP+NET	http://forums.asp.net/	1
+http://forums.asp.net//default.aspx/16?Data+Access	http://forums.asp.net/	1
+http://forums.asp.net//default.aspx/10?Advanced+ASP+NET	http://forums.asp.net/	1
+http://forums.asp.net//default.aspx/12?Migration+to+ASP+NET	http://forums.asp.net/	1
+http://forums.asp.net//default.aspx/2?Starter+Kits+and+Source+Projects	http://forums.asp.net/	1
+http://forums.asp.net//default.aspx/36?Community	http://forums.asp.net/	1
+http://forums.asp.net//default.aspx/1?+NET+Languages	http://forums.asp.net/	1
+http://forums.asp.net//default.aspx/32?About+This+Site	http://forums.asp.net/	1
+http://forums.asp.net//default.aspx/54?Retired+Forums	http://forums.asp.net/	1
+http://forums.asp.net//members/Candice%20Zhou.aspx	http://forums.asp.net//default.aspx/7?General+ASP+NET	2
+http://forums.asp.net//members/Zhi%20Lv%20-%20MSFT.aspx	http://forums.asp.net//default.aspx/7?General+ASP+NET	2
+http://forums.asp.net//members/Klein%20Zhang.aspx	http://forums.asp.net//default.aspx/7?General+ASP+NET	2
+http://forums.asp.net//members/Abhimanyuk.aspx	http://forums.asp.net//default.aspx/7?General+ASP+NET	2
+http://forums.asp.net//members/eriche33.aspx	http://forums.asp.net//default.aspx/7?General+ASP+NET	2
+http://forums.asp.net//members/Fei%20Han%20-%20MSFT.aspx	http://forums.asp.net//default.aspx/7?General+ASP+NET	2
+http://forums.asp.net//members/Dan5.aspx	http://forums.asp.net//default.aspx/7?General+ASP+NET	2
+http://forums.asp.net//members/kawi6rr.aspx	http://forums.asp.net//default.aspx/7?General+ASP+NET	2
+http://forums.asp.net//members/Faraz%20A.%20Qureshi.aspx	http://forums.asp.net//default.aspx/7?General+ASP+NET	2
+http://forums.asp.net//members/hjjd.aspx	http://forums.asp.net//default.aspx/7?General+ASP+NET	2

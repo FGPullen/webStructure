@@ -1,0 +1,20 @@
+http://movie.douban.com			500	0
+https://movie.douban.com/subject/20505982/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/5045678/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/26290642/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/25955779/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/25749813/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/26695145/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/25662337/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/11524967/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/4811813/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/26781781/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/21941770/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/26564988/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/6873736/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/26802090/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/26817990/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/26235349/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/25849006/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/26605823/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11
+https://movie.douban.com/subject/25931980/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.00609204113233	11

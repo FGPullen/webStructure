@@ -1,0 +1,1001 @@
+http://voice.hupu.com/hot			500	0
+http://voice.hupu.com/nba/2011764.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011722.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011768.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011755.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	5
+http://voice.hupu.com/nba/2011608.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	5
+http://voice.hupu.com/nba/2011774.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011772.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011735.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011474.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011603.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011446.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011734.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011732.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011713.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	5
+http://voice.hupu.com/nba/2011783.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011782.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	5
+http://voice.hupu.com/soccer/2011780.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011779.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011778.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011777.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011776.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	5
+http://voice.hupu.com/nba/2011775.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011773.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011770.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	5
+http://voice.hupu.com/soccer/2011769.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011767.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011766.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	5
+http://voice.hupu.com/nba/2011763.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011762.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011761.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/other/1634334.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/ul/li/div/a[instagram]')	0.0	1
+http://voice.hupu.com/nba/2011764.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011722.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011768.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011755.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011608.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011774.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011772.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/soccer/2011735.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011474.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	5
+http://voice.hupu.com/nba/2011603.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	5
+http://voice.hupu.com/nba/2011446.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	5
+http://voice.hupu.com/soccer/2011734.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/soccer/2011732.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/soccer/2011713.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011783.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011782.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	-1
+http://voice.hupu.com/soccer/2011780.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011779.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011778.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/soccer/2011777.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011776.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011775.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011773.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011770.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/soccer/2011769.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011767.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011766.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	5
+http://voice.hupu.com/nba/2011763.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/soccer/2011762.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011761.html#tracingArticalComment	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/hot/2	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/a[page-btn-prev]')	0.0	0
+http://voice.hupu.com/sports	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/div/a[]')	0.0	2
+http://voice.hupu.com/nba	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/div/a[]')	0.0	2
+http://voice.hupu.com/cba	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/div/a[]')	0.0	2
+http://voice.hupu.com/soccer	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/div/a[]')	0.0	2
+http://voice.hupu.com/china	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/div/a[]')	0.0	2
+http://voice.hupu.com/f1	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/div/a[]')	0.0	2
+http://voice.hupu.com/tennis	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/div/a[]')	0.0	2
+http://voice.hupu.com/zb	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/div/a[]')	0.0	2
+http://voice.hupu.com/wcba	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/div/a[]')	0.0	2
+http://voice.hupu.com/other/1581560.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/ul/li/div/a[weixin]')	0.0	1
+http://voice.hupu.com/hot/3	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/a[]')	0.0	0
+http://voice.hupu.com/hot/4	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/a[]')	0.0	0
+http://voice.hupu.com/my	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	0
+http://voice.hupu.com/lgys	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	8
+http://voice.hupu.com/o/rockets	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/lakers	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/heat	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/celtics	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/nets	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/knicks	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/mavericks	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/blazers	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/warriors	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/pistons	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/grizzlies	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/bulls	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/clippers	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/spurs	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/thunder	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/pacers	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/76ers	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/timberwolves	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/jazz	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/nuggets	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/cavaliers	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/hornets	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/wizards	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/hawks	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/raptors	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/kings	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/bucks	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/suns	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/magic	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/pelicans	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/barca	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/realmadrid	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/manutd	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/bayern	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/chelsea	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/arsenal	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/mancity	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/liverpool	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/acmilan	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/inter	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/o/juventus	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	6
+http://voice.hupu.com/	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/a[]')	0.0	0
+http://voice.hupu.com#reply	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/a[btn-more-hdItem]')	0.0	0
+http://voice.hupu.com/people/27876930	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/p/a[]')	0.0	6
+http://voice.hupu.com/nba/2011763.html#next	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011766.html#pre	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com#tracingCommontBox	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dd/div/a[btn-at J_commentAt]')	0.0	0
+http://voice.hupu.com/nba/2011442.html	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011475.html	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011448.html	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011634.html	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011501.html	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	5
+http://voice.hupu.com/nba/2011514.html	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/people/16742390	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/4910631	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/16089324	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/16116107	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/4915254	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/25723715	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26437914	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18418787	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/25919655	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/20650092	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27573862	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/24390395	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	8
+http://voice.hupu.com/people/21434362	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/25973204	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/19945248	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17882135	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18615639	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26317409	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/o/stephen-curry	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/o/manu-ginobili	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com#tracingArticalComment	http://voice.hupu.com/nba/2011764.html	(1, '/html/body/div/div/div/div/span/a[btn-viewComment]')	0.0	0
+http://voice.hupu.com/nba/2011720.html#next	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011748.html#pre	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/16384954	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/27419653	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/18860271	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/5223619	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26911737	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/5381840	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15520436	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17584065	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/376978	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26030951	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17105738	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26070013	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/19046673	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/21541931	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17249058	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/o/monta-ellis	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/o/mark-cuban	http://voice.hupu.com/nba/2011722.html	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/nba/2011767.html#next	http://voice.hupu.com/nba/2011768.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011770.html#pre	http://voice.hupu.com/nba/2011768.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/3560904	http://voice.hupu.com/nba/2011768.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/15511203	http://voice.hupu.com/nba/2011768.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/5080375	http://voice.hupu.com/nba/2011768.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18726842	http://voice.hupu.com/nba/2011768.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26163440	http://voice.hupu.com/nba/2011768.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/4175964	http://voice.hupu.com/nba/2011768.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27182299	http://voice.hupu.com/nba/2011768.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/people/18885892	http://voice.hupu.com/nba/2011768.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/people/20671513	http://voice.hupu.com/nba/2011768.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16983882	http://voice.hupu.com/nba/2011768.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26556946	http://voice.hupu.com/nba/2011768.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/21761431	http://voice.hupu.com/nba/2011768.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17362813	http://voice.hupu.com/nba/2011768.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/19486412	http://voice.hupu.com/nba/2011768.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/nba/2011773.html#next	http://voice.hupu.com/nba/2011774.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	5
+http://voice.hupu.com/nba/2011775.html#pre	http://voice.hupu.com/nba/2011774.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/26944277	http://voice.hupu.com/nba/2011774.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27681371	http://voice.hupu.com/nba/2011774.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26813950	http://voice.hupu.com/nba/2011774.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/19508030	http://voice.hupu.com/nba/2011774.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/o/dirk-nowitzki	http://voice.hupu.com/nba/2011774.html	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/o/chandler-parsons	http://voice.hupu.com/nba/2011774.html	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/nba/2011770.html#next	http://voice.hupu.com/nba/2011772.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011493.html	http://voice.hupu.com/nba/2011772.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011628.html	http://voice.hupu.com/nba/2011772.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011773.html#pre	http://voice.hupu.com/nba/2011772.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/25799914	http://voice.hupu.com/nba/2011772.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/o/danny-green	http://voice.hupu.com/nba/2011772.html	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/soccer/2011734.html#next	http://voice.hupu.com/soccer/2011735.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011567.html	http://voice.hupu.com/soccer/2011735.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011663.html	http://voice.hupu.com/soccer/2011735.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011550.html	http://voice.hupu.com/soccer/2011735.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011477.html	http://voice.hupu.com/soccer/2011735.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011555.html	http://voice.hupu.com/soccer/2011735.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011519.html	http://voice.hupu.com/soccer/2011735.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011490.html	http://voice.hupu.com/soccer/2011735.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011718.html	http://voice.hupu.com/soccer/2011735.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011577.html	http://voice.hupu.com/soccer/2011735.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011513.html	http://voice.hupu.com/soccer/2011735.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011736.html#pre	http://voice.hupu.com/soccer/2011735.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/26467967	http://voice.hupu.com/soccer/2011735.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	8
+http://voice.hupu.com/nba/2010677.html	http://voice.hupu.com/nba/2011770.html	(5, '/html/body/section/section/article/p/a[]')	0.0	1
+http://voice.hupu.com/other/1634332.html#next	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/other/1380035.html	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/other/2011443.html	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011528.html	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011524.html	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011546.html	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011542.html	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011526.html	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011527.html	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011547.html	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011523.html	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011623.html	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/1634350.html#pre	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/other	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/a[]')	0.0	2
+http://voice.hupu.com/people/3038775	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/6350904	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16161653	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/3662661	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/3349562	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15570300	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17447869	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/4928216	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/3633276	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16514817	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/6314981	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18411472	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17379868	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16360116	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/people/16953690	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18255399	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/3669017	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/3234296	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/people/16799534	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/span/span/a[]')	0.0	0
+http://voice.hupu.com/soccer/2011733.html#next	http://voice.hupu.com/soccer/2011734.html#tracingArticalComment	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011735.html#pre	http://voice.hupu.com/soccer/2011734.html#tracingArticalComment	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/cba/2011556.html	http://voice.hupu.com/hot/2	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/sports/2011449.html#tracingArticalComment	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/div/div/dl/dd/span/a[commentText]')	0.0	1
+http://voice.hupu.com/sports/2011453.html#tracingArticalComment	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/div/div/dl/dd/span/a[commentText]')	0.0	1
+http://voice.hupu.com/sports/2011483.html#tracingArticalComment	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/div/div/dl/dd/span/a[commentText]')	0.0	1
+http://voice.hupu.com/sports/2011484.html#tracingArticalComment	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/div/div/dl/dd/span/a[commentText]')	0.0	1
+http://voice.hupu.com/sports/newslist/2.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/a[]')	0.0	2
+http://voice.hupu.com/sports/newslist/3.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/a[]')	0.0	2
+http://voice.hupu.com/sports/newslist/4.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/a[]')	0.0	2
+http://voice.hupu.com/sports/2011765.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011759.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011751.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011750.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011674.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011672.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011598.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011619.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011617.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011614.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011613.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011612.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011611.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011586.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011572.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011554.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011551.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011484.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011483.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011453.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011449.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011429.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011423.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011505.html	http://voice.hupu.com/sports	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/people/3202375	http://voice.hupu.com/nba	(2, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/cba/2011556.html#tracingArticalComment	http://voice.hupu.com/cba	(2, '/html/body/div/div/div/div/div/dl/dd/span/a[commentText]')	0.0	1
+http://voice.hupu.com/soccer/2011567.html#tracingArticalComment	http://voice.hupu.com/soccer	(2, '/html/body/div/div/div/div/div/dl/dd/span/a[commentText]')	0.0	1
+http://voice.hupu.com/china/2011644.html#tracingArticalComment	http://voice.hupu.com/china	(2, '/html/body/div/div/div/div/div/dl/dd/span/a[commentText]')	0.0	1
+http://voice.hupu.com/f1/2011576.html#tracingArticalComment	http://voice.hupu.com/f1	(2, '/html/body/div/div/div/div/div/dl/dd/span/a[commentText]')	0.0	1
+http://voice.hupu.com/tennis/newslist/2.html	http://voice.hupu.com/tennis	(2, '/html/body/div/div/div/a[]')	0.0	2
+http://voice.hupu.com/zb/newslist/2.html	http://voice.hupu.com/zb	(2, '/html/body/div/div/div/a[]')	0.0	2
+http://voice.hupu.com/wcba/1120361.html	http://voice.hupu.com/wcba	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/other/1581120.html#next	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/people/17014138	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/17177157	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18257823	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15963540	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18269645	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	8
+http://voice.hupu.com/people/18333162	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/17171232	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18453207	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18306315	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	8
+http://voice.hupu.com/people/4098363	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17749020	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15980375	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18710342	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	8
+http://voice.hupu.com/people/18994510	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	8
+http://voice.hupu.com/people/4233587	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/19313881	http://voice.hupu.com/other/1581560.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/soccer/2011678.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011676.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011724.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011721.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011720.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011716.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011715.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	-1
+http://voice.hupu.com/soccer/2011710.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011496.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011707.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011495.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011489.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011399.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011488.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	5
+http://voice.hupu.com/soccer/2011680.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011607.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011606.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011517.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011670.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011669.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011668.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011597.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011666.html	http://voice.hupu.com/hot/3	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011662.html	http://voice.hupu.com/hot/4	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011718.html#tracingArticalComment	http://voice.hupu.com/lgys	(8, '/html/body/div/div/div/div/dl/dd/a[time]')	0.0	1
+http://voice.hupu.com/soccer/2011717.html#tracingArticalComment	http://voice.hupu.com/lgys	(8, '/html/body/div/div/div/div/dl/dd/a[time]')	0.0	1
+http://voice.hupu.com/nba/2011790.html	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011797.html	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011795.html	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011785.html	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011784.html	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	5
+http://voice.hupu.com/nba/2011800.html	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011733.html	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011796.html	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	-1
+http://voice.hupu.com/soccer/2011793.html	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011791.html	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011789.html	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011787.html	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011786.html	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011790.html#tracingArticalComment	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011797.html#tracingArticalComment	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011795.html#tracingArticalComment	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011785.html#tracingArticalComment	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011784.html#tracingArticalComment	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	5
+http://voice.hupu.com/nba/2011800.html#tracingArticalComment	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/soccer/2011733.html#tracingArticalComment	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011796.html#tracingArticalComment	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	-1
+http://voice.hupu.com/soccer/2011793.html#tracingArticalComment	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011791.html#tracingArticalComment	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/soccer/2011789.html#tracingArticalComment	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011787.html#tracingArticalComment	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011786.html#tracingArticalComment	http://voice.hupu.com#reply	(0, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/nba/2011761.html#next	http://voice.hupu.com/nba/2011763.html#next	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011832.html	http://voice.hupu.com/nba/2011763.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011826.html	http://voice.hupu.com/nba/2011763.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011819.html	http://voice.hupu.com/nba/2011763.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011812.html	http://voice.hupu.com/nba/2011763.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011815.html	http://voice.hupu.com/nba/2011763.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011764.html#pre	http://voice.hupu.com/nba/2011763.html#next	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/topic/dg-14	http://voice.hupu.com/nba/2011763.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[btn-more]')	0.0	-1
+http://voice.hupu.com/people/21095801	http://voice.hupu.com/nba/2011763.html#next	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/25810927	http://voice.hupu.com/nba/2011763.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17002503	http://voice.hupu.com/nba/2011763.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17388443	http://voice.hupu.com/nba/2011763.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/27882408	http://voice.hupu.com/nba/2011763.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/o/paul-george	http://voice.hupu.com/nba/2011763.html#next	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/nba/2011764.html#next	http://voice.hupu.com/nba/2011766.html#pre	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011767.html#pre	http://voice.hupu.com/nba/2011766.html#pre	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/26918012	http://voice.hupu.com/nba/2011766.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/o/doc-rivers	http://voice.hupu.com/nba/2011766.html#pre	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/nba/2011441.html#next	http://voice.hupu.com/nba/2011442.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011757.html	http://voice.hupu.com/nba/2011442.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011685.html	http://voice.hupu.com/nba/2011442.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011446.html#pre	http://voice.hupu.com/nba/2011442.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/27661755	http://voice.hupu.com/nba/2011442.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/26092564	http://voice.hupu.com/nba/2011442.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/28237	http://voice.hupu.com/nba/2011442.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16218211	http://voice.hupu.com/nba/2011442.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/20917236	http://voice.hupu.com/nba/2011442.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17404846	http://voice.hupu.com/nba/2011442.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16642717	http://voice.hupu.com/nba/2011442.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/14541488	http://voice.hupu.com/nba/2011442.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/19302949	http://voice.hupu.com/nba/2011442.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26010500	http://voice.hupu.com/nba/2011442.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/nba/2011479.html#pre	http://voice.hupu.com/nba/2011475.html	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/nba/2011446.html#next	http://voice.hupu.com/nba/2011448.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011628.html#next	http://voice.hupu.com/nba/2011634.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011511.html#next	http://voice.hupu.com/nba/2011514.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/people/24390395?type=recom	http://voice.hupu.com/people/24390395	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	-1
+http://voice.hupu.com/people/24390395?type=focus	http://voice.hupu.com/people/24390395	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	-1
+http://voice.hupu.com/nba/2011722.html#pre	http://voice.hupu.com/nba/2011720.html#next	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/25433201	http://voice.hupu.com/nba/2011720.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16173913	http://voice.hupu.com/nba/2011720.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15854176	http://voice.hupu.com/nba/2011720.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/19191249	http://voice.hupu.com/nba/2011720.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18929933	http://voice.hupu.com/nba/2011720.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/19352755	http://voice.hupu.com/nba/2011720.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26774014	http://voice.hupu.com/nba/2011720.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18888954	http://voice.hupu.com/nba/2011720.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27510274	http://voice.hupu.com/nba/2011720.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/nba/2011707.html#next	http://voice.hupu.com/nba/2011720.html#next	(1, '/html/body/div/div/div/a[btn-next  ]')	0.0	1
+http://voice.hupu.com/nba/2011722.html#next	http://voice.hupu.com/nba/2011748.html#pre	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011749.html#pre	http://voice.hupu.com/nba/2011748.html#pre	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/15177547	http://voice.hupu.com/nba/2011748.html#pre	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	8
+http://voice.hupu.com/people/3116207	http://voice.hupu.com/nba/2011748.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/19817063	http://voice.hupu.com/nba/2011748.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16363110	http://voice.hupu.com/nba/2011748.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27876787	http://voice.hupu.com/nba/2011748.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	8
+http://voice.hupu.com/o/dwyane-wade	http://voice.hupu.com/nba/2011748.html#pre	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/nba/2011768.html#pre	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/18693956	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/4239302	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/26021035	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/25967681	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/25711676	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	8
+http://voice.hupu.com/people/3840061	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27583542	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26296252	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27859952	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15522870	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18976912	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27787052	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	1
+http://voice.hupu.com/people/25727710	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/16235532	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27511875	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/18414238	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/21660094	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/599750	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/nba/2011766.html#next	http://voice.hupu.com/nba/2011767.html#next	(1, '/html/body/div/div/div/a[btn-next  ]')	0.0	1
+http://voice.hupu.com/nba/2011768.html#next	http://voice.hupu.com/nba/2011770.html#pre	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011772.html#pre	http://voice.hupu.com/nba/2011770.html#pre	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/25841006	http://voice.hupu.com/nba/2011770.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/people/25420647	http://voice.hupu.com/nba/2011770.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com#	http://voice.hupu.com/people/18885892	(7, '/html/body/div/div/a[btop]')	0.0	0
+http://voice.hupu.com/nba/2011774.html#next	http://voice.hupu.com/nba/2011775.html#pre	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011776.html#pre	http://voice.hupu.com/nba/2011775.html#pre	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/people/15152944	http://voice.hupu.com/nba/2011775.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16496970	http://voice.hupu.com/nba/2011775.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/4923120	http://voice.hupu.com/nba/2011775.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15658031	http://voice.hupu.com/nba/2011775.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/o/russell-westbrook+	http://voice.hupu.com/nba/2011775.html#pre	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/o/kevin-durant	http://voice.hupu.com/nba/2011775.html#pre	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/nba/2011492.html#next	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011495.html#pre	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/nba/2011760.html	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/people/26919168	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/4633324	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/3970630	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	8
+http://voice.hupu.com/people/16385505	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17074205	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/5045444	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/22206943	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/6260562	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/5129814	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/19641516	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/4389347	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17414804	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/3172521	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/25910119	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26222983	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/20879861	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15480978	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15763975	http://voice.hupu.com/nba/2011493.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/nba/2011608.html#next	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011634.html#pre	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/4717369	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/14562022	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/15867162	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/17166728	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/people/15465203	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26168639	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16927664	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/25803090	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/4241846	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27160064	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/21915424	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	8
+http://voice.hupu.com/people/26170963	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/5017554	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26325325	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26913039	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15168923	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26646374	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17936431	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16479717	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26750478	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/o/patrick-beverley	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/o/james-harden	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/o/dwight-howard	http://voice.hupu.com/nba/2011628.html	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/nba/2011772.html#next	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011774.html#pre	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/27077924	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/27056674	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/26667866	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/18737715	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/people/21531564	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17484256	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26549382	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26316112	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/15501033	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/people/26168249	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18382556	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/17761540	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/3225423	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/2558833	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/people/26717000	http://voice.hupu.com/nba/2011773.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/soccer/2011682.html	http://voice.hupu.com/soccer/2011734.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011736.html	http://voice.hupu.com/soccer/2011734.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011827.html	http://voice.hupu.com/soccer/2011734.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011717.html	http://voice.hupu.com/soccer/2011734.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011813.html	http://voice.hupu.com/soccer/2011734.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/people/27592371	http://voice.hupu.com/soccer/2011734.html#next	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/4896874	http://voice.hupu.com/soccer/2011734.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26378869	http://voice.hupu.com/soccer/2011734.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15225545	http://voice.hupu.com/soccer/2011734.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/26402187	http://voice.hupu.com/soccer/2011734.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/soccer/2011662.html#next	http://voice.hupu.com/soccer/2011663.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011519.html#next	http://voice.hupu.com/soccer/2011550.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011476.html#next	http://voice.hupu.com/soccer/2011477.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011553.html#next	http://voice.hupu.com/soccer/2011555.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011518.html#next	http://voice.hupu.com/soccer/2011519.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011487.html#next	http://voice.hupu.com/soccer/2011490.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011717.html#next	http://voice.hupu.com/soccer/2011718.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011575.html#next	http://voice.hupu.com/soccer/2011577.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011512.html#next	http://voice.hupu.com/soccer/2011513.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011752.html#pre	http://voice.hupu.com/soccer/2011736.html#pre	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/people/26467967?type=recom	http://voice.hupu.com/people/26467967	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	-1
+http://voice.hupu.com/people/26467967?type=focus	http://voice.hupu.com/people/26467967	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	-1
+http://voice.hupu.com/nba/2010679.html#pre	http://voice.hupu.com/nba/2010677.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/27844567	http://voice.hupu.com/nba/2010677.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	-1
+http://voice.hupu.com/people/679446	http://voice.hupu.com/nba/2010677.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	7
+http://voice.hupu.com/people/98530	http://voice.hupu.com/nba/2010677.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/26043958	http://voice.hupu.com/nba/2010677.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/17086040	http://voice.hupu.com/nba/2010677.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/people/25810904	http://voice.hupu.com/nba/2010677.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	1
+http://voice.hupu.com/people/16434958	http://voice.hupu.com/nba/2010677.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/people/4848997	http://voice.hupu.com/nba/2010677.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/other/2011703.html	http://voice.hupu.com/other/2011443.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011428.html#next	http://voice.hupu.com/other/2011443.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/other/2011521.html#pre	http://voice.hupu.com/other/2011443.html	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/other/2011527.html#next	http://voice.hupu.com/other/2011528.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/other/2011529.html#pre	http://voice.hupu.com/other/2011528.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/other/1634334.html#next	http://voice.hupu.com/other/1634350.html#pre	(1, '/html/body/div/div/div/a[btn-next  ]')	0.0	1
+http://voice.hupu.com/other/newslist/2.html	http://voice.hupu.com/other	(2, '/html/body/div/div/div/a[page-btn-prev]')	0.0	2
+http://voice.hupu.com/sports/newslist	http://voice.hupu.com/other	(2, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	2
+http://voice.hupu.com/sports/trends	http://voice.hupu.com/other	(2, '/html/body/div/div/div/div/div/ul/li/a[]')	0.0	10
+http://voice.hupu.com/nba/2011803.html	http://voice.hupu.com	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011732.html#next	http://voice.hupu.com/soccer/2011733.html#next	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011734.html#pre	http://voice.hupu.com/soccer/2011733.html#next	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/3175021	http://voice.hupu.com/soccer/2011733.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/o/terry	http://voice.hupu.com/soccer/2011733.html#next	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/o/aguero	http://voice.hupu.com/soccer/2011735.html#pre	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/cba/2011552.html#next	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/cba/2011568.html#pre	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/cba/2011552.html	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/cba/2011568.html	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/cba/2011833.html	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/people/3382185	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27576551	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18555346	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/3613514	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17081294	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27780369	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/19184457	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/4631	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27159778	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15488332	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/3113636	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27716251	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16252195	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16018355	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/19127372	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/6307584	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/19155397	http://voice.hupu.com/cba/2011556.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/sports/newslist/1.html	http://voice.hupu.com/sports/newslist/2.html	(2, '/html/body/div/div/div/a[page-btn-prev]')	0.0	2
+http://voice.hupu.com/sports/2011619.html#tracingArticalComment	http://voice.hupu.com/sports/newslist/4.html	(2, '/html/body/div/div/div/div/div/dl/dd/span/a[commentText]')	0.0	1
+http://voice.hupu.com/sports/2011554.html#next	http://voice.hupu.com/sports/2011572.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/sports/2011551.html#next	http://voice.hupu.com/sports/2011554.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/sports/2011505.html#next	http://voice.hupu.com/sports/2011551.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/sports/2011483.html#next	http://voice.hupu.com/sports/2011484.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/sports/2011453.html#next	http://voice.hupu.com/sports/2011483.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/sports/2011449.html#next	http://voice.hupu.com/sports/2011453.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/sports/2011429.html#next	http://voice.hupu.com/sports/2011449.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/sports/2011423.html#next	http://voice.hupu.com/sports/2011429.html	(1, '/html/body/div/div/div/a[btn-next  ]')	0.0	1
+http://voice.hupu.com/sports/2011297.html#next	http://voice.hupu.com/sports/2011423.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/sports/2011484.html#next	http://voice.hupu.com/sports/2011505.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/china/2011640.html#next	http://voice.hupu.com/china/2011644.html#tracingArticalComment	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/f1/2011592.html	http://voice.hupu.com/f1/2011576.html#tracingArticalComment	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/tennis/1988073.html	http://voice.hupu.com/tennis/newslist/2.html	(2, '/html/body/div/div/div/ul/li/div/span/a[btn-brigth]')	0.0	1
+http://voice.hupu.com/zb/2011897.html#tracingArticalComment	http://voice.hupu.com/zb/newslist/2.html	(2, '/html/body/div/div/div/div/div/dl/dd/span/a[commentText]')	0.0	9
+http://voice.hupu.com/wcba/1120291.html#next	http://voice.hupu.com/wcba/1120361.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/other/1581560.html#pre	http://voice.hupu.com/other/1581120.html#next	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/other/1581560.html#tracingArticalComment	http://voice.hupu.com/people/18269645	(8, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/people/18269645?type=recom	http://voice.hupu.com/people/18269645	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	8
+http://voice.hupu.com/people/18269645?type=focus	http://voice.hupu.com/people/18269645	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	8
+http://voice.hupu.com/people/18333162?type=recom	http://voice.hupu.com/people/18333162	(-1, '/html/body/div/div/div/ul/li/a[]')	0.0	-1
+http://voice.hupu.com/people/18333162?type=focus	http://voice.hupu.com/people/18333162	(-1, '/html/body/div/div/div/ul/li/a[]')	0.0	-1
+http://voice.hupu.com/people/18306315?type=recom	http://voice.hupu.com/people/18306315	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	-1
+http://voice.hupu.com/people/18306315?type=focus	http://voice.hupu.com/people/18306315	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	8
+http://voice.hupu.com/people/18710342?type=recom	http://voice.hupu.com/people/18710342	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	8
+http://voice.hupu.com/people/18710342?type=focus	http://voice.hupu.com/people/18710342	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	8
+http://voice.hupu.com/people/18994510?type=recom	http://voice.hupu.com/people/18994510	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	8
+http://voice.hupu.com/people/18994510?type=focus	http://voice.hupu.com/people/18994510	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	8
+http://voice.hupu.com/soccer/2011680.html#pre	http://voice.hupu.com/soccer/2011678.html	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/soccer/2011677.html#next	http://voice.hupu.com/soccer/2011678.html	(1, '/html/body/div/div/div/a[btn-next  ]')	0.0	1
+http://voice.hupu.com/soccer/2011671.html#next	http://voice.hupu.com/soccer/2011676.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011677.html#pre	http://voice.hupu.com/soccer/2011676.html	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/people/5368850	http://voice.hupu.com/soccer/2011676.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/16923437	http://voice.hupu.com/soccer/2011676.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15329253	http://voice.hupu.com/soccer/2011676.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/21374423	http://voice.hupu.com/soccer/2011676.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15731150	http://voice.hupu.com/soccer/2011676.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17597859	http://voice.hupu.com/soccer/2011676.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26296509	http://voice.hupu.com/soccer/2011676.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18283830	http://voice.hupu.com/soccer/2011676.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15783388	http://voice.hupu.com/soccer/2011676.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27879450	http://voice.hupu.com/soccer/2011676.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	8
+http://voice.hupu.com/soccer/2011723.html#next	http://voice.hupu.com/soccer/2011724.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011725.html#pre	http://voice.hupu.com/soccer/2011724.html	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/soccer/2011719.html#next	http://voice.hupu.com/soccer/2011721.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011723.html#pre	http://voice.hupu.com/soccer/2011721.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/15681132	http://voice.hupu.com/soccer/2011721.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/15707436	http://voice.hupu.com/soccer/2011721.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/26429052	http://voice.hupu.com/soccer/2011721.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/25594551	http://voice.hupu.com/soccer/2011721.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26136993	http://voice.hupu.com/soccer/2011721.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26387170	http://voice.hupu.com/soccer/2011721.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17266582	http://voice.hupu.com/soccer/2011721.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17287285	http://voice.hupu.com/soccer/2011721.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/soccer/2011715.html#next	http://voice.hupu.com/soccer/2011716.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	-1
+http://voice.hupu.com/nba/2011685.html#next	http://voice.hupu.com/nba/2011707.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011493.html#next	http://voice.hupu.com/nba/2011495.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011488.html#next	http://voice.hupu.com/nba/2011489.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011606.html#next	http://voice.hupu.com/soccer/2011607.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011514.html#next	http://voice.hupu.com/nba/2011517.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011669.html#next	http://voice.hupu.com/soccer/2011670.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011670.html#pre	http://voice.hupu.com/soccer/2011669.html	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/nba/2011596.html#next	http://voice.hupu.com/nba/2011597.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011663.html#pre	http://voice.hupu.com/soccer/2011662.html	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/people/824	http://voice.hupu.com/soccer/2011662.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/26183815	http://voice.hupu.com/soccer/2011662.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/soccer/2011658.html#next	http://voice.hupu.com/soccer/2011662.html	(1, '/html/body/div/div/div/a[btn-next  ]')	0.0	1
+http://voice.hupu.com/soccer/2011719.html#pre	http://voice.hupu.com/soccer/2011718.html#tracingArticalComment	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/16729707	http://voice.hupu.com/soccer/2011718.html#tracingArticalComment	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/17217356	http://voice.hupu.com/soccer/2011718.html#tracingArticalComment	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/21717814	http://voice.hupu.com/soccer/2011718.html#tracingArticalComment	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/16437156	http://voice.hupu.com/soccer/2011718.html#tracingArticalComment	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/soccer/2011716.html#next	http://voice.hupu.com/soccer/2011717.html#tracingArticalComment	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011796.html#next	http://voice.hupu.com/nba/2011797.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	-1
+http://voice.hupu.com/nba/2011792.html#next	http://voice.hupu.com/nba/2011795.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011784.html#next	http://voice.hupu.com/nba/2011785.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011798.html#next	http://voice.hupu.com/nba/2011800.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011795.html#next	http://voice.hupu.com/nba/2011796.html	(-1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011789.html#next	http://voice.hupu.com/soccer/2011793.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011790.html#next	http://voice.hupu.com/nba/2011791.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011788.html#next	http://voice.hupu.com/soccer/2011789.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011786.html#next	http://voice.hupu.com/nba/2011787.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011785.html#next	http://voice.hupu.com/nba/2011786.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011791.html#pre	http://voice.hupu.com/nba/2011790.html#tracingArticalComment	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/20758096	http://voice.hupu.com/nba/2011790.html#tracingArticalComment	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/26091861	http://voice.hupu.com/nba/2011790.html#tracingArticalComment	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/25669466	http://voice.hupu.com/nba/2011790.html#tracingArticalComment	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/27340648	http://voice.hupu.com/nba/2011790.html#tracingArticalComment	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/nba/2011760.html#next	http://voice.hupu.com/nba/2011761.html#next	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011763.html#pre	http://voice.hupu.com/nba/2011761.html#next	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/27132006	http://voice.hupu.com/nba/2011761.html#next	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/18284418	http://voice.hupu.com/nba/2011761.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/25883782	http://voice.hupu.com/nba/2011761.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/nba/2011831.html#next	http://voice.hupu.com/nba/2011832.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2045387.html	http://voice.hupu.com/nba/2011832.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2045436.html	http://voice.hupu.com/nba/2011832.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2045378.html	http://voice.hupu.com/nba/2011832.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2045375.html	http://voice.hupu.com/nba/2011832.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2045401.html	http://voice.hupu.com/nba/2011832.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2045445.html	http://voice.hupu.com/nba/2011832.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2045413.html	http://voice.hupu.com/nba/2011832.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2045535.html	http://voice.hupu.com/nba/2011832.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2045434.html	http://voice.hupu.com/nba/2011832.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2045499.html	http://voice.hupu.com/nba/2011832.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011834.html#pre	http://voice.hupu.com/nba/2011832.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011818.html#next	http://voice.hupu.com/nba/2011819.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2012187.html	http://voice.hupu.com/nba/2011812.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012126.html	http://voice.hupu.com/nba/2011812.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011816.html#pre	http://voice.hupu.com/nba/2011815.html	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/nba/2012425.html	http://voice.hupu.com/nba/2011441.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012396.html	http://voice.hupu.com/nba/2011441.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012361.html	http://voice.hupu.com/nba/2011441.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012355.html	http://voice.hupu.com/nba/2011441.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012448.html	http://voice.hupu.com/nba/2011441.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012419.html	http://voice.hupu.com/nba/2011441.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012302.html	http://voice.hupu.com/nba/2011441.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012398.html	http://voice.hupu.com/nba/2011441.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012360.html	http://voice.hupu.com/nba/2011441.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012367.html	http://voice.hupu.com/nba/2011441.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011442.html#pre	http://voice.hupu.com/nba/2011441.html#next	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/topic/sc-def	http://voice.hupu.com/nba/2011441.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[btn-more]')	0.0	-1
+http://voice.hupu.com/people/21283816	http://voice.hupu.com/nba/2011441.html#next	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	7
+http://voice.hupu.com/people/3230948	http://voice.hupu.com/nba/2011441.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/people/21111655	http://voice.hupu.com/nba/2011441.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/nba/2011755.html#next	http://voice.hupu.com/nba/2011757.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011760.html#pre	http://voice.hupu.com/nba/2011757.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/26115054	http://voice.hupu.com/nba/2011757.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/nba/2011639.html#next	http://voice.hupu.com/nba/2011685.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011442.html#next	http://voice.hupu.com/nba/2011446.html#pre	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011475.html#next	http://voice.hupu.com/nba/2011479.html#pre	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011480.html#pre	http://voice.hupu.com/nba/2011479.html#pre	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/25703334	http://voice.hupu.com/nba/2011479.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17865867	http://voice.hupu.com/nba/2011479.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	8
+http://voice.hupu.com/people/27639920	http://voice.hupu.com/nba/2011479.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/nba/2011509.html#next	http://voice.hupu.com/nba/2011511.html#next	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2012138.html	http://voice.hupu.com/nba/2011722.html#pre	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012115.html	http://voice.hupu.com/nba/2011722.html#pre	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012136.html	http://voice.hupu.com/nba/2011722.html#pre	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012405.html	http://voice.hupu.com/nba/2011722.html#pre	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/people/22229572	http://voice.hupu.com/nba/2011722.html#pre	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	-1
+http://voice.hupu.com/people/19124829	http://voice.hupu.com/nba/2011722.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/21736509	http://voice.hupu.com/nba/2011722.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/27367680	http://voice.hupu.com/nba/2011722.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/nba/2011720.html#pre	http://voice.hupu.com/nba/2011707.html#next	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/2575289	http://voice.hupu.com/nba/2011707.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18933515	http://voice.hupu.com/nba/2011707.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15698889	http://voice.hupu.com/nba/2011707.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/5058827	http://voice.hupu.com/nba/2011707.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/3151459	http://voice.hupu.com/nba/2011707.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15470517	http://voice.hupu.com/nba/2011707.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/4586646	http://voice.hupu.com/nba/2011707.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16057648	http://voice.hupu.com/nba/2011707.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	8
+http://voice.hupu.com/people/17110804	http://voice.hupu.com/nba/2011707.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18015014	http://voice.hupu.com/nba/2011707.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/14767768	http://voice.hupu.com/nba/2011707.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26308098	http://voice.hupu.com/nba/2011707.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/25723243	http://voice.hupu.com/nba/2011707.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/515290	http://voice.hupu.com/nba/2011707.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27223688	http://voice.hupu.com/nba/2011707.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/nba/2011748.html#next	http://voice.hupu.com/nba/2011749.html#pre	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011748.html	http://voice.hupu.com/people/15177547	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011748.html#tracingArticalComment	http://voice.hupu.com/people/27876787	(8, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/people/27876787?type=recom	http://voice.hupu.com/people/27876787	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	-1
+http://voice.hupu.com/people/27424283	http://voice.hupu.com/nba/2011768.html#pre	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/18623489	http://voice.hupu.com/nba/2011768.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/people/16199028	http://voice.hupu.com/nba/2011768.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/18448504	http://voice.hupu.com/nba/2011768.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/20679455	http://voice.hupu.com/nba/2011768.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18943039	http://voice.hupu.com/nba/2011768.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/25711676?type=recom	http://voice.hupu.com/people/25711676	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	-1
+http://voice.hupu.com/people/25711676?type=focus	http://voice.hupu.com/people/25711676	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	-1
+http://voice.hupu.com/people/22539410	http://voice.hupu.com/nba/2011772.html#pre	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/27047188	http://voice.hupu.com/nba/2011772.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/18417572	http://voice.hupu.com/nba/2011772.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/nba/2046329.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046305.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046487.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046557.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046221.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046435.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046384.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046540.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046499.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046538.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046431.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046254.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046478.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/cba/2046590.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2046301.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2046568.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/china/2046551.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046192.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046275.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046334.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046427.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046408.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2046404.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/cba/2046539.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2046607.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2046605.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2046604.html	http://voice.hupu.com#	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2011775.html#next	http://voice.hupu.com/nba/2011776.html#pre	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011778.html#pre	http://voice.hupu.com/nba/2011776.html#pre	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/26692437	http://voice.hupu.com/nba/2011776.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16689079	http://voice.hupu.com/nba/2011776.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/19192098	http://voice.hupu.com/nba/2011776.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/o/lebron-james	http://voice.hupu.com/nba/2011776.html#pre	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/o/kobe-bryant	http://voice.hupu.com/nba/2011776.html#pre	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/nba/2011493.html#pre	http://voice.hupu.com/nba/2011492.html#next	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/14519529	http://voice.hupu.com/nba/2011492.html#next	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/25978047	http://voice.hupu.com/nba/2011492.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/26950838	http://voice.hupu.com/nba/2011492.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16342213	http://voice.hupu.com/nba/2011492.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15309303	http://voice.hupu.com/nba/2011492.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15490262	http://voice.hupu.com/nba/2011492.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/nba/2011489.html#next	http://voice.hupu.com/nba/2011492.html#next	(1, '/html/body/div/div/div/a[btn-next  ]')	0.0	1
+http://voice.hupu.com/o/lance-stephenson	http://voice.hupu.com/nba/2011492.html#next	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/o/matt-barnes	http://voice.hupu.com/nba/2011492.html#next	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/nba/2011496.html#pre	http://voice.hupu.com/nba/2011495.html#pre	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/3032300	http://voice.hupu.com/nba/2011495.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/15761297	http://voice.hupu.com/nba/2011495.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16741577	http://voice.hupu.com/nba/2011495.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/4764572	http://voice.hupu.com/nba/2011495.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/16989933	http://voice.hupu.com/nba/2011495.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27795302	http://voice.hupu.com/nba/2011495.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/nba/2011757.html#next	http://voice.hupu.com/nba/2011760.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011761.html#pre	http://voice.hupu.com/nba/2011760.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/25467779	http://voice.hupu.com/nba/2011760.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/nba/2011493.html#tracingArticalComment	http://voice.hupu.com/people/3970630	(8, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/people/3970630?type=recom	http://voice.hupu.com/people/3970630	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	-1
+http://voice.hupu.com/nba/2011603.html#next	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011628.html#pre	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/18466336	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/27245815	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/128047	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/22194832	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18309691	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27768996	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/27636137	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27339951	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/22078925	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18335960	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/27795009	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/5109572	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/19608572	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/4983696	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/20708062	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/396915	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/25813198	http://voice.hupu.com/nba/2011608.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/nba/2011628.html#tracingArticalComment	http://voice.hupu.com/people/21915424	(8, '/html/body/div/div/div/div/div/div/a[btn-comment]')	0.0	1
+http://voice.hupu.com/people/21915424?type=recom	http://voice.hupu.com/people/21915424	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	-1
+http://voice.hupu.com/people/21915424?type=focus	http://voice.hupu.com/people/21915424	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	-1
+http://voice.hupu.com/soccer/2011681.html#next	http://voice.hupu.com/soccer/2011682.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011704.html#pre	http://voice.hupu.com/soccer/2011682.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/25259160	http://voice.hupu.com/soccer/2011682.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/17894873	http://voice.hupu.com/soccer/2011682.html	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/soccer/2011828.html#pre	http://voice.hupu.com/soccer/2011827.html	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/soccer/2011811.html#next	http://voice.hupu.com/soccer/2011813.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2045960.html	http://voice.hupu.com/soccer/2011662.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2045963.html	http://voice.hupu.com/soccer/2011662.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2045957.html	http://voice.hupu.com/soccer/2011662.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2045990.html	http://voice.hupu.com/soccer/2011662.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2045974.html	http://voice.hupu.com/soccer/2011662.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011550.html#next	http://voice.hupu.com/soccer/2011553.html#next	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011516.html#next	http://voice.hupu.com/soccer/2011518.html#next	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011510.html#next	http://voice.hupu.com/soccer/2011512.html#next	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011736.html#next	http://voice.hupu.com/soccer/2011752.html#pre	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2010712.html#pre	http://voice.hupu.com/nba/2010679.html#pre	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/nba/2046154.html	http://voice.hupu.com/nba/2010679.html#pre	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2046247.html	http://voice.hupu.com/nba/2010679.html#pre	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2046257.html	http://voice.hupu.com/nba/2010679.html#pre	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2046332.html	http://voice.hupu.com/nba/2010679.html#pre	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2046171.html	http://voice.hupu.com/nba/2010679.html#pre	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2010677.html#next	http://voice.hupu.com/nba/2010679.html#pre	(1, '/html/body/div/div/div/a[btn-next  ]')	0.0	1
+http://voice.hupu.com/other/2011937.html	http://voice.hupu.com/other/2011703.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011959.html	http://voice.hupu.com/other/2011703.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2012012.html	http://voice.hupu.com/other/2011703.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2012034.html	http://voice.hupu.com/other/2011703.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011955.html	http://voice.hupu.com/other/2011703.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2012033.html	http://voice.hupu.com/other/2011703.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011967.html	http://voice.hupu.com/other/2011703.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011938.html	http://voice.hupu.com/other/2011703.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2012011.html	http://voice.hupu.com/other/2011703.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011966.html	http://voice.hupu.com/other/2011703.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011702.html#next	http://voice.hupu.com/other/2011703.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/other/2011737.html#pre	http://voice.hupu.com/other/2011703.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/other/newslist	http://voice.hupu.com/other/2011703.html	(1, '/html/body/div/div/div/div/span/span/a[]')	0.0	2
+http://voice.hupu.com/other/2012167.html	http://voice.hupu.com/other/2011428.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/2011443.html#next	http://voice.hupu.com/other/2011521.html#pre	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/other/2011526.html#next	http://voice.hupu.com/other/2011527.html#next	(1, '/html/body/div/div/div/a[btn-next  ]')	0.0	1
+http://voice.hupu.com/other/2011528.html#pre	http://voice.hupu.com/other/2011527.html#next	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/other/2012008.html	http://voice.hupu.com/other/1634334.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/other/newslist/1.html	http://voice.hupu.com/other/newslist/2.html	(2, '/html/body/div/div/div/a[page-btn-prev]')	0.0	2
+http://voice.hupu.com/nba/2012041.html	http://voice.hupu.com/nba/2011803.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012051.html	http://voice.hupu.com/nba/2011803.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012023.html	http://voice.hupu.com/nba/2011803.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012048.html	http://voice.hupu.com/nba/2011803.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012029.html	http://voice.hupu.com/nba/2011803.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2012032.html	http://voice.hupu.com/nba/2011803.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011806.html#pre	http://voice.hupu.com/nba/2011803.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/18951787	http://voice.hupu.com/nba/2011803.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/people/4636504	http://voice.hupu.com/nba/2011803.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/4865266	http://voice.hupu.com/nba/2011803.html	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/nba/2011800.html#next	http://voice.hupu.com/nba/2011803.html	(1, '/html/body/div/div/div/a[btn-next  ]')	0.0	1
+http://voice.hupu.com/o/enes-kanter	http://voice.hupu.com/nba/2011803.html	(1, '/html/body/div/div/div/div/a[]')	0.0	6
+http://voice.hupu.com/soccer/2011731.html#next	http://voice.hupu.com/soccer/2011732.html#next	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2012641.html	http://voice.hupu.com/soccer/2011732.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2012779.html	http://voice.hupu.com/soccer/2011732.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2012679.html	http://voice.hupu.com/soccer/2011732.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2012741.html	http://voice.hupu.com/soccer/2011732.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2012689.html	http://voice.hupu.com/soccer/2011732.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2012800.html	http://voice.hupu.com/soccer/2011732.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2012711.html	http://voice.hupu.com/soccer/2011732.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2012659.html	http://voice.hupu.com/soccer/2011732.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2012743.html	http://voice.hupu.com/soccer/2011732.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2012792.html	http://voice.hupu.com/soccer/2011732.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2011733.html#pre	http://voice.hupu.com/soccer/2011732.html#next	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/people/16396910	http://voice.hupu.com/soccer/2011732.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/18477135	http://voice.hupu.com/soccer/2011732.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/16996758	http://voice.hupu.com/soccer/2011734.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/27881202	http://voice.hupu.com/soccer/2011734.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/27711438	http://voice.hupu.com/soccer/2011734.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/22149006	http://voice.hupu.com/soccer/2011734.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/15419260	http://voice.hupu.com/soccer/2011734.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/people/17181879	http://voice.hupu.com/soccer/2011734.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/18767922	http://voice.hupu.com/soccer/2011734.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	-1
+http://voice.hupu.com/people/2996482	http://voice.hupu.com/soccer/2011734.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	7
+http://voice.hupu.com/cba/2011460.html#next	http://voice.hupu.com/cba/2011552.html#next	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/cba/2012523.html	http://voice.hupu.com/cba/2011552.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/cba/2012407.html	http://voice.hupu.com/cba/2011552.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/cba/2012431.html	http://voice.hupu.com/cba/2011552.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/cba/2012441.html	http://voice.hupu.com/cba/2011552.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/cba/2012420.html	http://voice.hupu.com/cba/2011552.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/cba/2012643.html	http://voice.hupu.com/cba/2011552.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/cba/2012688.html	http://voice.hupu.com/cba/2011552.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/cba/2012439.html	http://voice.hupu.com/cba/2011552.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/cba/2012608.html	http://voice.hupu.com/cba/2011552.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/cba/2012646.html	http://voice.hupu.com/cba/2011552.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/cba/2011556.html#pre	http://voice.hupu.com/cba/2011552.html#next	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/cba/2011556.html#next	http://voice.hupu.com/cba/2011568.html#pre	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/cba/2012327.html	http://voice.hupu.com/cba/2011833.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/sports/2012166.html#tracingArticalComment	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/div/div/dl/dd/span/a[commentText]')	0.0	1
+http://voice.hupu.com/sports/2012111.html#tracingArticalComment	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/div/div/dl/dd/span/a[commentText]')	0.0	1
+http://voice.hupu.com/sports/2012108.html#tracingArticalComment	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/div/div/dl/dd/span/a[commentText]')	0.0	1
+http://voice.hupu.com/sports/2012118.html#tracingArticalComment	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/div/div/dl/dd/span/a[commentText]')	0.0	1
+http://voice.hupu.com/sports/2012392.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2012383.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2012380.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2012379.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2012389.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2012386.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2012166.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2012118.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2012111.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2012108.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2012046.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2012037.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2012024.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011920.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011919.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011872.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011871.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011041.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011034.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011066.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011063.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011053.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011030.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011297.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2011294.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2010972.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2010970.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2010931.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2010945.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2010796.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2010688.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2010695.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2010669.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2010663.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2010686.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/sports/2010683.html	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/ul/li/div/a[btn-more]')	0.0	1
+http://voice.hupu.com/generated/voice/news_sports.xml	http://voice.hupu.com/sports/newslist/1.html	(2, '/html/body/div/div/div/a[btn-subscribeRss]')	0.0	4
+http://voice.hupu.com/sports/2011617.html#next	http://voice.hupu.com/sports/2011619.html#tracingArticalComment	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/sports/2011672.html#pre	http://voice.hupu.com/sports/2011619.html#tracingArticalComment	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/sports/2011572.html#pre	http://voice.hupu.com/sports/2011554.html#next	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/china/2045010.html	http://voice.hupu.com/china/2011640.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/china/2044975.html	http://voice.hupu.com/china/2011640.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/china/2045018.html	http://voice.hupu.com/china/2011640.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/china/2044984.html	http://voice.hupu.com/china/2011640.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/f1/2011576.html#next	http://voice.hupu.com/f1/2011592.html	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/tennis/1988076.html#pre	http://voice.hupu.com/tennis/1988073.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/wcba/1120361.html#pre	http://voice.hupu.com/wcba/1120291.html#next	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011676.html#next	http://voice.hupu.com/soccer/2011677.html#next	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/people/27879450?type=recom	http://voice.hupu.com/people/27879450	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	-1
+http://voice.hupu.com/people/27879450?type=focus	http://voice.hupu.com/people/27879450	(8, '/html/body/div/div/div/ul/li/a[]')	0.0	-1
+http://voice.hupu.com/soccer/2011721.html#next	http://voice.hupu.com/soccer/2011723.html#next	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011724.html#pre	http://voice.hupu.com/soccer/2011723.html#next	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/people/17420929	http://voice.hupu.com/soccer/2011723.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/soccer/2011726.html#pre	http://voice.hupu.com/soccer/2011725.html#pre	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/people/25977964	http://voice.hupu.com/soccer/2011725.html#pre	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/soccer/2011718.html#next	http://voice.hupu.com/soccer/2011719.html#next	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011714.html#next	http://voice.hupu.com/soccer/2011715.html#next	(-1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	-1
+http://voice.hupu.com/soccer/2011716.html#pre	http://voice.hupu.com/soccer/2011715.html#next	(-1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011707.html#pre	http://voice.hupu.com/nba/2011685.html#next	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/people/26459627	http://voice.hupu.com/nba/2011685.html#next	(1, '/html/body/div/div/div/div/div/dl/dt/div/div/a[]')	0.0	6
+http://voice.hupu.com/people/25612510	http://voice.hupu.com/nba/2011685.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/people/17496105	http://voice.hupu.com/nba/2011685.html#next	(1, '/html/body/div/div/div/div/div/dl/dd/a[name]')	0.0	6
+http://voice.hupu.com/nba/2011489.html#pre	http://voice.hupu.com/nba/2011488.html#next	(1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/soccer/2042111.html	http://voice.hupu.com/soccer/2011606.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2042157.html	http://voice.hupu.com/soccer/2011606.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2042151.html	http://voice.hupu.com/soccer/2011606.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2042092.html	http://voice.hupu.com/soccer/2011606.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2042068.html	http://voice.hupu.com/soccer/2011606.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2042333.html	http://voice.hupu.com/soccer/2011606.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/soccer/2042026.html	http://voice.hupu.com/soccer/2011606.html#next	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011538.html#next	http://voice.hupu.com/nba/2011596.html#next	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/soccer/2011656.html#next	http://voice.hupu.com/soccer/2011658.html#next	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1
+http://voice.hupu.com/nba/2011797.html#pre	http://voice.hupu.com/nba/2011796.html#next	(-1, '/html/body/div/div/div/a[btn-prev ]')	0.0	1
+http://voice.hupu.com/nba/2043589.html	http://voice.hupu.com/nba/2011796.html#next	(-1, '/html/body/div/div/div/div/ul/li/a[]')	0.0	1
+http://voice.hupu.com/nba/2011791.html#next	http://voice.hupu.com/nba/2011792.html#next	(1, '/html/body/div/div/div/a[btn-next   btn-row-2]')	0.0	1

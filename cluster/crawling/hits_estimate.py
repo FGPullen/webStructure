@@ -7,7 +7,7 @@ This program will estimate the hits score from sitemap for each clustesr
 '''
 import pickle
 import random
-import re
+import re,sys
 from lxml import etree
 import os
 import numpy as np
@@ -17,6 +17,9 @@ def read_trans_dict(dataset,date):
     path = "./{0}/site.trans/{1}_trans.dict".format(date,dataset)
     dict_file = open(path,"r")
     dict = pickle.load(dict_file)
+    #for key in dict_file:
+    #    print key, dict_file[key], "ha"
+    #print dict, "read trans dict"
     return dict
 
 def get_cluster_dict(dataset,date):
@@ -250,11 +253,12 @@ def intraJudge(url, site):
 
 
 if __name__ == "__main__":
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument("dataset", choices=["youtube","douban"], help="dataset")
-    args = parser.parse_args()
-    dataset = args.dataset
-    trans_dict = read_trans_dict(dataset)
-    cluster_dict = get_cluster_dict(dataset)
-    get_trans_mat(dataset,cluster_dict,trans_dict)
+    args = sys.argv
+    dataset = args[1]
+    date = args[2]
+    trans_dict = read_trans_dict(dataset,date)
+    for key in trans_dict:
+        print key, trans_dict[key]
+        break
+    #cluster_dict = get_cluster_dict(dataset)
+    #get_trans_mat(dataset,cluster_dict,trans_dict)

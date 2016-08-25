@@ -1,0 +1,21 @@
+http://movie.douban.com			500	0
+https://movie.douban.com/subject/20505982/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.199978554289	11
+https://movie.douban.com/ticket/218920852/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/div/div/div/div/div/ul/li/a[]')	0.8	27
+https://movie.douban.com/ticket/218956004/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/div/div/div/div/div/ul/li/a[]')	0.8	27
+https://movie.douban.com/ticket/218956003/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/div/div/div/div/div/ul/li/a[]')	0.8	27
+https://movie.douban.com/ticket/219038304/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/div/div/div/div/div/ul/li/a[]')	0.8	27
+https://movie.douban.com/ticket/219038305/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/div/div/div/div/div/ul/li/a[]')	0.8	27
+https://movie.douban.com/ticket/219007024/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/div/div/div/div/div/ul/li/a[]')	0.8	27
+https://movie.douban.com/ticket/219034722/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/div/div/div/div/div/ul/li/a[]')	0.8	27
+https://movie.douban.com/ticket/219030900/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/div/div/div/div/div/ul/li/a[]')	0.8	27
+https://movie.douban.com/ticket/219034762/	https://movie.douban.com/subject/20505982/cinema/	(11, '/html/body/div/div/div/div/div/div/div/div/div/div/div/ul/li/a[]')	0.8	27
+https://movie.douban.com/subject/5045678/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.199978554289	11
+https://movie.douban.com/ticket/218955520/	https://movie.douban.com/subject/5045678/cinema/	(11, '/html/body/div/div/div/div/div/div/div/div/div/div/div/ul/li/a[]')	0.8	4
+https://movie.douban.com/ticket/218955519/	https://movie.douban.com/subject/5045678/cinema/	(11, '/html/body/div/div/div/div/div/div/div/div/div/div/div/ul/li/a[]')	0.8	4
+https://movie.douban.com/ticket/218956080/	https://movie.douban.com/subject/5045678/cinema/	(11, '/html/body/div/div/div/div/div/div/div/div/div/div/div/ul/li/a[]')	0.8	4
+https://movie.douban.com/ticket/218901597/	https://movie.douban.com/subject/5045678/cinema/	(11, '/html/body/div/div/div/div/div/div/div/div/div/div/div/ul/li/a[]')	0.8	4
+https://movie.douban.com/ticket/219100897/	https://movie.douban.com/subject/5045678/cinema/	(11, '/html/body/div/div/div/div/div/div/div/div/div/div/div/ul/li/a[]')	0.8	4
+https://movie.douban.com/ticket/218901596/	https://movie.douban.com/subject/5045678/cinema/	(11, '/html/body/div/div/div/div/div/div/div/div/div/div/div/ul/li/a[]')	0.8	4
+https://movie.douban.com/ticket/219100896/	https://movie.douban.com/subject/5045678/cinema/	(11, '/html/body/div/div/div/div/div/div/div/div/div/div/div/ul/li/a[]')	0.8	4
+https://movie.douban.com/subject/26290642/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.199978554289	11
+https://movie.douban.com/subject/25955779/cinema/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/ul/li/ul/li/span/a[]')	0.199978554289	11

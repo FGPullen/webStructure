@@ -1,0 +1,12 @@
+http://voice.hupu.com/hot			500	0
+http://voice.hupu.com/my	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.610522436746	0
+http://voice.hupu.com/lgys	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.610522436746	8
+http://voice.hupu.com/o/rockets	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/ul/li/a[]')	0.610522436746	6
+http://voice.hupu.com/o/rockets/2	http://voice.hupu.com/o/rockets	(6, '/html/body/div/div/div/a[page-btn-prev]')	0.834548575798	6
+http://voice.hupu.com/o/rockets/new	http://voice.hupu.com/o/rockets	(6, '/html/body/div/div/div/dl/dd/div/ul/li/a[]')	0.834548575798	6
+http://voice.hupu.com/o/rockets/3	http://voice.hupu.com/o/rockets	(6, '/html/body/div/div/div/a[]')	0.834548575798	6
+http://voice.hupu.com/o/rockets/4	http://voice.hupu.com/o/rockets	(6, '/html/body/div/div/div/a[]')	0.834548575798	6
+http://voice.hupu.com/o/rockets/1	http://voice.hupu.com/o/rockets/2	(6, '/html/body/div/div/div/a[page-btn-firstPage]')	0.834548575798	6
+http://voice.hupu.com/o/rockets/5	http://voice.hupu.com/o/rockets/2	(6, '/html/body/div/div/div/a[]')	0.834548575798	6
+http://voice.hupu.com/o/rockets/new/2	http://voice.hupu.com/o/rockets/new	(6, '/html/body/div/div/div/a[page-btn-prev]')	0.834548575798	6
+http://voice.hupu.com/o/rockets/new/3	http://voice.hupu.com/o/rockets/new	(6, '/html/body/div/div/div/a[]')	0.834548575798	6

@@ -1,0 +1,21 @@
+http://voice.hupu.com/hot			500	0
+http://voice.hupu.com/nba/2061181.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/cba/2060943.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2061041.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/cba/2060994.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2061206.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2061204.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2061203.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2061202.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2061200.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2061199.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2061198.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2061197.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2061196.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2061195.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2061194.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2061193.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2061192.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/nba/2061060.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2061191.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1
+http://voice.hupu.com/soccer/2061190.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0	1

@@ -1004,7 +1004,8 @@ if __name__ == "__main__":
     c.compute_hit_scores()
     c.compute_pagerank_scores()
     c.compute_indegree()
-    c.crawling(c.crawl_size)
+    #c.crawling(c.crawl_size)
+    c.sampling(c.crawl_size)
     #counter = Counter(sitemap.UP_pages.category)
     #print counter
 

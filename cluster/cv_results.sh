@@ -1,19 +1,22 @@
 #!/bin/bash
 command=python
 class=pageCluster.py
-cv=cv
-#cv=train
+train=train
 declare -a algo_array=("dbscan")
-declare -a feature_array=("log-tf-idf" "tf-idf")
-declare -a data_array=("new_stackexchange" "rottentomatoes" "new_asp" "new_douban" "new_youtube" "new_tripadvisor" "new_hupu" "new_baidu")
-
+declare -a feature_array=("log-tf-idf")
+declare -a date_array=("July30")
+declare -a data_array=("asp" "youtube" "douban" "rottentomatoes" "hupu" "stackexchange")
 for data in "${data_array[@]}"
 do
-	for algo in "${algo_array[@]}"
-	do
-		for feature in "${feature_array[@]}"
-		do
-            $command $class "$data" "$algo" "$feature" $cv
-		done
+    for date in "${date_array[@]}"
+    do
+        for algo in "${algo_array[@]}"
+        do
+            for feature in "${feature_array[@]}"
+            do
+                echo $command $class "$data" "$date" "$algo" "$feature" cv
+                $command $class "$data" "$date" "$algo" "$feature" cv
+            done
+        done
 	done
 done

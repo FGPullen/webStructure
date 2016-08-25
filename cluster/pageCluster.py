@@ -296,8 +296,11 @@ class pageCluster:
             labels_true = np.array(self.UP_pages.ground_truth)
             skf = StratifiedKFold(labels_true, n_folds=4)
             results = []
+            count = 0
             for train, test in skf:
                 #print train, test
+                count += 1
+                print "this is the {} times for CV".format(count)
                 train_x, test_x, train_gold, test_gold = self.X[train], self.X[test], labels_true[train], labels_true[test]
                 if eps_val is None:
                     eps = self.findEps(train_x)
@@ -305,7 +308,7 @@ class pageCluster:
                     eps = float(eps_val)
                 self.eps = eps
                 print "eps is " + str(eps)
-                db = Cluster.DBSCAN(eps=eps, min_samples=4).fit(train_x)
+                db = Cluster.DBSCAN(eps=eps, min_samples=3).fit(train_x)
                 train_y = db.labels_
                 #self.get_cluster_number_shift(train_gold, train_y)
 
@@ -329,6 +332,9 @@ class pageCluster:
                 path_list = self.UP_pages.path_list
                 #for i in [test_gold,test_y,train_gold,train_y]:
                 #    print len(i)
+                assert  len(test_gold) == len(test_y)
+                print test_gold
+                print test_y
                 results.append(self.Evaluation_CV(test_gold,test_y, train_gold, train_y, path_list=path_list))
 
                 '''
@@ -343,7 +349,7 @@ class pageCluster:
             algo = "dbscan"
             dataset = self.dataset
             prefix =  str(dataset) + "\t" + str(algo) + "-{0}".format(eps) + "\t" + str(features) + "\t"
-            metrics = ['cv_micro_precision','cv_macro_precision']
+            metrics = ['cv_micro_precision','cv_macro_precision',"non outlier ratio"]
             for index,metric in enumerate(metrics):
                 line =  prefix + metric + "\t" + str(result[index])
                 print line
@@ -487,13 +493,17 @@ class pageCluster:
         #used_list = set()
         for pred_key in pre_set:
             max_value = -1
+            max_label = -1
             #print dic[pred_key]
             for index, value in dic[pred_key].iteritems():
+
+                if index ==-1:
+                    continue
                 #if index not in used_list:
                 if value > max_value:
                     max_label = index
                     max_value = value
-                final_dict[pred_key] = max_label
+            final_dict[pred_key] = max_label
                 #used_list.add(max_label)
         return final_dict
 
@@ -507,11 +517,24 @@ class pageCluster:
             print " }"
 
 
-
-
     def Evaluation_CV(self, test_gold, test_y, train_gold, train_y, path_list=None):
         if test_gold is None or test_y is None or train_gold is None or train_y is None:
             raise "Labels are None"
+        test_num = len(test_y)
+
+        new_labels_true = []
+        new_labels_pred = []
+        outlier_list = [0,0,0] # #outlier from true, common, pred
+        for idx, val in enumerate(test_y):
+            if val != -1 and test_gold[idx]!= -1:
+                new_labels_pred.append(val)
+                new_labels_true.append(test_gold[idx])
+        test_gold = new_labels_true
+        test_y = new_labels_pred
+
+        prune_test_num = len(test_y)
+        ratio = float(prune_test_num)/float(test_num)
+        print "The ratio of non outlier test case is {}".format(ratio)
         '''
         new_test_gold = []
         new_test_y = []
@@ -539,6 +562,7 @@ class pageCluster:
                 if path_list is not None:
                     path = path_list[index]
                     cluster_id = cluster_dict[item]
+                    #if test_gold[index] == -1:
                     print "Wrong instance:\nPage: {0}\nResult Cluster={1}, True Cluster={2}".format(path, cluster_id, test_gold[index])
         micro_precision = float(right_guess)/float(len(test_y))
         print "===examine==="
@@ -555,7 +579,6 @@ class pageCluster:
         print "We have %d pages after prediction!" %(len(test_y))
         assert len(test_gold) == len(test_y)
         assert len(train_gold) == len(train_y)
-        pages = self.UP_pages
         #self.Precision_Recall_F(labels_true,labels_pred)
         mutual_info_score = metrics.adjusted_mutual_info_score(test_gold, test_y)
         rand_score = metrics.adjusted_rand_score(test_gold, test_y)
@@ -569,7 +592,7 @@ class pageCluster:
         print "Macro F-Measure is " + str(macro_f)
         print "Micro CV precision is " + str(micro_precision)
         print "Macro CV precision is " + str(macro_precision)
-        return micro_precision, macro_precision, micro_f, macro_f, mutual_info_score, rand_score
+        return micro_precision, macro_precision,  ratio,micro_f, macro_f, mutual_info_score, rand_score,
 
     def Evaluation(self,dataset,algo,feature):
         labels_true = self.UP_pages.ground_truth
@@ -602,6 +625,7 @@ class pageCluster:
         print "we have number of classes from clusters is {0}".format(len(set(labels_pred))-1)
 
         print "Outlier: Cover {1} of {0} total ground truth, and create {2} outlier in prediction. ".format(outlier_list[0]+outlier_list[1],outlier_list[1],outlier_list[2])
+        train_batch_file.write("Outlier: Cover {1} of {0} total ground truth, and create {2} outlier in prediction. ".format(outlier_list[0]+outlier_list[1],outlier_list[1],outlier_list[2]))
 
         labels_true, labels_pred = new_labels_true, new_labels_pred
 
@@ -661,6 +685,7 @@ class pageCluster:
     def calculate_cluster_similarity(self):
         #print self.X
         counter = collections.Counter(self.pre_y)
+        self.counter = counter
         max_cluster = max(self.pre_y)
         n_entities,n_feat = self.X.shape[0],self.X.shape[1]
         #print n_entities,n_feat, "shape of feature matrix"
@@ -684,8 +709,48 @@ class pageCluster:
         print norm_d, "norm_d"
         for key in counter:
             print key, counter[key], norm_d[key]
-
+        self.intra_similarity = norm_d
         print len(d_list)
+
+
+    def calculate_cluster_importance(self):
+        print self.path_list
+        length = self.UP_pages.num
+        print sum(self.counter.values()),length
+        assert length == sum(self.counter.values())
+        self.file_size_list = self.UP_pages.file_size_list
+        file_size = np.array(self.file_size_list)
+        avg_file_size = np.mean(file_size)
+        print avg_file_size
+
+        self.cluster_importance= collections.defaultdict(float)
+        stat_list = []
+        for key in self.counter:
+            print self.counter[key],length
+            ratio_weight = float(self.counter[key])/float(length)
+            itemindex = np.where(self.pre_y==key)
+            size_weight = np.mean(file_size[itemindex])/avg_file_size
+            duplicate_weight = self.intra_similarity[key]
+            weight = ratio_weight * duplicate_weight * size_weight
+            self.cluster_importance[key] = weight
+
+        for key in self.cluster_importance:
+            print key, self.cluster_importance[key]
+            if key!=-1:
+                stat_list.append(self.cluster_importance[key])
+        stat_list = np.array(stat_list)
+        avg = np.mean(stat_list)
+        std = np.std(stat_list)
+        threshold = avg
+        print avg,std,threshold
+        for key in self.cluster_importance:
+            value =  self.cluster_importance[key]
+            if key!=-1:
+                if value >= threshold:
+                    print key,value,"important!"
+                else:
+                    print key,value,"unimportant!"
+                    self.cluster_importance[key] = 0
 
 
 

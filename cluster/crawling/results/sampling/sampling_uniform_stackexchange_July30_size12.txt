@@ -1,0 +1,12 @@
+http://android.stackexchange.com/questions	7
+http://android.stackexchange.com/questions/tagged/windows	7
+http://android.stackexchange.com/users/162481/zander490	15
+http://android.stackexchange.com/users	14
+http://android.stackexchange.com/users/162481/zander490	15
+http://android.stackexchange.com/search?q=user:162481+[usb]	-1
+http://android.stackexchange.com/users/162481/zander490	15
+http://android.stackexchange.com/search?q=user:162481+[sd-card]	-1
+http://android.stackexchange.com/help	9
+http://android.stackexchange.com/questions	7
+http://android.stackexchange.com/questions?page=2518&sort=newest	7
+http://android.stackexchange.com/users/4665/amadib	15

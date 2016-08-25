@@ -1,0 +1,12 @@
+http://www.rottentomatoes.com			500	-1
+http://www.rottentomatoes.com/browse/dvd-all/?services=netflix_iw	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0476070181855	0
+http://www.rottentomatoes.com/browse/dvd-all/?services=itunes	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0476070181855	0
+http://www.rottentomatoes.com/browse/dvd-all/?services=amazon_prime;amazon	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0476070181855	0
+http://www.rottentomatoes.com/browse/dvd-all/?services=amazon;amazon_prime;flixster;hbo_go;itunes;netflix_iw;target;vudu	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.0476070181855	0
+http://www.rottentomatoes.com/m/star_trek_beyond/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0446800588352	8
+http://www.rottentomatoes.com/m/ice_age_collision_course/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0446800588352	8
+http://www.rottentomatoes.com/m/lights_out_2016/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0446800588352	8
+http://www.rottentomatoes.com/m/absolutely_fabulous_the_movie/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0446800588352	8
+http://www.rottentomatoes.com/m/dont_think_twice/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0446800588352	8
+http://www.rottentomatoes.com/m/the_secret_life_of_pets/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0446800588352	8
+http://www.rottentomatoes.com/m/ghostbusters_2016/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0446800588352	8

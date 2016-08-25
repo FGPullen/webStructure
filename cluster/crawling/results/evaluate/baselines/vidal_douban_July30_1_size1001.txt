@@ -1,0 +1,11 @@
+http://movie.douban.com		0
+https://movie.douban.com/subject/25662329/	http://movie.douban.com	1
+https://movie.douban.com/subject/25954475/	http://movie.douban.com	1
+https://movie.douban.com/subject/26258767/	http://movie.douban.com	1
+https://movie.douban.com/subject/5327268/	http://movie.douban.com	1
+https://movie.douban.com/subject/25697098/	http://movie.douban.com	1
+https://movie.douban.com/subject/26280710/	http://movie.douban.com	1
+https://movie.douban.com/subject/26279353/	http://movie.douban.com	1
+https://movie.douban.com/subject/26353881/	http://movie.douban.com	1
+https://movie.douban.com/subject/26378147/	http://movie.douban.com	1
+https://movie.douban.com/subject/10745397/	http://movie.douban.com	1

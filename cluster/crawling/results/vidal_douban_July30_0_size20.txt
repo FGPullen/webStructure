@@ -1,0 +1,20 @@
+http://movie.douban.com		0
+https://movie.douban.com/subject/5045678/?from=reviews	http://movie.douban.com	1
+https://movie.douban.com/subject/26602244/?from=reviews	http://movie.douban.com	1
+https://movie.douban.com/subject/25944714/?from=reviews	http://movie.douban.com	1
+https://movie.douban.com/subject/26727298/?from=reviews	http://movie.douban.com	1
+https://movie.douban.com/subject/20505982/?from=showing	http://movie.douban.com	1
+https://movie.douban.com/subject/5045678/?from=showing	http://movie.douban.com	1
+https://movie.douban.com/subject/26290642/?from=showing	http://movie.douban.com	1
+https://movie.douban.com/subject/25955779/?from=showing	http://movie.douban.com	1
+https://movie.douban.com/subject/25749813/?from=showing	http://movie.douban.com	1
+https://movie.douban.com/subject/26695145/?from=showing	http://movie.douban.com	1
+https://movie.douban.com/subject/25662337/?from=showing	http://movie.douban.com	1
+https://movie.douban.com/subject/11524967/?from=showing	http://movie.douban.com	1
+https://movie.douban.com/subject/4811813/?from=showing	http://movie.douban.com	1
+https://movie.douban.com/subject/26781781/?from=showing	http://movie.douban.com	1
+https://movie.douban.com/subject/21941770/?from=showing	http://movie.douban.com	1
+https://movie.douban.com/subject/26564988/?from=showing	http://movie.douban.com	1
+https://movie.douban.com/subject/6873736/?from=showing	http://movie.douban.com	1
+https://movie.douban.com/subject/26802090/?from=showing	http://movie.douban.com	1
+https://movie.douban.com/subject/26817990/?from=showing	http://movie.douban.com	1
