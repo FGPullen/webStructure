@@ -13,7 +13,7 @@ class annotator():
     def get_rules(self,dataset):
         if dataset == "stackexchange":
             rules = [["a","^[0-9]+(.*)$"],["feeds"],["help","badges"],["help","priviledges"],["posts","^[0-9]+$", "edit"] , ["posts","^[0-9]+$","revisions"],\
-            ["q","^[0-9]+(.*)$"],["questions","^[0-9]+(.*)$"],["questions","tagged"], ["revisions","view-source.html"], ["^search?(.*)$"], ["tags"],["users","^(.*)?tab=profile$"],["users","^(.*)?tab=(.*)$"],["users","^[0-9]+(.*)$"],\
+            ["q","^[0-9]+(.*)$"],["questions","^[0-9]+(.*)$"],["questions","tagged"], ["revisions","view-source.html"], ["^search?(.*)$"], ["tags"],["users","^(.*)\?tab=profile$"],["users","^(.*)\?tab=(.*)$"],["users","^[0-9]+(.*)$"],\
             ["users","^signup?(.*)$"],["users","^login?(.*)$"],["^questions?(.*)=(.*)$"],["unanswered","tagged"],["help","^(.*)$"],["^users?(.*)=(.*)$"]]
         elif dataset == "asp":
             rules = [["f","rss"],["f","topanswerers"],["f"],["login","^RedirectToLogin?(.*)$"],["members"],["p","^[0-9]+$"]\
@@ -28,20 +28,25 @@ class annotator():
                      ["subject","^[0-9]+$","^doulist?(.*)$"],["subject","^[0-9]+$","^trailer?(.*)$"],["subject","^[0-9]+$","^comments?(.*)$"],\
                      ["subject","^[0-9]+$","discussion"],["subject","^[0-9]+$"],["trailer","^[0-9]+$"]]
         elif dataset == "tripadvisor":
-            rules = [["^AllLocations(.*)$"],["^Attractions(.*)$"],["^Flights(.*)$"],["Hotel","^Review-(.*)$"],["^Hotels-(.*)$"],["^HotelsList-(.*)$"],["^HotelsNear-(.*)$"]\
+            rules = [["^AllLocations(.*)$"],["^Attractions(.*)$"],["Attraction","^Review-(.*)$"],["Restaurant","^Review-(.*)$"],["^Flights(.*)$"],["Hotel","^Review-(.*)$"],["^Hotels-(.*)$"],["^HotelsList-(.*)$"],["^HotelsNear-(.*)$"]\
                      ,["^LastMinute(.*)$"],["^LocalMaps(.*)$"],["^Offers(.*)$"],["^Restaurants(.*)$"],["^ShowForum(.*)$"],\
-                     ["^ShowUserReviews(.*)$"],["^Tourism(.*)$"],["Travel","^Guide(.*)$"],["^TravelersChoice(.*)$"],["^VacationRentals(.*)$"],["UserReview-e"],["^VacationRentalReview(.*)$"]]
+                     ["^Tourism(.*)$"],["Travel","^Guide(.*)$"],["^TravelersChoice(.*)$"],["^VacationRentals(.*)$"],["^VacationRentalReview(.*)$"],\
+                     ["FAQ","^Answers-(.*)$"],["^LocationPhotoDirectLink(.*)$"],["^PressCenter-(.*)$"],["^ManagementCenter-(.*)$"],["^UserReviewEdit(.*)$"],["^UserReview(.*)$"],["^ShowUserReviews(.*)$"],["^SmartDeals-(.*)$"],["^MediaKit\?(.*)$"],["^ShowTopic-(.*)$"],["Vacation","^Packages-(.*)$"],["^PostPhotos-(.*)$"]]
         elif dataset == "rottentomatoes":
             rules = [["browse"],["celebrity","pictures"],["celebrity"],["critic"],["critics"],["guides"],["m","pictures"],["m","trailers"],["m","reviews"]\
                     ,["m","quotes"],["m"],["tv","pictures"],["tv","trailers"],["tv","reviews"],["tv","videos"],\
                     ["tv"],["showtimes"],["^source-[0-9]+$"],["top"],["user","^[0-9]+$"],["help","desk"]]
         elif dataset == "baidu":
             rules = [["bawu2","platform","^detailsInfo(.*)$"],["bawu2","platform","^listMemberInfo(.*)$"],["^f\?ie=utf-8(.*)$"],["f","^good\?kw(.*)$"],["f","index"],["^f\?kw(.*)$"],["f","like"],["game","^index?(.*)$"],["home","^main(.*)$"],["p","^[0-9]+(.*)$"],["shipin","bw"],\
-                    ["sign","^index(.*)$"],["tousu","new","^add(.*)$"]]
+                    ["sign","^index(.*)$"],["tousu","new","^add(.*)$"],["c","s","download","^pc/?src=(.*)$"],["photo","^g\?kw=(.*)$"],["im","^pcmsg\?from=(.*)$"],["home","^achievement\?un=(.*)$"],["tbmall","^tshow\?tab=(.*)$"],["newvote","^createvote\?kw=(.*)$"],["tbmall","gift","^detail\?gift(.*)$"],\
+                     ["show","zhanqi","^roomList\?tag$"],["platform","agency"],["^tieba.baidu.com#(.*)$"],["bawu2","platform","^listCandidateInfo\?word=(.*)$"],["f","^fdir\?fd=(.*)$"],["home","^fans\?id(.*)|concern\?id(.*)$"],["tbmall","^propslist\?category=(.*)$"]]
         elif dataset == "huffingtonpost":
-            rules = []
+            rules = [["^(.*)$","^ref=(.*)$"],["news","^(.*)$"]]
         elif dataset == "photozo":
-            rules = [["members"],["^search.php?$"],["world-travel","^(.*)?sort=(.*)$"],["world-travel","^(.*)$"],[""]]
+            rules = [["members","list"],["members"],["^member.php\?(.*)$"],["forum","blogs","^(.*)$","^((?!feed.rss).)*$"],["^subscription.php\?do=addsubscription&t=(.*)$"],["^newreply.php\?do=(.*)$"],\
+                     ["^forumdisplay.php\?do=markread\&markreadhash=(.*)$"],["^search.php\?(.*)$"],["^sendmessage.php\?do(.*)$"],["^awards.php#(.*)$"],["^blog.php\?u=(.*)\&do=markread\&readhash=(.*)$"],["^event-photography|groups|video-photography|lens|knowledge-base|announcement|sponsors-special-deals|world-travel|lighting-technique|sports|photography-basics|nature-wildlife-animals|digital-manipulation|critique|cameras|people|photo-assignments|introductions-welcomes|other-misc|fashion-glamour-artistic-nude$","^#(.*)|(.*)\?sort=(.*)|index(.*)$"],\
+                     ["^event-photography|groups|video-photography|lens|knowledge-base|announcement|world-travel|lighting-technique|sports|photography-basics|nature-wildlife-animals|digital-manipulation|critique|cameras|people|photo-assignments|introductions-welcomes|other-misc|sponsors-special-deals|fashion-glamour-artistic-nude$","^(.*)$"],["^misc.php\?do(.*)$"],\
+                     ["^threadtag.php\?do(.*)$"],["^entry.php\?b(.*)\&do=sendtofriend$"],["^external.php\?type=RSS2\&forumids=(.*)$"],["^event-photography|groups|video-photography|lens|knowledge-base|announcement|sponsors-special-deals|world-travel|lighting-technique|sports|photography-basics|nature-wildlife-animals|digital-manipulation|critique|cameras|people|photo-assignments|introductions-welcomes|other-misc|fashion-glamour-artistic-nude$","^#(.*)$"]]
         elif dataset == "hupu":
             rules = [["newslist"],["cba","^[0-9]+(.*)$"],["china","^[0-9]+(.*)$"],["f1","^[0-9]+(.*)$"],["other","^[0-9]+(.*)$"],["soccer","^[0-9]+(.*)$"],["sports","^[0-9]+(.*)$"],\
               ["tennis","^[0-9]+(.*)$"],["zb","^[0-9]+(.*)$"],["nba","^[0-9]+(.*)$"],["wcba","^[0-9]+(.*)$"],["o"],["people","^[0-9]+(.*)$"],["player"],["topic"],["hot"]]
@@ -62,13 +67,13 @@ class annotator():
         elif dataset == "rottentomatoes":
             combine_map = [(10,15),(4,8),(4,13),(1,6),(1,11),(7,14)]
         elif dataset == "baidu":
-            combine_map = [(3,2),(3,5)]
+            combine_map = [(3,2),(3,5),(8,16)]
         elif dataset == "hupu":
             combine_map = [(1,2),(1,3),(1,4),(1,5),(1,6),(1,7),(1,8),(1,9),(1,10),(11,12)]
         elif dataset == "huffingtonpost":
             combine_map =[]
         elif dataset == "photozo":
-            combine_map =[]
+            combine_map =[(1,2),(4,5),(4,6),(4,7),(11,18)]
         mapping = {}
         for map in combine_map:
             mapping[map[1]] = map[0]

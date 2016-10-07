@@ -18,17 +18,22 @@ from sklearn.neighbors import NearestNeighbors,KNeighborsClassifier
 
 class pageCluster:
 
-
-    def __init__(self, dataset, date="Apr17",path_list=None,num_clusters=None):
+    def __init__(self, dataset, date="Apr17",path_list=None,num_clusters=None, num_samples=None, debug=False):
         if path_list is None and num_clusters is None:
             self.t0 = time()
         else:
+
             self.t0 = time()
             self.dataset = dataset
             self.date = date
-            self.UP_pages = allPages(path_list,dataset,date)
+            print "debug mode ", debug, dataset
+            self.UP_pages = allPages(path_list,dataset,date,num_samples,debug=debug)
             self.path_list = self.UP_pages.path_list
             self.num_clusters = num_clusters
+            if num_samples is not None:
+                self.num_samples = int(num_samples)
+            else:
+                self.num_samples = None
             self.features = self.UP_pages.features
         #self.clustering(num_clusters)
 
@@ -218,25 +223,42 @@ class pageCluster:
 
 
     def findEps(self, X):
-        K = 100
+        K = 90
         num_feat = len(X[0])
         print num_feat, " number of features"
-        bin_num = num_feat/4.8
+        if self.num_samples is None:
+            factor = 4.8
+        else:
+            num_samples = int(self.num_samples)
+            if num_samples == 500:
+                factor = 6.0
+            elif num_samples == 200:
+                factor = 12
+            elif num_samples == 100:
+                factor = 16
+
+        print factor, "factor is"
+        bin_num = num_feat/factor
         default_eps = 0.10
         kdist_list = []
+        total = 0
         nbrs = NearestNeighbors(n_neighbors=K, algorithm="ball_tree").fit(X)
         distances, indices = nbrs.kneighbors(X)
         for dist in distances:
             #kdist_list += dist.tolist()[1:]
             kdist_list+= dist.tolist()[4:5]
         n, bins = np.histogram(kdist_list, bins=bin_num)
-        threshold = np.mean(n[bin_num/3:])
+        #n, bins, _ = plt.hist(kdist_list, bins=num_bins)
+        #threshold = np.mean(n[bin_num/3:])
         threshold = 4
+        total = 0
         eps = default_eps
         for idx, val in enumerate(n):
-            if idx > 5 and val < threshold:
+            total += val
+            if val < threshold:
                 eps = bins[idx]
-                break
+                if total > 0.5 * X.shape[0]:
+                    break
         return eps
 
     '''
@@ -266,6 +288,7 @@ class pageCluster:
     '''
 
     def DBSCAN(self, features="log-tf-idf", cv=False, eps_val=None):
+        minPts = 4
         print "The feature is " + str(features)  +  " with DBSCAN"
         # default file path is
         feature_matrix = []
@@ -308,7 +331,7 @@ class pageCluster:
                     eps = float(eps_val)
                 self.eps = eps
                 print "eps is " + str(eps)
-                db = Cluster.DBSCAN(eps=eps, min_samples=3).fit(train_x)
+                db = Cluster.DBSCAN(eps=eps, min_samples=minPts-1).fit(train_x)
                 train_y = db.labels_
                 #self.get_cluster_number_shift(train_gold, train_y)
 
@@ -326,7 +349,7 @@ class pageCluster:
                 '''
                 #km_train_x = train_x
                 #km_train_gold = train_gold
-                K = 3
+                K = minPts-1
                 nbrs = KNeighborsClassifier(n_neighbors=K,weights="distance",algorithm="ball_tree").fit(train_x,train_y)
                 test_y = nbrs.predict(test_x)
                 path_list = self.UP_pages.path_list
@@ -364,11 +387,11 @@ class pageCluster:
             print "eps is {0}".format(eps)
             self.eps = eps
             #print "eps is " + str(eps)
-            db = Cluster.DBSCAN(eps=eps, min_samples=4).fit(self.X)
+            db = Cluster.DBSCAN(eps=eps, min_samples=minPts).fit(self.X)
             self.pre_y = db.labels_
             self.UP_pages.updateCategory(self.pre_y)
             num_clusters = len(set(self.pre_y)) - 1
-            K = 3 # not including itself
+            K = minPts-1 # not including itself
             self.nbrs = KNeighborsClassifier(n_neighbors=K,weights="distance",algorithm="ball_tree").fit(self.X,self.pre_y)
             #self.nbrs = KNeighborsClassifier(n_neighbors=K,weights="distance",algorithm="ball_tree").fit(self.X,self.UP_pages.ground_truth)
 
@@ -526,7 +549,8 @@ class pageCluster:
         new_labels_pred = []
         outlier_list = [0,0,0] # #outlier from true, common, pred
         for idx, val in enumerate(test_y):
-            if val != -1 and test_gold[idx]!= -1:
+            #if val != -1 and test_gold[idx]!= -1:
+            if test_gold[idx] != -1:
                 new_labels_pred.append(val)
                 new_labels_true.append(test_gold[idx])
         test_gold = new_labels_true
@@ -609,6 +633,9 @@ class pageCluster:
                 outlier_list[0] += 1
             elif val ==-1 and labels_true[idx] != -1:
                 outlier_list[2] += 1
+                new_labels_pred.append(val)
+                new_labels_true.append(labels_true[idx])
+
             if val != -1 and labels_true[idx]!= -1:
                 new_labels_pred.append(val)
                 new_labels_true.append(labels_true[idx])
@@ -619,6 +646,7 @@ class pageCluster:
         prefix =  str(dataset) + "\t" + str(algo) + "\t" + str(feature) + "\t"
         train_batch_file.write(prefix + "#class/#cluster\t" + "{}/{}".format(len(set(labels_true))-1,len(set(labels_pred))-1)+"\n")
         train_batch_file.write(prefix + "#new_outlier\t" + str(outlier_list[2])+"\n")
+        #train_batch_file.write(prefix + )
 
         print "number of -1 " + str(len(labels_true)-len(new_labels_true))
         print "we have number of classes from ground truth is {0}".format(len(set(labels_true)))
@@ -769,6 +797,7 @@ if __name__=='__main__':
     # representation option for args
     args = parser.parse_args()
     features_type = args.features_type
+    '''
     if args.datasets == "zhihu":
         num_clusters = 4
         #cluster_labels = pagesCluster(["../Crawler/crawl_data/Zhihu/"],num_clusters)
@@ -798,15 +827,12 @@ if __name__=='__main__':
         num_clusters = 12
         cluster_labels = pageCluster(args.datasets, args.date,["../Crawler/{}_samples/baidu/".format(args.date)], num_clusters)
     elif args.datasets == "amazon":
-        num_clusters = 10;
+        num_clusters = -1
         cluster_labels = pageCluster(args.datasets, args.date,["../Crawler/{}_samples/amazon/".format(args.date)], num_clusters)
-    elif args.datasets == "biketo":
-        num_clusters = 10;
-        cluster_labels = pageCluster(args.datasets, args.date,["../Crawler/{}_samples/biketo/".format(args.date)],num_clusters)
     else:
-
-        print "error"
-
+    '''
+    num_clusters = -1
+    cluster_labels = pageCluster(args.datasets, args.date,"../Crawler/{}_samples/500/{}/".format(args.date,args.datasets),num_clusters,500, debug=True)
 
     if args.clustering == "kmeans":
         if args.test_type == "cv":

@@ -1,0 +1,30 @@
+http://www.rottentomatoes.com			500	-1
+http://www.rottentomatoes.com/browse/opening/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.755035273875	0
+http://www.rottentomatoes.com/browse/in-theaters/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.755035273875	0
+http://www.rottentomatoes.com/browse/upcoming/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.755035273875	0
+http://www.rottentomatoes.com/browse/tv-list-1/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.755035273875	0
+http://www.rottentomatoes.com/browse/tv-list-2/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.755035273875	0
+http://www.rottentomatoes.com/browse/dvd-top-rentals/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.755035273875	0
+http://www.rottentomatoes.com/m/star_trek_beyond/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/ice_age_collision_course/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/lights_out_2016/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/absolutely_fabulous_the_movie/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/dont_think_twice/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/the_secret_life_of_pets/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/ghostbusters_2016/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/the_legend_of_tarzan/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/finding_dory/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/mike_and_dave_need_wedding_dates/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/the_purge_election_year/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/central_intelligence/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/the_infiltrator/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/the_bfg_2016/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/independence_day_resurgence/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/batman_the_killing_joke/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	-1
+http://www.rottentomatoes.com/m/nerve_2016/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/jason_bourne/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/bad_moms/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/m/into_the_forest/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	4
+http://www.rottentomatoes.com/tv/difficult_people/s02/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	-1
+http://www.rottentomatoes.com/tv/casual/s02/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	-1
+http://www.rottentomatoes.com/tv/animal_kingdom/s01/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0948185716062	-1

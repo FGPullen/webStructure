@@ -1,0 +1,14 @@
+http://forums.asp.net/			500	0
+http://forums.asp.net/15.aspx/1?Getting+Started	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/h4/a[]')	0.36933661076	1
+http://forums.asp.net/18.aspx/1?Web+Forms	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/h4/a[]')	0.36933661076	1
+http://forums.asp.net/24.aspx/1?Web+Forms+Data+Controls	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/h4/a[]')	0.36933661076	1
+http://forums.asp.net/1146.aspx/1?MVC	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/h4/a[]')	0.36933661076	1
+http://forums.asp.net/1255.aspx/1?ASP+NET+5	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/h4/a[]')	0.36933661076	7
+http://forums.asp.net/1224.aspx/1?WebMatrix+and+ASP+NET+Web+Pages	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/h4/a[]')	0.36933661076	1
+http://forums.asp.net/1022.aspx/1?ASP+NET+AJAX+Ajax+Control+Toolkit	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/h4/a[]')	0.36933661076	1
+http://forums.asp.net/1223.aspx/1?jQuery+for+the+ASP+NET+Developer	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/h4/a[]')	0.36933661076	1
+http://forums.asp.net/130.aspx/1?HTML+CSS+and+JavaScript	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/h4/a[]')	0.36933661076	1
+http://forums.asp.net/1213.aspx/1?Visual+Studio+and+Visual+Web+Developer+Express	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/h4/a[]')	0.36933661076	1
+http://forums.asp.net/1145.aspx/1?Data+Scaffolding+using+ASP+NET+Dynamic+Data	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/h4/a[]')	0.36933661076	1
+http://forums.asp.net/25.aspx/1?Security	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/h4/a[]')	0.36933661076	1
+http://forums.asp.net/22.aspx/1?State+Management	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/h4/a[]')	0.36933661076	1

@@ -1,0 +1,10 @@
+http://android.stackexchange.com/questions			500	4
+http://android.stackexchange.com/users	http://android.stackexchange.com/questions	(4, '/html/body/div/div/div/div/ul/li/a[nav-users]')	0.0	10
+http://android.stackexchange.com/tour	http://android.stackexchange.com/questions	(4, '/html/body/div/div/div/div/span/a[]')	0.0	-1
+http://android.stackexchange.com/users/165095/ali-tz	http://android.stackexchange.com/questions	(4, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0	11
+http://android.stackexchange.com/users/165088/user165088	http://android.stackexchange.com/questions	(4, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0	11
+http://android.stackexchange.com/users/165082/gall-annonim	http://android.stackexchange.com/questions	(4, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0	11
+http://android.stackexchange.com/users/15789/mark-jeronimus	http://android.stackexchange.com/questions	(4, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0	11
+http://android.stackexchange.com/users/165078/vicky	http://android.stackexchange.com/questions	(4, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0	11
+http://android.stackexchange.com/users/165075/jdoggmcsquishy86	http://android.stackexchange.com/questions	(4, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0	11
+http://android.stackexchange.com/users/165067/astaines	http://android.stackexchange.com/questions	(4, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0	11

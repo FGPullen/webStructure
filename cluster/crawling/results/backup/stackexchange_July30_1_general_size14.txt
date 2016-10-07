@@ -1,0 +1,14 @@
+http://android.stackexchange.com/questions			500	7
+http://android.stackexchange.com/users/165095/ali-tz	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0213451165918	15
+http://android.stackexchange.com/users/165088/user165088	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0213451165918	15
+http://android.stackexchange.com/users/165082/gall-annonim	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0213451165918	15
+http://android.stackexchange.com/users/15789/mark-jeronimus	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0213451165918	15
+http://android.stackexchange.com/users/165078/vicky	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0213451165918	15
+http://android.stackexchange.com/users/165075/jdoggmcsquishy86	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0213451165918	15
+http://android.stackexchange.com/users/165067/astaines	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0213451165918	15
+http://android.stackexchange.com/users/152757/shadow-sphynx	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0213451165918	15
+http://android.stackexchange.com/users/4816/cyker	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0213451165918	15
+http://android.stackexchange.com/users/819/brent-longborough	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0213451165918	-1
+http://android.stackexchange.com/users/165061/user1944664	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0213451165918	-1
+http://android.stackexchange.com/users/165060/abderrahim	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0213451165918	15
+http://android.stackexchange.com/users/165053/amitoz	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.0213451165918	-1

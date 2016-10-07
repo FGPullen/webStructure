@@ -1,0 +1,20 @@
+http://forums.asp.net/			500	0
+http://forums.asp.net/p/2087602/6029757.aspx?Re+How+to+hide+checkbox+from+Gridview+using+ASP+NET+C+	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/a[]')	0.290650857166	7
+http://forums.asp.net/members/Candice%20Zhou.aspx	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/a[]')	0.290650857166	10
+http://forums.asp.net/p/2087560/6029743.aspx?Re+how+to+access+2nd+pdf+frm+db+in+asp+net	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/a[]')	0.290650857166	10
+http://forums.asp.net/members/mike4u.aspx	http://forums.asp.net/p/2087560/6029743.aspx?Re+how+to+access+2nd+pdf+frm+db+in+asp+net	(10, '/html/body/div/div/ul/li/div/h3/a[]')	0.306802176148	10
+http://forums.asp.net/p/2087556/6029750.aspx?Re+Export+Gridview+to+PDF+with+Arabic+Characters	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/a[]')	0.290650857166	10
+http://forums.asp.net/members/md_refay.aspx	http://forums.asp.net/p/2087556/6029750.aspx?Re+Export+Gridview+to+PDF+with+Arabic+Characters	(10, '/html/body/div/div/ul/li/div/h3/a[]')	0.306802176148	10
+http://forums.asp.net/members/Zhi%20Lv%20-%20MSFT.aspx	http://forums.asp.net/p/2087556/6029750.aspx?Re+Export+Gridview+to+PDF+with+Arabic+Characters	(10, '/html/body/div/div/ul/li/div/h3/a[]')	0.306802176148	10
+http://forums.asp.net/p/2087568/6029753.aspx?Re+redirect+to+another+view+while+button+click+in+mvc	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/a[]')	0.290650857166	10
+http://forums.asp.net/members/ssjGanesh.aspx	http://forums.asp.net/p/2087568/6029753.aspx?Re+redirect+to+another+view+while+button+click+in+mvc	(10, '/html/body/div/div/ul/li/div/h3/a[]')	0.306802176148	10
+http://forums.asp.net/members/Klein%20Zhang.aspx	http://forums.asp.net/p/2087568/6029753.aspx?Re+redirect+to+another+view+while+button+click+in+mvc	(10, '/html/body/div/div/ul/li/div/h3/a[]')	0.306802176148	10
+http://forums.asp.net/p/2087647/6029709.aspx?Is+Owin+supported+with+MVC6	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/a[]')	0.290650857166	7
+http://forums.asp.net/members/Abhimanyuk.aspx	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/a[]')	0.290650857166	10
+http://forums.asp.net/p/2087611/6029619.aspx?Extracting+data+fields+for+possible+data+in+sub+sub+sub+tables	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/a[]')	0.290650857166	7
+http://forums.asp.net/members/eriche33.aspx	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/a[]')	0.290650857166	10
+http://forums.asp.net/p/2087638/6029745.aspx?Re+Ajax+toolkit+confusion+over+different+versions+of+Visual+Studio	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/a[]')	0.290650857166	-1
+http://forums.asp.net/members/Fei%20Han%20-%20MSFT.aspx	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/a[]')	0.290650857166	10
+http://forums.asp.net/p/2087572/6029721.aspx?Re+Jquery+time+picker	http://forums.asp.net/	(0, '/html/body/div/div/div/div/table/tbody/tr/td/a[]')	0.290650857166	10
+http://forums.asp.net/members/Dan5.aspx	http://forums.asp.net/p/2087572/6029721.aspx?Re+Jquery+time+picker	(10, '/html/body/div/div/ul/li/div/h3/a[]')	0.306802176148	10
+http://forums.asp.net/members/jimmy69.aspx	http://forums.asp.net/p/2087572/6029721.aspx?Re+Jquery+time+picker	(10, '/html/body/div/div/ul/li/div/h3/a[]')	0.306802176148	10

@@ -1,0 +1,14 @@
+http://voice.hupu.com/hot			500	0
+http://voice.hupu.com/other/1634334.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/ul/li/div/a[instagram]')	0.194892223383	1
+http://voice.hupu.com/other/1581560.html	http://voice.hupu.com/hot	(0, '/html/body/div/div/div/ul/li/div/a[weixin]')	0.194892223383	1
+http://voice.hupu.com/other/1380035.html	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/div/a[]')	0.194892223383	1
+http://voice.hupu.com/other/1634350.html#pre	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.190099791661	1
+http://voice.hupu.com/other/1634357.html#pre	http://voice.hupu.com/other/1634350.html#pre	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.190099791661	1
+http://voice.hupu.com/other/1634370.html#pre	http://voice.hupu.com/other/1634357.html#pre	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.190099791661	1
+http://voice.hupu.com/other/2062802.html	http://voice.hupu.com/other/1634334.html	(1, '/html/body/div/div/div/div/ul/li/a[]')	0.18938157492	1
+http://voice.hupu.com/other/2062883.html#pre	http://voice.hupu.com/other/2062802.html	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.190099791661	1
+http://voice.hupu.com/other/2062886.html#pre	http://voice.hupu.com/other/2062883.html#pre	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.190099791661	1
+http://voice.hupu.com/other/2062888.html#pre	http://voice.hupu.com/other/2062886.html#pre	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.190099791661	1
+http://voice.hupu.com/other/2062981.html#pre	http://voice.hupu.com/other/2062888.html#pre	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.190099791661	1
+http://voice.hupu.com/other/2063192.html#pre	http://voice.hupu.com/other/2062981.html#pre	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.190099791661	1
+http://voice.hupu.com/other/2063194.html#pre	http://voice.hupu.com/other/2063192.html#pre	(1, '/html/body/div/div/div/a[btn-prev  btn-row-2]')	0.190099791661	1

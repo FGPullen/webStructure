@@ -16,3 +16,87 @@ hupu	dbscan-0.173555160418	log-tf-idf	non outlier ratio	0.947924117254
 stackexchange	dbscan-0.108849334686	log-tf-idf	cv_micro_precision	0.977963047587
 stackexchange	dbscan-0.108849334686	log-tf-idf	cv_macro_precision	0.950498188406
 stackexchange	dbscan-0.108849334686	log-tf-idf	non outlier ratio	0.941259938968
+tripadvisor	dbscan-0.0806324580329	log-tf-idf	cv_micro_precision	0.966085946574
+tripadvisor	dbscan-0.0806324580329	log-tf-idf	cv_macro_precision	0.965167124542
+tripadvisor	dbscan-0.0806324580329	log-tf-idf	non outlier ratio	0.654559333529
+photozo	dbscan-0.0686540509557	log-tf-idf	cv_micro_precision	0.966367713004
+photozo	dbscan-0.0686540509557	log-tf-idf	cv_macro_precision	0.974286460146
+photozo	dbscan-0.0686540509557	log-tf-idf	non outlier ratio	0.854667345951
+baidu	dbscan-0.0187728893106	log-tf-idf	cv_micro_precision	0.993616558918
+baidu	dbscan-0.0187728893106	log-tf-idf	cv_macro_precision	0.965901133181
+baidu	dbscan-0.0187728893106	log-tf-idf	non outlier ratio	0.583276529942
+rottentomatoes	dbscan-0.147100872524	log-tf-idf	cv_micro_precision	0.94211384647
+rottentomatoes	dbscan-0.147100872524	log-tf-idf	cv_macro_precision	0.867164003759
+rottentomatoes	dbscan-0.147100872524	log-tf-idf	non outlier ratio	0.953061270644
+tripadvisor	dbscan-0.0806324580329	log-tf-idf	cv_micro_precision	0.966085946574
+tripadvisor	dbscan-0.0806324580329	log-tf-idf	cv_macro_precision	0.965167124542
+tripadvisor	dbscan-0.0806324580329	log-tf-idf	non outlier ratio	0.654559333529
+photozo	dbscan-0.0686540509557	log-tf-idf	cv_micro_precision	0.966367713004
+photozo	dbscan-0.0686540509557	log-tf-idf	cv_macro_precision	0.974286460146
+photozo	dbscan-0.0686540509557	log-tf-idf	non outlier ratio	0.854667345951
+douban	dbscan-0.10964861446	log-tf-idf	cv_micro_precision	0.956921714084
+douban	dbscan-0.10964861446	log-tf-idf	cv_macro_precision	0.941549733967
+douban	dbscan-0.10964861446	log-tf-idf	non outlier ratio	0.881301805034
+asp	dbscan-0.180961948367	log-tf-idf	cv_micro_precision	0.99187755102
+asp	dbscan-0.180961948367	log-tf-idf	cv_macro_precision	0.99324912892
+asp	dbscan-0.180961948367	log-tf-idf	non outlier ratio	0.994995532401
+stackexchange	dbscan-0.108849334686	log-tf-idf	cv_micro_precision	0.952338875088
+stackexchange	dbscan-0.108849334686	log-tf-idf	cv_macro_precision	0.893540447602
+stackexchange	dbscan-0.108849334686	log-tf-idf	non outlier ratio	0.975277484521
+youtube	dbscan-0.167390717711	log-tf-idf	cv_micro_precision	0.994931042428
+youtube	dbscan-0.167390717711	log-tf-idf	cv_macro_precision	0.993157020285
+youtube	dbscan-0.167390717711	log-tf-idf	non outlier ratio	0.982011280537
+asp	dbscan-0.180961948367	log-tf-idf	cv_micro_precision	0.99187755102
+asp	dbscan-0.180961948367	log-tf-idf	cv_macro_precision	0.99324912892
+asp	dbscan-0.180961948367	log-tf-idf	non outlier ratio	0.994995532401
+youtube	dbscan-0.167390717711	log-tf-idf	cv_micro_precision	0.994931042428
+youtube	dbscan-0.167390717711	log-tf-idf	cv_macro_precision	0.993157020285
+youtube	dbscan-0.167390717711	log-tf-idf	non outlier ratio	0.982011280537
+douban	dbscan-0.10964861446	log-tf-idf	cv_micro_precision	0.945457640278
+douban	dbscan-0.10964861446	log-tf-idf	cv_macro_precision	0.936884689211
+douban	dbscan-0.10964861446	log-tf-idf	non outlier ratio	0.970028330546
+rottentomatoes	dbscan-0.147100872524	log-tf-idf	cv_micro_precision	0.933332986398
+rottentomatoes	dbscan-0.147100872524	log-tf-idf	cv_macro_precision	0.821507248234
+rottentomatoes	dbscan-0.147100872524	log-tf-idf	non outlier ratio	0.969016684777
+hupu	dbscan-0.173555160418	log-tf-idf	cv_micro_precision	0.991726219176
+hupu	dbscan-0.173555160418	log-tf-idf	cv_macro_precision	0.719444444444
+hupu	dbscan-0.173555160418	log-tf-idf	non outlier ratio	0.966018841305
+stackexchange	dbscan-0.108849334686	log-tf-idf	cv_micro_precision	0.952338875088
+stackexchange	dbscan-0.108849334686	log-tf-idf	cv_macro_precision	0.893540447602
+stackexchange	dbscan-0.108849334686	log-tf-idf	non outlier ratio	0.975277484521
+rottentomatoes	dbscan-0.147100872524	log-tf-idf	cv_micro_precision	0.933332986398
+rottentomatoes	dbscan-0.147100872524	log-tf-idf	cv_macro_precision	0.821507248234
+rottentomatoes	dbscan-0.147100872524	log-tf-idf	non outlier ratio	0.969016684777
+rottentomatoes	dbscan-0.147100872524	log-tf-idf	cv_micro_precision	0.933332986398
+rottentomatoes	dbscan-0.147100872524	log-tf-idf	cv_macro_precision	0.821507248234
+rottentomatoes	dbscan-0.147100872524	log-tf-idf	non outlier ratio	0.969016684777
+rottentomatoes	dbscan-0.147100872524	log-tf-idf	cv_micro_precision	0.933332986398
+rottentomatoes	dbscan-0.147100872524	log-tf-idf	cv_macro_precision	0.821507248234
+rottentomatoes	dbscan-0.147100872524	log-tf-idf	non outlier ratio	0.969016684777
+rottentomatoes	dbscan-0.114114500685	log-tf-idf	cv_micro_precision	0.933617803713
+rottentomatoes	dbscan-0.114114500685	log-tf-idf	cv_macro_precision	0.757070712901
+rottentomatoes	dbscan-0.114114500685	log-tf-idf	non outlier ratio	0.942018812641
+douban	dbscan-0.15063707638	log-tf-idf	cv_micro_precision	0.899911179047
+douban	dbscan-0.15063707638	log-tf-idf	cv_macro_precision	0.862353577795
+douban	dbscan-0.15063707638	log-tf-idf	non outlier ratio	0.909373373046
+youtube	dbscan-0.0545448277774	log-tf-idf	cv_micro_precision	0.978607770583
+youtube	dbscan-0.0545448277774	log-tf-idf	cv_macro_precision	0.959090909091
+youtube	dbscan-0.0545448277774	log-tf-idf	non outlier ratio	0.935086034414
+stackexchange	dbscan-0.101649476255	log-tf-idf	cv_micro_precision	0.81255952381
+stackexchange	dbscan-0.101649476255	log-tf-idf	cv_macro_precision	0.610191197691
+stackexchange	dbscan-0.101649476255	log-tf-idf	non outlier ratio	0.917784309089
+youtube	dbscan-0.0545448277774	log-tf-idf	cv_micro_precision	0.978607770583
+youtube	dbscan-0.0545448277774	log-tf-idf	cv_macro_precision	0.959090909091
+youtube	dbscan-0.0545448277774	log-tf-idf	non outlier ratio	0.935086034414
+rottentomatoes	dbscan-0.0952149597579	log-tf-idf	cv_micro_precision	0.836205797781
+rottentomatoes	dbscan-0.0952149597579	log-tf-idf	cv_macro_precision	0.626383801384
+rottentomatoes	dbscan-0.0952149597579	log-tf-idf	non outlier ratio	0.869914723307
+rottentomatoes	dbscan-0.16243704695	log-tf-idf	cv_micro_precision	0.865653384425
+rottentomatoes	dbscan-0.16243704695	log-tf-idf	cv_macro_precision	0.711838068561
+rottentomatoes	dbscan-0.16243704695	log-tf-idf	non outlier ratio	0.942018812641
+youtube	dbscan-0.112323796328	log-tf-idf	cv_micro_precision	0.99588470397
+youtube	dbscan-0.112323796328	log-tf-idf	cv_macro_precision	0.997333162656
+youtube	dbscan-0.112323796328	log-tf-idf	non outlier ratio	0.974029210058
+stackexchange	dbscan-0.195139877198	log-tf-idf	cv_micro_precision	0.801785714286
+stackexchange	dbscan-0.195139877198	log-tf-idf	cv_macro_precision	0.475
+stackexchange	dbscan-0.195139877198	log-tf-idf	non outlier ratio	0.875427018634

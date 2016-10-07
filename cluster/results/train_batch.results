@@ -40,3 +40,1409 @@ stackexchange	dbscan	log-tf-idf	micro_f	0.947359741641
 stackexchange	dbscan	log-tf-idf	macro_f	0.952694208195
 stackexchange	dbscan	log-tf-idf	micro_p	0.987668161435
 stackexchange	dbscan	log-tf-idf	macro_p	0.996923076923
+baidu	dbscan	log-tf-idf	#class/#cluster	11/33
+baidu	dbscan	log-tf-idf	#new_outlier	27
+Outlier: Cover 56 of 178 total ground truth, and create 27 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.871797006416
+baidu	dbscan	log-tf-idf	macro_f	0.930799411963
+baidu	dbscan	log-tf-idf	micro_p	1.0
+baidu	dbscan	log-tf-idf	macro_p	1.0
+baidu	dbscan	log-tf-idf	#class/#cluster	11/33
+baidu	dbscan	log-tf-idf	#new_outlier	27
+Outlier: Cover 56 of 178 total ground truth, and create 27 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.871797006416
+baidu	dbscan	log-tf-idf	macro_f	0.930799411963
+baidu	dbscan	log-tf-idf	micro_p	1.0
+baidu	dbscan	log-tf-idf	macro_p	1.0
+baidu	dbscan	log-tf-idf	#class/#cluster	11/33
+baidu	dbscan	log-tf-idf	#new_outlier	27
+Outlier: Cover 56 of 178 total ground truth, and create 27 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.871797006416
+baidu	dbscan	log-tf-idf	macro_f	0.930799411963
+baidu	dbscan	log-tf-idf	micro_p	1.0
+baidu	dbscan	log-tf-idf	macro_p	1.0
+baidu	dbscan	log-tf-idf	#class/#cluster	11/33
+baidu	dbscan	log-tf-idf	#new_outlier	27
+Outlier: Cover 56 of 178 total ground truth, and create 27 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.871797006416
+baidu	dbscan	log-tf-idf	macro_f	0.930799411963
+baidu	dbscan	log-tf-idf	micro_p	1.0
+baidu	dbscan	log-tf-idf	macro_p	1.0
+baidu	dbscan	log-tf-idf	#class/#cluster	11/33
+baidu	dbscan	log-tf-idf	#new_outlier	27
+Outlier: Cover 56 of 178 total ground truth, and create 27 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.871797006416
+baidu	dbscan	log-tf-idf	macro_f	0.930799411963
+baidu	dbscan	log-tf-idf	micro_p	1.0
+baidu	dbscan	log-tf-idf	macro_p	1.0
+baidu	dbscan	log-tf-idf	#class/#cluster	12/33
+baidu	dbscan	log-tf-idf	#new_outlier	29
+Outlier: Cover 54 of 152 total ground truth, and create 29 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.86470052651
+baidu	dbscan	log-tf-idf	macro_f	0.903420340842
+baidu	dbscan	log-tf-idf	micro_p	0.979242979243
+baidu	dbscan	log-tf-idf	macro_p	0.989306826941
+baidu	dbscan	log-tf-idf	#class/#cluster	11/33
+baidu	dbscan	log-tf-idf	#new_outlier	27
+Outlier: Cover 56 of 178 total ground truth, and create 27 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.871797006416
+baidu	dbscan	log-tf-idf	macro_f	0.930799411963
+baidu	dbscan	log-tf-idf	micro_p	1.0
+baidu	dbscan	log-tf-idf	macro_p	1.0
+baidu	dbscan	log-tf-idf	#class/#cluster	14/33
+baidu	dbscan	log-tf-idf	#new_outlier	29
+Outlier: Cover 54 of 119 total ground truth, and create 29 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.869282417958
+baidu	dbscan	log-tf-idf	macro_f	0.908948265613
+baidu	dbscan	log-tf-idf	micro_p	0.983568075117
+baidu	dbscan	log-tf-idf	macro_p	0.991031660046
+baidu	dbscan	log-tf-idf	#class/#cluster	15/33
+baidu	dbscan	log-tf-idf	#new_outlier	32
+Outlier: Cover 51 of 108 total ground truth, and create 32 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.870498395466
+baidu	dbscan	log-tf-idf	macro_f	0.915451960926
+baidu	dbscan	log-tf-idf	micro_p	0.983720930233
+baidu	dbscan	log-tf-idf	macro_p	0.991672255757
+baidu	dbscan	log-tf-idf	#class/#cluster	16/33
+baidu	dbscan	log-tf-idf	#new_outlier	32
+Outlier: Cover 51 of 102 total ground truth, and create 32 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.87139563522
+baidu	dbscan	log-tf-idf	macro_f	0.921088496864
+baidu	dbscan	log-tf-idf	micro_p	0.983833718245
+baidu	dbscan	log-tf-idf	macro_p	0.992227438706
+baidu	dbscan	log-tf-idf	#class/#cluster	16/33
+baidu	dbscan	log-tf-idf	#new_outlier	32
+Outlier: Cover 51 of 102 total ground truth, and create 32 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.87139563522
+baidu	dbscan	log-tf-idf	macro_f	0.921088496864
+baidu	dbscan	log-tf-idf	micro_p	0.983833718245
+baidu	dbscan	log-tf-idf	macro_p	0.992227438706
+baidu	dbscan	log-tf-idf	#class/#cluster	18/33
+baidu	dbscan	log-tf-idf	#new_outlier	33
+Outlier: Cover 50 of 95 total ground truth, and create 33 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.872280527638
+baidu	dbscan	log-tf-idf	macro_f	0.930372203116
+baidu	dbscan	log-tf-idf	micro_p	0.983944954128
+baidu	dbscan	log-tf-idf	macro_p	0.993141857682
+baidu	dbscan	log-tf-idf	#class/#cluster	19/33
+baidu	dbscan	log-tf-idf	#new_outlier	34
+Outlier: Cover 49 of 89 total ground truth, and create 34 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.873008688826
+baidu	dbscan	log-tf-idf	macro_f	0.934240414054
+baidu	dbscan	log-tf-idf	micro_p	0.984036488027
+baidu	dbscan	log-tf-idf	macro_p	0.993522865589
+photozo	dbscan	log-tf-idf	#class/#cluster	4/22
+photozo	dbscan	log-tf-idf	#new_outlier	0
+Outlier: Cover 26 of 593 total ground truth, and create 0 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.91682413365
+photozo	dbscan	log-tf-idf	macro_f	0.934777722457
+photozo	dbscan	log-tf-idf	micro_p	0.980343980344
+photozo	dbscan	log-tf-idf	macro_p	0.971428571429
+photozo	dbscan	log-tf-idf	#class/#cluster	6/22
+photozo	dbscan	log-tf-idf	#new_outlier	0
+Outlier: Cover 26 of 552 total ground truth, and create 0 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.899656429213
+photozo	dbscan	log-tf-idf	macro_f	0.667238093179
+photozo	dbscan	log-tf-idf	micro_p	0.959821428571
+photozo	dbscan	log-tf-idf	macro_p	0.647619047619
+photozo	dbscan	log-tf-idf	#class/#cluster	4/22
+photozo	dbscan	log-tf-idf	#new_outlier	0
+Outlier: Cover 26 of 553 total ground truth, and create 0 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.924267164196
+photozo	dbscan	log-tf-idf	macro_f	0.934777722457
+photozo	dbscan	log-tf-idf	micro_p	0.982102908277
+photozo	dbscan	log-tf-idf	macro_p	0.971428571429
+photozo	dbscan	log-tf-idf	#class/#cluster	5/22
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 20 of 417 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.852521288371
+photozo	dbscan	log-tf-idf	macro_f	0.867337673102
+photozo	dbscan	log-tf-idf	micro_p	0.984402079723
+photozo	dbscan	log-tf-idf	macro_p	0.975604395604
+photozo	dbscan	log-tf-idf	#class/#cluster	6/22
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 20 of 396 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.856843793091
+photozo	dbscan	log-tf-idf	macro_f	0.885383020268
+photozo	dbscan	log-tf-idf	micro_p	0.983277591973
+photozo	dbscan	log-tf-idf	macro_p	0.971733821734
+photozo	dbscan	log-tf-idf	#class/#cluster	8/22
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 20 of 382 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.858718048057
+photozo	dbscan	log-tf-idf	macro_f	0.896180122344
+photozo	dbscan	log-tf-idf	micro_p	0.980392156863
+photozo	dbscan	log-tf-idf	macro_p	0.976877289377
+photozo	dbscan	log-tf-idf	#class/#cluster	9/22
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 20 of 307 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.785833915262
+photozo	dbscan	log-tf-idf	macro_f	0.802857578742
+photozo	dbscan	log-tf-idf	micro_p	0.879184861718
+photozo	dbscan	log-tf-idf	macro_p	0.874155474155
+photozo	dbscan	log-tf-idf	#class/#cluster	9/22
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 20 of 307 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.785833915262
+photozo	dbscan	log-tf-idf	macro_f	0.802857578742
+photozo	dbscan	log-tf-idf	micro_p	0.879184861718
+photozo	dbscan	log-tf-idf	macro_p	0.874155474155
+photozo	dbscan	log-tf-idf	#class/#cluster	9/22
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 20 of 307 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.785833915262
+photozo	dbscan	log-tf-idf	macro_f	0.802857578742
+photozo	dbscan	log-tf-idf	micro_p	0.879184861718
+photozo	dbscan	log-tf-idf	macro_p	0.874155474155
+photozo	dbscan	log-tf-idf	#class/#cluster	7/22
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 20 of 410 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.812039118505
+photozo	dbscan	log-tf-idf	macro_f	0.741044884119
+photozo	dbscan	log-tf-idf	micro_p	0.977739726027
+photozo	dbscan	log-tf-idf	macro_p	0.848920045472
+photozo	dbscan	log-tf-idf	#class/#cluster	7/19
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 19 of 410 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.879008818074
+photozo	dbscan	log-tf-idf	macro_f	0.778637506842
+photozo	dbscan	log-tf-idf	micro_p	0.977739726027
+photozo	dbscan	log-tf-idf	macro_p	0.848920045472
+photozo	dbscan	log-tf-idf	#class/#cluster	7/17
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 19 of 410 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.633093331645
+photozo	dbscan	log-tf-idf	macro_f	0.638222049055
+photozo	dbscan	log-tf-idf	micro_p	0.734589041096
+photozo	dbscan	log-tf-idf	macro_p	0.655000631552
+photozo	dbscan	log-tf-idf	#class/#cluster	7/19
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 19 of 410 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.879008818074
+photozo	dbscan	log-tf-idf	macro_f	0.778637506842
+photozo	dbscan	log-tf-idf	micro_p	0.977739726027
+photozo	dbscan	log-tf-idf	macro_p	0.848920045472
+photozo	dbscan	log-tf-idf	#class/#cluster	7/19
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 19 of 307 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.858788691329
+photozo	dbscan	log-tf-idf	macro_f	0.776459357123
+photozo	dbscan	log-tf-idf	micro_p	0.981077147016
+photozo	dbscan	log-tf-idf	macro_p	0.848920045472
+photozo	dbscan	log-tf-idf	#class/#cluster	7/19
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 19 of 307 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.86628513969
+photozo	dbscan	log-tf-idf	macro_f	0.866563970397
+photozo	dbscan	log-tf-idf	micro_p	0.981077147016
+photozo	dbscan	log-tf-idf	macro_p	0.949084249084
+photozo	dbscan	log-tf-idf	#class/#cluster	7/19
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 19 of 307 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.86628513969
+photozo	dbscan	log-tf-idf	macro_f	0.866563970397
+photozo	dbscan	log-tf-idf	micro_p	0.981077147016
+photozo	dbscan	log-tf-idf	macro_p	0.949084249084
+photozo	dbscan	log-tf-idf	#class/#cluster	7/22
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 20 of 307 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.809356020988
+photozo	dbscan	log-tf-idf	macro_f	0.828971347674
+photozo	dbscan	log-tf-idf	micro_p	0.981077147016
+photozo	dbscan	log-tf-idf	macro_p	0.949084249084
+photozo	dbscan	log-tf-idf	#class/#cluster	7/22
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 20 of 323 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.797236057306
+photozo	dbscan	log-tf-idf	macro_f	0.764853524157
+photozo	dbscan	log-tf-idf	micro_p	0.980625931446
+photozo	dbscan	log-tf-idf	macro_p	0.849985149985
+photozo	dbscan	log-tf-idf	#class/#cluster	6/22
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 20 of 323 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.799249411606
+photozo	dbscan	log-tf-idf	macro_f	0.805396502216
+photozo	dbscan	log-tf-idf	micro_p	0.994038748137
+photozo	dbscan	log-tf-idf	macro_p	0.992530657748
+photozo	dbscan	log-tf-idf	#class/#cluster	6/22
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 20 of 263 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.812090339077
+photozo	dbscan	log-tf-idf	macro_f	0.832821743758
+photozo	dbscan	log-tf-idf	micro_p	0.994528043776
+photozo	dbscan	log-tf-idf	macro_p	0.994238137342
+photozo	dbscan	log-tf-idf	#class/#cluster	7/22
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 20 of 238 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.818629383062
+photozo	dbscan	log-tf-idf	macro_f	0.860215433645
+photozo	dbscan	log-tf-idf	micro_p	0.994708994709
+photozo	dbscan	log-tf-idf	macro_p	0.995316334151
+photozo	dbscan	log-tf-idf	#class/#cluster	7/22
+photozo	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 20 of 238 total ground truth, and create 6 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.818629383062
+photozo	dbscan	log-tf-idf	macro_f	0.860215433645
+photozo	dbscan	log-tf-idf	micro_p	0.994708994709
+photozo	dbscan	log-tf-idf	macro_p	0.995316334151
+photozo	dbscan	log-tf-idf	#class/#cluster	8/22
+photozo	dbscan	log-tf-idf	#new_outlier	11
+Outlier: Cover 15 of 170 total ground truth, and create 11 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.830058900884
+photozo	dbscan	log-tf-idf	macro_f	0.873590143783
+photozo	dbscan	log-tf-idf	micro_p	0.995115995116
+photozo	dbscan	log-tf-idf	macro_p	0.995901792382
+photozo	dbscan	log-tf-idf	#class/#cluster	8/22
+photozo	dbscan	log-tf-idf	#new_outlier	11
+Outlier: Cover 15 of 170 total ground truth, and create 11 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.830058900884
+photozo	dbscan	log-tf-idf	macro_f	0.873590143783
+photozo	dbscan	log-tf-idf	micro_p	0.995115995116
+photozo	dbscan	log-tf-idf	macro_p	0.995901792382
+photozo	dbscan	log-tf-idf	#class/#cluster	9/22
+photozo	dbscan	log-tf-idf	#new_outlier	11
+Outlier: Cover 15 of 161 total ground truth, and create 11 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.817176998991
+photozo	dbscan	log-tf-idf	macro_f	0.783977566509
+photozo	dbscan	log-tf-idf	micro_p	0.984299516908
+photozo	dbscan	log-tf-idf	macro_p	0.885246037673
+photozo	dbscan	log-tf-idf	#class/#cluster	8/22
+photozo	dbscan	log-tf-idf	#new_outlier	11
+Outlier: Cover 15 of 161 total ground truth, and create 11 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.831273055019
+photozo	dbscan	log-tf-idf	macro_f	0.873683316115
+photozo	dbscan	log-tf-idf	micro_p	0.995169082126
+photozo	dbscan	log-tf-idf	macro_p	0.995901792382
+photozo	dbscan	log-tf-idf	#class/#cluster	9/22
+photozo	dbscan	log-tf-idf	#new_outlier	11
+Outlier: Cover 15 of 137 total ground truth, and create 11 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.825829753268
+photozo	dbscan	log-tf-idf	macro_f	0.878547262588
+photozo	dbscan	log-tf-idf	micro_p	0.994131455399
+photozo	dbscan	log-tf-idf	macro_p	0.984011469772
+photozo	dbscan	log-tf-idf	#class/#cluster	9/22
+photozo	dbscan	log-tf-idf	#new_outlier	11
+Outlier: Cover 15 of 132 total ground truth, and create 11 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.823519825324
+photozo	dbscan	log-tf-idf	macro_f	0.877758253027
+photozo	dbscan	log-tf-idf	micro_p	0.994165694282
+photozo	dbscan	log-tf-idf	macro_p	0.984011469772
+photozo	dbscan	log-tf-idf	#class/#cluster	10/22
+photozo	dbscan	log-tf-idf	#new_outlier	11
+Outlier: Cover 15 of 123 total ground truth, and create 11 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.824054838686
+photozo	dbscan	log-tf-idf	macro_f	0.877482427724
+photozo	dbscan	log-tf-idf	micro_p	0.991916859122
+photozo	dbscan	log-tf-idf	macro_p	0.963388100573
+photozo	dbscan	log-tf-idf	#class/#cluster	10/22
+photozo	dbscan	log-tf-idf	#new_outlier	11
+Outlier: Cover 15 of 125 total ground truth, and create 11 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.824949641554
+photozo	dbscan	log-tf-idf	macro_f	0.889982427724
+photozo	dbscan	log-tf-idf	micro_p	0.994212962963
+photozo	dbscan	log-tf-idf	macro_p	0.985610322795
+photozo	dbscan	log-tf-idf	#class/#cluster	10/22
+photozo	dbscan	log-tf-idf	#new_outlier	11
+Outlier: Cover 15 of 120 total ground truth, and create 11 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.822657514382
+photozo	dbscan	log-tf-idf	macro_f	0.889296805623
+photozo	dbscan	log-tf-idf	micro_p	0.994246260069
+photozo	dbscan	log-tf-idf	macro_p	0.985610322795
+photozo	dbscan	log-tf-idf	#class/#cluster	10/22
+photozo	dbscan	log-tf-idf	#new_outlier	11
+Outlier: Cover 15 of 120 total ground truth, and create 11 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.822657514382
+photozo	dbscan	log-tf-idf	macro_f	0.889296805623
+photozo	dbscan	log-tf-idf	micro_p	0.994246260069
+photozo	dbscan	log-tf-idf	macro_p	0.985610322795
+photozo	dbscan	log-tf-idf	#class/#cluster	11/22
+photozo	dbscan	log-tf-idf	#new_outlier	11
+Outlier: Cover 15 of 107 total ground truth, and create 11 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.823633713779
+photozo	dbscan	log-tf-idf	macro_f	0.889259722283
+photozo	dbscan	log-tf-idf	micro_p	0.990929705215
+photozo	dbscan	log-tf-idf	macro_p	0.978526866876
+photozo	dbscan	log-tf-idf	#class/#cluster	11/22
+photozo	dbscan	log-tf-idf	#new_outlier	11
+Outlier: Cover 15 of 93 total ground truth, and create 11 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.820302078895
+photozo	dbscan	log-tf-idf	macro_f	0.888646392585
+photozo	dbscan	log-tf-idf	micro_p	0.991071428571
+photozo	dbscan	log-tf-idf	macro_p	0.978526866876
+photozo	dbscan	log-tf-idf	#class/#cluster	11/22
+photozo	dbscan	log-tf-idf	#new_outlier	11
+Outlier: Cover 15 of 82 total ground truth, and create 11 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.817090913414
+photozo	dbscan	log-tf-idf	macro_f	0.887991071064
+photozo	dbscan	log-tf-idf	micro_p	0.991179713341
+photozo	dbscan	log-tf-idf	macro_p	0.978526866876
+photozo	dbscan	log-tf-idf	#class/#cluster	12/22
+photozo	dbscan	log-tf-idf	#new_outlier	11
+Outlier: Cover 15 of 66 total ground truth, and create 11 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.806958167605
+photozo	dbscan	log-tf-idf	macro_f	0.833371660104
+photozo	dbscan	log-tf-idf	micro_p	0.973997833153
+photozo	dbscan	log-tf-idf	macro_p	0.896982961303
+photozo	dbscan	log-tf-idf	#class/#cluster	12/22
+photozo	dbscan	log-tf-idf	#new_outlier	14
+Outlier: Cover 12 of 63 total ground truth, and create 14 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.806958167605
+photozo	dbscan	log-tf-idf	macro_f	0.833371660104
+photozo	dbscan	log-tf-idf	micro_p	0.973997833153
+photozo	dbscan	log-tf-idf	macro_p	0.896982961303
+photozo	dbscan	log-tf-idf	#class/#cluster	11/22
+photozo	dbscan	log-tf-idf	#new_outlier	14
+Outlier: Cover 12 of 63 total ground truth, and create 14 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.80712300695
+photozo	dbscan	log-tf-idf	macro_f	0.885402115885
+photozo	dbscan	log-tf-idf	micro_p	0.991332611051
+photozo	dbscan	log-tf-idf	macro_p	0.978526866876
+photozo	dbscan	log-tf-idf	#class/#cluster	11/22
+photozo	dbscan	log-tf-idf	#new_outlier	14
+Outlier: Cover 12 of 48 total ground truth, and create 14 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.804415161783
+photozo	dbscan	log-tf-idf	macro_f	0.885186720995
+photozo	dbscan	log-tf-idf	micro_p	0.991471215352
+photozo	dbscan	log-tf-idf	macro_p	0.978526866876
+photozo	dbscan	log-tf-idf	#class/#cluster	11/22
+photozo	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 13 of 66 total ground truth, and create 13 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.814824800865
+photozo	dbscan	log-tf-idf	macro_f	0.887785436924
+photozo	dbscan	log-tf-idf	micro_p	0.991313789359
+photozo	dbscan	log-tf-idf	macro_p	0.978526866876
+photozo	dbscan	log-tf-idf	#class/#cluster	11/22
+photozo	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 13 of 66 total ground truth, and create 13 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.814824800865
+photozo	dbscan	log-tf-idf	macro_f	0.887785436924
+photozo	dbscan	log-tf-idf	micro_p	0.991313789359
+photozo	dbscan	log-tf-idf	macro_p	0.978526866876
+photozo	dbscan	log-tf-idf	#class/#cluster	12/22
+photozo	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 13 of 66 total ground truth, and create 13 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.883035038906
+photozo	dbscan	log-tf-idf	macro_f	0.913142580375
+photozo	dbscan	log-tf-idf	micro_p	0.984799131379
+photozo	dbscan	log-tf-idf	macro_p	0.977191294637
+photozo	dbscan	log-tf-idf	#class/#cluster	12/22
+photozo	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 13 of 66 total ground truth, and create 13 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.889751665739
+photozo	dbscan	log-tf-idf	macro_f	0.917205330631
+photozo	dbscan	log-tf-idf	micro_p	0.991313789359
+photozo	dbscan	log-tf-idf	macro_p	0.980316294637
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	19/44
+tripadvisor	dbscan	log-tf-idf	#new_outlier	68
+Outlier: Cover 76 of 256 total ground truth, and create 68 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.901518502136
+tripadvisor	dbscan	log-tf-idf	macro_f	0.901443280023
+tripadvisor	dbscan	log-tf-idf	micro_p	0.980769230769
+tripadvisor	dbscan	log-tf-idf	macro_p	0.963899680566
+baidu	dbscan	log-tf-idf	#class/#cluster	19/33
+baidu	dbscan	log-tf-idf	#new_outlier	34
+Outlier: Cover 49 of 89 total ground truth, and create 34 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.873008688826
+baidu	dbscan	log-tf-idf	macro_f	0.934240414054
+baidu	dbscan	log-tf-idf	micro_p	0.984036488027
+baidu	dbscan	log-tf-idf	macro_p	0.993522865589
+baidu	dbscan	log-tf-idf	#class/#cluster	20/33
+baidu	dbscan	log-tf-idf	#new_outlier	34
+Outlier: Cover 49 of 82 total ground truth, and create 34 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.874014276132
+baidu	dbscan	log-tf-idf	macro_f	0.937701444893
+baidu	dbscan	log-tf-idf	micro_p	0.984162895928
+baidu	dbscan	log-tf-idf	macro_p	0.9938637674
+baidu	dbscan	log-tf-idf	#class/#cluster	21/33
+baidu	dbscan	log-tf-idf	#new_outlier	37
+Outlier: Cover 46 of 75 total ground truth, and create 37 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.874581779392
+baidu	dbscan	log-tf-idf	macro_f	0.940816372648
+baidu	dbscan	log-tf-idf	micro_p	0.984234234234
+baidu	dbscan	log-tf-idf	macro_p	0.99417057903
+baidu	dbscan	log-tf-idf	#class/#cluster	22/33
+baidu	dbscan	log-tf-idf	#new_outlier	37
+Outlier: Cover 46 of 69 total ground truth, and create 37 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.875423512417
+baidu	dbscan	log-tf-idf	macro_f	0.943634640617
+baidu	dbscan	log-tf-idf	micro_p	0.984340044743
+baidu	dbscan	log-tf-idf	macro_p	0.994448170505
+baidu	dbscan	log-tf-idf	#class/#cluster	22/28
+baidu	dbscan	log-tf-idf	#new_outlier	26
+Outlier: Cover 38 of 69 total ground truth, and create 26 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.762723276882
+baidu	dbscan	log-tf-idf	macro_f	0.91517736754
+baidu	dbscan	log-tf-idf	micro_p	0.764640883978
+baidu	dbscan	log-tf-idf	macro_p	0.906638517476
+baidu	dbscan	log-tf-idf	#class/#cluster	22/33
+baidu	dbscan	log-tf-idf	#new_outlier	37
+Outlier: Cover 46 of 69 total ground truth, and create 37 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.875423512417
+baidu	dbscan	log-tf-idf	macro_f	0.943634640617
+baidu	dbscan	log-tf-idf	micro_p	0.984340044743
+baidu	dbscan	log-tf-idf	macro_p	0.994448170505
+baidu	dbscan	log-tf-idf	#class/#cluster	21/33
+baidu	dbscan	log-tf-idf	#new_outlier	37
+Outlier: Cover 46 of 69 total ground truth, and create 37 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.867398979113
+baidu	dbscan	log-tf-idf	macro_f	0.953463571528
+baidu	dbscan	log-tf-idf	micro_p	1.0
+baidu	dbscan	log-tf-idf	macro_p	1.0
+baidu	dbscan	log-tf-idf	#class/#cluster	22/33
+baidu	dbscan	log-tf-idf	#new_outlier	37
+Outlier: Cover 46 of 67 total ground truth, and create 37 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.866738330882
+baidu	dbscan	log-tf-idf	macro_f	0.935271428666
+baidu	dbscan	log-tf-idf	micro_p	0.997767857143
+baidu	dbscan	log-tf-idf	macro_p	0.952380952381
+baidu	dbscan	log-tf-idf	#class/#cluster	22/33
+baidu	dbscan	log-tf-idf	#new_outlier	37
+Outlier: Cover 46 of 63 total ground truth, and create 37 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.866949652586
+baidu	dbscan	log-tf-idf	macro_f	0.946155782408
+baidu	dbscan	log-tf-idf	micro_p	0.996666666667
+baidu	dbscan	log-tf-idf	macro_p	0.999289267946
+baidu	dbscan	log-tf-idf	#class/#cluster	23/33
+baidu	dbscan	log-tf-idf	#new_outlier	45
+Outlier: Cover 38 of 55 total ground truth, and create 45 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.866949652586
+baidu	dbscan	log-tf-idf	macro_f	0.946155782408
+baidu	dbscan	log-tf-idf	micro_p	0.996666666667
+baidu	dbscan	log-tf-idf	macro_p	0.999289267946
+photozo	dbscan	log-tf-idf	#class/#cluster	12/22
+photozo	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 13 of 66 total ground truth, and create 13 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.889751665739
+photozo	dbscan	log-tf-idf	macro_f	0.917205330631
+photozo	dbscan	log-tf-idf	micro_p	0.991313789359
+photozo	dbscan	log-tf-idf	macro_p	0.980316294637
+photozo	dbscan	log-tf-idf	#class/#cluster	12/22
+photozo	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 13 of 75 total ground truth, and create 13 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.889238414928
+photozo	dbscan	log-tf-idf	macro_f	0.917143215743
+photozo	dbscan	log-tf-idf	micro_p	0.991228070175
+photozo	dbscan	log-tf-idf	macro_p	0.980316294637
+photozo	dbscan	log-tf-idf	#class/#cluster	12/22
+photozo	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 13 of 75 total ground truth, and create 13 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.889238414928
+photozo	dbscan	log-tf-idf	macro_f	0.917143215743
+photozo	dbscan	log-tf-idf	micro_p	0.991228070175
+photozo	dbscan	log-tf-idf	macro_p	0.980316294637
+photozo	dbscan	log-tf-idf	#class/#cluster	13/22
+photozo	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 13 of 75 total ground truth, and create 13 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.908714705768
+photozo	dbscan	log-tf-idf	macro_f	0.927794946369
+photozo	dbscan	log-tf-idf	micro_p	0.991228070175
+photozo	dbscan	log-tf-idf	macro_p	0.981830425818
+photozo	dbscan	log-tf-idf	#class/#cluster	13/22
+photozo	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 13 of 66 total ground truth, and create 13 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.840512734234
+photozo	dbscan	log-tf-idf	macro_f	0.889795317169
+photozo	dbscan	log-tf-idf	micro_p	0.957654723127
+photozo	dbscan	log-tf-idf	macro_p	0.90669924539
+photozo	dbscan	log-tf-idf	#class/#cluster	13/22
+photozo	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 13 of 66 total ground truth, and create 13 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.877078989961
+photozo	dbscan	log-tf-idf	macro_f	0.851753502864
+photozo	dbscan	log-tf-idf	micro_p	0.981541802389
+photozo	dbscan	log-tf-idf	macro_p	0.904907348895
+photozo	dbscan	log-tf-idf	#class/#cluster	13/22
+photozo	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 13 of 66 total ground truth, and create 13 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.909040162897
+photozo	dbscan	log-tf-idf	macro_f	0.927721964323
+photozo	dbscan	log-tf-idf	micro_p	0.991313789359
+photozo	dbscan	log-tf-idf	macro_p	0.981830425818
+photozo	dbscan	log-tf-idf	#class/#cluster	13/22
+photozo	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 13 of 67 total ground truth, and create 13 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.910044625317
+photozo	dbscan	log-tf-idf	macro_f	0.932609549855
+photozo	dbscan	log-tf-idf	micro_p	0.992391304348
+photozo	dbscan	log-tf-idf	macro_p	0.990377434365
+photozo	dbscan	log-tf-idf	#class/#cluster	13/22
+photozo	dbscan	log-tf-idf	#new_outlier	12
+Outlier: Cover 14 of 68 total ground truth, and create 12 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.910044625317
+photozo	dbscan	log-tf-idf	macro_f	0.932609549855
+photozo	dbscan	log-tf-idf	micro_p	0.992391304348
+photozo	dbscan	log-tf-idf	macro_p	0.990377434365
+photozo	dbscan	log-tf-idf	#class/#cluster	13/22
+photozo	dbscan	log-tf-idf	#new_outlier	8
+Outlier: Cover 18 of 102 total ground truth, and create 8 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.919571053787
+photozo	dbscan	log-tf-idf	macro_f	0.947276390285
+photozo	dbscan	log-tf-idf	micro_p	0.998876404494
+photozo	dbscan	log-tf-idf	macro_p	0.99925317401
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	19/44
+tripadvisor	dbscan	log-tf-idf	#new_outlier	68
+Outlier: Cover 76 of 256 total ground truth, and create 68 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.901518502136
+tripadvisor	dbscan	log-tf-idf	macro_f	0.901443280023
+tripadvisor	dbscan	log-tf-idf	micro_p	0.980769230769
+tripadvisor	dbscan	log-tf-idf	macro_p	0.963899680566
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	21/44
+tripadvisor	dbscan	log-tf-idf	#new_outlier	68
+Outlier: Cover 76 of 190 total ground truth, and create 68 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.887026742569
+tripadvisor	dbscan	log-tf-idf	macro_f	0.897162604247
+tripadvisor	dbscan	log-tf-idf	micro_p	0.977088948787
+tripadvisor	dbscan	log-tf-idf	macro_p	0.963938283938
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	22/44
+tripadvisor	dbscan	log-tf-idf	#new_outlier	71
+Outlier: Cover 73 of 183 total ground truth, and create 71 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.887632497301
+tripadvisor	dbscan	log-tf-idf	macro_f	0.902059623092
+tripadvisor	dbscan	log-tf-idf	micro_p	0.977211796247
+tripadvisor	dbscan	log-tf-idf	macro_p	0.965655508513
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	22/44
+tripadvisor	dbscan	log-tf-idf	#new_outlier	71
+Outlier: Cover 73 of 183 total ground truth, and create 71 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.887632497301
+tripadvisor	dbscan	log-tf-idf	macro_f	0.902059623092
+tripadvisor	dbscan	log-tf-idf	micro_p	0.977211796247
+tripadvisor	dbscan	log-tf-idf	macro_p	0.965655508513
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	24/44
+tripadvisor	dbscan	log-tf-idf	#new_outlier	72
+Outlier: Cover 72 of 163 total ground truth, and create 72 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.88780894508
+tripadvisor	dbscan	log-tf-idf	macro_f	0.896083423983
+tripadvisor	dbscan	log-tf-idf	micro_p	0.969934640523
+tripadvisor	dbscan	log-tf-idf	macro_p	0.925163725164
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	26/44
+tripadvisor	dbscan	log-tf-idf	#new_outlier	73
+Outlier: Cover 71 of 146 total ground truth, and create 73 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.890107353376
+tripadvisor	dbscan	log-tf-idf	macro_f	0.904396750064
+tripadvisor	dbscan	log-tf-idf	micro_p	0.970550576184
+tripadvisor	dbscan	log-tf-idf	macro_p	0.931150627151
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	27/44
+tripadvisor	dbscan	log-tf-idf	#new_outlier	79
+Outlier: Cover 65 of 116 total ground truth, and create 79 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.891687325177
+tripadvisor	dbscan	log-tf-idf	macro_f	0.915209074994
+tripadvisor	dbscan	log-tf-idf	micro_p	0.971428571429
+tripadvisor	dbscan	log-tf-idf	macro_p	0.963877899878
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	28/44
+tripadvisor	dbscan	log-tf-idf	#new_outlier	79
+Outlier: Cover 65 of 112 total ground truth, and create 79 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.892222863743
+tripadvisor	dbscan	log-tf-idf	macro_f	0.918470264417
+tripadvisor	dbscan	log-tf-idf	micro_p	0.971569839308
+tripadvisor	dbscan	log-tf-idf	macro_p	0.965267211421
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	30/44
+tripadvisor	dbscan	log-tf-idf	#new_outlier	80
+Outlier: Cover 64 of 100 total ground truth, and create 80 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.893668654595
+tripadvisor	dbscan	log-tf-idf	macro_f	0.924293816959
+tripadvisor	dbscan	log-tf-idf	micro_p	0.971951219512
+tripadvisor	dbscan	log-tf-idf	macro_p	0.967748124891
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	30/44
+tripadvisor	dbscan	log-tf-idf	#new_outlier	80
+Outlier: Cover 64 of 100 total ground truth, and create 80 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.893668654595
+tripadvisor	dbscan	log-tf-idf	macro_f	0.924293816959
+tripadvisor	dbscan	log-tf-idf	micro_p	0.971951219512
+tripadvisor	dbscan	log-tf-idf	macro_p	0.967748124891
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	30/44
+tripadvisor	dbscan	log-tf-idf	#new_outlier	80
+Outlier: Cover 64 of 100 total ground truth, and create 80 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.893668654595
+tripadvisor	dbscan	log-tf-idf	macro_f	0.924293816959
+tripadvisor	dbscan	log-tf-idf	micro_p	0.971951219512
+tripadvisor	dbscan	log-tf-idf	macro_p	0.967748124891
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	31/44
+tripadvisor	dbscan	log-tf-idf	#new_outlier	80
+Outlier: Cover 64 of 100 total ground truth, and create 80 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.895266516399
+tripadvisor	dbscan	log-tf-idf	macro_f	0.918060125393
+tripadvisor	dbscan	log-tf-idf	micro_p	0.971951219512
+tripadvisor	dbscan	log-tf-idf	macro_p	0.940647092371
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	31/44
+tripadvisor	dbscan	log-tf-idf	#new_outlier	80
+Outlier: Cover 64 of 100 total ground truth, and create 80 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.900391663921
+tripadvisor	dbscan	log-tf-idf	macro_f	0.927832136382
+tripadvisor	dbscan	log-tf-idf	micro_p	0.976829268293
+tripadvisor	dbscan	log-tf-idf	macro_p	0.972751729708
+huffingtonpost	dbscan	log-tf-idf	#class/#cluster	0/4
+huffingtonpost	dbscan	log-tf-idf	#new_outlier	0
+Outlier: Cover 12 of 999 total ground truth, and create 0 outlier in prediction. huffingtonpost	dbscan	log-tf-idf	#class/#cluster	1/4
+huffingtonpost	dbscan	log-tf-idf	#new_outlier	4
+Outlier: Cover 8 of 566 total ground truth, and create 4 outlier in prediction. huffingtonpost	dbscan	log-tf-idf	micro_f	0.984615384615
+huffingtonpost	dbscan	log-tf-idf	macro_f	0.984615384615
+huffingtonpost	dbscan	log-tf-idf	micro_p	1.0
+huffingtonpost	dbscan	log-tf-idf	macro_p	1.0
+huffingtonpost	dbscan	log-tf-idf	#class/#cluster	2/4
+huffingtonpost	dbscan	log-tf-idf	#new_outlier	4
+Outlier: Cover 8 of 492 total ground truth, and create 4 outlier in prediction. huffingtonpost	dbscan	log-tf-idf	micro_f	0.810747151691
+huffingtonpost	dbscan	log-tf-idf	macro_f	0.583871614999
+huffingtonpost	dbscan	log-tf-idf	micro_p	0.852882703777
+huffingtonpost	dbscan	log-tf-idf	macro_p	0.5
+huffingtonpost	dbscan	log-tf-idf	#class/#cluster	2/16
+huffingtonpost	dbscan	log-tf-idf	#new_outlier	69
+Outlier: Cover 41 of 492 total ground truth, and create 69 outlier in prediction. huffingtonpost	dbscan	log-tf-idf	micro_f	0.894848472693
+huffingtonpost	dbscan	log-tf-idf	macro_f	0.836200585652
+huffingtonpost	dbscan	log-tf-idf	micro_p	1.0
+huffingtonpost	dbscan	log-tf-idf	macro_p	1.0
+huffingtonpost	dbscan	log-tf-idf	#class/#cluster	2/9
+huffingtonpost	dbscan	log-tf-idf	#new_outlier	17
+Outlier: Cover 13 of 492 total ground truth, and create 17 outlier in prediction. huffingtonpost	dbscan	log-tf-idf	micro_f	0.773666011255
+huffingtonpost	dbscan	log-tf-idf	macro_f	0.573089700997
+huffingtonpost	dbscan	log-tf-idf	micro_p	0.848979591837
+huffingtonpost	dbscan	log-tf-idf	macro_p	0.5
+asp	dbscan	log-tf-idf	#class/#cluster	8/12
+asp	dbscan	log-tf-idf	#new_outlier	37
+Outlier: Cover 0 of 5 total ground truth, and create 37 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.98541117161
+asp	dbscan	log-tf-idf	macro_f	0.992228888243
+asp	dbscan	log-tf-idf	micro_p	1.0
+asp	dbscan	log-tf-idf	macro_p	1.0
+douban	dbscan	log-tf-idf	#class/#cluster	21/28
+douban	dbscan	log-tf-idf	#new_outlier	16
+Outlier: Cover 24 of 30 total ground truth, and create 16 outlier in prediction. douban	dbscan	log-tf-idf	micro_f	0.93289967773
+douban	dbscan	log-tf-idf	macro_f	0.939065776802
+douban	dbscan	log-tf-idf	micro_p	0.969601677149
+douban	dbscan	log-tf-idf	macro_p	0.972789518323
+douban	dbscan	log-tf-idf	#class/#cluster	21/22
+douban	dbscan	log-tf-idf	#new_outlier	49
+Outlier: Cover 28 of 30 total ground truth, and create 49 outlier in prediction. douban	dbscan	log-tf-idf	micro_f	0.947761322158
+douban	dbscan	log-tf-idf	macro_f	0.959398874959
+douban	dbscan	log-tf-idf	micro_p	0.969598262758
+douban	dbscan	log-tf-idf	macro_p	0.974425619872
+douban	dbscan	log-tf-idf	#class/#cluster	21/2
+douban	dbscan	log-tf-idf	#new_outlier	695
+Outlier: Cover 30 of 30 total ground truth, and create 695 outlier in prediction. douban	dbscan	log-tf-idf	micro_f	1.0
+douban	dbscan	log-tf-idf	macro_f	1.0
+douban	dbscan	log-tf-idf	micro_p	1.0
+douban	dbscan	log-tf-idf	macro_p	1.0
+douban	dbscan	log-tf-idf	#class/#cluster	21/22
+douban	dbscan	log-tf-idf	#new_outlier	49
+Outlier: Cover 28 of 30 total ground truth, and create 49 outlier in prediction. douban	dbscan	log-tf-idf	micro_f	0.947761322158
+douban	dbscan	log-tf-idf	macro_f	0.959398874959
+douban	dbscan	log-tf-idf	micro_p	0.969598262758
+douban	dbscan	log-tf-idf	macro_p	0.974425619872
+douban	dbscan	log-tf-idf	#class/#cluster	21/28
+douban	dbscan	log-tf-idf	#new_outlier	16
+Outlier: Cover 24 of 30 total ground truth, and create 16 outlier in prediction. douban	dbscan	log-tf-idf	micro_f	0.93289967773
+douban	dbscan	log-tf-idf	macro_f	0.939065776802
+douban	dbscan	log-tf-idf	micro_p	0.969601677149
+douban	dbscan	log-tf-idf	macro_p	0.972789518323
+douban	dbscan	log-tf-idf	#class/#cluster	21/22
+douban	dbscan	log-tf-idf	#new_outlier	49
+Outlier: Cover 28 of 30 total ground truth, and create 49 outlier in prediction. douban	dbscan	log-tf-idf	micro_f	0.947761322158
+douban	dbscan	log-tf-idf	macro_f	0.959398874959
+douban	dbscan	log-tf-idf	micro_p	0.969598262758
+douban	dbscan	log-tf-idf	macro_p	0.974425619872
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	31/10
+tripadvisor	dbscan	log-tf-idf	#new_outlier	90
+Outlier: Cover 72 of 100 total ground truth, and create 90 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.451913045569
+tripadvisor	dbscan	log-tf-idf	macro_f	0.398340101754
+tripadvisor	dbscan	log-tf-idf	micro_p	0.495061728395
+tripadvisor	dbscan	log-tf-idf	macro_p	0.358444414814
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	31/10
+tripadvisor	dbscan	log-tf-idf	#new_outlier	90
+Outlier: Cover 72 of 100 total ground truth, and create 90 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.451913045569
+tripadvisor	dbscan	log-tf-idf	macro_f	0.398340101754
+tripadvisor	dbscan	log-tf-idf	micro_p	0.495061728395
+tripadvisor	dbscan	log-tf-idf	macro_p	0.358444414814
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	31/17
+tripadvisor	dbscan	log-tf-idf	#new_outlier	325
+Outlier: Cover 99 of 100 total ground truth, and create 325 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.879251298847
+tripadvisor	dbscan	log-tf-idf	macro_f	0.772776850882
+tripadvisor	dbscan	log-tf-idf	micro_p	0.975652173913
+tripadvisor	dbscan	log-tf-idf	macro_p	0.825701597253
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	31/22
+tripadvisor	dbscan	log-tf-idf	#new_outlier	188
+Outlier: Cover 92 of 100 total ground truth, and create 188 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.912778027798
+tripadvisor	dbscan	log-tf-idf	macro_f	0.852776152506
+tripadvisor	dbscan	log-tf-idf	micro_p	0.980337078652
+tripadvisor	dbscan	log-tf-idf	macro_p	0.885223052809
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	31/22
+tripadvisor	dbscan	log-tf-idf	#new_outlier	188
+Outlier: Cover 92 of 100 total ground truth, and create 188 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.912778027798
+tripadvisor	dbscan	log-tf-idf	macro_f	0.852776152506
+tripadvisor	dbscan	log-tf-idf	micro_p	0.980337078652
+tripadvisor	dbscan	log-tf-idf	macro_p	0.885223052809
+tripadvisor	dbscan	log-tf-idf	#class/#cluster	31/44
+tripadvisor	dbscan	log-tf-idf	#new_outlier	80
+Outlier: Cover 64 of 100 total ground truth, and create 80 outlier in prediction. tripadvisor	dbscan	log-tf-idf	micro_f	0.900391663921
+tripadvisor	dbscan	log-tf-idf	macro_f	0.927832136382
+tripadvisor	dbscan	log-tf-idf	micro_p	0.976829268293
+tripadvisor	dbscan	log-tf-idf	macro_p	0.972751729708
+photozo	dbscan	log-tf-idf	#class/#cluster	13/22
+photozo	dbscan	log-tf-idf	#new_outlier	8
+Outlier: Cover 18 of 102 total ground truth, and create 8 outlier in prediction. photozo	dbscan	log-tf-idf	micro_f	0.919571053787
+photozo	dbscan	log-tf-idf	macro_f	0.947276390285
+photozo	dbscan	log-tf-idf	micro_p	0.998876404494
+photozo	dbscan	log-tf-idf	macro_p	0.99925317401
+baidu	dbscan	log-tf-idf	#class/#cluster	23/33
+baidu	dbscan	log-tf-idf	#new_outlier	45
+Outlier: Cover 38 of 55 total ground truth, and create 45 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.866949652586
+baidu	dbscan	log-tf-idf	macro_f	0.946155782408
+baidu	dbscan	log-tf-idf	micro_p	0.996666666667
+baidu	dbscan	log-tf-idf	macro_p	0.999289267946
+baidu	dbscan	log-tf-idf	#class/#cluster	23/33
+baidu	dbscan	log-tf-idf	#new_outlier	45
+Outlier: Cover 38 of 55 total ground truth, and create 45 outlier in prediction. baidu	dbscan	log-tf-idf	micro_f	0.866949652586
+baidu	dbscan	log-tf-idf	macro_f	0.946155782408
+baidu	dbscan	log-tf-idf	micro_p	0.996666666667
+baidu	dbscan	log-tf-idf	macro_p	0.999289267946
+asp	dbscan	log-tf-idf	#class/#cluster	8/12
+asp	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 0 of 5 total ground truth, and create 13 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.988484490332
+asp	dbscan	log-tf-idf	macro_f	0.993571162487
+asp	dbscan	log-tf-idf	micro_p	1.0
+asp	dbscan	log-tf-idf	macro_p	1.0
+asp	dbscan	log-tf-idf	#class/#cluster	8/7
+asp	dbscan	log-tf-idf	#new_outlier	60
+Outlier: Cover 4 of 4 total ground truth, and create 60 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	1.0
+asp	dbscan	log-tf-idf	macro_f	1.0
+asp	dbscan	log-tf-idf	micro_p	1.0
+asp	dbscan	log-tf-idf	macro_p	1.0
+asp	dbscan	log-tf-idf	#class/#cluster	8/7
+asp	dbscan	log-tf-idf	#new_outlier	60
+Outlier: Cover 4 of 4 total ground truth, and create 60 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	1.0
+asp	dbscan	log-tf-idf	macro_f	1.0
+asp	dbscan	log-tf-idf	micro_p	1.0
+asp	dbscan	log-tf-idf	macro_p	1.0
+asp	dbscan	log-tf-idf	#class/#cluster	8/7
+asp	dbscan	log-tf-idf	#new_outlier	60
+Outlier: Cover 4 of 4 total ground truth, and create 60 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	1.0
+asp	dbscan	log-tf-idf	macro_f	1.0
+asp	dbscan	log-tf-idf	micro_p	1.0
+asp	dbscan	log-tf-idf	macro_p	1.0
+asp	dbscan	log-tf-idf	#class/#cluster	8/9
+asp	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 4 of 4 total ground truth, and create 13 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.988461538462
+asp	dbscan	log-tf-idf	macro_f	0.99375
+asp	dbscan	log-tf-idf	micro_p	1.0
+asp	dbscan	log-tf-idf	macro_p	1.0
+asp	dbscan	log-tf-idf	#class/#cluster	8/9
+asp	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 4 of 4 total ground truth, and create 13 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.988461538462
+asp	dbscan	log-tf-idf	macro_f	0.99375
+asp	dbscan	log-tf-idf	micro_p	1.0
+asp	dbscan	log-tf-idf	macro_p	1.0
+asp	dbscan	log-tf-idf	#class/#cluster	8/9
+asp	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 4 of 4 total ground truth, and create 13 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.988461538462
+asp	dbscan	log-tf-idf	macro_f	0.99375
+asp	dbscan	log-tf-idf	micro_p	1.0
+asp	dbscan	log-tf-idf	macro_p	1.0
+asp	dbscan	log-tf-idf	#class/#cluster	8/9
+asp	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 4 of 4 total ground truth, and create 13 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.988461538462
+asp	dbscan	log-tf-idf	macro_f	0.99375
+asp	dbscan	log-tf-idf	micro_p	1.0
+asp	dbscan	log-tf-idf	macro_p	1.0
+asp	dbscan	log-tf-idf	#class/#cluster	8/12
+asp	dbscan	log-tf-idf	#new_outlier	37
+Outlier: Cover 0 of 5 total ground truth, and create 37 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.98541117161
+asp	dbscan	log-tf-idf	macro_f	0.992228888243
+asp	dbscan	log-tf-idf	micro_p	1.0
+asp	dbscan	log-tf-idf	macro_p	1.0
+asp	dbscan	log-tf-idf	#class/#cluster	8/12
+asp	dbscan	log-tf-idf	#new_outlier	37
+Outlier: Cover 0 of 5 total ground truth, and create 37 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.98541117161
+asp	dbscan	log-tf-idf	macro_f	0.992228888243
+asp	dbscan	log-tf-idf	micro_p	1.0
+asp	dbscan	log-tf-idf	macro_p	1.0
+asp	dbscan	log-tf-idf	#class/#cluster	8/12
+asp	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 0 of 5 total ground truth, and create 13 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.988484490332
+asp	dbscan	log-tf-idf	macro_f	0.993571162487
+asp	dbscan	log-tf-idf	micro_p	1.0
+asp	dbscan	log-tf-idf	macro_p	1.0
+asp	dbscan	log-tf-idf	#class/#cluster	8/12
+asp	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 0 of 5 total ground truth, and create 13 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.988484490332
+asp	dbscan	log-tf-idf	macro_f	0.993571162487
+asp	dbscan	log-tf-idf	micro_p	1.0
+asp	dbscan	log-tf-idf	macro_p	1.0
+asp	dbscan	log-tf-idf	#class/#cluster	8/12
+asp	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 0 of 5 total ground truth, and create 13 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.988484490332
+asp	dbscan	log-tf-idf	macro_f	0.993571162487
+asp	dbscan	log-tf-idf	micro_p	1.0
+asp	dbscan	log-tf-idf	macro_p	1.0
+asp	dbscan	log-tf-idf	#class/#cluster	8/8
+asp	dbscan	log-tf-idf	#new_outlier	2
+Outlier: Cover 0 of 5 total ground truth, and create 2 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.901293427555
+asp	dbscan	log-tf-idf	macro_f	0.775364634755
+asp	dbscan	log-tf-idf	micro_p	0.921212121212
+asp	dbscan	log-tf-idf	macro_p	0.75
+stackexchange	dbscan	log-tf-idf	#class/#cluster	14/7
+stackexchange	dbscan	log-tf-idf	#new_outlier	0
+Outlier: Cover 0 of 24 total ground truth, and create 0 outlier in prediction. stackexchange	dbscan	log-tf-idf	micro_f	0.404372045806
+stackexchange	dbscan	log-tf-idf	macro_f	0.336241712373
+stackexchange	dbscan	log-tf-idf	micro_p	0.386483632524
+stackexchange	dbscan	log-tf-idf	macro_p	0.291017316017
+youtube	dbscan	log-tf-idf	#class/#cluster	3/3
+youtube	dbscan	log-tf-idf	#new_outlier	3
+Outlier: Cover 7 of 18 total ground truth, and create 3 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.587721862054
+youtube	dbscan	log-tf-idf	macro_f	0.464353128358
+youtube	dbscan	log-tf-idf	micro_p	0.560776302349
+youtube	dbscan	log-tf-idf	macro_p	0.360888888889
+youtube	dbscan	log-tf-idf	#class/#cluster	3/3
+youtube	dbscan	log-tf-idf	#new_outlier	3
+Outlier: Cover 7 of 18 total ground truth, and create 3 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.587319605428
+youtube	dbscan	log-tf-idf	macro_f	0.463872063105
+youtube	dbscan	log-tf-idf	micro_p	0.562118126273
+youtube	dbscan	log-tf-idf	macro_p	0.360888888889
+youtube	dbscan	log-tf-idf	#class/#cluster	3/12
+youtube	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 17 of 18 total ground truth, and create 13 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.897838261824
+youtube	dbscan	log-tf-idf	macro_f	0.910833853782
+youtube	dbscan	log-tf-idf	micro_p	0.992871690428
+youtube	dbscan	log-tf-idf	macro_p	0.992285259415
+asp	dbscan	log-tf-idf	#class/#cluster	8/12
+asp	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 0 of 5 total ground truth, and create 13 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.981766579845
+asp	dbscan	log-tf-idf	macro_f	0.99047196148
+asp	dbscan	log-tf-idf	micro_p	0.996975806452
+asp	dbscan	log-tf-idf	macro_p	0.997713414634
+douban	dbscan	log-tf-idf	#class/#cluster	21/28
+douban	dbscan	log-tf-idf	#new_outlier	15
+Outlier: Cover 24 of 30 total ground truth, and create 15 outlier in prediction. douban	dbscan	log-tf-idf	micro_f	0.9239208024
+douban	dbscan	log-tf-idf	macro_f	0.925948224755
+douban	dbscan	log-tf-idf	micro_p	0.960824742268
+douban	dbscan	log-tf-idf	macro_p	0.961723013373
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/20
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	27
+Outlier: Cover 21 of 31 total ground truth, and create 27 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.847065911818
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.792712546671
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.9391124871
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.784593684574
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/24
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	41
+Outlier: Cover 27 of 29 total ground truth, and create 41 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.762668525417
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.652183826956
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.932059447983
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.73866203757
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/24
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	41
+Outlier: Cover 27 of 29 total ground truth, and create 41 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.762668525417
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.652183826956
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.932059447983
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.73866203757
+asp	dbscan	log-tf-idf	#class/#cluster	8/10
+asp	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 0 of 5 total ground truth, and create 13 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.982078855924
+asp	dbscan	log-tf-idf	macro_f	0.98697759912
+asp	dbscan	log-tf-idf	micro_p	0.991886409736
+asp	dbscan	log-tf-idf	macro_p	0.985384615385
+asp	dbscan	log-tf-idf	#class/#cluster	8/10
+asp	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 0 of 5 total ground truth, and create 13 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.982078855924
+asp	dbscan	log-tf-idf	macro_f	0.98697759912
+asp	dbscan	log-tf-idf	micro_p	0.991886409736
+asp	dbscan	log-tf-idf	macro_p	0.985384615385
+hupu	dbscan	log-tf-idf	#class/#cluster	6/7
+hupu	dbscan	log-tf-idf	#new_outlier	15
+Outlier: Cover 6 of 26 total ground truth, and create 15 outlier in prediction. hupu	dbscan	log-tf-idf	micro_f	0.940579862452
+hupu	dbscan	log-tf-idf	macro_f	0.684058437678
+hupu	dbscan	log-tf-idf	micro_p	0.989451476793
+hupu	dbscan	log-tf-idf	macro_p	0.663120567376
+douban	dbscan	log-tf-idf	#class/#cluster	21/21
+douban	dbscan	log-tf-idf	#new_outlier	24
+Outlier: Cover 21 of 25 total ground truth, and create 24 outlier in prediction. douban	dbscan	log-tf-idf	micro_f	0.924699107148
+douban	dbscan	log-tf-idf	macro_f	0.852642028152
+douban	dbscan	log-tf-idf	micro_p	0.938818565401
+douban	dbscan	log-tf-idf	macro_p	0.841394404609
+youtube	dbscan	log-tf-idf	#class/#cluster	3/8
+youtube	dbscan	log-tf-idf	#new_outlier	12
+Outlier: Cover 13 of 13 total ground truth, and create 12 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.910446177174
+youtube	dbscan	log-tf-idf	macro_f	0.926197543798
+youtube	dbscan	log-tf-idf	micro_p	0.995893223819
+youtube	dbscan	log-tf-idf	macro_p	0.997333333333
+stackexchange	dbscan	log-tf-idf	#class/#cluster	13/15
+stackexchange	dbscan	log-tf-idf	#new_outlier	23
+Outlier: Cover 13 of 17 total ground truth, and create 23 outlier in prediction. stackexchange	dbscan	log-tf-idf	micro_f	0.926119198863
+stackexchange	dbscan	log-tf-idf	macro_f	0.882622351931
+stackexchange	dbscan	log-tf-idf	micro_p	0.952789699571
+stackexchange	dbscan	log-tf-idf	macro_p	0.925982507439
+asp	dbscan	log-tf-idf	#class/#cluster	8/10
+asp	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 0 of 5 total ground truth, and create 13 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.982078855924
+asp	dbscan	log-tf-idf	macro_f	0.98697759912
+asp	dbscan	log-tf-idf	micro_p	0.991886409736
+asp	dbscan	log-tf-idf	macro_p	0.985384615385
+youtube	dbscan	log-tf-idf	#class/#cluster	3/7
+youtube	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 13 of 13 total ground truth, and create 6 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.935016254803
+youtube	dbscan	log-tf-idf	macro_f	0.946547250951
+youtube	dbscan	log-tf-idf	micro_p	0.995893223819
+youtube	dbscan	log-tf-idf	macro_p	0.997333333333
+asp	dbscan	log-tf-idf	#class/#cluster	8/7
+asp	dbscan	log-tf-idf	#new_outlier	5
+Outlier: Cover 4 of 4 total ground truth, and create 5 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.967468593638
+asp	dbscan	log-tf-idf	macro_f	0.895974423728
+asp	dbscan	log-tf-idf	micro_p	0.969230769231
+asp	dbscan	log-tf-idf	macro_p	0.853466386555
+youtube	dbscan	log-tf-idf	#class/#cluster	3/9
+youtube	dbscan	log-tf-idf	#new_outlier	27
+Outlier: Cover 13 of 13 total ground truth, and create 27 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.728998408416
+youtube	dbscan	log-tf-idf	macro_f	0.791316697099
+youtube	dbscan	log-tf-idf	micro_p	1.0
+youtube	dbscan	log-tf-idf	macro_p	1.0
+douban	dbscan	log-tf-idf	#class/#cluster	18/15
+douban	dbscan	log-tf-idf	#new_outlier	17
+Outlier: Cover 15 of 18 total ground truth, and create 17 outlier in prediction. douban	dbscan	log-tf-idf	micro_f	0.90729745213
+douban	dbscan	log-tf-idf	macro_f	0.797386237398
+douban	dbscan	log-tf-idf	micro_p	0.900552486188
+douban	dbscan	log-tf-idf	macro_p	0.776587301587
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	13/12
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	32
+Outlier: Cover 25 of 26 total ground truth, and create 32 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.766505279987
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.487106954859
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.867816091954
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.503666458675
+hupu	dbscan	log-tf-idf	#class/#cluster	5/6
+hupu	dbscan	log-tf-idf	#new_outlier	6
+Outlier: Cover 5 of 20 total ground truth, and create 6 outlier in prediction. hupu	dbscan	log-tf-idf	micro_f	0.940088660833
+hupu	dbscan	log-tf-idf	macro_f	0.83298877073
+hupu	dbscan	log-tf-idf	micro_p	0.994444444444
+hupu	dbscan	log-tf-idf	macro_p	0.8
+stackexchange	dbscan	log-tf-idf	#class/#cluster	12/8
+stackexchange	dbscan	log-tf-idf	#new_outlier	27
+Outlier: Cover 13 of 16 total ground truth, and create 27 outlier in prediction. stackexchange	dbscan	log-tf-idf	micro_f	0.877182369058
+stackexchange	dbscan	log-tf-idf	macro_f	0.687801038214
+stackexchange	dbscan	log-tf-idf	micro_p	0.877777777778
+stackexchange	dbscan	log-tf-idf	macro_p	0.641896551724
+youtube	dbscan	log-tf-idf	#class/#cluster	3/9
+youtube	dbscan	log-tf-idf	#new_outlier	27
+Outlier: Cover 13 of 13 total ground truth, and create 27 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.728998408416
+youtube	dbscan	log-tf-idf	macro_f	0.791316697099
+youtube	dbscan	log-tf-idf	micro_p	1.0
+youtube	dbscan	log-tf-idf	macro_p	1.0
+douban	dbscan	log-tf-idf	#class/#cluster	18/15
+douban	dbscan	log-tf-idf	#new_outlier	17
+Outlier: Cover 15 of 18 total ground truth, and create 17 outlier in prediction. douban	dbscan	log-tf-idf	micro_f	0.90729745213
+douban	dbscan	log-tf-idf	macro_f	0.797386237398
+douban	dbscan	log-tf-idf	micro_p	0.900552486188
+douban	dbscan	log-tf-idf	macro_p	0.776587301587
+youtube	dbscan	log-tf-idf	#class/#cluster	3/8
+youtube	dbscan	log-tf-idf	#new_outlier	121
+Outlier: Cover 13 of 13 total ground truth, and create 121 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.533941631124
+youtube	dbscan	log-tf-idf	macro_f	0.521294319715
+youtube	dbscan	log-tf-idf	micro_p	0.732620320856
+youtube	dbscan	log-tf-idf	macro_p	0.694696969697
+youtube	dbscan	log-tf-idf	#class/#cluster	3/8
+youtube	dbscan	log-tf-idf	#new_outlier	24
+Outlier: Cover 13 of 13 total ground truth, and create 24 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.751896749102
+youtube	dbscan	log-tf-idf	macro_f	0.809384164223
+youtube	dbscan	log-tf-idf	micro_p	1.0
+youtube	dbscan	log-tf-idf	macro_p	1.0
+youtube	dbscan	log-tf-idf	#class/#cluster	3/6
+youtube	dbscan	log-tf-idf	#new_outlier	21
+Outlier: Cover 13 of 13 total ground truth, and create 21 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.824713472486
+youtube	dbscan	log-tf-idf	macro_f	0.866838709677
+youtube	dbscan	log-tf-idf	micro_p	1.0
+youtube	dbscan	log-tf-idf	macro_p	1.0
+youtube	dbscan	log-tf-idf	#class/#cluster	3/7
+youtube	dbscan	log-tf-idf	#new_outlier	21
+Outlier: Cover 13 of 13 total ground truth, and create 21 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.788201383268
+youtube	dbscan	log-tf-idf	macro_f	0.838029592868
+youtube	dbscan	log-tf-idf	micro_p	1.0
+youtube	dbscan	log-tf-idf	macro_p	1.0
+youtube	dbscan	log-tf-idf	#class/#cluster	3/8
+youtube	dbscan	log-tf-idf	#new_outlier	53
+Outlier: Cover 13 of 13 total ground truth, and create 53 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.694074862777
+youtube	dbscan	log-tf-idf	macro_f	0.766884471609
+youtube	dbscan	log-tf-idf	micro_p	0.967914438503
+youtube	dbscan	log-tf-idf	macro_p	0.964393939394
+asp	dbscan	log-tf-idf	#class/#cluster	8/8
+asp	dbscan	log-tf-idf	#new_outlier	3
+Outlier: Cover 0 of 4 total ground truth, and create 3 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.972919465892
+asp	dbscan	log-tf-idf	macro_f	0.906826738889
+asp	dbscan	log-tf-idf	micro_p	0.974358974359
+asp	dbscan	log-tf-idf	macro_p	0.871323529412
+asp	dbscan	log-tf-idf	#class/#cluster	8/8
+asp	dbscan	log-tf-idf	#new_outlier	2
+Outlier: Cover 0 of 4 total ground truth, and create 2 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.975557767761
+asp	dbscan	log-tf-idf	macro_f	0.908040108852
+asp	dbscan	log-tf-idf	micro_p	0.974358974359
+asp	dbscan	log-tf-idf	macro_p	0.872641509434
+asp	dbscan	log-tf-idf	#class/#cluster	8/8
+asp	dbscan	log-tf-idf	#new_outlier	3
+Outlier: Cover 0 of 4 total ground truth, and create 3 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.972919465892
+asp	dbscan	log-tf-idf	macro_f	0.906826738889
+asp	dbscan	log-tf-idf	micro_p	0.974358974359
+asp	dbscan	log-tf-idf	macro_p	0.871323529412
+asp	dbscan	log-tf-idf	#class/#cluster	8/8
+asp	dbscan	log-tf-idf	#new_outlier	1
+Outlier: Cover 0 of 4 total ground truth, and create 1 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.978160140513
+asp	dbscan	log-tf-idf	macro_f	0.909905780494
+asp	dbscan	log-tf-idf	micro_p	0.979487179487
+asp	dbscan	log-tf-idf	macro_p	0.875
+youtube	dbscan	log-tf-idf	#class/#cluster	3/8
+youtube	dbscan	log-tf-idf	#new_outlier	24
+Outlier: Cover 13 of 13 total ground truth, and create 24 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.751896749102
+youtube	dbscan	log-tf-idf	macro_f	0.809384164223
+youtube	dbscan	log-tf-idf	micro_p	1.0
+youtube	dbscan	log-tf-idf	macro_p	1.0
+youtube	dbscan	log-tf-idf	#class/#cluster	3/8
+youtube	dbscan	log-tf-idf	#new_outlier	121
+Outlier: Cover 13 of 13 total ground truth, and create 121 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.533941631124
+youtube	dbscan	log-tf-idf	macro_f	0.521294319715
+youtube	dbscan	log-tf-idf	micro_p	0.732620320856
+youtube	dbscan	log-tf-idf	macro_p	0.694696969697
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	13/14
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	40
+Outlier: Cover 25 of 26 total ground truth, and create 40 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.569279701
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.423986513442
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.827586206897
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.470190675199
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	13/12
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	32
+Outlier: Cover 25 of 26 total ground truth, and create 32 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.766505279987
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.487106954859
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.867816091954
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.503666458675
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	13/14
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	40
+Outlier: Cover 25 of 26 total ground truth, and create 40 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.569279701
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.423986513442
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.827586206897
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.470190675199
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	13/14
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	40
+Outlier: Cover 25 of 26 total ground truth, and create 40 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.569279701
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.423986513442
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.827586206897
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.470190675199
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	13/14
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	40
+Outlier: Cover 25 of 26 total ground truth, and create 40 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.569279701
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.423986513442
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.827586206897
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.470190675199
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	13/13
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	35
+Outlier: Cover 25 of 26 total ground truth, and create 35 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.680791275233
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.458797285012
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.85632183908
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.497968452977
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	13/13
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	35
+Outlier: Cover 25 of 26 total ground truth, and create 35 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.680791275233
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.458797285012
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.85632183908
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.497968452977
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	13/13
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	35
+Outlier: Cover 25 of 26 total ground truth, and create 35 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.680791275233
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.458797285012
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.85632183908
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.497968452977
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/15
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.706299426505
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.691908230784
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.717622080679
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.610137173173
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/20
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	27
+Outlier: Cover 21 of 31 total ground truth, and create 27 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.847065911818
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.792712546671
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.9391124871
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.784593684574
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/20
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	27
+Outlier: Cover 21 of 31 total ground truth, and create 27 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.847065911818
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.792712546671
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.9391124871
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.784593684574
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/20
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	27
+Outlier: Cover 21 of 31 total ground truth, and create 27 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.847065911818
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.792712546671
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.9391124871
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.784593684574
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/15
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.706299426505
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.691908230784
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.717622080679
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.610137173173
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.837094996187
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.733142495484
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.870488322718
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.676071239107
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/24
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	41
+Outlier: Cover 27 of 29 total ground truth, and create 41 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.762668525417
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.652183826956
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.932059447983
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.73866203757
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.837094996187
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.733142495484
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.870488322718
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.676071239107
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.837094996187
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.733142495484
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.870488322718
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.676071239107
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.837094996187
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.733142495484
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.870488322718
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.676071239107
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.837094996187
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.733142495484
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.870488322718
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.676071239107
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.837094996187
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.733142495484
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.870488322718
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.676071239107
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.837094996187
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.733142495484
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.870488322718
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.676071239107
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.837094996187
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.733142495484
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.870488322718
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.676071239107
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	13/12
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	32
+Outlier: Cover 25 of 26 total ground truth, and create 32 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.766505279987
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.487106954859
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.867816091954
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.503666458675
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	13/4
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	40
+Outlier: Cover 24 of 24 total ground truth, and create 40 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.476175745262
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.237655304428
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.578947368421
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.213806706114
+youtube	dbscan	log-tf-idf	#class/#cluster	3/6
+youtube	dbscan	log-tf-idf	#new_outlier	37
+Outlier: Cover 7 of 7 total ground truth, and create 37 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.784406918783
+youtube	dbscan	log-tf-idf	macro_f	0.823069077864
+youtube	dbscan	log-tf-idf	micro_p	0.967741935484
+youtube	dbscan	log-tf-idf	macro_p	0.946296296296
+youtube	dbscan	log-tf-idf	#class/#cluster	3/8
+youtube	dbscan	log-tf-idf	#new_outlier	53
+Outlier: Cover 13 of 13 total ground truth, and create 53 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.694074862777
+youtube	dbscan	log-tf-idf	macro_f	0.766884471609
+youtube	dbscan	log-tf-idf	micro_p	0.967914438503
+youtube	dbscan	log-tf-idf	macro_p	0.964393939394
+youtube	dbscan	log-tf-idf	#class/#cluster	3/6
+youtube	dbscan	log-tf-idf	#new_outlier	37
+Outlier: Cover 7 of 7 total ground truth, and create 37 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.784406918783
+youtube	dbscan	log-tf-idf	macro_f	0.823069077864
+youtube	dbscan	log-tf-idf	micro_p	0.967741935484
+youtube	dbscan	log-tf-idf	macro_p	0.946296296296
+stackexchange	dbscan	log-tf-idf	#class/#cluster	12/4
+stackexchange	dbscan	log-tf-idf	#new_outlier	17
+Outlier: Cover 10 of 12 total ground truth, and create 17 outlier in prediction. stackexchange	dbscan	log-tf-idf	micro_f	0.799154863904
+stackexchange	dbscan	log-tf-idf	macro_f	0.374143692565
+stackexchange	dbscan	log-tf-idf	micro_p	0.825581395349
+stackexchange	dbscan	log-tf-idf	macro_p	0.322916666667
+stackexchange	dbscan	log-tf-idf	#class/#cluster	12/4
+stackexchange	dbscan	log-tf-idf	#new_outlier	17
+Outlier: Cover 10 of 12 total ground truth, and create 17 outlier in prediction. stackexchange	dbscan	log-tf-idf	micro_f	0.799154863904
+stackexchange	dbscan	log-tf-idf	macro_f	0.374143692565
+stackexchange	dbscan	log-tf-idf	micro_p	0.825581395349
+stackexchange	dbscan	log-tf-idf	macro_p	0.322916666667
+asp	dbscan	log-tf-idf	#class/#cluster	8/10
+asp	dbscan	log-tf-idf	#new_outlier	13
+Outlier: Cover 0 of 5 total ground truth, and create 13 outlier in prediction. asp	dbscan	log-tf-idf	micro_f	0.982078855924
+asp	dbscan	log-tf-idf	macro_f	0.98697759912
+asp	dbscan	log-tf-idf	micro_p	0.991886409736
+asp	dbscan	log-tf-idf	macro_p	0.985384615385
+youtube	dbscan	log-tf-idf	#class/#cluster	3/9
+youtube	dbscan	log-tf-idf	#new_outlier	12
+Outlier: Cover 13 of 13 total ground truth, and create 12 outlier in prediction. youtube	dbscan	log-tf-idf	micro_f	0.902718160551
+youtube	dbscan	log-tf-idf	macro_f	0.919796958602
+youtube	dbscan	log-tf-idf	micro_p	0.995893223819
+youtube	dbscan	log-tf-idf	macro_p	0.997333333333
+douban	dbscan	log-tf-idf	#class/#cluster	21/21
+douban	dbscan	log-tf-idf	#new_outlier	31
+Outlier: Cover 21 of 25 total ground truth, and create 31 outlier in prediction. douban	dbscan	log-tf-idf	micro_f	0.921023997754
+douban	dbscan	log-tf-idf	macro_f	0.84526409692
+douban	dbscan	log-tf-idf	micro_p	0.930379746835
+douban	dbscan	log-tf-idf	macro_p	0.836943761873
+stackexchange	dbscan	log-tf-idf	#class/#cluster	13/15
+stackexchange	dbscan	log-tf-idf	#new_outlier	23
+Outlier: Cover 13 of 17 total ground truth, and create 23 outlier in prediction. stackexchange	dbscan	log-tf-idf	micro_f	0.926119198863
+stackexchange	dbscan	log-tf-idf	macro_f	0.882622351931
+stackexchange	dbscan	log-tf-idf	micro_p	0.952789699571
+stackexchange	dbscan	log-tf-idf	macro_p	0.925982507439
+douban	dbscan	log-tf-idf	#class/#cluster	21/21
+douban	dbscan	log-tf-idf	#new_outlier	31
+Outlier: Cover 21 of 25 total ground truth, and create 31 outlier in prediction. douban	dbscan	log-tf-idf	micro_f	0.921023997754
+douban	dbscan	log-tf-idf	macro_f	0.84526409692
+douban	dbscan	log-tf-idf	micro_p	0.930379746835
+douban	dbscan	log-tf-idf	macro_p	0.836943761873
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.837094996187
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.733142495484
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.870488322718
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.676071239107
+hupu	dbscan	log-tf-idf	#class/#cluster	6/7
+hupu	dbscan	log-tf-idf	#new_outlier	26
+Outlier: Cover 6 of 26 total ground truth, and create 26 outlier in prediction. hupu	dbscan	log-tf-idf	micro_f	0.927556767012
+hupu	dbscan	log-tf-idf	macro_f	0.663391733394
+hupu	dbscan	log-tf-idf	micro_p	0.987341772152
+hupu	dbscan	log-tf-idf	macro_p	0.661938534279
+rottentomatoes	DBSCAN	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	DBSCAN	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	DBSCAN	log-tf-idf	micro_f	0.837094996187
+rottentomatoes	DBSCAN	log-tf-idf	macro_f	0.733142495484
+rottentomatoes	DBSCAN	log-tf-idf	micro_p	0.870488322718
+rottentomatoes	DBSCAN	log-tf-idf	macro_p	0.676071239107
+rottentomatoes	DBSCAN	log-tf-idf	#class/#cluster	14/19
+rottentomatoes	DBSCAN	log-tf-idf	#new_outlier	35
+Outlier: Cover 27 of 29 total ground truth, and create 35 outlier in prediction. rottentomatoes	DBSCAN	log-tf-idf	micro_f	0.844062207999
+rottentomatoes	DBSCAN	log-tf-idf	macro_f	0.71926618994
+rottentomatoes	DBSCAN	log-tf-idf	micro_p	0.915074309979
+rottentomatoes	DBSCAN	log-tf-idf	macro_p	0.700479857495
+rottentomatoes	DBSCAN	log-tf-idf	#class/#cluster	14/25
+rottentomatoes	DBSCAN	log-tf-idf	#new_outlier	45
+Outlier: Cover 27 of 29 total ground truth, and create 45 outlier in prediction. rottentomatoes	DBSCAN	log-tf-idf	micro_f	0.758381370062
+rottentomatoes	DBSCAN	log-tf-idf	macro_f	0.645993121951
+rottentomatoes	DBSCAN	log-tf-idf	micro_p	0.923566878981
+rottentomatoes	DBSCAN	log-tf-idf	macro_p	0.733703599944
+rottentomatoes	DBSCAN	log-tf-idf	#class/#cluster	14/22
+rottentomatoes	DBSCAN	log-tf-idf	#new_outlier	35
+Outlier: Cover 27 of 29 total ground truth, and create 35 outlier in prediction. rottentomatoes	DBSCAN	log-tf-idf	micro_f	0.825982052811
+rottentomatoes	DBSCAN	log-tf-idf	macro_f	0.709630055815
+rottentomatoes	DBSCAN	log-tf-idf	micro_p	0.938428874735
+rottentomatoes	DBSCAN	log-tf-idf	macro_p	0.724289381304
+rottentomatoes	DBSCAN	log-tf-idf	#class/#cluster	14/17
+rottentomatoes	DBSCAN	log-tf-idf	#new_outlier	34
+Outlier: Cover 27 of 29 total ground truth, and create 34 outlier in prediction. rottentomatoes	DBSCAN	log-tf-idf	micro_f	0.826603590649
+rottentomatoes	DBSCAN	log-tf-idf	macro_f	0.710369194818
+rottentomatoes	DBSCAN	log-tf-idf	micro_p	0.861995753715
+rottentomatoes	DBSCAN	log-tf-idf	macro_p	0.669918610832
+hupu	dbscan	log-tf-idf	#class/#cluster	6/7
+hupu	dbscan	log-tf-idf	#new_outlier	18
+Outlier: Cover 6 of 26 total ground truth, and create 18 outlier in prediction. hupu	dbscan	log-tf-idf	micro_f	0.937086674337
+hupu	dbscan	log-tf-idf	macro_f	0.676602021536
+hupu	dbscan	log-tf-idf	micro_p	0.989451476793
+hupu	dbscan	log-tf-idf	macro_p	0.663120567376
+hupu	dbscan	log-tf-idf	#class/#cluster	6/7
+hupu	dbscan	log-tf-idf	#new_outlier	26
+Outlier: Cover 6 of 26 total ground truth, and create 26 outlier in prediction. hupu	dbscan	log-tf-idf	micro_f	0.927556767012
+hupu	dbscan	log-tf-idf	macro_f	0.663391733394
+hupu	dbscan	log-tf-idf	micro_p	0.987341772152
+hupu	dbscan	log-tf-idf	macro_p	0.661938534279
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.837094996187
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.733142495484
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.870488322718
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.676071239107
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/24
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	44
+Outlier: Cover 27 of 29 total ground truth, and create 44 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.760788862162
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.647828446831
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.925690021231
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.734371545453
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.837094996187
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.733142495484
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.870488322718
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.676071239107
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	31
+Outlier: Cover 20 of 29 total ground truth, and create 31 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.835426266434
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.7288339957
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.868365180467
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.671869558435
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	31
+Outlier: Cover 20 of 29 total ground truth, and create 31 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.835426266434
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.7288339957
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.868365180467
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.671869558435
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	31
+Outlier: Cover 20 of 29 total ground truth, and create 31 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.835426266434
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.7288339957
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.868365180467
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.671869558435
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	31
+Outlier: Cover 20 of 29 total ground truth, and create 31 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.835426266434
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.7288339957
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.868365180467
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.671869558435
+rottentomatoes	DBSCAN	log-tf-idf	#class/#cluster	13/17
+rottentomatoes	DBSCAN	log-tf-idf	#new_outlier	33
+Outlier: Cover 13 of 17 total ground truth, and create 33 outlier in prediction. rottentomatoes	DBSCAN	log-tf-idf	micro_f	0.904215249504
+rottentomatoes	DBSCAN	log-tf-idf	macro_f	0.852981508446
+rottentomatoes	DBSCAN	log-tf-idf	micro_p	0.931330472103
+rottentomatoes	DBSCAN	log-tf-idf	macro_p	0.874046118484
+rottentomatoes	DBSCAN	log-tf-idf	#class/#cluster	13/15
+rottentomatoes	DBSCAN	log-tf-idf	#new_outlier	23
+Outlier: Cover 13 of 17 total ground truth, and create 23 outlier in prediction. rottentomatoes	DBSCAN	log-tf-idf	micro_f	0.926119198863
+rottentomatoes	DBSCAN	log-tf-idf	macro_f	0.882622351931
+rottentomatoes	DBSCAN	log-tf-idf	micro_p	0.952789699571
+rottentomatoes	DBSCAN	log-tf-idf	macro_p	0.925982507439
+rottentomatoes	DBSCAN	log-tf-idf	#class/#cluster	14/19
+rottentomatoes	DBSCAN	log-tf-idf	#new_outlier	35
+Outlier: Cover 27 of 29 total ground truth, and create 35 outlier in prediction. rottentomatoes	DBSCAN	log-tf-idf	micro_f	0.844062207999
+rottentomatoes	DBSCAN	log-tf-idf	macro_f	0.71926618994
+rottentomatoes	DBSCAN	log-tf-idf	micro_p	0.915074309979
+rottentomatoes	DBSCAN	log-tf-idf	macro_p	0.700479857495
+rottentomatoes	DBSCAN	log-tf-idf	#class/#cluster	14/17
+rottentomatoes	DBSCAN	log-tf-idf	#new_outlier	34
+Outlier: Cover 27 of 29 total ground truth, and create 34 outlier in prediction. rottentomatoes	DBSCAN	log-tf-idf	micro_f	0.826603590649
+rottentomatoes	DBSCAN	log-tf-idf	macro_f	0.710369194818
+rottentomatoes	DBSCAN	log-tf-idf	micro_p	0.861995753715
+rottentomatoes	DBSCAN	log-tf-idf	macro_p	0.669918610832
+rottentomatoes	DBSCAN	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	DBSCAN	log-tf-idf	#new_outlier	31
+Outlier: Cover 22 of 29 total ground truth, and create 31 outlier in prediction. rottentomatoes	DBSCAN	log-tf-idf	micro_f	0.835426266434
+rottentomatoes	DBSCAN	log-tf-idf	macro_f	0.7288339957
+rottentomatoes	DBSCAN	log-tf-idf	micro_p	0.868365180467
+rottentomatoes	DBSCAN	log-tf-idf	macro_p	0.671869558435
+rottentomatoes	DBSCAN	log-tf-idf	#class/#cluster	14/19
+rottentomatoes	DBSCAN	log-tf-idf	#new_outlier	35
+Outlier: Cover 27 of 29 total ground truth, and create 35 outlier in prediction. rottentomatoes	DBSCAN	log-tf-idf	micro_f	0.844062207999
+rottentomatoes	DBSCAN	log-tf-idf	macro_f	0.71926618994
+rottentomatoes	DBSCAN	log-tf-idf	micro_p	0.915074309979
+rottentomatoes	DBSCAN	log-tf-idf	macro_p	0.700479857495
+rottentomatoes	DBSCAN	log-tf-idf	#class/#cluster	14/25
+rottentomatoes	DBSCAN	log-tf-idf	#new_outlier	43
+Outlier: Cover 27 of 29 total ground truth, and create 43 outlier in prediction. rottentomatoes	DBSCAN	log-tf-idf	micro_f	0.762490566529
+rottentomatoes	DBSCAN	log-tf-idf	macro_f	0.650701159116
+rottentomatoes	DBSCAN	log-tf-idf	micro_p	0.927813163482
+rottentomatoes	DBSCAN	log-tf-idf	macro_p	0.737626840883
+rottentomatoes	DBSCAN	log-tf-idf	#class/#cluster	14/25
+rottentomatoes	DBSCAN	log-tf-idf	#new_outlier	43
+Outlier: Cover 27 of 29 total ground truth, and create 43 outlier in prediction. rottentomatoes	DBSCAN	log-tf-idf	micro_f	0.762490566529
+rottentomatoes	DBSCAN	log-tf-idf	macro_f	0.650701159116
+rottentomatoes	DBSCAN	log-tf-idf	micro_p	0.927813163482
+rottentomatoes	DBSCAN	log-tf-idf	macro_p	0.737626840883
+rottentomatoes	DBSCAN	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	DBSCAN	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	DBSCAN	log-tf-idf	micro_f	0.837094996187
+rottentomatoes	DBSCAN	log-tf-idf	macro_f	0.733142495484
+rottentomatoes	DBSCAN	log-tf-idf	micro_p	0.870488322718
+rottentomatoes	DBSCAN	log-tf-idf	macro_p	0.676071239107
+rottentomatoes	DBSCAN	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	DBSCAN	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	DBSCAN	log-tf-idf	micro_f	0.837094996187
+rottentomatoes	DBSCAN	log-tf-idf	macro_f	0.733142495484
+rottentomatoes	DBSCAN	log-tf-idf	micro_p	0.870488322718
+rottentomatoes	DBSCAN	log-tf-idf	macro_p	0.676071239107
+youtube	DBSCAN	log-tf-idf	#class/#cluster	3/0
+youtube	DBSCAN	log-tf-idf	#new_outlier	0
+Outlier: Cover 0 of 13 total ground truth, and create 0 outlier in prediction. youtube	DBSCAN	log-tf-idf	micro_f	0.592332411548
+youtube	DBSCAN	log-tf-idf	macro_f	0.469222529484
+youtube	DBSCAN	log-tf-idf	micro_p	0.513347022587
+youtube	DBSCAN	log-tf-idf	macro_p	0.333333333333
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	30
+Outlier: Cover 22 of 29 total ground truth, and create 30 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.837094996187
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.733142495484
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.870488322718
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.676071239107
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	31
+Outlier: Cover 20 of 29 total ground truth, and create 31 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.835426266434
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.7288339957
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.868365180467
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.671869558435
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	31
+Outlier: Cover 20 of 29 total ground truth, and create 31 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.835426266434
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.7288339957
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.868365180467
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.671869558435
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	31
+Outlier: Cover 20 of 29 total ground truth, and create 31 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.835426266434
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.7288339957
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.868365180467
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.671869558435
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	31
+Outlier: Cover 20 of 29 total ground truth, and create 31 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.835426266434
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.7288339957
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.868365180467
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.671869558435
+stackexchange	DBSCAN	log-tf-idf	#class/#cluster	12/0
+stackexchange	DBSCAN	log-tf-idf	#new_outlier	0
+Outlier: Cover 0 of 12 total ground truth, and create 0 outlier in prediction. stackexchange	DBSCAN	log-tf-idf	micro_f	0.417736157134
+stackexchange	DBSCAN	log-tf-idf	macro_f	0.131855320239
+stackexchange	DBSCAN	log-tf-idf	micro_p	0.46511627907
+stackexchange	DBSCAN	log-tf-idf	macro_p	0.0833333333333
+stackexchange	DBSCAN	log-tf-idf	#class/#cluster	12/3
+stackexchange	DBSCAN	log-tf-idf	#new_outlier	16
+Outlier: Cover 10 of 12 total ground truth, and create 16 outlier in prediction. stackexchange	DBSCAN	log-tf-idf	micro_f	0.839213696047
+stackexchange	DBSCAN	log-tf-idf	macro_f	0.388369956455
+stackexchange	DBSCAN	log-tf-idf	micro_p	0.837209302326
+stackexchange	DBSCAN	log-tf-idf	macro_p	0.325
+stackexchange	DBSCAN	log-tf-idf	#class/#cluster	12/4
+stackexchange	DBSCAN	log-tf-idf	#new_outlier	19
+Outlier: Cover 10 of 12 total ground truth, and create 19 outlier in prediction. stackexchange	DBSCAN	log-tf-idf	micro_f	0.781042220928
+stackexchange	DBSCAN	log-tf-idf	macro_f	0.358792826527
+stackexchange	DBSCAN	log-tf-idf	micro_p	0.802325581395
+stackexchange	DBSCAN	log-tf-idf	macro_p	0.31875
+rottentomatoes	dbscan	log-tf-idf	#class/#cluster	14/16
+rottentomatoes	dbscan	log-tf-idf	#new_outlier	31
+Outlier: Cover 20 of 29 total ground truth, and create 31 outlier in prediction. rottentomatoes	dbscan	log-tf-idf	micro_f	0.835426266434
+rottentomatoes	dbscan	log-tf-idf	macro_f	0.7288339957
+rottentomatoes	dbscan	log-tf-idf	micro_p	0.868365180467
+rottentomatoes	dbscan	log-tf-idf	macro_p	0.671869558435
+hupu	DBSCAN	log-tf-idf	#class/#cluster	12/4
+hupu	DBSCAN	log-tf-idf	#new_outlier	17
+Outlier: Cover 10 of 12 total ground truth, and create 17 outlier in prediction. hupu	DBSCAN	log-tf-idf	micro_f	0.799154863904
+hupu	DBSCAN	log-tf-idf	macro_f	0.374143692565
+hupu	DBSCAN	log-tf-idf	micro_p	0.825581395349
+hupu	DBSCAN	log-tf-idf	macro_p	0.322916666667
+hupu	DBSCAN	log-tf-idf	#class/#cluster	4/4
+hupu	DBSCAN	log-tf-idf	#new_outlier	7
+Outlier: Cover 2 of 13 total ground truth, and create 7 outlier in prediction. hupu	DBSCAN	log-tf-idf	micro_f	0.957497654234
+hupu	DBSCAN	log-tf-idf	macro_f	0.979272959184
+hupu	DBSCAN	log-tf-idf	micro_p	0.988505747126
+hupu	DBSCAN	log-tf-idf	macro_p	0.99
+asp	DBSCAN	log-tf-idf	#class/#cluster	8/4
+asp	DBSCAN	log-tf-idf	#new_outlier	37
+Outlier: Cover 4 of 4 total ground truth, and create 37 outlier in prediction. asp	DBSCAN	log-tf-idf	micro_f	0.826406725396
+asp	DBSCAN	log-tf-idf	macro_f	0.637929447717
+asp	DBSCAN	log-tf-idf	micro_p	0.84375
+asp	DBSCAN	log-tf-idf	macro_p	0.595238095238
+youtube	DBSCAN	log-tf-idf	#class/#cluster	3/8
+youtube	DBSCAN	log-tf-idf	#new_outlier	24
+Outlier: Cover 13 of 13 total ground truth, and create 24 outlier in prediction. youtube	DBSCAN	log-tf-idf	micro_f	0.751896749102
+youtube	DBSCAN	log-tf-idf	macro_f	0.809384164223
+youtube	DBSCAN	log-tf-idf	micro_p	1.0
+youtube	DBSCAN	log-tf-idf	macro_p	1.0

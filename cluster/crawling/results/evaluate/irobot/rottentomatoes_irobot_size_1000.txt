@@ -1,0 +1,3 @@
+http://www.rottentomatoes.com		-1
+http://www.rottentomatoes.com/browse/tv-list-1/	http://www.rottentomatoes.com	0
+http://www.rottentomatoes.com/browse/tv-list-2/	http://www.rottentomatoes.com	0

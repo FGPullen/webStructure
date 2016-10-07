@@ -1,0 +1,20 @@
+http://android.stackexchange.com/questions			500	7
+http://android.stackexchange.com/questions?sort=featured	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/a[]')	0.208265309354	7
+http://android.stackexchange.com/questions?sort=frequent	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/a[]')	0.208265309354	7
+http://android.stackexchange.com/questions?sort=votes	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/a[]')	0.208265309354	7
+http://android.stackexchange.com/questions?sort=active	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/a[]')	0.208265309354	8
+http://android.stackexchange.com/questions?sort=newest	http://android.stackexchange.com/questions?sort=active	(8, '/html/body/div/div/div/div/div/a[]')	0.219067212513	7
+http://android.stackexchange.com/questions?sort=unanswered	http://android.stackexchange.com/questions?sort=active	(8, '/html/body/div/div/div/div/div/a[]')	0.219067212513	7
+http://android.stackexchange.com/questions/144561/caller-id-not-displaying-after-android-6-update	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/h3/a[question-hyperlink]')	0.109856934959	1
+http://android.stackexchange.com/users/165088/user165088	http://android.stackexchange.com/questions/144561/caller-id-not-displaying-after-android-6-update	(1, '/html/body/div/div/div/div/div/table/tr/td/div/table/tr/td/div/div/a[]')	0.172490888213	15
+http://android.stackexchange.com/posts/144579/revisions	http://android.stackexchange.com/questions/144561/caller-id-not-displaying-after-android-6-update	(1, '/html/body/div/div/div/div/div/div/table/tr/td/table/tr/td/div/div/a[]')	0.172490888213	6
+http://android.stackexchange.com/users/79619/lyricwulf	http://android.stackexchange.com/questions/144561/caller-id-not-displaying-after-android-6-update	(1, '/html/body/div/div/div/div/div/div/table/tr/td/table/tr/td/div/div/a[]')	0.172490888213	15
+http://android.stackexchange.com/users/165124/4jean	http://android.stackexchange.com/questions/144561/caller-id-not-displaying-after-android-6-update	(1, '/html/body/div/div/div/div/div/div/table/tr/td/table/tr/td/div/div/a[]')	0.172490888213	15
+http://android.stackexchange.com/questions/144559/use-windows-microphone-to-mobile-calls-handsfree-profile	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/h3/a[question-hyperlink]')	0.109856934959	1
+http://android.stackexchange.com/users/165082/gall-annonim	http://android.stackexchange.com/questions/144559/use-windows-microphone-to-mobile-calls-handsfree-profile	(1, '/html/body/div/div/div/div/div/table/tr/td/div/table/tr/td/div/div/a[]')	0.166943221276	15
+http://android.stackexchange.com/questions/144558/how-to-undo-wiping-userdata	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/h3/a[question-hyperlink]')	0.109856934959	1
+http://android.stackexchange.com/posts/144558/revisions	http://android.stackexchange.com/questions/144558/how-to-undo-wiping-userdata	(1, '/html/body/div/div/div/div/div/table/tr/td/div/table/tr/td/div/div/a[]')	0.165348721842	6
+http://android.stackexchange.com/users/15789/mark-jeronimus	http://android.stackexchange.com/questions/144558/how-to-undo-wiping-userdata	(1, '/html/body/div/div/div/div/div/table/tr/td/div/table/tr/td/div/div/a[]')	0.165348721842	15
+http://android.stackexchange.com/questions/144551/why-does-my-downloaded-mp3-files-need-to-be-unziped	http://android.stackexchange.com/questions	(7, '/html/body/div/div/div/div/div/div/h3/a[question-hyperlink]')	0.109856934959	1
+http://android.stackexchange.com/users/165078/vicky	http://android.stackexchange.com/questions/144551/why-does-my-downloaded-mp3-files-need-to-be-unziped	(1, '/html/body/div/div/div/div/div/table/tr/td/div/table/tr/td/div/div/a[]')	0.164162929212	15
+http://android.stackexchange.com/users/161975/me-bender	http://android.stackexchange.com/questions/144551/why-does-my-downloaded-mp3-files-need-to-be-unziped	(1, '/html/body/div/div/div/div/div/div/table/tr/td/table/tr/td/div/div/a[]')	0.164162929212	15

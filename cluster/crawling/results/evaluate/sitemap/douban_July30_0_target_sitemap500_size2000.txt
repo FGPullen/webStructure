@@ -1,0 +1,1001 @@
+http://movie.douban.com			500	0
+https://movie.douban.com/review/7808036/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7806072/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808824/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7807777/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7799309/	https://movie.douban.com/review/7808036/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7798312/	https://movie.douban.com/review/7808036/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7799821/	https://movie.douban.com/review/7808036/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7788917/	https://movie.douban.com/review/7806072/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7789681/	https://movie.douban.com/review/7806072/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7789712/	https://movie.douban.com/review/7806072/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7820590/	https://movie.douban.com/review/7808824/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7822905/	https://movie.douban.com/review/7808824/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7802561/	https://movie.douban.com/review/7808824/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7790833/	https://movie.douban.com/review/7807777/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7664962/	https://movie.douban.com/review/7807777/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797333/	https://movie.douban.com/review/7807777/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7798257/	https://movie.douban.com/review/7799309/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808242/	https://movie.douban.com/review/7799309/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7769214/	https://movie.douban.com/review/7799309/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7802147/	https://movie.douban.com/review/7798312/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7799723/	https://movie.douban.com/review/7798312/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7807150/	https://movie.douban.com/review/7799821/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7800096/	https://movie.douban.com/review/7799821/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7788917/?start=100#comments	https://movie.douban.com/review/7788917/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7792255/	https://movie.douban.com/review/7788917/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7793815/	https://movie.douban.com/review/7788917/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797092/	https://movie.douban.com/review/7788917/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7799148/	https://movie.douban.com/review/7789681/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7794560/	https://movie.douban.com/review/7789681/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7802244/	https://movie.douban.com/review/7789712/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7799398/	https://movie.douban.com/review/7789712/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7810889/	https://movie.douban.com/review/7820590/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/5730316/	https://movie.douban.com/review/7820590/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7805527/	https://movie.douban.com/review/7822905/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/5690072/	https://movie.douban.com/review/7802561/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7805408/	https://movie.douban.com/review/7802561/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7811474/	https://movie.douban.com/review/7802561/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7652256/	https://movie.douban.com/review/7790833/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7622464/	https://movie.douban.com/review/7790833/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7781118/	https://movie.douban.com/review/7790833/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7657113/	https://movie.douban.com/review/7664962/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7761979/	https://movie.douban.com/review/7664962/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7809314/	https://movie.douban.com/review/7797333/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7798257/?start=100#comments	https://movie.douban.com/review/7798257/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7807101/	https://movie.douban.com/review/7798257/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7798769/	https://movie.douban.com/review/7798257/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7806644/	https://movie.douban.com/review/7808242/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7801597/	https://movie.douban.com/review/7808242/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7791544/	https://movie.douban.com/review/7769214/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7802508/	https://movie.douban.com/review/7769214/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7802147/?start=100#comments	https://movie.douban.com/review/7802147/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7804461/	https://movie.douban.com/review/7799723/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7798218/	https://movie.douban.com/review/7807150/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7788917/?start=0#comments	https://movie.douban.com/review/7788917/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7839652/	https://movie.douban.com/review/7788917/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7802816/	https://movie.douban.com/review/7788917/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7793584/	https://movie.douban.com/review/7788917/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7807958/	https://movie.douban.com/review/7792255/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7815819/	https://movie.douban.com/review/7793815/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7792806/	https://movie.douban.com/review/7797092/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7827475/	https://movie.douban.com/review/7797092/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7799148/?start=100#comments	https://movie.douban.com/review/7799148/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7788411/	https://movie.douban.com/review/7799148/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7799148/?start=200#comments	https://movie.douban.com/review/7799148/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7802244/?start=100#comments	https://movie.douban.com/review/7802244/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7791002/	https://movie.douban.com/review/7799398/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7807482/	https://movie.douban.com/review/7810889/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808819/	https://movie.douban.com/review/7810889/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808697/	https://movie.douban.com/review/5730316/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/5688915/	https://movie.douban.com/review/5730316/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808653/	https://movie.douban.com/review/7805527/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7795859/	https://movie.douban.com/review/7805527/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808746/	https://movie.douban.com/review/5690072/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7892415/	https://movie.douban.com/review/7805408/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7810739/	https://movie.douban.com/review/7811474/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7763671/	https://movie.douban.com/review/7652256/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7660502/	https://movie.douban.com/review/7622464/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797337/	https://movie.douban.com/review/7622464/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7807421/	https://movie.douban.com/review/7622464/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7646440/	https://movie.douban.com/review/7657113/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7798257/?start=0#comments	https://movie.douban.com/review/7798257/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7803443/	https://movie.douban.com/review/7807101/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7801392/	https://movie.douban.com/review/7807101/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7791544/?start=100#comments	https://movie.douban.com/review/7791544/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7802147/?start=0#comments	https://movie.douban.com/review/7802147/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7804881/	https://movie.douban.com/review/7802147/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7803399/	https://movie.douban.com/review/7798218/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7804028/	https://movie.douban.com/review/7839652/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7793584/?start=100#comments	https://movie.douban.com/review/7793584/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/	https://movie.douban.com/review/7793584/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7793584/?start=200#comments	https://movie.douban.com/review/7793584/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7793584/?start=300#comments	https://movie.douban.com/review/7793584/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7815819/?start=100#comments	https://movie.douban.com/review/7815819/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7815819/?start=200#comments	https://movie.douban.com/review/7815819/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7815819/?start=300#comments	https://movie.douban.com/review/7815819/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808280/	https://movie.douban.com/review/7792806/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7799148/?start=0#comments	https://movie.douban.com/review/7799148/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7809276/	https://movie.douban.com/review/7799148/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7799148/?start=300#comments	https://movie.douban.com/review/7799148/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7799148/?start=400#comments	https://movie.douban.com/review/7799148/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7799148/?start=500#comments	https://movie.douban.com/review/7799148/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7852563/	https://movie.douban.com/review/7799148/?start=200#comments	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7802244/?start=0#comments	https://movie.douban.com/review/7802244/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7801159/	https://movie.douban.com/review/7791002/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808115/	https://movie.douban.com/review/7807482/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7811016/	https://movie.douban.com/review/7808819/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808287/	https://movie.douban.com/review/7808697/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7806788/	https://movie.douban.com/review/7808697/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7812215/	https://movie.douban.com/review/5688915/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7667437/	https://movie.douban.com/review/7763671/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7766150/	https://movie.douban.com/review/7646440/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7798257/?start=200#comments	https://movie.douban.com/review/7798257/?start=0#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7803443/?start=100#comments	https://movie.douban.com/review/7803443/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7803443/?start=200#comments	https://movie.douban.com/review/7803443/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7803443/?start=300#comments	https://movie.douban.com/review/7803443/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7791544/?start=0#comments	https://movie.douban.com/review/7791544/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7802242/	https://movie.douban.com/review/7804028/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7793584/?start=0#comments	https://movie.douban.com/review/7793584/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7793584/?start=400#comments	https://movie.douban.com/review/7793584/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7793584/?start=500#comments	https://movie.douban.com/review/7793584/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=100#comments	https://movie.douban.com/review/7797777/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=200#comments	https://movie.douban.com/review/7797777/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=300#comments	https://movie.douban.com/review/7797777/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=400#comments	https://movie.douban.com/review/7797777/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=500#comments	https://movie.douban.com/review/7797777/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=600#comments	https://movie.douban.com/review/7797777/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=700#comments	https://movie.douban.com/review/7797777/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=800#comments	https://movie.douban.com/review/7797777/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7815819/?start=0#comments	https://movie.douban.com/review/7815819/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808280/?start=100#comments	https://movie.douban.com/review/7808280/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808280/?start=200#comments	https://movie.douban.com/review/7808280/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808280/?start=300#comments	https://movie.douban.com/review/7808280/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7852563/?start=100#comments	https://movie.douban.com/review/7852563/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7807507/	https://movie.douban.com/review/7808287/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7803542/	https://movie.douban.com/review/7808287/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7767982/	https://movie.douban.com/review/7667437/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7805957/	https://movie.douban.com/review/7766150/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7803443/?start=0#comments	https://movie.douban.com/review/7803443/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7803443/?start=400#comments	https://movie.douban.com/review/7803443/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7803443/?start=500#comments	https://movie.douban.com/review/7803443/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=0#comments	https://movie.douban.com/review/7797777/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=1500#comments	https://movie.douban.com/review/7797777/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=1600#comments	https://movie.douban.com/review/7797777/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=900#comments	https://movie.douban.com/review/7797777/?start=500#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=1000#comments	https://movie.douban.com/review/7797777/?start=600#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=1100#comments	https://movie.douban.com/review/7797777/?start=700#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=1200#comments	https://movie.douban.com/review/7797777/?start=700#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=1300#comments	https://movie.douban.com/review/7797777/?start=700#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797777/?start=1400#comments	https://movie.douban.com/review/7797777/?start=700#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808280/?start=0#comments	https://movie.douban.com/review/7808280/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7852563/?start=0#comments	https://movie.douban.com/review/7852563/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7812824/	https://movie.douban.com/review/7807507/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7727430/	https://movie.douban.com/review/7767982/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7664462/	https://movie.douban.com/review/7727430/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7642110/	https://movie.douban.com/review/7727430/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7648646/	https://movie.douban.com/review/7727430/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7658932/	https://movie.douban.com/review/7664462/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7643936/	https://movie.douban.com/review/7664462/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7599535/	https://movie.douban.com/review/7664462/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7642110/?start=100#comments	https://movie.douban.com/review/7642110/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7658956/	https://movie.douban.com/review/7642110/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7664596/	https://movie.douban.com/review/7642110/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7642110/?start=200#comments	https://movie.douban.com/review/7642110/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7641958/	https://movie.douban.com/review/7648646/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7667902/	https://movie.douban.com/review/7648646/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7669052/	https://movie.douban.com/review/7658932/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7658543/	https://movie.douban.com/review/7643936/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7664825/	https://movie.douban.com/review/7643936/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7643108/	https://movie.douban.com/review/7599535/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7668260/	https://movie.douban.com/review/7599535/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7642110/?start=0#comments	https://movie.douban.com/review/7642110/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7677861/	https://movie.douban.com/review/7642110/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7599851/	https://movie.douban.com/review/7658956/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7667902/?start=100#comments	https://movie.douban.com/review/7667902/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7657995/	https://movie.douban.com/review/7669052/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7636325/	https://movie.douban.com/review/7658543/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7584406/	https://movie.douban.com/review/7643108/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7601046/	https://movie.douban.com/review/7642110/?start=0#comments	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7667902/?start=0#comments	https://movie.douban.com/review/7667902/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7657995/?start=100#comments	https://movie.douban.com/review/7657995/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7601046/?start=100#comments	https://movie.douban.com/review/7601046/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7657995/?start=0#comments	https://movie.douban.com/review/7657995/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7601046/?start=0#comments	https://movie.douban.com/review/7601046/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25662329/?from=reviews	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.490532530876	2
+https://movie.douban.com/subject/25831874/?from=reviews	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.490532530876	-1
+https://movie.douban.com/subject/7564989/?from=reviews	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.490532530876	2
+https://movie.douban.com/subject/25852263/?from=reviews	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.490532530876	2
+https://movie.douban.com/subject/25662329/	https://movie.douban.com/review/7808036/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	2
+https://movie.douban.com/subject/25662329/all_photos	https://movie.douban.com/review/7808036/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	7
+https://movie.douban.com/trailer/191795/	https://movie.douban.com/review/7808036/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	11
+https://movie.douban.com/subject/25662329/comments	https://movie.douban.com/review/7808036/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	0
+https://movie.douban.com/review/7809775/	https://movie.douban.com/subject/25662329/comments	(0, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7382129/	https://movie.douban.com/review/7809775/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7379146/	https://movie.douban.com/review/7809775/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7387963/	https://movie.douban.com/review/7809775/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7389905/	https://movie.douban.com/review/7382129/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7389704/	https://movie.douban.com/review/7382129/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7377925/	https://movie.douban.com/review/7382129/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7389792/	https://movie.douban.com/review/7379146/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7388047/	https://movie.douban.com/review/7379146/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7629862/	https://movie.douban.com/review/7387963/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7462287/	https://movie.douban.com/review/7387963/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7387853/	https://movie.douban.com/review/7389905/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7390422/	https://movie.douban.com/review/7389704/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7369685/	https://movie.douban.com/review/7389704/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7376267/	https://movie.douban.com/review/7389792/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7382527/	https://movie.douban.com/review/7629862/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7392888/	https://movie.douban.com/review/7462287/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7406790/	https://movie.douban.com/review/7369685/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7373028/	https://movie.douban.com/review/7376267/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7389698/	https://movie.douban.com/review/7392888/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25777370/?from=reviews	https://movie.douban.com/subject/25662329/comments	(0, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.490532530876	-1
+https://movie.douban.com/subject/25662329/reviews	https://movie.douban.com/review/7808036/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	12
+https://movie.douban.com/review/7799051/	https://movie.douban.com/subject/25662329/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7800593/	https://movie.douban.com/subject/25662329/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	https://movie.douban.com/subject/25662329/reviews	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7861861/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7860489/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7866501/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7866395/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7866250/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7866107/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7865537/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7865391/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7865185/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7864961/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7864727/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7864598/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7864551/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7864399/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7864082/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7862930/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7862002/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7862001/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7860516/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25662329/reviews?score=	https://movie.douban.com/subject/25662329/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25662329/reviews?score=5	https://movie.douban.com/subject/25662329/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7803401/	https://movie.douban.com/subject/25662329/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7799276/	https://movie.douban.com/subject/25662329/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25662329/reviews?score=4	https://movie.douban.com/subject/25662329/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7805997/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7813159/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7805028/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7801389/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7801809/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7809164/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7812256/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7803869/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7815448/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7810396/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7804217/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7813588/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7819427/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7803778/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7804180/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7800714/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7801892/	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25662329/reviews?score=3	https://movie.douban.com/subject/25662329/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7804342/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7803023/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7807293/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7810022/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7809357/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808682/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7805607/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7811863/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7803165/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7803237/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7800821/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7802595/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808765/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7817944/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7813291/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7807528/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808610/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7814825/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7811782/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7818348/	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25662329/reviews?score=2	https://movie.douban.com/subject/25662329/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7815408/	https://movie.douban.com/subject/25662329/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7816471/	https://movie.douban.com/subject/25662329/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25662329/reviews?score=1	https://movie.douban.com/subject/25662329/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	19
+https://movie.douban.com/subject/25662329/reviews?filter=	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7811655/	https://movie.douban.com/subject/25662329/reviews?filter=	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25662329/reviews?score=sort=time	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25662329/reviews?score=5sort=time	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25662329/reviews?score=4sort=time	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25662329/reviews?score=3sort=time	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25662329/reviews?score=2sort=time	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	https://movie.douban.com/subject/25662329/reviews?score=5	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7965540/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7961178/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7972388/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7972387/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7972386/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7972384/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7972383/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7972382/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7972381/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7972379/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7972378/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7966883/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7966786/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7966410/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7966024/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7965348/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7962198/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7961662/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7959357/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7958787/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	https://movie.douban.com/subject/25662329/reviews?score=4	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7945344/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7947151/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7940078/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7929652/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7966607/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7963977/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7961684/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7961140/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7961139/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7946755/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7945735/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7945734/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7940643/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7939047/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7938226/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7937769/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7934579/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7934329/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7932861/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7925858/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	https://movie.douban.com/subject/25662329/reviews?score=3	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7919661/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7910037/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7906843/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7906134/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7902521/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7901182/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7894373/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7888365/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7880750/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7872701/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7953226/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7969566/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7969565/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7962262/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7962261/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7961230/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7952686/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7880749/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7880502/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7869701/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=2	https://movie.douban.com/subject/25662329/reviews?score=2	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7837839/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=2	(12, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7944504/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7944503/	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25662329/reviews?filter=&score=5	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7822253/	https://movie.douban.com/subject/25662329/reviews?filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25662329/reviews?score=1sort=time	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25662329/reviews?filter=&score=4	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7917342/	https://movie.douban.com/subject/25662329/reviews?filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7802295/	https://movie.douban.com/subject/25662329/reviews?filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7838679/	https://movie.douban.com/subject/25662329/reviews?filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7841088/	https://movie.douban.com/subject/25662329/reviews?filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7812288/	https://movie.douban.com/subject/25662329/reviews?filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7817159/	https://movie.douban.com/subject/25662329/reviews?filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25662329/reviews?filter=&score=3	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7804280/	https://movie.douban.com/subject/25662329/reviews?filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7822466/	https://movie.douban.com/subject/25662329/reviews?filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7815741/	https://movie.douban.com/subject/25662329/reviews?filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25662329/reviews?filter=&score=2	https://movie.douban.com/subject/25662329/reviews?sort=time&filter=&score=2	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25831874/	https://movie.douban.com/review/7806072/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	-1
+https://movie.douban.com/subject/25831874/all_photos	https://movie.douban.com/review/7806072/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	7
+https://movie.douban.com/subject/25831874/comments	https://movie.douban.com/review/7806072/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	4
+https://movie.douban.com/subject/25831874/reviews	https://movie.douban.com/review/7806072/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	12
+https://movie.douban.com/review/7794520/	https://movie.douban.com/subject/25831874/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7806852/	https://movie.douban.com/subject/25831874/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7796272/	https://movie.douban.com/subject/25831874/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	https://movie.douban.com/subject/25831874/reviews	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7865544/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7865513/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7865462/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7865109/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7865089/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7864907/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7864632/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7863453/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7865664/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7863723/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7814493/	https://movie.douban.com/review/7865462/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7814493/?start=100#comments	https://movie.douban.com/review/7814493/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7814493/?start=0#comments	https://movie.douban.com/review/7814493/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7866641/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7866616/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7866338/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7865140/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7864522/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7863839/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7863602/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7863327/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7863035/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7862992/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25831874/reviews?score=	https://movie.douban.com/subject/25831874/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25831874/reviews?score=5	https://movie.douban.com/subject/25831874/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7787783/	https://movie.douban.com/subject/25831874/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7834021/	https://movie.douban.com/subject/25831874/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797428/	https://movie.douban.com/subject/25831874/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7822674/	https://movie.douban.com/subject/25831874/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7798871/	https://movie.douban.com/subject/25831874/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808481/	https://movie.douban.com/subject/25831874/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7821404/	https://movie.douban.com/subject/25831874/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7802965/	https://movie.douban.com/subject/25831874/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7853682/	https://movie.douban.com/subject/25831874/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7798970/	https://movie.douban.com/subject/25831874/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7807583/	https://movie.douban.com/subject/25831874/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25831874/reviews?score=4	https://movie.douban.com/subject/25831874/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7834851/	https://movie.douban.com/subject/25831874/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7812833/	https://movie.douban.com/subject/25831874/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7832722/	https://movie.douban.com/subject/25831874/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797842/	https://movie.douban.com/subject/25831874/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7850772/	https://movie.douban.com/subject/25831874/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7841931/	https://movie.douban.com/subject/25831874/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7831165/	https://movie.douban.com/subject/25831874/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7825303/	https://movie.douban.com/subject/25831874/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7823192/	https://movie.douban.com/subject/25831874/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7797650/	https://movie.douban.com/subject/25831874/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7860894/	https://movie.douban.com/subject/25831874/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7870451/	https://movie.douban.com/subject/25831874/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25831874/reviews?score=3	https://movie.douban.com/subject/25831874/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7806927/	https://movie.douban.com/subject/25831874/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7792171/	https://movie.douban.com/subject/25831874/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7810631/	https://movie.douban.com/subject/25831874/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7844561/	https://movie.douban.com/subject/25831874/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7799531/	https://movie.douban.com/subject/25831874/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7800063/	https://movie.douban.com/subject/25831874/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7801250/	https://movie.douban.com/subject/25831874/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7815348/	https://movie.douban.com/subject/25831874/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7854299/	https://movie.douban.com/subject/25831874/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7852067/	https://movie.douban.com/subject/25831874/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7853198/	https://movie.douban.com/subject/25831874/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7854683/	https://movie.douban.com/subject/25831874/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25831874/reviews?score=2	https://movie.douban.com/subject/25831874/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7822574/	https://movie.douban.com/subject/25831874/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7816392/	https://movie.douban.com/subject/25831874/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7841474/	https://movie.douban.com/subject/25831874/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7818514/	https://movie.douban.com/subject/25831874/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7802164/	https://movie.douban.com/subject/25831874/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7853004/	https://movie.douban.com/subject/25831874/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7800037/	https://movie.douban.com/subject/25831874/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7836557/	https://movie.douban.com/subject/25831874/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7811530/	https://movie.douban.com/subject/25831874/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7816004/	https://movie.douban.com/subject/25831874/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7817588/	https://movie.douban.com/subject/25831874/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7854772/	https://movie.douban.com/subject/25831874/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7805205/	https://movie.douban.com/subject/25831874/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7851880/	https://movie.douban.com/subject/25831874/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7828047/	https://movie.douban.com/subject/25831874/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25831874/reviews?score=1	https://movie.douban.com/subject/25831874/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7825316/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7811208/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7814335/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7856028/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7846207/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7870895/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7857403/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7853422/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7806700/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7799485/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7827990/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7887359/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7833839/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7821255/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7821348/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7833082/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7829484/	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25831874/reviews?filter=	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25831874/reviews?score=sort=time	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25831874/reviews?score=5sort=time	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25831874/reviews?score=4sort=time	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25831874/reviews?score=3sort=time	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25831874/reviews?score=2sort=time	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25831874/reviews?score=1sort=time	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	https://movie.douban.com/subject/25831874/reviews?score=5	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7935401/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7930433/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7920647/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7916028/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7915271/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7959568/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7971291/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7963517/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7963516/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7963087/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7954839/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7951200/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7945507/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7945328/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7938758/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7938671/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7938670/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7938634/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7926030/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7922188/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	https://movie.douban.com/subject/25831874/reviews?score=4	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7932269/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7913354/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7940702/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7927131/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7902301/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7902239/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7901721/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7948448/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7945010/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7943160/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7940109/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7937894/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7937571/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7936648/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7924631/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7923344/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7919230/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7907796/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7902370/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7898307/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	https://movie.douban.com/subject/25831874/reviews?score=3	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7896780/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7879257/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7875439/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7879572/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7930106/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7919798/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7882918/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7876757/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7875957/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7875047/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7871459/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7870276/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7870020/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7867987/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7867703/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7867702/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7867246/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7864620/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7861886/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=2	https://movie.douban.com/subject/25831874/reviews?score=2	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7857974/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7842161/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7841386/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7834815/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7826898/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7824734/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7912242/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=2	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7856701/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=2	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=1	https://movie.douban.com/subject/25831874/reviews?score=1	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7860428/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7848892/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7846294/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7844191/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7843690/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7837994/	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25831874/reviews?filter=&score=5	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7789728/	https://movie.douban.com/subject/25831874/reviews?filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25831874/reviews?filter=&score=4	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25831874/reviews?filter=&score=3	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7816288/	https://movie.douban.com/subject/25831874/reviews?filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25831874/reviews?filter=&score=2	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=2	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25831874/reviews?filter=&score=1	https://movie.douban.com/subject/25831874/reviews?sort=time&filter=&score=1	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/7564989/	https://movie.douban.com/review/7808824/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	2
+https://movie.douban.com/subject/7564989/all_photos	https://movie.douban.com/review/7808824/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	7
+https://movie.douban.com/trailer/192565/	https://movie.douban.com/review/7808824/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	11
+https://movie.douban.com/subject/7564989/comments	https://movie.douban.com/review/7808824/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	0
+https://movie.douban.com/subject/7564989/reviews	https://movie.douban.com/review/7808824/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	12
+https://movie.douban.com/review/7808441/	https://movie.douban.com/subject/7564989/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7809927/	https://movie.douban.com/subject/7564989/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7769741/	https://movie.douban.com/subject/7564989/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7810030/	https://movie.douban.com/subject/7564989/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/7564989/discussion/51484688/	https://movie.douban.com/review/7808441/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	13
+https://movie.douban.com/subject/7564989/discussion/51484558/	https://movie.douban.com/review/7808441/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	13
+https://movie.douban.com/review/7808651/	https://movie.douban.com/subject/7564989/reviews	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/7564989/reviews?score=	https://movie.douban.com/subject/7564989/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/7564989/reviews?score=5	https://movie.douban.com/subject/7564989/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7823329/	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7871246/	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7809077/	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7809643/	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7810708/	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7874970/	https://movie.douban.com/review/7823329/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7812681/	https://movie.douban.com/review/7810708/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7822224/	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7813418/	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7809770/	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7824918/	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7813115/	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7812166/	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7824387/	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7813204/	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7812406/	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7892198/	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7810850/	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/7564989/reviews?score=4	https://movie.douban.com/subject/7564989/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7817157/	https://movie.douban.com/subject/7564989/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7810763/	https://movie.douban.com/subject/7564989/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7886265/	https://movie.douban.com/subject/7564989/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7808567/	https://movie.douban.com/subject/7564989/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7812330/	https://movie.douban.com/subject/7564989/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7810884/	https://movie.douban.com/subject/7564989/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7812870/	https://movie.douban.com/subject/7564989/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/7564989/reviews?score=3	https://movie.douban.com/subject/7564989/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7814624/	https://movie.douban.com/subject/7564989/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7869556/	https://movie.douban.com/subject/7564989/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7810224/	https://movie.douban.com/subject/7564989/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7806329/	https://movie.douban.com/subject/7564989/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7809379/	https://movie.douban.com/subject/7564989/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7815241/	https://movie.douban.com/subject/7564989/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808288/	https://movie.douban.com/subject/7564989/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7810185/	https://movie.douban.com/subject/7564989/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7811715/	https://movie.douban.com/subject/7564989/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7874691/	https://movie.douban.com/subject/7564989/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7875622/	https://movie.douban.com/subject/7564989/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7812168/	https://movie.douban.com/subject/7564989/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/7564989/reviews?score=2	https://movie.douban.com/subject/7564989/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7828587/	https://movie.douban.com/subject/7564989/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7810782/	https://movie.douban.com/subject/7564989/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7890586/	https://movie.douban.com/subject/7564989/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7882572/	https://movie.douban.com/subject/7564989/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7810366/	https://movie.douban.com/subject/7564989/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/7564989/reviews?score=1	https://movie.douban.com/subject/7564989/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7802506/	https://movie.douban.com/subject/7564989/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7815625/	https://movie.douban.com/subject/7564989/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7875643/	https://movie.douban.com/subject/7564989/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	https://movie.douban.com/subject/7564989/reviews	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7871362/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7842238/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7832058/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7876355/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7876332/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7871628/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7870859/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7869450/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7869435/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7868450/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7840438/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7838881/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7838301/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7836343/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=5	https://movie.douban.com/subject/7564989/reviews?score=5	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7901760/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7819456/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7819884/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7815947/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7941116/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7887978/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7831889/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7815150/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	https://movie.douban.com/subject/7564989/reviews?score=4	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7962967/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7960062/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7955069/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7940318/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7937902/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7934018/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7926851/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7914653/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7912539/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7907814/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7904999/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7900573/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7898891/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7893688/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7893149/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7881082/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=3	https://movie.douban.com/subject/7564989/reviews?score=3	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7887578/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7893404/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7892095/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7891348/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7888023/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7831495/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7819245/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7815059/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=2	https://movie.douban.com/subject/7564989/reviews?score=2	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7904193/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=2	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=1	https://movie.douban.com/subject/7564989/reviews?score=1	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7968101/	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=1	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/7564989/reviews?filter=	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/7564989/reviews?score=sort=time	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/7564989/reviews?score=5sort=time	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/7564989/reviews?score=4sort=time	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/7564989/reviews?score=3sort=time	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/7564989/reviews?score=2sort=time	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/7564989/reviews?score=1sort=time	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/7564989/reviews?filter=&score=5	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7815091/	https://movie.douban.com/subject/7564989/reviews?filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7815061/	https://movie.douban.com/subject/7564989/reviews?filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/7564989/reviews?filter=&score=4	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/7564989/reviews?filter=&score=3	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/7564989/reviews?filter=&score=2	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=2	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/7564989/reviews?filter=&score=1	https://movie.douban.com/subject/7564989/reviews?sort=time&filter=&score=1	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25852263/	https://movie.douban.com/review/7807777/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	2
+https://movie.douban.com/subject/25852263/all_photos	https://movie.douban.com/review/7807777/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	7
+https://movie.douban.com/trailer/184968/	https://movie.douban.com/review/7807777/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	11
+https://movie.douban.com/subject/25852263/comments	https://movie.douban.com/review/7807777/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	4
+https://movie.douban.com/subject/25852263/reviews	https://movie.douban.com/review/7807777/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	12
+https://movie.douban.com/review/7789685/	https://movie.douban.com/subject/25852263/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7807666/	https://movie.douban.com/subject/25852263/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808969/	https://movie.douban.com/subject/25852263/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7761538/	https://movie.douban.com/subject/25852263/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7810860/	https://movie.douban.com/review/7789685/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7793016/	https://movie.douban.com/review/7808969/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25852263/reviews?score=	https://movie.douban.com/subject/25852263/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7654489/	https://movie.douban.com/subject/25852263/reviews?score=	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7862894/	https://movie.douban.com/review/7654489/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25852263/reviews?score=5	https://movie.douban.com/subject/25852263/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7796250/	https://movie.douban.com/subject/25852263/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7805742/	https://movie.douban.com/subject/25852263/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808602/	https://movie.douban.com/subject/25852263/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7807698/	https://movie.douban.com/subject/25852263/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7796325/	https://movie.douban.com/subject/25852263/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7810969/	https://movie.douban.com/review/7807698/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7811764/	https://movie.douban.com/subject/25852263/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7831460/	https://movie.douban.com/subject/25852263/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7810602/	https://movie.douban.com/subject/25852263/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7820317/	https://movie.douban.com/subject/25852263/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7808668/	https://movie.douban.com/subject/25852263/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7894624/	https://movie.douban.com/subject/25852263/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7867605/	https://movie.douban.com/subject/25852263/reviews?score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25852263/reviews?score=4	https://movie.douban.com/subject/25852263/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7879826/	https://movie.douban.com/subject/25852263/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7841298/	https://movie.douban.com/subject/25852263/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7817397/	https://movie.douban.com/subject/25852263/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7810605/	https://movie.douban.com/subject/25852263/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7812667/	https://movie.douban.com/subject/25852263/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7813380/	https://movie.douban.com/subject/25852263/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7811719/	https://movie.douban.com/subject/25852263/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7812112/	https://movie.douban.com/subject/25852263/reviews?score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25852263/reviews?score=3	https://movie.douban.com/subject/25852263/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7767333/	https://movie.douban.com/subject/25852263/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808723/	https://movie.douban.com/subject/25852263/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808715/	https://movie.douban.com/subject/25852263/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7786860/	https://movie.douban.com/subject/25852263/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808101/	https://movie.douban.com/subject/25852263/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7773748/	https://movie.douban.com/subject/25852263/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7885902/	https://movie.douban.com/subject/25852263/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7812834/	https://movie.douban.com/subject/25852263/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7810987/	https://movie.douban.com/subject/25852263/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7814076/	https://movie.douban.com/subject/25852263/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7849780/	https://movie.douban.com/subject/25852263/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7819606/	https://movie.douban.com/subject/25852263/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7815485/	https://movie.douban.com/subject/25852263/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7827511/	https://movie.douban.com/subject/25852263/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7830867/	https://movie.douban.com/subject/25852263/reviews?score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25852263/reviews?score=2	https://movie.douban.com/subject/25852263/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7807342/	https://movie.douban.com/subject/25852263/reviews?score=2	(12, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25852263/reviews?score=1	https://movie.douban.com/subject/25852263/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/review/7808973/	https://movie.douban.com/subject/25852263/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7807424/	https://movie.douban.com/subject/25852263/reviews?score=1	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	https://movie.douban.com/subject/25852263/reviews	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7860126/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7858996/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7856453/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7854177/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7853827/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7847577/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7839595/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7832667/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7831419/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7826623/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7820281/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7820083/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=5	https://movie.douban.com/subject/25852263/reviews?score=5	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7811915/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7809996/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808799/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7808548/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7925147/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7815939/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7814288/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7813434/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7812244/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7812201/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7810603/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=4	https://movie.douban.com/subject/25852263/reviews?score=4	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7953851/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7815976/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7815782/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/div/span/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7959684/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7893527/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7879366/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/review/7815824/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=3	https://movie.douban.com/subject/25852263/reviews?score=3	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7929119/	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	1
+https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=2	https://movie.douban.com/subject/25852263/reviews?score=2	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=1	https://movie.douban.com/subject/25852263/reviews?score=1	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25852263/reviews?filter=	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25852263/reviews?score=sort=time	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25852263/reviews?score=5sort=time	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25852263/reviews?score=4sort=time	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25852263/reviews?score=3sort=time	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25852263/reviews?score=2sort=time	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25852263/reviews?score=1sort=time	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25852263/reviews?filter=&score=5	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=5	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/review/7807576/	https://movie.douban.com/subject/25852263/reviews?filter=&score=5	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/subject/25852263/reviews?filter=&score=4	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=4	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25852263/reviews?filter=&score=3	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=3	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25852263/reviews?filter=&score=2	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=2	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/25852263/reviews?filter=&score=1	https://movie.douban.com/subject/25852263/reviews?sort=time&filter=&score=1	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	12
+https://movie.douban.com/subject/26366465/	https://movie.douban.com/review/7727430/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	2
+https://movie.douban.com/subject/26366465/all_photos	https://movie.douban.com/review/7727430/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	7
+https://movie.douban.com/trailer/186778/	https://movie.douban.com/review/7727430/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	11
+https://movie.douban.com/subject/26366465/comments	https://movie.douban.com/review/7727430/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	4
+https://movie.douban.com/subject/26366465/reviews	https://movie.douban.com/review/7727430/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	12
+https://movie.douban.com/subject/26366465/reviews?score=	https://movie.douban.com/subject/26366465/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/26366465/reviews?score=5	https://movie.douban.com/subject/26366465/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/26366465/reviews?score=4	https://movie.douban.com/subject/26366465/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/26366465/reviews?score=3	https://movie.douban.com/subject/26366465/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/26366465/reviews?score=2	https://movie.douban.com/subject/26366465/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/26366465/reviews?score=1	https://movie.douban.com/subject/26366465/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/26366465/reviews?sort=time&filter=	https://movie.douban.com/subject/26366465/reviews	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/25777370/	https://movie.douban.com/review/7809775/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	-1
+https://movie.douban.com/subject/25777370/all_photos	https://movie.douban.com/review/7809775/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	7
+https://movie.douban.com/subject/25777370/comments	https://movie.douban.com/review/7809775/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	4
+https://movie.douban.com/subject/25777370/reviews	https://movie.douban.com/review/7809775/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	12
+https://movie.douban.com/review/7388573/	https://movie.douban.com/subject/25777370/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7389047/	https://movie.douban.com/subject/25777370/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7370403/	https://movie.douban.com/subject/25777370/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/subject/25777370/reviews?score=	https://movie.douban.com/subject/25777370/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/25777370/reviews?score=5	https://movie.douban.com/subject/25777370/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/25777370/reviews?score=4	https://movie.douban.com/subject/25777370/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/25777370/reviews?score=3	https://movie.douban.com/subject/25777370/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/25777370/reviews?score=2	https://movie.douban.com/subject/25777370/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/25777370/reviews?score=1	https://movie.douban.com/subject/25777370/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/25777370/reviews?sort=time&filter=	https://movie.douban.com/subject/25777370/reviews	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/7564989/trailer	https://movie.douban.com/review/7808441/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	17
+https://movie.douban.com/subject/25852263/trailer	https://movie.douban.com/review/7808723/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	17
+https://movie.douban.com/subject/26366465/awards/	https://movie.douban.com/subject/26366465/	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	-1
+https://movie.douban.com/subject/26366465/questions/?from=subject	https://movie.douban.com/subject/26366465/	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	13
+https://movie.douban.com/subject/3319755/?from=subject-page	https://movie.douban.com/subject/26366465/	(2, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.0514344513498	2
+https://movie.douban.com/review/4497019/	https://movie.douban.com/subject/3319755/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/4522513/	https://movie.douban.com/subject/3319755/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/4922038/	https://movie.douban.com/subject/3319755/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/4462610/	https://movie.douban.com/subject/3319755/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/4492125/	https://movie.douban.com/subject/3319755/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/subject/3319755/comments	https://movie.douban.com/subject/3319755/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	4
+https://movie.douban.com/subject/3319755/questions/?from=subject	https://movie.douban.com/subject/3319755/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	13
+https://movie.douban.com/subject/3319755/reviews	https://movie.douban.com/subject/3319755/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	-1
+https://movie.douban.com/subject/4920528/?from=subject-page	https://movie.douban.com/subject/26366465/	(2, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.0514344513498	2
+https://movie.douban.com/review/5058071/	https://movie.douban.com/subject/4920528/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/5200198/	https://movie.douban.com/subject/4920528/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/5103290/	https://movie.douban.com/subject/4920528/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/5118082/	https://movie.douban.com/subject/4920528/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/5140352/	https://movie.douban.com/subject/4920528/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/subject/4920528/awards/	https://movie.douban.com/subject/4920528/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	-1
+https://movie.douban.com/subject/4920528/comments	https://movie.douban.com/subject/4920528/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	4
+https://movie.douban.com/subject/4920528/questions/?from=subject	https://movie.douban.com/subject/4920528/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	13
+https://movie.douban.com/subject/4920528/reviews	https://movie.douban.com/subject/4920528/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	-1
+https://movie.douban.com/subject/25964071/?from=subject-page	https://movie.douban.com/subject/26366465/	(2, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.0514344513498	2
+https://movie.douban.com/review/7615110/	https://movie.douban.com/subject/25964071/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7615033/	https://movie.douban.com/subject/25964071/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7612476/	https://movie.douban.com/subject/25964071/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7616015/	https://movie.douban.com/subject/25964071/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7612318/	https://movie.douban.com/subject/25964071/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7615110/?start=100#comments	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7614321/	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7615532/	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7617731/	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7615110/?start=200#comments	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615110/?start=300#comments	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7615110/?start=400#comments	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7615110/?start=500#comments	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7615110/?start=600#comments	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7615110/?start=700#comments	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615110/?start=800#comments	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7615110/?start=2800#comments	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7615110/?start=2900#comments	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615033/?start=100#comments	https://movie.douban.com/review/7615033/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615645/	https://movie.douban.com/review/7615033/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615033/?start=200#comments	https://movie.douban.com/review/7615033/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615033/?start=300#comments	https://movie.douban.com/review/7615033/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615033/?start=400#comments	https://movie.douban.com/review/7615033/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615033/?start=500#comments	https://movie.douban.com/review/7615033/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615033/?start=600#comments	https://movie.douban.com/review/7615033/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615033/?start=700#comments	https://movie.douban.com/review/7615033/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615033/?start=800#comments	https://movie.douban.com/review/7615033/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615033/?start=900#comments	https://movie.douban.com/review/7615033/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615033/?start=1000#comments	https://movie.douban.com/review/7615033/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7612476/?start=100#comments	https://movie.douban.com/review/7612476/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7607536/	https://movie.douban.com/review/7612476/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7616887/	https://movie.douban.com/review/7612476/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7612476/?start=200#comments	https://movie.douban.com/review/7612476/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7616015/?start=100#comments	https://movie.douban.com/review/7616015/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7616967/	https://movie.douban.com/review/7616015/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7607588/	https://movie.douban.com/review/7616015/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7612318/?start=100#comments	https://movie.douban.com/review/7612318/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7609521/	https://movie.douban.com/review/7612318/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7617254/	https://movie.douban.com/review/7612318/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7612318/?start=200#comments	https://movie.douban.com/review/7612318/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7612318/?start=300#comments	https://movie.douban.com/review/7612318/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7612318/?start=400#comments	https://movie.douban.com/review/7612318/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7612318/?start=500#comments	https://movie.douban.com/review/7612318/	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615110/?start=0#comments	https://movie.douban.com/review/7615110/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7608182/	https://movie.douban.com/review/7614321/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7610918/	https://movie.douban.com/review/7614321/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7617731/?start=100#comments	https://movie.douban.com/review/7617731/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7614880/	https://movie.douban.com/review/7615110/?start=500#comments	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615110/?start=900#comments	https://movie.douban.com/review/7615110/?start=500#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615110/?start=1000#comments	https://movie.douban.com/review/7615110/?start=600#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615110/?start=1100#comments	https://movie.douban.com/review/7615110/?start=800#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615110/?start=1200#comments	https://movie.douban.com/review/7615110/?start=800#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615110/?start=2700#comments	https://movie.douban.com/review/7615110/?start=2800#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7609449/	https://movie.douban.com/review/7615110/?start=2800#comments	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615110/?start=2100#comments	https://movie.douban.com/review/7615110/?start=2800#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615110/?start=2200#comments	https://movie.douban.com/review/7615110/?start=2800#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615110/?start=2300#comments	https://movie.douban.com/review/7615110/?start=2800#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615110/?start=2400#comments	https://movie.douban.com/review/7615110/?start=2800#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615110/?start=2500#comments	https://movie.douban.com/review/7615110/?start=2800#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7615110/?start=2600#comments	https://movie.douban.com/review/7615110/?start=2800#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/subject/25964071/	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	2
+https://movie.douban.com/subject/25964071/all_photos	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	7
+https://movie.douban.com/trailer/184420/	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	11
+https://movie.douban.com/subject/25964071/comments	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	4
+https://movie.douban.com/subject/25964071/reviews	https://movie.douban.com/review/7615110/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	12
+https://movie.douban.com/review/7610807/	https://movie.douban.com/subject/25964071/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7613232/	https://movie.douban.com/subject/25964071/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/subject/25964071/reviews?score=	https://movie.douban.com/subject/25964071/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/25964071/reviews?score=5	https://movie.douban.com/subject/25964071/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/25964071/reviews?score=4	https://movie.douban.com/subject/25964071/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/25964071/reviews?score=3	https://movie.douban.com/subject/25964071/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/25964071/reviews?score=2	https://movie.douban.com/subject/25964071/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/25964071/reviews?score=1	https://movie.douban.com/subject/25964071/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/25964071/reviews?sort=time&filter=	https://movie.douban.com/subject/25964071/reviews	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/25964071/awards/	https://movie.douban.com/subject/25964071/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	-1
+https://movie.douban.com/subject/25964071/questions/?from=subject	https://movie.douban.com/subject/25964071/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	13
+https://movie.douban.com/subject/4739952/?from=subject-page	https://movie.douban.com/subject/26366465/	(2, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.0514344513498	2
+https://movie.douban.com/review/4497926/	https://movie.douban.com/subject/4739952/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/3675110/	https://movie.douban.com/subject/4739952/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/4531676/	https://movie.douban.com/subject/4739952/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/4493771/	https://movie.douban.com/subject/4739952/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/4492893/	https://movie.douban.com/subject/4739952/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/subject/4739952/comments	https://movie.douban.com/subject/4739952/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	4
+https://movie.douban.com/subject/4739952/questions/?from=subject	https://movie.douban.com/subject/4739952/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	13
+https://movie.douban.com/subject/4739952/reviews	https://movie.douban.com/subject/4739952/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	-1
+https://movie.douban.com/subject/26289144/?from=subject-page	https://movie.douban.com/subject/26366465/	(2, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.0514344513498	2
+https://movie.douban.com/review/7561070/	https://movie.douban.com/subject/26289144/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.819856090521	1
+https://movie.douban.com/review/7556707/	https://movie.douban.com/subject/26289144/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7571120/	https://movie.douban.com/subject/26289144/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7553235/	https://movie.douban.com/subject/26289144/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7572132/	https://movie.douban.com/subject/26289144/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7576754/	https://movie.douban.com/subject/26289144/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7560718/	https://movie.douban.com/review/7561070/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7570038/	https://movie.douban.com/review/7561070/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7576799/	https://movie.douban.com/review/7561070/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7571812/	https://movie.douban.com/review/7556707/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7594382/	https://movie.douban.com/review/7553235/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7564013/	https://movie.douban.com/review/7553235/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7576911/	https://movie.douban.com/review/7572132/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7576754/?start=100#comments	https://movie.douban.com/review/7576754/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	-1
+https://movie.douban.com/subject/26289144/	https://movie.douban.com/review/7561070/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	2
+https://movie.douban.com/subject/26289144/all_photos	https://movie.douban.com/review/7561070/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	7
+https://movie.douban.com/trailer/181419/	https://movie.douban.com/review/7561070/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	11
+https://movie.douban.com/subject/26289144/comments	https://movie.douban.com/review/7561070/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	4
+https://movie.douban.com/subject/26289144/reviews	https://movie.douban.com/review/7561070/	(1, '/html/body/div/div/div/div/div/div/div/a[]')	0.0678950865573	12
+https://movie.douban.com/review/7689653/	https://movie.douban.com/subject/26289144/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/h3/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7555399/	https://movie.douban.com/subject/26289144/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7632626/	https://movie.douban.com/subject/26289144/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7563297/	https://movie.douban.com/subject/26289144/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/7626904/	https://movie.douban.com/subject/26289144/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7572806/	https://movie.douban.com/subject/26289144/reviews	(12, '/html/body/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7564359/	https://movie.douban.com/review/7563297/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	1
+https://movie.douban.com/review/7564359/?start=100#comments	https://movie.douban.com/review/7564359/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	1
+https://movie.douban.com/review/7564359/?start=0#comments	https://movie.douban.com/review/7564359/?start=100#comments	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	-1
+https://movie.douban.com/review/7666031/	https://movie.douban.com/subject/26289144/reviews	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	-1
+https://movie.douban.com/review/7578615/	https://movie.douban.com/subject/26289144/reviews	(12, '/html/body/div/div/div/div/div/div/div/h3/div/a[j a_unfolder]')	0.813500616951	-1
+https://movie.douban.com/subject/26289144/reviews?score=	https://movie.douban.com/subject/26289144/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/26289144/reviews?score=5	https://movie.douban.com/subject/26289144/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/26289144/reviews?score=4	https://movie.douban.com/subject/26289144/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/26289144/reviews?score=3	https://movie.douban.com/subject/26289144/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/26289144/reviews?score=2	https://movie.douban.com/subject/26289144/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/26289144/reviews?score=1	https://movie.douban.com/subject/26289144/reviews	(12, '/html/body/div/div/div/div/div/ul/li/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/26289144/reviews?sort=time&filter=	https://movie.douban.com/subject/26289144/reviews	(12, '/html/body/div/div/div/div/h2/a[]')	0.117222703076	-1
+https://movie.douban.com/subject/26289144/awards/	https://movie.douban.com/subject/26289144/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	-1
+https://movie.douban.com/subject/26289144/questions/?from=subject	https://movie.douban.com/subject/26289144/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	13
+https://movie.douban.com/subject/4917726/?from=subject-page	https://movie.douban.com/subject/26366465/	(2, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.0514344513498	2
+https://movie.douban.com/review/5150867/	https://movie.douban.com/subject/4917726/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/5125690/	https://movie.douban.com/subject/4917726/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/5124606/	https://movie.douban.com/subject/4917726/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/5126458/	https://movie.douban.com/subject/4917726/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/review/5173865/	https://movie.douban.com/subject/4917726/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	-1
+https://movie.douban.com/subject/4917726/awards/	https://movie.douban.com/subject/4917726/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	-1
+https://movie.douban.com/subject/4917726/comments	https://movie.douban.com/subject/4917726/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	4
+https://movie.douban.com/subject/4917726/questions/?from=subject	https://movie.douban.com/subject/4917726/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	13
+https://movie.douban.com/subject/4917726/reviews	https://movie.douban.com/subject/4917726/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/h2/span/a[]')	0.0514380870641	-1
+https://movie.douban.com/subject/25840705/?from=subject-page	https://movie.douban.com/subject/26366465/	(2, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.0514344513498	-1
+https://movie.douban.com/subject/24735062/?from=subject-page	https://movie.douban.com/subject/26366465/	(2, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.0514344513498	2
+https://movie.douban.com/review/6195072/	https://movie.douban.com/subject/24735062/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/6194689/	https://movie.douban.com/subject/24735062/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/6198744/	https://movie.douban.com/subject/24735062/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/6201272/	https://movie.douban.com/subject/24735062/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/6202949/	https://movie.douban.com/subject/24735062/?from=subject-page	(2, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[]')	0.819856090521	1
+https://movie.douban.com/review/6195072/?start=100#comments	https://movie.douban.com/review/6195072/	(1, '/html/body/div/div/div/div/div/div/div/div/div/span/a[]')	0.819856090521	-1
+https://movie.douban.com/review/6196111/	https://movie.douban.com/review/6195072/	(1, '/html/body/div/div/div/div/div/div/div/ul/li/h3/a[]')	0.819856090521	-1

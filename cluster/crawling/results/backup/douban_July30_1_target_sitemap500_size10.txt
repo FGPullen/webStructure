@@ -1,0 +1,10 @@
+http://movie.douban.com			500	0
+https://movie.douban.com/subject/5045678/?from=reviews	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.85058835228	7
+https://movie.douban.com/subject/26602244/?from=reviews	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.85058835228	7
+https://movie.douban.com/subject/25944714/?from=reviews	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.85058835228	7
+https://movie.douban.com/subject/26727298/?from=reviews	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.85058835228	7
+https://movie.douban.com/subject/25855071/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/table/tr/td/a[]')	0.85058835228	7
+https://movie.douban.com/subject/26614893/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/table/tr/td/a[]')	0.85058835228	7
+https://movie.douban.com/subject/25893369/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/table/tr/td/a[]')	0.85058835228	7
+https://movie.douban.com/subject/26253586/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/table/tr/td/a[]')	0.85058835228	7
+https://movie.douban.com/subject/26633328/	http://movie.douban.com	(0, '/html/body/div/div/div/div/div/div/table/tr/td/a[]')	0.85058835228	7

@@ -1,0 +1,1004 @@
+http://www.rottentomatoes.com			500	-1
+http://www.rottentomatoes.com/search/mobile/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/a[]')	0.165135646322	3
+http://www.rottentomatoes.com/m/10_cloverfield_lane/	http://www.rottentomatoes.com	(-1, '/html/body/div/div/div/div/div/div/div/table/tr/td/a[]')	0.0675601589379	8
+http://www.rottentomatoes.com/m/10_cloverfield_lane/pictures/multiuse-1010962/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.134375797232	3
+http://www.rottentomatoes.com/m/10_cloverfield_lane/pictures/multiuse-1032723/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.134375797232	3
+http://www.rottentomatoes.com/m/10_cloverfield_lane/pictures/multiuse-1052655/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.134375797232	3
+http://www.rottentomatoes.com/m/10_cloverfield_lane/quotes/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.134375797232	11
+http://www.rottentomatoes.com/critic/mara-reinstein/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.133991837201	-1
+http://www.rottentomatoes.com/critic/mara-reinstein/?cats=&genreid=&letter=&switches=&sortby=&limit=50&page=2	http://www.rottentomatoes.com/critic/mara-reinstein/	(-1, '/html/body/div/div/div/div/div/div/div/a[]')	0.15817073764	6
+http://www.rottentomatoes.com/critic/alan-scherstuhl/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.133991837201	-1
+http://www.rottentomatoes.com/critic/alan-scherstuhl/?cats=&genreid=&letter=&switches=&sortby=&limit=50&page=2	http://www.rottentomatoes.com/critic/alan-scherstuhl/	(-1, '/html/body/div/div/div/div/div/div/div/a[]')	0.159938721139	-1
+http://www.rottentomatoes.com/critic/alonso-duralde/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.133991837201	-1
+http://www.rottentomatoes.com/critic/alonso-duralde/?cats=&genreid=&letter=&switches=&sortby=&limit=50&page=2	http://www.rottentomatoes.com/critic/alonso-duralde/	(-1, '/html/body/div/div/div/div/div/div/div/a[]')	0.161526670501	6
+http://www.rottentomatoes.com/critic/justin-lowe/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.133991837201	-1
+http://www.rottentomatoes.com/critic/justin-lowe/?cats=&genreid=&letter=&switches=&sortby=&limit=50&page=2	http://www.rottentomatoes.com/critic/justin-lowe/	(-1, '/html/body/div/div/div/div/div/div/div/a[]')	0.16135244425	-1
+http://www.rottentomatoes.com/critic/chris-nashawaty/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.133991837201	-1
+http://www.rottentomatoes.com/critic/chris-nashawaty/?cats=&genreid=&letter=&switches=&sortby=&limit=50&page=2	http://www.rottentomatoes.com/critic/chris-nashawaty/	(-1, '/html/body/div/div/div/div/div/div/div/a[]')	0.162239132236	6
+http://www.rottentomatoes.com/critic/justin-chang/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.133991837201	-1
+http://www.rottentomatoes.com/critic/justin-chang/?cats=&genreid=&letter=&switches=&sortby=&limit=50&page=2	http://www.rottentomatoes.com/critic/justin-chang/	(-1, '/html/body/div/div/div/div/div/div/div/a[]')	0.161706018486	-1
+http://www.rottentomatoes.com/critic/luke-buckmaster/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.133991837201	-1
+http://www.rottentomatoes.com/critic/luke-buckmaster/?cats=&genreid=&letter=&switches=&sortby=&limit=50&page=2	http://www.rottentomatoes.com/critic/luke-buckmaster/	(-1, '/html/body/div/div/div/div/div/div/div/a[]')	0.162357647775	6
+http://www.rottentomatoes.com/critic/simon-foster/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.133991837201	-1
+http://www.rottentomatoes.com/critic/simon-foster/?cats=&genreid=&letter=&switches=&sortby=&limit=50&page=2	http://www.rottentomatoes.com/critic/simon-foster/	(-1, '/html/body/div/div/div/div/div/div/div/a[]')	0.16177042327	-1
+http://www.rottentomatoes.com/critic/bryan-bishop/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.133991837201	-1
+http://www.rottentomatoes.com/critic/bryan-bishop/?cats=&genreid=&letter=&switches=&sortby=&limit=50&page=2	http://www.rottentomatoes.com/critic/bryan-bishop/	(-1, '/html/body/div/div/div/div/div/div/div/a[]')	0.162307924174	-1
+http://www.rottentomatoes.com/critic/tim-grierson/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.133991837201	-1
+http://www.rottentomatoes.com/critic/erik-davis/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.133991837201	-1
+http://www.rottentomatoes.com/critic/mike-ryan-16092/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.133991837201	-1
+http://www.rottentomatoes.com/browse/opening/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.131557706724	0
+http://www.rottentomatoes.com/browse/in-theaters/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.131557706724	0
+http://www.rottentomatoes.com/browse/upcoming/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.131557706724	0
+http://www.rottentomatoes.com/browse/dvd-top-rentals/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.131557706724	0
+http://www.rottentomatoes.com/browse/dvd-new-releases/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.131557706724	0
+http://www.rottentomatoes.com/browse/tv-list-1/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.131557706724	0
+http://www.rottentomatoes.com/browse/tv-list-2/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.131557706724	0
+http://www.rottentomatoes.com/browse/tv-list-3/	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.131557706724	0
+http://www.rottentomatoes.com/celebrity/1167982-mary_elizabeth_winstead	http://www.rottentomatoes.com/m/10_cloverfield_lane/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.131557706724	2
+http://www.rottentomatoes.com/celebrity/1167982-mary_elizabeth_winstead/	http://www.rottentomatoes.com/celebrity/1167982-mary_elizabeth_winstead	(2, '/html/body/div/div/div/div/div/div/a[]')	0.221059308654	2
+http://www.rottentomatoes.com/m/faults/	http://www.rottentomatoes.com/celebrity/1167982-mary_elizabeth_winstead	(2, '/html/body/div/div/div/div/div/div/a[]')	0.221059308654	8
+http://www.rottentomatoes.com/user/id/891372896/	http://www.rottentomatoes.com/m/faults/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.236093963876	18
+http://www.rottentomatoes.com/user/id/804406009/	http://www.rottentomatoes.com/m/faults/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.236093963876	19
+http://www.rottentomatoes.com/m/final_destination_3/	http://www.rottentomatoes.com/celebrity/1167982-mary_elizabeth_winstead	(2, '/html/body/div/div/div/div/div/div/a[]')	0.221059308654	8
+http://www.rottentomatoes.com/user/id/910070718/	http://www.rottentomatoes.com/celebrity/1167982-mary_elizabeth_winstead	(2, '/html/body/div/div/div/div/div/div/a[]')	0.221059308654	19
+http://www.rottentomatoes.com/m/warm_bodies/	http://www.rottentomatoes.com/user/id/891372896/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.153951659031	8
+http://www.rottentomatoes.com/user/id/789814099/	http://www.rottentomatoes.com/m/warm_bodies/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.23549892776	19
+http://www.rottentomatoes.com/user/id/209816720/	http://www.rottentomatoes.com/m/warm_bodies/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.23549892776	18
+http://www.rottentomatoes.com/m/sexy_beast/	http://www.rottentomatoes.com/user/id/891372896/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.153951659031	8
+http://www.rottentomatoes.com/user/id/690641254/	http://www.rottentomatoes.com/m/sexy_beast/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.235015713563	19
+http://www.rottentomatoes.com/m/junebug/	http://www.rottentomatoes.com/user/id/891372896/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.153951659031	8
+http://www.rottentomatoes.com/user/id/833496193/	http://www.rottentomatoes.com/m/junebug/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.234567274131	18
+http://www.rottentomatoes.com/user/id/787154086/	http://www.rottentomatoes.com/m/junebug/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.234567274131	18
+http://www.rottentomatoes.com/m/triple_9/	http://www.rottentomatoes.com/user/id/209816720/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.15350010907	8
+http://www.rottentomatoes.com/user/id/904377541/	http://www.rottentomatoes.com/m/triple_9/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.23404906608	19
+http://www.rottentomatoes.com/user/id/936312900/	http://www.rottentomatoes.com/m/triple_9/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.23404906608	19
+http://www.rottentomatoes.com/user/id/783764844/	http://www.rottentomatoes.com/m/triple_9/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.23404906608	19
+http://www.rottentomatoes.com/m/the_voices/	http://www.rottentomatoes.com/user/id/209816720/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.15350010907	8
+http://www.rottentomatoes.com/user/id/906395584/	http://www.rottentomatoes.com/m/the_voices/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.233168182493	18
+http://www.rottentomatoes.com/user/id/861960467/	http://www.rottentomatoes.com/m/the_voices/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.233168182493	18
+http://www.rottentomatoes.com/m/jupiter_ascending_2014/	http://www.rottentomatoes.com/user/id/209816720/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.15350010907	8
+http://www.rottentomatoes.com/user/id/926317724/	http://www.rottentomatoes.com/m/jupiter_ascending_2014/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.232648182024	19
+http://www.rottentomatoes.com/tv/fargo/s01/	http://www.rottentomatoes.com/user/id/209816720/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.15350010907	8
+http://www.rottentomatoes.com/tv/fargo/s01/e01/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.232205970789	8
+http://www.rottentomatoes.com/tv/fargo/s01/e02/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.232205970789	8
+http://www.rottentomatoes.com/tv/fargo/s01/e03/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.232205970789	8
+http://www.rottentomatoes.com/tv/fargo/s01/e04/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.232205970789	8
+http://www.rottentomatoes.com/tv/fargo/s01/e05/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.232205970789	8
+http://www.rottentomatoes.com/tv/fargo/s01/e06/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.232205970789	8
+http://www.rottentomatoes.com/tv/fargo/s01/e07/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.232205970789	8
+http://www.rottentomatoes.com/tv/fargo/s01/e08/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.232205970789	8
+http://www.rottentomatoes.com/tv/fargo/s01/e09/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.232205970789	8
+http://www.rottentomatoes.com/tv/fargo/s01/e10/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.232205970789	8
+http://www.rottentomatoes.com/user/id/892037402/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.166461457079	19
+http://www.rottentomatoes.com/user/id/803480787/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.166461457079	18
+http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/	http://www.rottentomatoes.com/user/id/209816720/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.15350010907	8
+http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/e01/	http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.228841396794	8
+http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/e02/	http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.228841396794	8
+http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/e03/	http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.228841396794	8
+http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/e04/	http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.228841396794	8
+http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/e05/	http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.228841396794	8
+http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/e06/	http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.228841396794	8
+http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/e07/	http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.228841396794	8
+http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/e08/	http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.228841396794	8
+http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/e09/	http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.228841396794	8
+http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/e10/	http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.228841396794	8
+http://www.rottentomatoes.com/user/id/821372408/	http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.166722076075	18
+http://www.rottentomatoes.com/user/id/784443343/	http://www.rottentomatoes.com/tv/the-man-in-the-high-castle/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.166722076075	19
+http://www.rottentomatoes.com/tv/the-expanse/s01/	http://www.rottentomatoes.com/user/id/209816720/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.15350010907	8
+http://www.rottentomatoes.com/m/everest_2015/	http://www.rottentomatoes.com/user/id/833496193/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.152890014899	8
+http://www.rottentomatoes.com/user/id/799709308/	http://www.rottentomatoes.com/m/everest_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.224995030778	19
+http://www.rottentomatoes.com/user/id/837340036/	http://www.rottentomatoes.com/m/everest_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166935519191	19
+http://www.rottentomatoes.com/m/beasts_of_no_nation/	http://www.rottentomatoes.com/user/id/833496193/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.152890014899	8
+http://www.rottentomatoes.com/user/id/896976177/	http://www.rottentomatoes.com/m/beasts_of_no_nation/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.224743459871	18
+http://www.rottentomatoes.com/m/straight_outta_compton/	http://www.rottentomatoes.com/user/id/833496193/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.152890014899	8
+http://www.rottentomatoes.com/user/id/816762000/	http://www.rottentomatoes.com/m/straight_outta_compton/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.224524737601	19
+http://www.rottentomatoes.com/user/id/971568850/	http://www.rottentomatoes.com/m/straight_outta_compton/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166533453064	18
+http://www.rottentomatoes.com/m/batman_v_superman_dawn_of_justice/	http://www.rottentomatoes.com/user/id/833496193/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.152890014899	8
+http://www.rottentomatoes.com/user/id/967577419/	http://www.rottentomatoes.com/m/batman_v_superman_dawn_of_justice/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166266183138	18
+http://www.rottentomatoes.com/m/deadpool/	http://www.rottentomatoes.com/user/id/787154086/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.152706797213	8
+http://www.rottentomatoes.com/user/id/213589378/	http://www.rottentomatoes.com/m/deadpool/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.224105393677	19
+http://www.rottentomatoes.com/user/id/784251640/	http://www.rottentomatoes.com/m/deadpool/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.224105393677	19
+http://www.rottentomatoes.com/user/id/969578465/	http://www.rottentomatoes.com/m/deadpool/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166175582259	-1
+http://www.rottentomatoes.com/m/the_young_messiah/	http://www.rottentomatoes.com/user/id/787154086/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.152706797213	8
+http://www.rottentomatoes.com/m/whiskey_tango_foxtrot/	http://www.rottentomatoes.com/user/id/787154086/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.152706797213	8
+http://www.rottentomatoes.com/user/id/916858593/	http://www.rottentomatoes.com/m/whiskey_tango_foxtrot/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.223856595621	18
+http://www.rottentomatoes.com/user/id/797612627/	http://www.rottentomatoes.com/m/whiskey_tango_foxtrot/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.223856595621	19
+http://www.rottentomatoes.com/user/id/783018127/	http://www.rottentomatoes.com/m/whiskey_tango_foxtrot/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.223856595621	19
+http://www.rottentomatoes.com/m/no_escape_2015/	http://www.rottentomatoes.com/user/id/861960467/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.15196245409	8
+http://www.rottentomatoes.com/user/id/783449112/	http://www.rottentomatoes.com/m/no_escape_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.223668373369	19
+http://www.rottentomatoes.com/m/wild_bill_2011/	http://www.rottentomatoes.com/user/id/861960467/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.15196245409	8
+http://www.rottentomatoes.com/user/id/899273376/	http://www.rottentomatoes.com/m/wild_bill_2011/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.223424188868	19
+http://www.rottentomatoes.com/user/id/906836279/	http://www.rottentomatoes.com/m/wild_bill_2011/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.223424188868	19
+http://www.rottentomatoes.com/m/maps_to_the_stars/	http://www.rottentomatoes.com/user/id/861960467/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.15196245409	8
+http://www.rottentomatoes.com/user/id/185584554/	http://www.rottentomatoes.com/m/maps_to_the_stars/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.223158802798	18
+http://www.rottentomatoes.com/tv/fortitude/s01/	http://www.rottentomatoes.com/user/id/861960467/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.15196245409	8
+http://www.rottentomatoes.com/m/poltergeist-2009/	http://www.rottentomatoes.com/user/id/910070718/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.149150650597	8
+http://www.rottentomatoes.com/m/noah_2014/	http://www.rottentomatoes.com/user/id/910070718/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.149150650597	8
+http://www.rottentomatoes.com/m/my_week_with_marilyn/	http://www.rottentomatoes.com/user/id/910070718/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.149150650597	8
+http://www.rottentomatoes.com/user/id/463897201/	http://www.rottentomatoes.com/m/my_week_with_marilyn/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.222360180233	19
+http://www.rottentomatoes.com/m/ashes_of_time_redux_2008/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.148353909999	8
+http://www.rottentomatoes.com/user/id/782114803/	http://www.rottentomatoes.com/m/ashes_of_time_redux_2008/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.22214247937	19
+http://www.rottentomatoes.com/m/stockholm_pennsylvania_2015/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.147232904612	8
+http://www.rottentomatoes.com/m/last_days_in_the_desert/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.147232904612	8
+http://www.rottentomatoes.com/m/the_hunt_2013/	http://www.rottentomatoes.com/user/id/926317724/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.146677497511	8
+http://www.rottentomatoes.com/user/id/786240523/	http://www.rottentomatoes.com/m/the_hunt_2013/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.221513677047	18
+http://www.rottentomatoes.com/m/starred_up/	http://www.rottentomatoes.com/user/id/926317724/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.146677497511	8
+http://www.rottentomatoes.com/m/the_great_beauty/	http://www.rottentomatoes.com/user/id/926317724/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.146677497511	8
+http://www.rottentomatoes.com/m/creed_2015/	http://www.rottentomatoes.com/user/id/821372408/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.144421248121	8
+http://www.rottentomatoes.com/user/id/543398161/	http://www.rottentomatoes.com/m/creed_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.220989359252	19
+http://www.rottentomatoes.com/user/id/336592762/	http://www.rottentomatoes.com/m/creed_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.220989359252	19
+http://www.rottentomatoes.com/user/id/878504299/	http://www.rottentomatoes.com/m/creed_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.165195366007	18
+http://www.rottentomatoes.com/m/spotlight_2015/	http://www.rottentomatoes.com/user/id/821372408/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.144421248121	8
+http://www.rottentomatoes.com/user/id/783757952/	http://www.rottentomatoes.com/m/spotlight_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.220900648408	19
+http://www.rottentomatoes.com/user/id/973555199/	http://www.rottentomatoes.com/m/spotlight_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.164820323015	18
+http://www.rottentomatoes.com/m/the_revenant_2015/	http://www.rottentomatoes.com/user/id/821372408/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.144421248121	8
+http://www.rottentomatoes.com/user/id/231596676/	http://www.rottentomatoes.com/m/the_revenant_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.220797511725	19
+http://www.rottentomatoes.com/user/id/972690004/	http://www.rottentomatoes.com/m/the_revenant_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.16461903472	18
+http://www.rottentomatoes.com/m/finders_keepers_2015/	http://www.rottentomatoes.com/user/id/821372408/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.144421248121	8
+http://www.rottentomatoes.com/m/everybody_wants_some/	http://www.rottentomatoes.com/user/id/896976177/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.144118535546	8
+http://www.rottentomatoes.com/m/cosmopolis/	http://www.rottentomatoes.com/user/id/896976177/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.144118535546	8
+http://www.rottentomatoes.com/m/the_divergent_series_allegiant/	http://www.rottentomatoes.com/user/id/967577419/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.14375506075	8
+http://www.rottentomatoes.com/m/midnight_special_2015/	http://www.rottentomatoes.com/user/id/185584554/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.143695096308	8
+http://www.rottentomatoes.com/m/while_were_young/	http://www.rottentomatoes.com/user/id/185584554/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.143695096308	8
+http://www.rottentomatoes.com/m/the_broken_circle_breakdown/	http://www.rottentomatoes.com/user/id/185584554/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.143695096308	8
+http://www.rottentomatoes.com/m/dumb_and_dumber_to/	http://www.rottentomatoes.com/user/id/916858593/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.143520894074	8
+http://www.rottentomatoes.com/user/id/891499870/	http://www.rottentomatoes.com/m/dumb_and_dumber_to/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219456657854	18
+http://www.rottentomatoes.com/user/id/967858000/	http://www.rottentomatoes.com/m/dumb_and_dumber_to/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.164827935588	18
+http://www.rottentomatoes.com/user/id/963554236/	http://www.rottentomatoes.com/m/dumb_and_dumber_to/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.164827935588	18
+http://www.rottentomatoes.com/m/horrible_bosses_2/	http://www.rottentomatoes.com/user/id/916858593/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.143520894074	8
+http://www.rottentomatoes.com/user/id/800300673/	http://www.rottentomatoes.com/m/horrible_bosses_2/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219522652283	19
+http://www.rottentomatoes.com/user/id/363432189/	http://www.rottentomatoes.com/m/horrible_bosses_2/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219522652283	19
+http://www.rottentomatoes.com/m/interstellar_2014/	http://www.rottentomatoes.com/user/id/916858593/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.143520894074	8
+http://www.rottentomatoes.com/user/id/913664074/	http://www.rottentomatoes.com/m/interstellar_2014/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.164369132541	18
+http://www.rottentomatoes.com/m/the_hunger_games_mockingjay_part_1/	http://www.rottentomatoes.com/user/id/916858593/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.143520894074	8
+http://www.rottentomatoes.com/user/id/604295879/	http://www.rottentomatoes.com/m/the_hunger_games_mockingjay_part_1/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219318624545	19
+http://www.rottentomatoes.com/m/deep_impact/	http://www.rottentomatoes.com/user/id/892037402/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.143161362336	8
+http://www.rottentomatoes.com/user/id/48945903/	http://www.rottentomatoes.com/m/deep_impact/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219184515438	19
+http://www.rottentomatoes.com/m/ex_machina/	http://www.rottentomatoes.com/user/id/786240523/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.142085928806	8
+http://www.rottentomatoes.com/user/id/908276539/	http://www.rottentomatoes.com/m/ex_machina/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219050555547	19
+http://www.rottentomatoes.com/user/id/970345905/	http://www.rottentomatoes.com/m/ex_machina/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.164164264715	19
+http://www.rottentomatoes.com/m/falling_down/	http://www.rottentomatoes.com/user/id/786240523/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.142085928806	8
+http://www.rottentomatoes.com/m/the_birth_of_a_nation_2016/	http://www.rottentomatoes.com/user/id/878504299/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.141792163528	8
+http://www.rottentomatoes.com/m/10009075-moon/	http://www.rottentomatoes.com/user/id/878504299/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.141792163528	8
+http://www.rottentomatoes.com/tv/daredevil/s02/	http://www.rottentomatoes.com/user/id/878504299/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.141792163528	8
+http://www.rottentomatoes.com/tv/jessica-jones/s01/	http://www.rottentomatoes.com/user/id/878504299/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.141792163528	8
+http://www.rottentomatoes.com/tv/jessica-jones/s01/e01/	http://www.rottentomatoes.com/tv/jessica-jones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218339886181	8
+http://www.rottentomatoes.com/tv/jessica-jones/s01/e02/	http://www.rottentomatoes.com/tv/jessica-jones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218339886181	8
+http://www.rottentomatoes.com/tv/jessica-jones/s01/e03/	http://www.rottentomatoes.com/tv/jessica-jones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218339886181	8
+http://www.rottentomatoes.com/tv/jessica-jones/s01/e04/	http://www.rottentomatoes.com/tv/jessica-jones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218339886181	8
+http://www.rottentomatoes.com/tv/jessica-jones/s01/e05/	http://www.rottentomatoes.com/tv/jessica-jones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218339886181	8
+http://www.rottentomatoes.com/tv/jessica-jones/s01/e06/	http://www.rottentomatoes.com/tv/jessica-jones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218339886181	8
+http://www.rottentomatoes.com/tv/jessica-jones/s01/e07/	http://www.rottentomatoes.com/tv/jessica-jones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218339886181	8
+http://www.rottentomatoes.com/tv/jessica-jones/s01/e08/	http://www.rottentomatoes.com/tv/jessica-jones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218339886181	8
+http://www.rottentomatoes.com/tv/jessica-jones/s01/e09/	http://www.rottentomatoes.com/tv/jessica-jones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218339886181	8
+http://www.rottentomatoes.com/tv/jessica-jones/s01/e10/	http://www.rottentomatoes.com/tv/jessica-jones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218339886181	8
+http://www.rottentomatoes.com/tv/jessica-jones/s01/e11/	http://www.rottentomatoes.com/tv/jessica-jones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218339886181	8
+http://www.rottentomatoes.com/tv/jessica-jones/s01/e12/	http://www.rottentomatoes.com/tv/jessica-jones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218339886181	8
+http://www.rottentomatoes.com/tv/jessica-jones/s01/e13/	http://www.rottentomatoes.com/tv/jessica-jones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218339886181	8
+http://www.rottentomatoes.com/user/id/784119671/	http://www.rottentomatoes.com/tv/jessica-jones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.16416566147	19
+http://www.rottentomatoes.com/user/id/912887273/	http://www.rottentomatoes.com/tv/jessica-jones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.16416566147	18
+http://www.rottentomatoes.com/m/terminator/	http://www.rottentomatoes.com/user/id/973555199/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.141784013185	8
+http://www.rottentomatoes.com/m/bridge_to_terabithia/	http://www.rottentomatoes.com/user/id/973555199/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.141784013185	8
+http://www.rottentomatoes.com/user/id/944087126/	http://www.rottentomatoes.com/m/bridge_to_terabithia/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.164702900483	19
+http://www.rottentomatoes.com/critic/john-defore/	http://www.rottentomatoes.com/m/faults/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140543061673	-1
+http://www.rottentomatoes.com/critic/sheri-linden/	http://www.rottentomatoes.com/m/faults/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140543061673	-1
+http://www.rottentomatoes.com/critic/andy-webster/	http://www.rottentomatoes.com/m/faults/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140543061673	-1
+http://www.rottentomatoes.com/critic/david-ehrlich/	http://www.rottentomatoes.com/m/faults/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140543061673	-1
+http://www.rottentomatoes.com/critic/eric-kohn/	http://www.rottentomatoes.com/m/faults/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140543061673	-1
+http://www.rottentomatoes.com/critic/jonathan-hatfull/	http://www.rottentomatoes.com/m/faults/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140543061673	-1
+http://www.rottentomatoes.com/critic/todd-jorgenson/	http://www.rottentomatoes.com/m/faults/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140543061673	-1
+http://www.rottentomatoes.com/critic/christine-n-ziemba/	http://www.rottentomatoes.com/m/faults/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140543061673	-1
+http://www.rottentomatoes.com/critic/fernando-f-croce/	http://www.rottentomatoes.com/m/final_destination_3/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140483184094	-1
+http://www.rottentomatoes.com/critic/felix-vasquez-jr/	http://www.rottentomatoes.com/m/final_destination_3/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140483184094	-1
+http://www.rottentomatoes.com/critic/rob-gonsalves/	http://www.rottentomatoes.com/m/final_destination_3/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140483184094	-1
+http://www.rottentomatoes.com/critic/ethan-alter/	http://www.rottentomatoes.com/m/final_destination_3/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140483184094	-1
+http://www.rottentomatoes.com/critic/jonathan-kiefer/	http://www.rottentomatoes.com/m/final_destination_3/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140483184094	-1
+http://www.rottentomatoes.com/critic/urban-cinefile-critics/	http://www.rottentomatoes.com/m/final_destination_3/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140483184094	-1
+http://www.rottentomatoes.com/critic/nick-schager/	http://www.rottentomatoes.com/m/final_destination_3/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140483184094	-1
+http://www.rottentomatoes.com/critic/luke-y-thompson/	http://www.rottentomatoes.com/m/final_destination_3/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140483184094	-1
+http://www.rottentomatoes.com/critic/marc-savlov/	http://www.rottentomatoes.com/m/final_destination_3/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140483184094	-1
+http://www.rottentomatoes.com/critic/j-r-jones/	http://www.rottentomatoes.com/m/warm_bodies/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140329112258	-1
+http://www.rottentomatoes.com/critic/david-thomson/	http://www.rottentomatoes.com/m/warm_bodies/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140329112258	-1
+http://www.rottentomatoes.com/critic/sean-burns/	http://www.rottentomatoes.com/m/warm_bodies/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140329112258	-1
+http://www.rottentomatoes.com/critic/richard-knight/	http://www.rottentomatoes.com/m/warm_bodies/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140329112258	-1
+http://www.rottentomatoes.com/critic/rick-bentley/	http://www.rottentomatoes.com/m/warm_bodies/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140329112258	6
+http://www.rottentomatoes.com/critic/geoffrey-macnab/	http://www.rottentomatoes.com/m/warm_bodies/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140329112258	-1
+http://www.rottentomatoes.com/critic/jim-lane/	http://www.rottentomatoes.com/m/warm_bodies/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140329112258	-1
+http://www.rottentomatoes.com/critic/david-ansen/	http://www.rottentomatoes.com/m/sexy_beast/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140198377672	-1
+http://www.rottentomatoes.com/critic/pablo-villaca-5765/	http://www.rottentomatoes.com/m/sexy_beast/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140198377672	-1
+http://www.rottentomatoes.com/critic/joe-lozito/	http://www.rottentomatoes.com/m/sexy_beast/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140198377672	-1
+http://www.rottentomatoes.com/critic/jason-gorber/	http://www.rottentomatoes.com/m/sexy_beast/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140198377672	-1
+http://www.rottentomatoes.com/critic/jeffrey-m-anderson/	http://www.rottentomatoes.com/m/sexy_beast/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140198377672	-1
+http://www.rottentomatoes.com/critic/jeffrey-overstreet/	http://www.rottentomatoes.com/m/sexy_beast/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.140198377672	-1
+http://www.rottentomatoes.com/m/full_metal_jacket/	http://www.rottentomatoes.com/user/id/913664074/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.140166786602	8
+http://www.rottentomatoes.com/user/id/967693587/	http://www.rottentomatoes.com/m/full_metal_jacket/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.165695641107	19
+http://www.rottentomatoes.com/m/the_imitation_game/	http://www.rottentomatoes.com/user/id/913664074/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.140166786602	8
+http://www.rottentomatoes.com/user/id/905108980/	http://www.rottentomatoes.com/m/the_imitation_game/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.221350544876	18
+http://www.rottentomatoes.com/m/sicario_2015/	http://www.rottentomatoes.com/user/id/913664074/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.140166786602	8
+http://www.rottentomatoes.com/user/id/972436624/	http://www.rottentomatoes.com/m/sicario_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.16560272973	-1
+http://www.rottentomatoes.com/user/id/901214890/	http://www.rottentomatoes.com/m/sicario_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.16560272973	18
+http://www.rottentomatoes.com/user/id/941272046/	http://www.rottentomatoes.com/m/sicario_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.16560272973	18
+http://www.rottentomatoes.com/m/56_up/	http://www.rottentomatoes.com/user/id/941272046/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.141497012515	8
+http://www.rottentomatoes.com/m/hail_caesar_2016/	http://www.rottentomatoes.com/user/id/913664074/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.140166786602	8
+http://www.rottentomatoes.com/user/id/814668018/	http://www.rottentomatoes.com/m/hail_caesar_2016/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.165572470559	18
+http://www.rottentomatoes.com/m/the_intern/	http://www.rottentomatoes.com/user/id/814668018/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.141247040835	8
+http://www.rottentomatoes.com/m/anomalisa/	http://www.rottentomatoes.com/user/id/814668018/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.141247040835	8
+http://www.rottentomatoes.com/m/spectre_2015/	http://www.rottentomatoes.com/user/id/814668018/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.141247040835	8
+http://www.rottentomatoes.com/user/id/594845390/	http://www.rottentomatoes.com/m/spectre_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.220965923709	19
+http://www.rottentomatoes.com/user/id/969325828/	http://www.rottentomatoes.com/m/spectre_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.165596116889	18
+http://www.rottentomatoes.com/user/id/949849085/	http://www.rottentomatoes.com/m/spectre_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.165596116889	18
+http://www.rottentomatoes.com/m/trumbo/	http://www.rottentomatoes.com/user/id/814668018/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.141247040835	8
+http://www.rottentomatoes.com/m/crimson_peak/	http://www.rottentomatoes.com/user/id/949849085/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.141006748205	8
+http://www.rottentomatoes.com/tv/arrow/s04/	http://www.rottentomatoes.com/user/id/913664074/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.140166786602	8
+http://www.rottentomatoes.com/tv/arrow/s04/e12/	http://www.rottentomatoes.com/tv/arrow/s04/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.220730975621	8
+http://www.rottentomatoes.com/tv/arrow/s04/e13/	http://www.rottentomatoes.com/tv/arrow/s04/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.220730975621	8
+http://www.rottentomatoes.com/tv/arrow/s04/e14/	http://www.rottentomatoes.com/tv/arrow/s04/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.220730975621	8
+http://www.rottentomatoes.com/tv/arrow/s04/e15/	http://www.rottentomatoes.com/tv/arrow/s04/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.220730975621	8
+http://www.rottentomatoes.com/user/id/789923298/	http://www.rottentomatoes.com/tv/arrow/s04/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.165473081802	19
+http://www.rottentomatoes.com/user/id/349476225/	http://www.rottentomatoes.com/tv/arrow/s04/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.165473081802	19
+http://www.rottentomatoes.com/tv/the-following/s03/	http://www.rottentomatoes.com/user/id/913664074/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.140166786602	8
+http://www.rottentomatoes.com/user/id/200490042/	http://www.rottentomatoes.com/tv/the-following/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.165447288214	19
+http://www.rottentomatoes.com/tv/game-of-thrones/s06/	http://www.rottentomatoes.com/user/id/913664074/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.140166786602	8
+http://www.rottentomatoes.com/tv/the-walking-dead/s06/	http://www.rottentomatoes.com/user/id/913664074/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.140166786602	8
+http://www.rottentomatoes.com/tv/the-walking-dead/s06/e01/	http://www.rottentomatoes.com/tv/the-walking-dead/s06/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.22001794533	8
+http://www.rottentomatoes.com/tv/the-walking-dead/s06/e02/	http://www.rottentomatoes.com/tv/the-walking-dead/s06/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.22001794533	8
+http://www.rottentomatoes.com/tv/the-walking-dead/s06/e03/	http://www.rottentomatoes.com/tv/the-walking-dead/s06/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.22001794533	8
+http://www.rottentomatoes.com/tv/the-walking-dead/s06/e04/	http://www.rottentomatoes.com/tv/the-walking-dead/s06/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.22001794533	8
+http://www.rottentomatoes.com/tv/the-walking-dead/s06/e05/	http://www.rottentomatoes.com/tv/the-walking-dead/s06/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.22001794533	8
+http://www.rottentomatoes.com/tv/the-walking-dead/s06/e06/	http://www.rottentomatoes.com/tv/the-walking-dead/s06/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.22001794533	8
+http://www.rottentomatoes.com/tv/the-walking-dead/s06/e07/	http://www.rottentomatoes.com/tv/the-walking-dead/s06/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.22001794533	8
+http://www.rottentomatoes.com/tv/the-walking-dead/s06/e08/	http://www.rottentomatoes.com/tv/the-walking-dead/s06/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.22001794533	8
+http://www.rottentomatoes.com/tv/the-walking-dead/s06/e09/	http://www.rottentomatoes.com/tv/the-walking-dead/s06/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.22001794533	8
+http://www.rottentomatoes.com/tv/the-walking-dead/s06/e10/	http://www.rottentomatoes.com/tv/the-walking-dead/s06/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.22001794533	8
+http://www.rottentomatoes.com/tv/the-walking-dead/s06/e11/	http://www.rottentomatoes.com/tv/the-walking-dead/s06/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.22001794533	8
+http://www.rottentomatoes.com/tv/the-walking-dead/s06/e12/	http://www.rottentomatoes.com/tv/the-walking-dead/s06/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.22001794533	8
+http://www.rottentomatoes.com/m/suicide_squad_2016/	http://www.rottentomatoes.com/user/id/963554236/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.140162379909	8
+http://www.rottentomatoes.com/user/id/943776370/	http://www.rottentomatoes.com/m/suicide_squad_2016/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.165746845168	18
+http://www.rottentomatoes.com/m/frank_millers_sin_city_a_dame_to_kill_for/	http://www.rottentomatoes.com/user/id/967858000/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.140128244	8
+http://www.rottentomatoes.com/m/10009001-the_freshman/	http://www.rottentomatoes.com/user/id/967858000/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.140128244	8
+http://www.rottentomatoes.com/user/id/905198186/	http://www.rottentomatoes.com/m/10009001-the_freshman/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.21844126969	19
+http://www.rottentomatoes.com/tv/better-call-saul/s01/	http://www.rottentomatoes.com/user/id/967858000/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.140128244	8
+http://www.rottentomatoes.com/tv/better-call-saul/s01/e01/	http://www.rottentomatoes.com/tv/better-call-saul/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218375729502	8
+http://www.rottentomatoes.com/tv/better-call-saul/s01/e02/	http://www.rottentomatoes.com/tv/better-call-saul/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218375729502	8
+http://www.rottentomatoes.com/tv/better-call-saul/s01/e03/	http://www.rottentomatoes.com/tv/better-call-saul/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218375729502	8
+http://www.rottentomatoes.com/tv/better-call-saul/s01/e04/	http://www.rottentomatoes.com/tv/better-call-saul/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218375729502	8
+http://www.rottentomatoes.com/tv/better-call-saul/s01/e05/	http://www.rottentomatoes.com/tv/better-call-saul/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218375729502	8
+http://www.rottentomatoes.com/tv/better-call-saul/s01/e06/	http://www.rottentomatoes.com/tv/better-call-saul/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218375729502	8
+http://www.rottentomatoes.com/tv/better-call-saul/s01/e07/	http://www.rottentomatoes.com/tv/better-call-saul/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218375729502	8
+http://www.rottentomatoes.com/tv/better-call-saul/s01/e08/	http://www.rottentomatoes.com/tv/better-call-saul/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218375729502	8
+http://www.rottentomatoes.com/tv/better-call-saul/s01/e09/	http://www.rottentomatoes.com/tv/better-call-saul/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218375729502	8
+http://www.rottentomatoes.com/tv/better-call-saul/s01/e10/	http://www.rottentomatoes.com/tv/better-call-saul/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218375729502	8
+http://www.rottentomatoes.com/critic/mark-bourne/	http://www.rottentomatoes.com/m/junebug/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.1399928241	-1
+http://www.rottentomatoes.com/critic/jason-best/	http://www.rottentomatoes.com/m/junebug/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.1399928241	-1
+http://www.rottentomatoes.com/critic/jay-antani/	http://www.rottentomatoes.com/m/junebug/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.1399928241	-1
+http://www.rottentomatoes.com/critic/kam-williams/	http://www.rottentomatoes.com/m/junebug/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.1399928241	-1
+http://www.rottentomatoes.com/critic/kam-williams/?cats=&genreid=&letter=&switches=&sortby=&limit=50&page=2	http://www.rottentomatoes.com/critic/kam-williams/	(-1, '/html/body/div/div/div/div/div/div/div/a[]')	0.149426300294	-1
+http://www.rottentomatoes.com/critic/james-berardinelli/	http://www.rottentomatoes.com/m/triple_9/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139836738395	-1
+http://www.rottentomatoes.com/critic/matthew-lickona/	http://www.rottentomatoes.com/m/triple_9/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139836738395	-1
+http://www.rottentomatoes.com/critic/katie-walsh/	http://www.rottentomatoes.com/m/triple_9/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139836738395	-1
+http://www.rottentomatoes.com/critic/david-nusair/	http://www.rottentomatoes.com/m/triple_9/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139836738395	-1
+http://www.rottentomatoes.com/critic/stephen-silver/	http://www.rottentomatoes.com/m/triple_9/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139836738395	-1
+http://www.rottentomatoes.com/critic/david-stratton/	http://www.rottentomatoes.com/m/triple_9/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139836738395	-1
+http://www.rottentomatoes.com/critic/jake-wilson/	http://www.rottentomatoes.com/m/triple_9/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139836738395	-1
+http://www.rottentomatoes.com/critic/gary-dowell/	http://www.rottentomatoes.com/m/triple_9/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139836738395	-1
+http://www.rottentomatoes.com/critic/alison-willmore/	http://www.rottentomatoes.com/m/triple_9/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139836738395	-1
+http://www.rottentomatoes.com/critic/simon-miraudo/	http://www.rottentomatoes.com/m/triple_9/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139836738395	-1
+http://www.rottentomatoes.com/critic/beth-accomando/	http://www.rottentomatoes.com/m/triple_9/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139836738395	-1
+http://www.rottentomatoes.com/critic/bob-grimm/	http://www.rottentomatoes.com/m/triple_9/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139836738395	-1
+http://www.rottentomatoes.com/m/kon_tiki_2012/	http://www.rottentomatoes.com/user/id/784443343/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.139768648128	8
+http://www.rottentomatoes.com/user/id/858202197/	http://www.rottentomatoes.com/m/kon_tiki_2012/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219401584982	18
+http://www.rottentomatoes.com/critic/grant-rollings/	http://www.rottentomatoes.com/m/the_voices/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139742506229	-1
+http://www.rottentomatoes.com/critic/norman-wilner/	http://www.rottentomatoes.com/m/the_voices/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139742506229	-1
+http://www.rottentomatoes.com/critic/rob-carnevale/	http://www.rottentomatoes.com/m/the_voices/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139742506229	-1
+http://www.rottentomatoes.com/critic/jorge-ayala-blanco/	http://www.rottentomatoes.com/m/the_voices/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139742506229	-1
+http://www.rottentomatoes.com/critic/carlos-bonfil/	http://www.rottentomatoes.com/m/the_voices/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139742506229	-1
+http://www.rottentomatoes.com/critic/arturo-aguilar/	http://www.rottentomatoes.com/m/the_voices/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139742506229	-1
+http://www.rottentomatoes.com/critic/emine-yildirim/	http://www.rottentomatoes.com/m/jupiter_ascending_2014/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139586603493	-1
+http://www.rottentomatoes.com/critic/jared-mobarak/	http://www.rottentomatoes.com/m/jupiter_ascending_2014/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139586603493	-1
+http://www.rottentomatoes.com/critic/wesley-lovell/	http://www.rottentomatoes.com/m/jupiter_ascending_2014/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139586603493	-1
+http://www.rottentomatoes.com/critic/david-blaustein/	http://www.rottentomatoes.com/m/jupiter_ascending_2014/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139586603493	-1
+http://www.rottentomatoes.com/critic/dennis-schwartz/	http://www.rottentomatoes.com/m/jupiter_ascending_2014/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139586603493	-1
+http://www.rottentomatoes.com/critic/craig-d-lindsey/	http://www.rottentomatoes.com/m/jupiter_ascending_2014/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139586603493	-1
+http://www.rottentomatoes.com/critic/michael-smith/	http://www.rottentomatoes.com/m/jupiter_ascending_2014/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139586603493	6
+http://www.rottentomatoes.com/critic/tom-meek/	http://www.rottentomatoes.com/m/jupiter_ascending_2014/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139586603493	-1
+http://www.rottentomatoes.com/critic/nick-dent/	http://www.rottentomatoes.com/m/jupiter_ascending_2014/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139586603493	-1
+http://www.rottentomatoes.com/critic/josh-terry/	http://www.rottentomatoes.com/m/jupiter_ascending_2014/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139586603493	-1
+http://www.rottentomatoes.com/critic/euan-ferguson/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139364947301	-1
+http://www.rottentomatoes.com/critic/christopher-orr/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139364947301	-1
+http://www.rottentomatoes.com/critic/ellen-e-jones/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139364947301	-1
+http://www.rottentomatoes.com/critic/sam-wollaston/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139364947301	-1
+http://www.rottentomatoes.com/critic/mary-mcnamara/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139364947301	-1
+http://www.rottentomatoes.com/critic/david-bianculli/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139364947301	-1
+http://www.rottentomatoes.com/critic/eric-deggans/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139364947301	-1
+http://www.rottentomatoes.com/critic/kevin-yeoman/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139364947301	-1
+http://www.rottentomatoes.com/critic/kevin-yeoman/?cats=&genreid=&letter=&switches=&sortby=&limit=50&page=2	http://www.rottentomatoes.com/critic/kevin-yeoman/	(-1, '/html/body/div/div/div/div/div/div/div/a[]')	0.152906148966	-1
+http://www.rottentomatoes.com/critic/david-zurawik/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139364947301	-1
+http://www.rottentomatoes.com/critic/sonia-saraiya/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139364947301	-1
+http://www.rottentomatoes.com/critic/carla-day/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139364947301	-1
+http://www.rottentomatoes.com/critic/isaac-chotiner/	http://www.rottentomatoes.com/tv/fargo/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.139364947301	-1
+http://www.rottentomatoes.com/m/every_little_step/	http://www.rottentomatoes.com/user/id/799709308/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.139114652709	8
+http://www.rottentomatoes.com/m/star_trek_11/	http://www.rottentomatoes.com/user/id/799709308/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.139114652709	8
+http://www.rottentomatoes.com/critic/kimberly-roots/	http://www.rottentomatoes.com/tv/fargo/s01/e01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.13906413208	-1
+http://www.rottentomatoes.com/critic/kenny-herzog/	http://www.rottentomatoes.com/tv/fargo/s01/e01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.13906413208	-1
+http://www.rottentomatoes.com/critic/amy-amatangelo/	http://www.rottentomatoes.com/tv/fargo/s01/e01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.13906413208	-1
+http://www.rottentomatoes.com/critic/todd-vanderwerff/	http://www.rottentomatoes.com/tv/fargo/s01/e01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.13906413208	-1
+http://www.rottentomatoes.com/critic/richard-vine/	http://www.rottentomatoes.com/tv/fargo/s01/e01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.13906413208	-1
+http://www.rottentomatoes.com/critic/alan-sepinwall/	http://www.rottentomatoes.com/tv/fargo/s01/e01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.13906413208	-1
+http://www.rottentomatoes.com/critic/alan-sepinwall/?cats=&genreid=&letter=&switches=&sortby=&limit=50&page=2	http://www.rottentomatoes.com/critic/alan-sepinwall/	(-1, '/html/body/div/div/div/div/div/div/div/a[]')	0.153521322564	6
+http://www.rottentomatoes.com/m/one_flew_over_the_cuckoos_nest/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/shawshank_redemption/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/schindlers_list/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/beatles_the_yellow_submarine/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/star_wars/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/user/id/962955683/	http://www.rottentomatoes.com/m/star_wars/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166812543129	18
+http://www.rottentomatoes.com/user/id/911663488/	http://www.rottentomatoes.com/m/star_wars/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166812543129	19
+http://www.rottentomatoes.com/m/raiders_of_the_lost_ark/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/1010792-its_a_wonderful_life/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/alien/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/user/id/404238374/	http://www.rottentomatoes.com/m/alien/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.222158813663	18
+http://www.rottentomatoes.com/m/spring_2015/	http://www.rottentomatoes.com/user/id/404238374/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.14130547523	8
+http://www.rottentomatoes.com/user/id/364189142/	http://www.rottentomatoes.com/m/spring_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.22210864055	19
+http://www.rottentomatoes.com/user/id/907648168/	http://www.rottentomatoes.com/m/spring_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.22210864055	19
+http://www.rottentomatoes.com/m/obvious_child/	http://www.rottentomatoes.com/user/id/404238374/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.14130547523	8
+http://www.rottentomatoes.com/m/far_from_the_madding_crowd_2014/	http://www.rottentomatoes.com/user/id/404238374/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.14130547523	8
+http://www.rottentomatoes.com/m/i_hate_valentines_day/	http://www.rottentomatoes.com/user/id/404238374/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.14130547523	8
+http://www.rottentomatoes.com/tv/girls/s03/	http://www.rottentomatoes.com/user/id/404238374/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.14130547523	8
+http://www.rottentomatoes.com/tv/downton-abbey/s04/	http://www.rottentomatoes.com/user/id/404238374/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.14130547523	8
+http://www.rottentomatoes.com/tv/the-americans/s02/	http://www.rottentomatoes.com/user/id/404238374/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.14130547523	8
+http://www.rottentomatoes.com/tv/the-americans/s02/e01/	http://www.rottentomatoes.com/tv/the-americans/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.221649855218	8
+http://www.rottentomatoes.com/tv/the-americans/s02/e02/	http://www.rottentomatoes.com/tv/the-americans/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.221649855218	8
+http://www.rottentomatoes.com/tv/the-americans/s02/e03/	http://www.rottentomatoes.com/tv/the-americans/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.221649855218	8
+http://www.rottentomatoes.com/tv/the-americans/s02/e04/	http://www.rottentomatoes.com/tv/the-americans/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.221649855218	8
+http://www.rottentomatoes.com/tv/the-americans/s02/e05/	http://www.rottentomatoes.com/tv/the-americans/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.221649855218	8
+http://www.rottentomatoes.com/tv/the-americans/s02/e06/	http://www.rottentomatoes.com/tv/the-americans/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.221649855218	8
+http://www.rottentomatoes.com/tv/the-americans/s02/e07/	http://www.rottentomatoes.com/tv/the-americans/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.221649855218	8
+http://www.rottentomatoes.com/tv/the-americans/s02/e08/	http://www.rottentomatoes.com/tv/the-americans/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.221649855218	8
+http://www.rottentomatoes.com/tv/the-americans/s02/e09/	http://www.rottentomatoes.com/tv/the-americans/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.221649855218	8
+http://www.rottentomatoes.com/tv/the-americans/s02/e10/	http://www.rottentomatoes.com/tv/the-americans/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.221649855218	8
+http://www.rottentomatoes.com/tv/the-americans/s02/e11/	http://www.rottentomatoes.com/tv/the-americans/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.221649855218	8
+http://www.rottentomatoes.com/tv/the-americans/s02/e12/	http://www.rottentomatoes.com/tv/the-americans/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.221649855218	8
+http://www.rottentomatoes.com/tv/the-americans/s02/e13/	http://www.rottentomatoes.com/tv/the-americans/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.221649855218	8
+http://www.rottentomatoes.com/m/fifth_element/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/1017293-rebecca/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/user/id/909330702/	http://www.rottentomatoes.com/m/1017293-rebecca/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166876288753	18
+http://www.rottentomatoes.com/m/amadeus/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/gladiator/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/back_to_the_future/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/user/id/858541392/	http://www.rottentomatoes.com/m/back_to_the_future/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.220199655015	19
+http://www.rottentomatoes.com/m/ghostbusters/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/benhur/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/tootsie/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/simple_plan/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/user/id/846056139/	http://www.rottentomatoes.com/m/simple_plan/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219910504275	19
+http://www.rottentomatoes.com/m/superman_the_movie/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/young_frankenstein/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/die_hard/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/the_wizard_of_oz_1939/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/1006527-elephant_man/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/1032176-goodfellas/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/user/id/935936767/	http://www.rottentomatoes.com/m/1032176-goodfellas/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166887834015	19
+http://www.rottentomatoes.com/m/treasure_of_the_sierra_madre/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/user/id/918099023/	http://www.rottentomatoes.com/m/treasure_of_the_sierra_madre/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166855242757	18
+http://www.rottentomatoes.com/m/donnie_darko/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/m/1003033-brazil/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/user/id/808011041/	http://www.rottentomatoes.com/m/1003033-brazil/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166844647201	19
+http://www.rottentomatoes.com/m/slumdog_millionaire/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	8
+http://www.rottentomatoes.com/celebrity/natalie_portman/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/jane_got_a_gun/	http://www.rottentomatoes.com/celebrity/natalie_portman/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.204919793014	8
+http://www.rottentomatoes.com/celebrity/leonardo_di_caprio/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/user/id/963443049/	http://www.rottentomatoes.com/celebrity/leonardo_di_caprio/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.20491966835	-1
+http://www.rottentomatoes.com/celebrity/angelina_jolie/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/by_the_sea_2015/	http://www.rottentomatoes.com/celebrity/angelina_jolie/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205081586863	8
+http://www.rottentomatoes.com/user/id/907617000/	http://www.rottentomatoes.com/m/by_the_sea_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219469056499	19
+http://www.rottentomatoes.com/m/maleficent_2014/	http://www.rottentomatoes.com/celebrity/angelina_jolie/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205081586863	8
+http://www.rottentomatoes.com/user/id/868448703/	http://www.rottentomatoes.com/m/maleficent_2014/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219427732423	18
+http://www.rottentomatoes.com/celebrity/andrew_garfield/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/the_amazing_spider_man_2/	http://www.rottentomatoes.com/celebrity/andrew_garfield/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205112359072	8
+http://www.rottentomatoes.com/user/id/969212453/	http://www.rottentomatoes.com/celebrity/andrew_garfield/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205112359072	-1
+http://www.rottentomatoes.com/user/id/967622895/	http://www.rottentomatoes.com/celebrity/andrew_garfield/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205112359072	-1
+http://www.rottentomatoes.com/celebrity/rachel_mcadams/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/mean_girls/	http://www.rottentomatoes.com/celebrity/rachel_mcadams/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205269241026	8
+http://www.rottentomatoes.com/user/id/966634502/	http://www.rottentomatoes.com/celebrity/rachel_mcadams/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205269241026	18
+http://www.rottentomatoes.com/m/morning-glory-2010/	http://www.rottentomatoes.com/celebrity/rachel_mcadams/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205269241026	8
+http://www.rottentomatoes.com/m/the_final_girls/	http://www.rottentomatoes.com/user/id/966634502/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138784468112	8
+http://www.rottentomatoes.com/m/the_gift_2015/	http://www.rottentomatoes.com/user/id/966634502/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138784468112	8
+http://www.rottentomatoes.com/user/id/972194187/	http://www.rottentomatoes.com/m/the_gift_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166864822009	18
+http://www.rottentomatoes.com/m/the_gallows/	http://www.rottentomatoes.com/user/id/966634502/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138784468112	8
+http://www.rottentomatoes.com/celebrity/colin_firth/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/kingsman_the_secret_service/	http://www.rottentomatoes.com/celebrity/colin_firth/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205112559681	8
+http://www.rottentomatoes.com/celebrity/1163951-emily_blunt/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/celebrity/ryan_reynolds/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/celebrity/sandra_bullock/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/gravity_2013/	http://www.rottentomatoes.com/celebrity/sandra_bullock/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205246106592	8
+http://www.rottentomatoes.com/user/id/50064089/	http://www.rottentomatoes.com/m/gravity_2013/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219633198902	19
+http://www.rottentomatoes.com/m/minions/	http://www.rottentomatoes.com/celebrity/sandra_bullock/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205246106592	8
+http://www.rottentomatoes.com/user/id/971630667/	http://www.rottentomatoes.com/m/gravity_2013/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166898591149	18
+http://www.rottentomatoes.com/user/id/963680667/	http://www.rottentomatoes.com/m/gravity_2013/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166898591149	-1
+http://www.rottentomatoes.com/celebrity/marion_cotillard/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/the_dark_knight_rises/	http://www.rottentomatoes.com/celebrity/marion_cotillard/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205345596539	8
+http://www.rottentomatoes.com/user/id/968806744/	http://www.rottentomatoes.com/celebrity/marion_cotillard/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205345596539	18
+http://www.rottentomatoes.com/m/nightingale_2013/	http://www.rottentomatoes.com/celebrity/marion_cotillard/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205345596539	8
+http://www.rottentomatoes.com/user/id/928328615/	http://www.rottentomatoes.com/celebrity/marion_cotillard/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205345596539	19
+http://www.rottentomatoes.com/user/id/933936362/	http://www.rottentomatoes.com/m/nightingale_2013/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166847217916	-1
+http://www.rottentomatoes.com/m/spy_2015/	http://www.rottentomatoes.com/user/id/968806744/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138791346695	8
+http://www.rottentomatoes.com/m/ted_2/	http://www.rottentomatoes.com/user/id/968806744/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138791346695	8
+http://www.rottentomatoes.com/m/jurassic_world/	http://www.rottentomatoes.com/user/id/968806744/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138791346695	8
+http://www.rottentomatoes.com/user/id/972371637/	http://www.rottentomatoes.com/m/jurassic_world/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.16684582775	18
+http://www.rottentomatoes.com/celebrity/joseph_gordonlevitt/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/brick/	http://www.rottentomatoes.com/celebrity/joseph_gordonlevitt/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205295194062	8
+http://www.rottentomatoes.com/celebrity/meryl_streep/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/sophies_choice/	http://www.rottentomatoes.com/celebrity/meryl_streep/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205285820958	8
+http://www.rottentomatoes.com/user/id/957431930/	http://www.rottentomatoes.com/celebrity/meryl_streep/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205285820958	19
+http://www.rottentomatoes.com/m/suffragette/	http://www.rottentomatoes.com/celebrity/meryl_streep/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205285820958	8
+http://www.rottentomatoes.com/celebrity/1179314-zachary_quinto/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/star_trek_into_darkness/	http://www.rottentomatoes.com/celebrity/1179314-zachary_quinto/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205232769669	8
+http://www.rottentomatoes.com/celebrity/keira_knightley/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/celebrity/steve_carell/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/the_big_short/	http://www.rottentomatoes.com/celebrity/steve_carell/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205283199458	8
+http://www.rottentomatoes.com/m/over_the_hedge/	http://www.rottentomatoes.com/celebrity/steve_carell/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205283199458	8
+http://www.rottentomatoes.com/celebrity/daniel_daylewis/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/there_will_be_blood/	http://www.rottentomatoes.com/celebrity/daniel_daylewis/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205200422873	8
+http://www.rottentomatoes.com/m/gangs_of_new_york/	http://www.rottentomatoes.com/celebrity/daniel_daylewis/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205200422873	8
+http://www.rottentomatoes.com/user/id/914517634/	http://www.rottentomatoes.com/m/gangs_of_new_york/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166900928811	19
+http://www.rottentomatoes.com/celebrity/sigourney_weaver/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/wall_e/	http://www.rottentomatoes.com/celebrity/sigourney_weaver/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.20514710963	8
+http://www.rottentomatoes.com/celebrity/philip_seymour_hoffman/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/celebrity/amy_adams/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/big_eyes/	http://www.rottentomatoes.com/celebrity/amy_adams/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205192108431	8
+http://www.rottentomatoes.com/celebrity/jason_statham/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/celebrity/james_mcavoy/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/1174279-wanted/	http://www.rottentomatoes.com/celebrity/james_mcavoy/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.20523383073	8
+http://www.rottentomatoes.com/user/id/969974445/	http://www.rottentomatoes.com/celebrity/james_mcavoy/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.20523383073	18
+http://www.rottentomatoes.com/m/x_men_first_class/	http://www.rottentomatoes.com/celebrity/james_mcavoy/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.20523383073	8
+http://www.rottentomatoes.com/user/id/906938251/	http://www.rottentomatoes.com/m/1174279-wanted/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166930868605	19
+http://www.rottentomatoes.com/user/id/929703733/	http://www.rottentomatoes.com/m/x_men_first_class/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.166912251456	18
+http://www.rottentomatoes.com/m/american_ultra/	http://www.rottentomatoes.com/user/id/929703733/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138840445443	8
+http://www.rottentomatoes.com/m/clouds_of_sils_maria/	http://www.rottentomatoes.com/user/id/929703733/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138840445443	8
+http://www.rottentomatoes.com/m/camp_x_ray/	http://www.rottentomatoes.com/user/id/929703733/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138840445443	8
+http://www.rottentomatoes.com/tv/game-of-thrones/s04/	http://www.rottentomatoes.com/user/id/929703733/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138840445443	8
+http://www.rottentomatoes.com/tv/teen-wolf/s04/	http://www.rottentomatoes.com/user/id/929703733/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138840445443	8
+http://www.rottentomatoes.com/m/x_men_apocalypse/	http://www.rottentomatoes.com/user/id/969974445/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138810943866	8
+http://www.rottentomatoes.com/tv/gotham/s02/	http://www.rottentomatoes.com/user/id/969974445/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138810943866	8
+http://www.rottentomatoes.com/tv/gotham/s02/e01/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219359767715	8
+http://www.rottentomatoes.com/tv/gotham/s02/e02/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219359767715	8
+http://www.rottentomatoes.com/tv/gotham/s02/e03/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219359767715	8
+http://www.rottentomatoes.com/tv/gotham/s02/e04/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219359767715	8
+http://www.rottentomatoes.com/tv/gotham/s02/e05/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219359767715	8
+http://www.rottentomatoes.com/tv/gotham/s02/e06/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219359767715	8
+http://www.rottentomatoes.com/tv/gotham/s02/e07/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219359767715	8
+http://www.rottentomatoes.com/tv/gotham/s02/e08/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219359767715	8
+http://www.rottentomatoes.com/tv/gotham/s02/e09/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219359767715	8
+http://www.rottentomatoes.com/tv/gotham/s02/e10/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219359767715	8
+http://www.rottentomatoes.com/tv/gotham/s02/e11/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219359767715	8
+http://www.rottentomatoes.com/tv/gotham/s02/e12/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219359767715	8
+http://www.rottentomatoes.com/tv/gotham/s02/e13/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219359767715	8
+http://www.rottentomatoes.com/tv/gotham/s02/e14/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219359767715	8
+http://www.rottentomatoes.com/tv/gotham/s02/e15/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.219359767715	8
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	http://www.rottentomatoes.com/user/id/969974445/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138810943866	8
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/e01/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218327891615	8
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/e02/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218327891615	8
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/e03/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218327891615	8
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/e04/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218327891615	8
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/e05/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218327891615	8
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/e06/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218327891615	8
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/e07/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218327891615	8
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/e08/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218327891615	8
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/e09/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218327891615	8
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/e10/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218327891615	8
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/e11/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218327891615	8
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/e12/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218327891615	8
+http://www.rottentomatoes.com/celebrity/laura_linney/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/truman_show/	http://www.rottentomatoes.com/celebrity/laura_linney/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203000676612	8
+http://www.rottentomatoes.com/user/id/906551874/	http://www.rottentomatoes.com/m/truman_show/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217584240983	19
+http://www.rottentomatoes.com/celebrity/edward_norton/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/birdman_2014/	http://www.rottentomatoes.com/celebrity/edward_norton/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203033424126	8
+http://www.rottentomatoes.com/m/fight_club/	http://www.rottentomatoes.com/celebrity/edward_norton/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203033424126	8
+http://www.rottentomatoes.com/celebrity/naomi_watts/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/celebrity/ryan_gosling/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/drive_2011/	http://www.rottentomatoes.com/celebrity/ryan_gosling/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203022609503	8
+http://www.rottentomatoes.com/celebrity/cate_blanchett/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/carol/	http://www.rottentomatoes.com/celebrity/cate_blanchett/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203016530113	8
+http://www.rottentomatoes.com/celebrity/cary_grant/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/north-by-northwest/	http://www.rottentomatoes.com/celebrity/cary_grant/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.20301001764	8
+http://www.rottentomatoes.com/user/id/960279966/	http://www.rottentomatoes.com/m/north-by-northwest/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167155221984	-1
+http://www.rottentomatoes.com/celebrity/1014905-james_stewart/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/celebrity/robert_de_niro/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/limitless/	http://www.rottentomatoes.com/celebrity/robert_de_niro/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203129519231	8
+http://www.rottentomatoes.com/m/dirty_grandpa/	http://www.rottentomatoes.com/celebrity/robert_de_niro/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203129519231	8
+http://www.rottentomatoes.com/user/id/551848470/	http://www.rottentomatoes.com/m/dirty_grandpa/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.21778919213	19
+http://www.rottentomatoes.com/user/id/967379698/	http://www.rottentomatoes.com/m/dirty_grandpa/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.16718576601	-1
+http://www.rottentomatoes.com/celebrity/dustin_hoffman/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/kung_fu_panda_3/	http://www.rottentomatoes.com/celebrity/dustin_hoffman/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203166754975	8
+http://www.rottentomatoes.com/user/id/817023420/	http://www.rottentomatoes.com/m/kung_fu_panda_3/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217911448966	19
+http://www.rottentomatoes.com/celebrity/johnny_depp/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/pirates_of_the_caribbean_the_curse_of_the_black_pearl/	http://www.rottentomatoes.com/celebrity/johnny_depp/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203193640249	8
+http://www.rottentomatoes.com/m/nightmare_on_elm_street/	http://www.rottentomatoes.com/celebrity/johnny_depp/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203193640249	8
+http://www.rottentomatoes.com/celebrity/tom_cruise/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/live_die_repeat_edge_of_tomorrow/	http://www.rottentomatoes.com/celebrity/tom_cruise/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203124130234	8
+http://www.rottentomatoes.com/user/id/908497557/	http://www.rottentomatoes.com/m/live_die_repeat_edge_of_tomorrow/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217912039315	18
+http://www.rottentomatoes.com/celebrity/ben_stiller/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/zoolander_2/	http://www.rottentomatoes.com/celebrity/ben_stiller/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203184558038	8
+http://www.rottentomatoes.com/celebrity/tom_hanks/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/bridge_of_spies/	http://www.rottentomatoes.com/celebrity/tom_hanks/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203174925735	8
+http://www.rottentomatoes.com/m/toy_story/	http://www.rottentomatoes.com/celebrity/tom_hanks/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203174925735	8
+http://www.rottentomatoes.com/user/id/790799186/	http://www.rottentomatoes.com/celebrity/tom_hanks/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203174925735	18
+http://www.rottentomatoes.com/user/id/966613403/	http://www.rottentomatoes.com/m/toy_story/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167184742972	18
+http://www.rottentomatoes.com/celebrity/jack_black/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/goosebumps_2015/	http://www.rottentomatoes.com/celebrity/jack_black/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203242420486	8
+http://www.rottentomatoes.com/user/id/973605203/	http://www.rottentomatoes.com/celebrity/jack_black/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203242420486	18
+http://www.rottentomatoes.com/user/id/973623427/	http://www.rottentomatoes.com/m/goosebumps_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167152942652	18
+http://www.rottentomatoes.com/user/id/967453538/	http://www.rottentomatoes.com/m/goosebumps_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167152942652	18
+http://www.rottentomatoes.com/celebrity/heath_ledger/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/the_dark_knight/	http://www.rottentomatoes.com/celebrity/heath_ledger/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203433944706	8
+http://www.rottentomatoes.com/celebrity/steven_spielberg/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/celebrity/paul_rudd/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/antman/	http://www.rottentomatoes.com/celebrity/paul_rudd/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203469062024	8
+http://www.rottentomatoes.com/celebrity/jennifer_connelly/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/shelter_2014/	http://www.rottentomatoes.com/celebrity/jennifer_connelly/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203456755901	8
+http://www.rottentomatoes.com/celebrity/chris_evans/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/celebrity/sean_penn/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/milk/	http://www.rottentomatoes.com/celebrity/sean_penn/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203488918361	8
+http://www.rottentomatoes.com/m/fast_times_at_ridgemont_high/	http://www.rottentomatoes.com/celebrity/sean_penn/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203488918361	8
+http://www.rottentomatoes.com/celebrity/christian_bale/	http://www.rottentomatoes.com/user/id/804406009/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138733038301	2
+http://www.rottentomatoes.com/m/knight_of_cups/	http://www.rottentomatoes.com/celebrity/christian_bale/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203418131482	8
+http://www.rottentomatoes.com/user/id/784576437/	http://www.rottentomatoes.com/m/knight_of_cups/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218264261042	19
+http://www.rottentomatoes.com/m/heavens_gate/	http://www.rottentomatoes.com/user/id/816762000/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138720527141	8
+http://www.rottentomatoes.com/user/id/37505077/	http://www.rottentomatoes.com/m/heavens_gate/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.218242805912	19
+http://www.rottentomatoes.com/m/eastern_promises/	http://www.rottentomatoes.com/user/id/816762000/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138720527141	8
+http://www.rottentomatoes.com/m/millers_crossing/	http://www.rottentomatoes.com/user/id/816762000/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138720527141	8
+http://www.rottentomatoes.com/m/zodiac/	http://www.rottentomatoes.com/user/id/972194187/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138582576241	8
+http://www.rottentomatoes.com/m/eye_in_the_sky/	http://www.rottentomatoes.com/user/id/972194187/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138582576241	8
+http://www.rottentomatoes.com/m/untouchables/	http://www.rottentomatoes.com/user/id/972194187/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138582576241	8
+http://www.rottentomatoes.com/m/the_hateful_eight/	http://www.rottentomatoes.com/user/id/972194187/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138582576241	8
+http://www.rottentomatoes.com/user/id/972600828/	http://www.rottentomatoes.com/m/the_hateful_eight/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167150179088	-1
+http://www.rottentomatoes.com/user/id/973419688/	http://www.rottentomatoes.com/m/the_hateful_eight/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167150179088	-1
+http://www.rottentomatoes.com/m/1074316-scream/	http://www.rottentomatoes.com/user/id/910070718/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138580410769	8
+http://www.rottentomatoes.com/m/scream_2/	http://www.rottentomatoes.com/user/id/910070718/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138580410769	8
+http://www.rottentomatoes.com/m/chicago/	http://www.rottentomatoes.com/user/id/910070718/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138580410769	8
+http://www.rottentomatoes.com/m/1107863-moulin_rouge/	http://www.rottentomatoes.com/user/id/910070718/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138580410769	8
+http://www.rottentomatoes.com/user/id/970987103/	http://www.rottentomatoes.com/m/1107863-moulin_rouge/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.16718357489	18
+http://www.rottentomatoes.com/m/1149496-1149496-red_eye/	http://www.rottentomatoes.com/user/id/910070718/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138580410769	8
+http://www.rottentomatoes.com/user/id/837827183/	http://www.rottentomatoes.com/m/1149496-1149496-red_eye/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167167678147	19
+http://www.rottentomatoes.com/m/finding_nemo/	http://www.rottentomatoes.com/user/id/910070718/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138580410769	8
+http://www.rottentomatoes.com/celebrity/richard_gere/	http://www.rottentomatoes.com/user/id/910070718/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138580410769	2
+http://www.rottentomatoes.com/m/the_benefactor/	http://www.rottentomatoes.com/celebrity/richard_gere/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.202972384024	8
+http://www.rottentomatoes.com/celebrity/halle_berry/	http://www.rottentomatoes.com/user/id/910070718/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138580410769	2
+http://www.rottentomatoes.com/m/the_call_2013/	http://www.rottentomatoes.com/celebrity/halle_berry/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.202961388813	8
+http://www.rottentomatoes.com/celebrity/jennifer_garner/	http://www.rottentomatoes.com/user/id/910070718/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138580410769	2
+http://www.rottentomatoes.com/m/miracles_from_heaven/	http://www.rottentomatoes.com/celebrity/jennifer_garner/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.202950135946	8
+http://www.rottentomatoes.com/celebrity/denzel_washington/	http://www.rottentomatoes.com/user/id/910070718/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138580410769	2
+http://www.rottentomatoes.com/m/1008415-glory/	http://www.rottentomatoes.com/celebrity/denzel_washington/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.202938631663	8
+http://www.rottentomatoes.com/user/id/917026809/	http://www.rottentomatoes.com/celebrity/denzel_washington/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.202938631663	18
+http://www.rottentomatoes.com/m/crimson_tide/	http://www.rottentomatoes.com/celebrity/denzel_washington/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.202938631663	8
+http://www.rottentomatoes.com/m/pariah_2011/	http://www.rottentomatoes.com/user/id/213589378/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.13857855333	8
+http://www.rottentomatoes.com/user/id/908765151/	http://www.rottentomatoes.com/m/pariah_2011/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167181561921	19
+http://www.rottentomatoes.com/m/the_dictator_2012/	http://www.rottentomatoes.com/user/id/213589378/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.13857855333	8
+http://www.rottentomatoes.com/m/10_things_i_hate_about_you/	http://www.rottentomatoes.com/user/id/918099023/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138572558955	8
+http://www.rottentomatoes.com/m/testament_of_youth/	http://www.rottentomatoes.com/user/id/784251640/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138560935318	8
+http://www.rottentomatoes.com/user/id/783684766/	http://www.rottentomatoes.com/m/testament_of_youth/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217667385823	19
+http://www.rottentomatoes.com/celebrity/amanda-crew	http://www.rottentomatoes.com/m/final_destination_3/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.138557540107	2
+http://www.rottentomatoes.com/m/the_boy/	http://www.rottentomatoes.com/user/id/943776370/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138464820553	8
+http://www.rottentomatoes.com/user/id/785531655/	http://www.rottentomatoes.com/m/the_boy/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217713132473	19
+http://www.rottentomatoes.com/user/id/916465043/	http://www.rottentomatoes.com/m/the_boy/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167159697135	-1
+http://www.rottentomatoes.com/m/the_witch_2016/	http://www.rottentomatoes.com/user/id/943776370/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138464820553	8
+http://www.rottentomatoes.com/m/the_green_inferno/	http://www.rottentomatoes.com/user/id/943776370/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138464820553	8
+http://www.rottentomatoes.com/m/goodnight_mommy/	http://www.rottentomatoes.com/user/id/943776370/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138464820553	8
+http://www.rottentomatoes.com/tv/once-upon-a-time/s04/	http://www.rottentomatoes.com/user/id/943776370/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138464820553	8
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/	http://www.rottentomatoes.com/user/id/943776370/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138464820553	8
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/e01/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217548339447	8
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/e02/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217548339447	8
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/e03/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217548339447	8
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/e04/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217548339447	8
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/e05/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217548339447	8
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/e06/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217548339447	8
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/e07/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217548339447	8
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/e08/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217548339447	8
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/e09/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217548339447	8
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/e10/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217548339447	8
+http://www.rottentomatoes.com/user/id/796573241/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.167167180609	19
+http://www.rottentomatoes.com/m/land_of_the_dead/	http://www.rottentomatoes.com/user/id/797612627/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138430270625	8
+http://www.rottentomatoes.com/m/how_the_grinch_stole_christmas/	http://www.rottentomatoes.com/user/id/797612627/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138430270625	8
+http://www.rottentomatoes.com/critic/zack-handlen/	http://www.rottentomatoes.com/tv/fargo/s01/e03/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.138422183475	-1
+http://www.rottentomatoes.com/m/lions_for_lambs/	http://www.rottentomatoes.com/user/id/783018127/	(19, '/html/body/div/div/div/div/div/ul/li/a[]')	0.138399980696	8
+http://www.rottentomatoes.com/celebrity/nicholas_hoult	http://www.rottentomatoes.com/m/warm_bodies/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.138358292819	2
+http://www.rottentomatoes.com/celebrity/nicholas_hoult/	http://www.rottentomatoes.com/celebrity/nicholas_hoult	(2, '/html/body/div/div/div/div/div/div/a[]')	0.202032337035	2
+http://www.rottentomatoes.com/m/mad_max_fury_road/	http://www.rottentomatoes.com/celebrity/nicholas_hoult/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.20207582822	8
+http://www.rottentomatoes.com/user/id/971611463/	http://www.rottentomatoes.com/celebrity/nicholas_hoult/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.20207582822	-1
+http://www.rottentomatoes.com/celebrity/10001855-teresa_palmer	http://www.rottentomatoes.com/m/warm_bodies/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.138358292819	2
+http://www.rottentomatoes.com/celebrity/rob_corddry	http://www.rottentomatoes.com/m/warm_bodies/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.138358292819	2
+http://www.rottentomatoes.com/celebrity/dave_franco	http://www.rottentomatoes.com/m/warm_bodies/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.138358292819	2
+http://www.rottentomatoes.com/m/neighbors_2014/	http://www.rottentomatoes.com/celebrity/dave_franco	(2, '/html/body/div/div/div/div/div/div/a[]')	0.202214437274	8
+http://www.rottentomatoes.com/m/21-jump-street-2011/	http://www.rottentomatoes.com/celebrity/dave_franco	(2, '/html/body/div/div/div/div/div/div/a[]')	0.202214437274	8
+http://www.rottentomatoes.com/user/id/368056766/	http://www.rottentomatoes.com/m/21-jump-street-2011/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217202376867	19
+http://www.rottentomatoes.com/celebrity/vincent_leclerc	http://www.rottentomatoes.com/m/warm_bodies/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.138358292819	2
+http://www.rottentomatoes.com/celebrity/chris_cavener	http://www.rottentomatoes.com/m/warm_bodies/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.138358292819	2
+http://www.rottentomatoes.com/celebrity/arthur_holden	http://www.rottentomatoes.com/m/warm_bodies/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.138358292819	2
+http://www.rottentomatoes.com/m/vertigo/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/8-12/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/1000085-2001_a_space_odyssey/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/the-third-man/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/user/id/900963013/	http://www.rottentomatoes.com/m/the-third-man/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167268728243	19
+http://www.rottentomatoes.com/user/id/918330277/	http://www.rottentomatoes.com/m/the-third-man/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167268728243	18
+http://www.rottentomatoes.com/m/band_of_outsiders/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/1017289-rear_window/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/barry_lyndon/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/user/id/912259143/	http://www.rottentomatoes.com/m/barry_lyndon/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217145821923	18
+http://www.rottentomatoes.com/m/philadelphia_story/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/1017346-red_shoes/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/chinatown/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/on_the_waterfront/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/user/id/888276117/	http://www.rottentomatoes.com/m/on_the_waterfront/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167242809912	18
+http://www.rottentomatoes.com/m/taxi_driver/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/sweet_smell_of_success/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/the_leopard_1963/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/the_conformist/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/crumb/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/raising_arizona/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/pinocchio_1940/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/dr_strangelove/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/mccabe_and_mrs_miller/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/kikujiro/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/apocalypse_now/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/night_of_the_hunter/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/user/id/943036732/	http://www.rottentomatoes.com/m/night_of_the_hunter/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.16727962117	19
+http://www.rottentomatoes.com/m/topsyturvy/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/rushmore/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/user/id/854964234/	http://www.rottentomatoes.com/m/rushmore/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167267058703	19
+http://www.rottentomatoes.com/m/1003707-casablanca/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/godfather/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/user/id/906414157/	http://www.rottentomatoes.com/m/godfather/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167254398687	18
+http://www.rottentomatoes.com/user/id/953073738/	http://www.rottentomatoes.com/m/godfather/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167254398687	18
+http://www.rottentomatoes.com/m/once_upon_a_time_in_the_west/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/les_parapluies_de_cherbourg/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/shop_around_the_corner/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/m/dazed_and_confused/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	8
+http://www.rottentomatoes.com/user/id/871543020/	http://www.rottentomatoes.com/m/dazed_and_confused/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167237270414	19
+http://www.rottentomatoes.com/celebrity/fred_astaire/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/holiday_inn/	http://www.rottentomatoes.com/celebrity/fred_astaire/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201249610365	8
+http://www.rottentomatoes.com/celebrity/alan_arkin/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/marley_and_me/	http://www.rottentomatoes.com/celebrity/alan_arkin/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201243944926	8
+http://www.rottentomatoes.com/user/id/970284995/	http://www.rottentomatoes.com/celebrity/alan_arkin/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201243944926	-1
+http://www.rottentomatoes.com/m/thirteen_conversations_about_one_thing/	http://www.rottentomatoes.com/celebrity/alan_arkin/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201243944926	8
+http://www.rottentomatoes.com/celebrity/william_holden/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/sunset_boulevard/	http://www.rottentomatoes.com/celebrity/william_holden/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201251747649	8
+http://www.rottentomatoes.com/celebrity/al_pacino/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/scarface/	http://www.rottentomatoes.com/celebrity/al_pacino/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201245687026	8
+http://www.rottentomatoes.com/m/misconduct/	http://www.rottentomatoes.com/celebrity/al_pacino/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201245687026	8
+http://www.rottentomatoes.com/celebrity/catherine_deneuve/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/repulsion/	http://www.rottentomatoes.com/celebrity/catherine_deneuve/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201193275516	8
+http://www.rottentomatoes.com/user/id/857723381/	http://www.rottentomatoes.com/m/repulsion/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.216286730859	19
+http://www.rottentomatoes.com/m/potiche/	http://www.rottentomatoes.com/celebrity/catherine_deneuve/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201193275516	8
+http://www.rottentomatoes.com/celebrity/jeremy_irons/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/celebrity/christopher_walken/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/celebrity/steve_buscemi/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/celebrity/annette_bening/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/open_range/	http://www.rottentomatoes.com/celebrity/annette_bening/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201292322237	8
+http://www.rottentomatoes.com/celebrity/maureen_ohara/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/user/id/854810412/	http://www.rottentomatoes.com/celebrity/maureen_ohara/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201284970288	19
+http://www.rottentomatoes.com/celebrity/max_von_sydow/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/star_wars_episode_vii_the_force_awakens/	http://www.rottentomatoes.com/celebrity/max_von_sydow/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201356235553	8
+http://www.rottentomatoes.com/user/id/972589568/	http://www.rottentomatoes.com/m/star_wars_episode_vii_the_force_awakens/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167270642982	19
+http://www.rottentomatoes.com/user/id/972959970/	http://www.rottentomatoes.com/m/star_wars_episode_vii_the_force_awakens/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167270642982	18
+http://www.rottentomatoes.com/celebrity/brad_pitt/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/celebrity/bing_crosby/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/celebrity/matt_damon/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/the_martian/	http://www.rottentomatoes.com/celebrity/matt_damon/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201511883809	8
+http://www.rottentomatoes.com/user/id/973541588/	http://www.rottentomatoes.com/celebrity/matt_damon/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201511883809	18
+http://www.rottentomatoes.com/user/id/972841707/	http://www.rottentomatoes.com/m/the_martian/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167250614021	-1
+http://www.rottentomatoes.com/celebrity/russell_crowe/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/beautiful_mind/	http://www.rottentomatoes.com/celebrity/russell_crowe/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201617184961	8
+http://www.rottentomatoes.com/celebrity/jeff_bridges/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/true-grit-2010/	http://www.rottentomatoes.com/celebrity/jeff_bridges/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201607931122	8
+http://www.rottentomatoes.com/m/big_lebowski/	http://www.rottentomatoes.com/celebrity/jeff_bridges/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201607931122	8
+http://www.rottentomatoes.com/user/id/969732911/	http://www.rottentomatoes.com/m/big_lebowski/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167259580711	-1
+http://www.rottentomatoes.com/user/id/916862233/	http://www.rottentomatoes.com/m/true-grit-2010/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167255375363	-1
+http://www.rottentomatoes.com/celebrity/kate_winslet/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/a_little_chaos/	http://www.rottentomatoes.com/celebrity/kate_winslet/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201667322484	8
+http://www.rottentomatoes.com/m/steve_jobs_2015/	http://www.rottentomatoes.com/celebrity/kate_winslet/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201667322484	8
+http://www.rottentomatoes.com/celebrity/1008767-jessica_lange/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/men_dont_leave/	http://www.rottentomatoes.com/celebrity/1008767-jessica_lange/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201614086887	8
+http://www.rottentomatoes.com/user/id/971457578/	http://www.rottentomatoes.com/celebrity/1008767-jessica_lange/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201614086887	18
+http://www.rottentomatoes.com/celebrity/nicole_kidman/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/secret_in_their_eyes_2015/	http://www.rottentomatoes.com/celebrity/nicole_kidman/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201660210325	8
+http://www.rottentomatoes.com/celebrity/james_gandolfini/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/the_drop/	http://www.rottentomatoes.com/celebrity/james_gandolfini/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.20165030956	8
+http://www.rottentomatoes.com/celebrity/jeff_daniels/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/celebrity/tim_roth/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/pulp_fiction/	http://www.rottentomatoes.com/celebrity/tim_roth/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201673012663	8
+http://www.rottentomatoes.com/celebrity/marisa_tomei/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/in_the_bedroom/	http://www.rottentomatoes.com/celebrity/marisa_tomei/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201662562078	8
+http://www.rottentomatoes.com/celebrity/clint_eastwood/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/1041911-unforgiven/	http://www.rottentomatoes.com/celebrity/clint_eastwood/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201651986619	8
+http://www.rottentomatoes.com/celebrity/bill_murray/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/the_jungle_book_2016/	http://www.rottentomatoes.com/celebrity/bill_murray/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201641288881	8
+http://www.rottentomatoes.com/m/what_about_bob/	http://www.rottentomatoes.com/celebrity/bill_murray/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201641288881	8
+http://www.rottentomatoes.com/celebrity/ernst_lubitsch/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/celebrity/preston_sturges/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/user/id/910129866/	http://www.rottentomatoes.com/celebrity/preston_sturges/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201619536727	18
+http://www.rottentomatoes.com/celebrity/martin_scorsese/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/celebrity/wes_anderson/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/1197696-fantastic_mr_fox/	http://www.rottentomatoes.com/celebrity/wes_anderson/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201735240301	8
+http://www.rottentomatoes.com/celebrity/woody_allen/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/manhattan/	http://www.rottentomatoes.com/celebrity/woody_allen/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201723542488	8
+http://www.rottentomatoes.com/celebrity/billy_wilder/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/celebrity/frank_capra/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/celebrity/richard_linklater/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/celebrity/jonathan_demme/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/celebrity/julianne_moore/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/still_alice/	http://www.rottentomatoes.com/celebrity/julianne_moore/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201827763719	8
+http://www.rottentomatoes.com/celebrity/james_spader/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/avengers_age_of_ultron/	http://www.rottentomatoes.com/celebrity/james_spader/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201814860883	8
+http://www.rottentomatoes.com/celebrity/cloris_leachman/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/this_is_happening/	http://www.rottentomatoes.com/celebrity/cloris_leachman/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201801868013	8
+http://www.rottentomatoes.com/celebrity/owen_wilson/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/m/cars/	http://www.rottentomatoes.com/celebrity/owen_wilson/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201788787158	8
+http://www.rottentomatoes.com/celebrity/tommy_lee_jones/	http://www.rottentomatoes.com/user/id/690641254/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.138206732805	2
+http://www.rottentomatoes.com/celebrity/ray_winstone	http://www.rottentomatoes.com/m/sexy_beast/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.138170299784	2
+http://www.rottentomatoes.com/m/zipper/	http://www.rottentomatoes.com/celebrity/ray_winstone	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201802785935	8
+http://www.rottentomatoes.com/celebrity/ben_kingsley	http://www.rottentomatoes.com/m/sexy_beast/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.138170299784	2
+http://www.rottentomatoes.com/celebrity/ben_kingsley/	http://www.rottentomatoes.com/celebrity/ben_kingsley	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201789303755	2
+http://www.rottentomatoes.com/m/learning_to_drive/	http://www.rottentomatoes.com/celebrity/ben_kingsley/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201815901498	8
+http://www.rottentomatoes.com/user/id/742462215/	http://www.rottentomatoes.com/m/learning_to_drive/	(8, '/html/body/div/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.217615677716	19
+http://www.rottentomatoes.com/celebrity/ian_mcshane	http://www.rottentomatoes.com/m/sexy_beast/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.138170299784	2
+http://www.rottentomatoes.com/celebrity/ian_mcshane/	http://www.rottentomatoes.com/celebrity/ian_mcshane	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201832935132	2
+http://www.rottentomatoes.com/m/jesus_of_nazareth/	http://www.rottentomatoes.com/celebrity/ian_mcshane/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201858892521	8
+http://www.rottentomatoes.com/m/hercules_the_thracian_wars/	http://www.rottentomatoes.com/celebrity/ian_mcshane/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201858892521	8
+http://www.rottentomatoes.com/celebrity/embeth_davidtz	http://www.rottentomatoes.com/m/junebug/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.137932275534	2
+http://www.rottentomatoes.com/m/the_amazing_spider_man/	http://www.rottentomatoes.com/celebrity/embeth_davidtz	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201805158705	8
+http://www.rottentomatoes.com/celebrity/amy_adams	http://www.rottentomatoes.com/m/junebug/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.137932275534	2
+http://www.rottentomatoes.com/celebrity/alessandro_nivola	http://www.rottentomatoes.com/m/junebug/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.137932275534	2
+http://www.rottentomatoes.com/m/a_most_violent_year/	http://www.rottentomatoes.com/celebrity/alessandro_nivola	(2, '/html/body/div/div/div/div/div/div/a[]')	0.20181646523	8
+http://www.rottentomatoes.com/m/ginger_and_rosa/	http://www.rottentomatoes.com/celebrity/alessandro_nivola	(2, '/html/body/div/div/div/div/div/div/a[]')	0.20181646523	8
+http://www.rottentomatoes.com/user/id/910658680/	http://www.rottentomatoes.com/celebrity/alessandro_nivola	(2, '/html/body/div/div/div/div/div/div/a[]')	0.20181646523	18
+http://www.rottentomatoes.com/celebrity/ben_mckenzie	http://www.rottentomatoes.com/m/junebug/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.137932275534	2
+http://www.rottentomatoes.com/celebrity/ben_mckenzie/	http://www.rottentomatoes.com/celebrity/ben_mckenzie	(2, '/html/body/div/div/div/div/div/div/a[]')	0.201814447286	2
+http://www.rottentomatoes.com/celebrity/celia-weston	http://www.rottentomatoes.com/m/junebug/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.137932275534	2
+http://www.rottentomatoes.com/celebrity/scott_wilson	http://www.rottentomatoes.com/m/junebug/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.137932275534	2
+http://www.rottentomatoes.com/celebrity/matt_besser	http://www.rottentomatoes.com/m/junebug/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.137932275534	2
+http://www.rottentomatoes.com/celebrity/jerry_minor	http://www.rottentomatoes.com/m/junebug/	(8, '/html/body/div/div/div/div/div/div/div/div/a[unstyled articleLink]')	0.137932275534	2
+http://www.rottentomatoes.com/m/empire_strikes_back/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/walk_the_line/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/departed/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/singin_in_the_rain/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/user/id/905876522/	http://www.rottentomatoes.com/m/singin_in_the_rain/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167441503775	18
+http://www.rottentomatoes.com/m/forrest_gump/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/minority_report/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/usual_suspects/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/anchorman/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/star_wars_episode_iii_revenge_of_the_sith/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/iron_man/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/men_in_black/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/prestige/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/oceans_eleven/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/batman_begins/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/catch_me_if_you_can/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/the_lion_king/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/frequency/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/league_of_their_own/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/borat/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/talladega_nights_the_ballad_of_ricky_bobby/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/wedding_crashers/	http://www.rottentomatoes.com/user/id/783764844/	(19, '/html/body/div/div/div/div/div/div/dl/dd/a[]')	0.137875032598	8
+http://www.rottentomatoes.com/m/the_danish_girl_2015/	http://www.rottentomatoes.com/user/id/912887273/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.137271464205	8
+http://www.rottentomatoes.com/user/id/972953334/	http://www.rottentomatoes.com/m/the_danish_girl_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167485361454	18
+http://www.rottentomatoes.com/user/id/972637712/	http://www.rottentomatoes.com/m/the_danish_girl_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/div/div/a[a]')	0.167485361454	18
+http://www.rottentomatoes.com/m/slow_west_2015/	http://www.rottentomatoes.com/user/id/912887273/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.137271464205	8
+http://www.rottentomatoes.com/m/the_danish_girl_2015/pictures/multiuse-1035381/	http://www.rottentomatoes.com/m/the_danish_girl_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001432717	3
+http://www.rottentomatoes.com/m/the_danish_girl_2015/pictures/multiuse-1038543/	http://www.rottentomatoes.com/m/the_danish_girl_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001432717	3
+http://www.rottentomatoes.com/m/the_danish_girl_2015/pictures/multiuse-1038544/	http://www.rottentomatoes.com/m/the_danish_girl_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001432717	3
+http://www.rottentomatoes.com/m/singin_in_the_rain/pictures/multiuse-193546/	http://www.rottentomatoes.com/m/singin_in_the_rain/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001396783	1
+http://www.rottentomatoes.com/m/singin_in_the_rain/pictures/multiuse-562363/	http://www.rottentomatoes.com/m/singin_in_the_rain/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001396783	1
+http://www.rottentomatoes.com/m/singin_in_the_rain/pictures/multiuse-799410/	http://www.rottentomatoes.com/m/singin_in_the_rain/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001396783	1
+http://www.rottentomatoes.com/m/the_jungle_book_2016/pictures/multiuse-1053405/	http://www.rottentomatoes.com/m/the_jungle_book_2016/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001290489	1
+http://www.rottentomatoes.com/m/the_jungle_book_2016/pictures/multiuse-1053406/	http://www.rottentomatoes.com/m/the_jungle_book_2016/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001290489	1
+http://www.rottentomatoes.com/m/the_jungle_book_2016/pictures/multiuse-1053407/	http://www.rottentomatoes.com/m/the_jungle_book_2016/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001290489	1
+http://www.rottentomatoes.com/m/pulp_fiction/pictures/multiuse-530858/	http://www.rottentomatoes.com/m/pulp_fiction/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001275934	3
+http://www.rottentomatoes.com/m/pulp_fiction/pictures/multiuse-706221/	http://www.rottentomatoes.com/m/pulp_fiction/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001275934	3
+http://www.rottentomatoes.com/m/pulp_fiction/pictures/multiuse-824286/	http://www.rottentomatoes.com/m/pulp_fiction/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001275934	3
+http://www.rottentomatoes.com/m/secret_in_their_eyes_2015/pictures/multiuse-860948/	http://www.rottentomatoes.com/m/secret_in_their_eyes_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001263518	3
+http://www.rottentomatoes.com/m/secret_in_their_eyes_2015/pictures/multiuse-860949/	http://www.rottentomatoes.com/m/secret_in_their_eyes_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001263518	3
+http://www.rottentomatoes.com/m/secret_in_their_eyes_2015/pictures/multiuse-860953/	http://www.rottentomatoes.com/m/secret_in_their_eyes_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001263518	3
+http://www.rottentomatoes.com/m/steve_jobs_2015/pictures/multiuse-1012020/	http://www.rottentomatoes.com/m/steve_jobs_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001250834	3
+http://www.rottentomatoes.com/m/steve_jobs_2015/pictures/multiuse-1012500/	http://www.rottentomatoes.com/m/steve_jobs_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001250834	3
+http://www.rottentomatoes.com/m/steve_jobs_2015/pictures/multiuse-1012502/	http://www.rottentomatoes.com/m/steve_jobs_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001250834	3
+http://www.rottentomatoes.com/m/the_martian/pictures/movie-133263/	http://www.rottentomatoes.com/m/the_martian/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001219251	3
+http://www.rottentomatoes.com/m/the_martian/pictures/movie-133264/	http://www.rottentomatoes.com/m/the_martian/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001219251	3
+http://www.rottentomatoes.com/m/the_martian/pictures/movie-133265/	http://www.rottentomatoes.com/m/the_martian/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001219251	3
+http://www.rottentomatoes.com/m/star_wars_episode_vii_the_force_awakens/pictures/movie-131426/	http://www.rottentomatoes.com/m/star_wars_episode_vii_the_force_awakens/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001202828	3
+http://www.rottentomatoes.com/franchise/star-wars-saga/	http://www.rottentomatoes.com/m/star_wars_episode_vii_the_force_awakens/pictures/movie-131426/	(3, '/html/body/div/div/div/h3/a[]')	0.185328916405	-1
+http://www.rottentomatoes.com/m/star_wars_episode_vii_the_force_awakens/pictures/movie-131424/	http://www.rottentomatoes.com/m/star_wars_episode_vii_the_force_awakens/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001202828	3
+http://www.rottentomatoes.com/m/star_wars_episode_vii_the_force_awakens/pictures/movie-131423/	http://www.rottentomatoes.com/m/star_wars_episode_vii_the_force_awakens/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001202828	3
+http://www.rottentomatoes.com/m/repulsion/pictures/multiuse-199061/	http://www.rottentomatoes.com/m/repulsion/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001171562	1
+http://www.rottentomatoes.com/m/repulsion/pictures/multiuse-199075/	http://www.rottentomatoes.com/m/repulsion/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001171562	1
+http://www.rottentomatoes.com/m/repulsion/pictures/community-14076550/	http://www.rottentomatoes.com/m/repulsion/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001171562	1
+http://www.rottentomatoes.com/m/repulsion/pictures/community-14011257/	http://www.rottentomatoes.com/m/repulsion/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001171562	1
+http://www.rottentomatoes.com/m/repulsion/pictures/community-13856086/	http://www.rottentomatoes.com/m/repulsion/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001171562	1
+http://www.rottentomatoes.com/m/repulsion/pictures/movie-24/	http://www.rottentomatoes.com/m/repulsion/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001171562	1
+http://www.rottentomatoes.com/m/repulsion/pictures/community-11914573/	http://www.rottentomatoes.com/m/repulsion/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001171562	1
+http://www.rottentomatoes.com/m/repulsion/pictures/community-11708001/	http://www.rottentomatoes.com/m/repulsion/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001171562	1
+http://www.rottentomatoes.com/m/godfather/pictures/multiuse-227772/	http://www.rottentomatoes.com/m/godfather/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001110581	1
+http://www.rottentomatoes.com/m/godfather/pictures/multiuse-537261/	http://www.rottentomatoes.com/m/godfather/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001110581	1
+http://www.rottentomatoes.com/m/godfather/pictures/multiuse-537262/	http://www.rottentomatoes.com/m/godfather/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001110581	1
+http://www.rottentomatoes.com/m/rushmore/pictures/multiuse-126391/	http://www.rottentomatoes.com/m/rushmore/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001100942	3
+http://www.rottentomatoes.com/m/rushmore/pictures/community-12220291/	http://www.rottentomatoes.com/m/rushmore/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001100942	3
+http://www.rottentomatoes.com/m/rushmore/pictures/community-12202274/	http://www.rottentomatoes.com/m/rushmore/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001100942	3
+http://www.rottentomatoes.com/m/rushmore/pictures/community-11563890/	http://www.rottentomatoes.com/m/rushmore/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001100942	3
+http://www.rottentomatoes.com/m/rushmore/pictures/community-11034683/	http://www.rottentomatoes.com/m/rushmore/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001100942	3
+http://www.rottentomatoes.com/m/rushmore/pictures/community-9098100/	http://www.rottentomatoes.com/m/rushmore/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001100942	3
+http://www.rottentomatoes.com/m/rushmore/pictures/community-9098058/	http://www.rottentomatoes.com/m/rushmore/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001100942	3
+http://www.rottentomatoes.com/m/rushmore/pictures/community-8959812/	http://www.rottentomatoes.com/m/rushmore/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001100942	3
+http://www.rottentomatoes.com/m/the-third-man/pictures/multiuse-409889/	http://www.rottentomatoes.com/m/the-third-man/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001011441	1
+http://www.rottentomatoes.com/m/the-third-man/pictures/multiuse-841589/	http://www.rottentomatoes.com/m/the-third-man/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001011441	1
+http://www.rottentomatoes.com/m/the-third-man/pictures/multiuse-841593/	http://www.rottentomatoes.com/m/the-third-man/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137001011441	1
+http://www.rottentomatoes.com/m/mad_max_fury_road/pictures/movie-131383/	http://www.rottentomatoes.com/m/mad_max_fury_road/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000958398	1
+http://www.rottentomatoes.com/m/mad_max_fury_road/pictures/movie-131384/	http://www.rottentomatoes.com/m/mad_max_fury_road/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000958398	1
+http://www.rottentomatoes.com/m/mad_max_fury_road/pictures/movie-131382/	http://www.rottentomatoes.com/m/mad_max_fury_road/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000958398	1
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/pictures/multiuse-473022/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000884545	1
+http://www.rottentomatoes.com/tv/game-of-thrones/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/pictures/multiuse-473022/	(1, '/html/body/div/div/div/h3/a[]')	0.186572646775	16
+http://www.rottentomatoes.com/celebrity/db_weiss/	http://www.rottentomatoes.com/tv/game-of-thrones/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.17952008628	2
+http://www.rottentomatoes.com/celebrity/david_benioff/	http://www.rottentomatoes.com/tv/game-of-thrones/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.17952008628	2
+http://www.rottentomatoes.com/celebrity/peter_dinklage	http://www.rottentomatoes.com/tv/game-of-thrones/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.17952008628	2
+http://www.rottentomatoes.com/celebrity/peter_dinklage/	http://www.rottentomatoes.com/celebrity/peter_dinklage	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203671710482	2
+http://www.rottentomatoes.com/m/pixels/	http://www.rottentomatoes.com/celebrity/peter_dinklage/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.20369032297	8
+http://www.rottentomatoes.com/celebrity/lena_headey	http://www.rottentomatoes.com/tv/game-of-thrones/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.17952008628	2
+http://www.rottentomatoes.com/celebrity/lena_headey/	http://www.rottentomatoes.com/celebrity/lena_headey	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203673221354	2
+http://www.rottentomatoes.com/m/pride_and_prejudice_and_zombies/	http://www.rottentomatoes.com/celebrity/lena_headey/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203691443213	8
+http://www.rottentomatoes.com/celebrity/emilia_clarke	http://www.rottentomatoes.com/tv/game-of-thrones/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.17952008628	2
+http://www.rottentomatoes.com/celebrity/emilia_clarke/	http://www.rottentomatoes.com/celebrity/emilia_clarke	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203674161324	2
+http://www.rottentomatoes.com/m/me_before_you/	http://www.rottentomatoes.com/celebrity/emilia_clarke/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203691998939	8
+http://www.rottentomatoes.com/m/terminator_genisys/	http://www.rottentomatoes.com/celebrity/emilia_clarke/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.203691998939	8
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/pictures/multiuse-343355/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000884545	1
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/pictures/multiuse-321048/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000884545	1
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/pictures/multiuse-317860/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000884545	1
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/pictures/multiuse-313357/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000884545	1
+http://www.rottentomatoes.com/tv/game-of-thrones/s01/pictures/multiuse-312126/	http://www.rottentomatoes.com/tv/game-of-thrones/s01/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000884545	1
+http://www.rottentomatoes.com/m/the_green_inferno/pictures/movie-133526/	http://www.rottentomatoes.com/m/the_green_inferno/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000871568	3
+http://www.rottentomatoes.com/m/the_green_inferno/pictures/movie-133522/	http://www.rottentomatoes.com/m/the_green_inferno/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000871568	3
+http://www.rottentomatoes.com/m/the_green_inferno/pictures/movie-133523/	http://www.rottentomatoes.com/m/the_green_inferno/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000871568	3
+http://www.rottentomatoes.com/m/the_witch_2016/pictures/movie-134299/	http://www.rottentomatoes.com/m/the_witch_2016/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000867197	3
+http://www.rottentomatoes.com/m/the_witch_2016/pictures/multiuse-950817/	http://www.rottentomatoes.com/m/the_witch_2016/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000867197	3
+http://www.rottentomatoes.com/m/the_witch_2016/pictures/multiuse-964136/	http://www.rottentomatoes.com/m/the_witch_2016/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000867197	3
+http://www.rottentomatoes.com/m/the_boy/pictures/multiuse-955767/	http://www.rottentomatoes.com/m/the_boy/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.13700085395	3
+http://www.rottentomatoes.com/m/the_boy/pictures/multiuse-1014203/	http://www.rottentomatoes.com/m/the_boy/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.13700085395	3
+http://www.rottentomatoes.com/m/the_boy/pictures/multiuse-1014290/	http://www.rottentomatoes.com/m/the_boy/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.13700085395	3
+http://www.rottentomatoes.com/m/miracles_from_heaven/pictures/multiuse-963048/	http://www.rottentomatoes.com/m/miracles_from_heaven/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000798847	3
+http://www.rottentomatoes.com/m/miracles_from_heaven/pictures/multiuse-969757/	http://www.rottentomatoes.com/m/miracles_from_heaven/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000798847	3
+http://www.rottentomatoes.com/m/miracles_from_heaven/pictures/multiuse-969664/	http://www.rottentomatoes.com/m/miracles_from_heaven/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000798847	3
+http://www.rottentomatoes.com/m/miracles_from_heaven/quotes/	http://www.rottentomatoes.com/m/miracles_from_heaven/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000798847	11
+http://www.rottentomatoes.com/m/the_hateful_eight/pictures/multiuse-892699/	http://www.rottentomatoes.com/m/the_hateful_eight/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000719711	3
+http://www.rottentomatoes.com/m/the_hateful_eight/pictures/multiuse-892701/	http://www.rottentomatoes.com/m/the_hateful_eight/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000719711	3
+http://www.rottentomatoes.com/m/the_hateful_eight/pictures/multiuse-892703/	http://www.rottentomatoes.com/m/the_hateful_eight/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000719711	3
+http://www.rottentomatoes.com/m/eye_in_the_sky/pictures/multiuse-976360/	http://www.rottentomatoes.com/m/eye_in_the_sky/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000709331	3
+http://www.rottentomatoes.com/m/eye_in_the_sky/pictures/multiuse-1040886/	http://www.rottentomatoes.com/m/eye_in_the_sky/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000709331	3
+http://www.rottentomatoes.com/m/eye_in_the_sky/pictures/multiuse-1056760/	http://www.rottentomatoes.com/m/eye_in_the_sky/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000709331	3
+http://www.rottentomatoes.com/m/eye_in_the_sky/quotes/	http://www.rottentomatoes.com/m/eye_in_the_sky/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000709331	11
+http://www.rottentomatoes.com/m/knight_of_cups/pictures/multiuse-1035346/	http://www.rottentomatoes.com/m/knight_of_cups/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000672092	3
+http://www.rottentomatoes.com/m/knight_of_cups/pictures/multiuse-1048801/	http://www.rottentomatoes.com/m/knight_of_cups/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000672092	3
+http://www.rottentomatoes.com/m/knight_of_cups/pictures/multiuse-1048802/	http://www.rottentomatoes.com/m/knight_of_cups/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000672092	3
+http://www.rottentomatoes.com/m/goosebumps_2015/pictures/multiuse-869886/	http://www.rottentomatoes.com/m/goosebumps_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000581333	3
+http://www.rottentomatoes.com/m/goosebumps_2015/pictures/multiuse-945790/	http://www.rottentomatoes.com/m/goosebumps_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000581333	3
+http://www.rottentomatoes.com/m/goosebumps_2015/pictures/multiuse-948188/	http://www.rottentomatoes.com/m/goosebumps_2015/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000581333	3
+http://www.rottentomatoes.com/m/bridge_of_spies/pictures/movie-132188/	http://www.rottentomatoes.com/m/bridge_of_spies/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000551245	3
+http://www.rottentomatoes.com/m/bridge_of_spies/pictures/multiuse-587173/	http://www.rottentomatoes.com/m/bridge_of_spies/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000551245	3
+http://www.rottentomatoes.com/m/bridge_of_spies/pictures/multiuse-881459/	http://www.rottentomatoes.com/m/bridge_of_spies/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000551245	3
+http://www.rottentomatoes.com/m/zoolander_2/pictures/movie-134517/	http://www.rottentomatoes.com/m/zoolander_2/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000538966	3
+http://www.rottentomatoes.com/m/zoolander_2/pictures/movie-134516/	http://www.rottentomatoes.com/m/zoolander_2/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000538966	3
+http://www.rottentomatoes.com/m/zoolander_2/pictures/movie-134515/	http://www.rottentomatoes.com/m/zoolander_2/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000538966	3
+http://www.rottentomatoes.com/m/kung_fu_panda_3/pictures/movie-134380/	http://www.rottentomatoes.com/m/kung_fu_panda_3/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000481915	3
+http://www.rottentomatoes.com/franchise/kung-fu-panda/	http://www.rottentomatoes.com/m/kung_fu_panda_3/pictures/movie-134380/	(3, '/html/body/div/div/div/h3/a[]')	0.188025908651	-1
+http://www.rottentomatoes.com/m/kung_fu_panda_3/pictures/multiuse-849463/	http://www.rottentomatoes.com/m/kung_fu_panda_3/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000481915	3
+http://www.rottentomatoes.com/m/kung_fu_panda_3/pictures/multiuse-1020281/	http://www.rottentomatoes.com/m/kung_fu_panda_3/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000481915	3
+http://www.rottentomatoes.com/m/dirty_grandpa/pictures/multiuse-960867/	http://www.rottentomatoes.com/m/dirty_grandpa/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000455579	3
+http://www.rottentomatoes.com/m/dirty_grandpa/pictures/multiuse-965794/	http://www.rottentomatoes.com/m/dirty_grandpa/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000455579	3
+http://www.rottentomatoes.com/m/dirty_grandpa/pictures/multiuse-1033615/	http://www.rottentomatoes.com/m/dirty_grandpa/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000455579	3
+http://www.rottentomatoes.com/m/north-by-northwest/pictures/multiuse-206343/	http://www.rottentomatoes.com/m/north-by-northwest/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000421769	1
+http://www.rottentomatoes.com/m/north-by-northwest/pictures/multiuse-206347/	http://www.rottentomatoes.com/m/north-by-northwest/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000421769	1
+http://www.rottentomatoes.com/m/north-by-northwest/pictures/multiuse-206349/	http://www.rottentomatoes.com/m/north-by-northwest/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000421769	1
+http://www.rottentomatoes.com/m/carol/pictures/multiuse-845247/	http://www.rottentomatoes.com/m/carol/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.13700040796	3
+http://www.rottentomatoes.com/m/carol/pictures/multiuse-912636/	http://www.rottentomatoes.com/m/carol/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.13700040796	3
+http://www.rottentomatoes.com/m/carol/pictures/multiuse-1015620/	http://www.rottentomatoes.com/m/carol/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.13700040796	3
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/pictures/multiuse-1057267/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000236464	3
+http://www.rottentomatoes.com/franchise/marvel-cinematic-universe/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/pictures/multiuse-1057267/	(3, '/html/body/div/div/div/h3/a[]')	0.188471657252	-1
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/pictures/multiuse-1057267/	(3, '/html/body/div/div/div/h3/a[]')	0.188471657252	16
+http://www.rottentomatoes.com/celebrity/jed_whedon/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181420337294	2
+http://www.rottentomatoes.com/celebrity/1060778-joss_whedon/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181420337294	2
+http://www.rottentomatoes.com/celebrity/maurissa_tancharoen/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181420337294	2
+http://www.rottentomatoes.com/celebrity/clark_gregg	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181420337294	2
+http://www.rottentomatoes.com/m/500_days_of_summer/	http://www.rottentomatoes.com/celebrity/clark_gregg	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205677692006	8
+http://www.rottentomatoes.com/celebrity/mingna_wen	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181420337294	2
+http://www.rottentomatoes.com/celebrity/mingna_wen/	http://www.rottentomatoes.com/celebrity/mingna_wen	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205657672714	2
+http://www.rottentomatoes.com/m/mulan/	http://www.rottentomatoes.com/celebrity/mingna_wen/	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205670380246	8
+http://www.rottentomatoes.com/celebrity/brett_dalton	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181420337294	2
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/pictures/multiuse-1050663/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000236464	3
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/pictures/multiuse-1050657/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000236464	3
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/pictures/multiuse-984440/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000236464	3
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/pictures/multiuse-984437/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000236464	3
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/pictures/multiuse-975827/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000236464	3
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/pictures/multiuse-975825/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000236464	3
+http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/pictures/multiuse-975823/	http://www.rottentomatoes.com/tv/marvel-s-agents-of-s-h-i-e-l-d-/s03/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000236464	3
+http://www.rottentomatoes.com/tv/gotham/s02/e14/pictures/multiuse-1057264/	http://www.rottentomatoes.com/tv/gotham/s02/e14/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000220363	1
+http://www.rottentomatoes.com/tv/gotham/	http://www.rottentomatoes.com/tv/gotham/s02/e14/pictures/multiuse-1057264/	(1, '/html/body/div/div/div/h3/a[]')	0.188813995565	16
+http://www.rottentomatoes.com/celebrity/bruno_heller/	http://www.rottentomatoes.com/tv/gotham/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181726475542	2
+http://www.rottentomatoes.com/celebrity/danny_mastrogiorgio	http://www.rottentomatoes.com/tv/gotham/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181726475542	2
+http://www.rottentomatoes.com/celebrity/danny_mastrogiorgio/	http://www.rottentomatoes.com/celebrity/danny_mastrogiorgio	(2, '/html/body/div/div/div/div/div/div/a[]')	0.205976046717	2
+http://www.rottentomatoes.com/celebrity/hakeem_kaekazim	http://www.rottentomatoes.com/tv/gotham/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181726475542	2
+http://www.rottentomatoes.com/tv/gotham/pictures/multiuse-1057264/	http://www.rottentomatoes.com/tv/gotham/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181726475542	1
+http://www.rottentomatoes.com/tv/gotham/pictures/multiuse-1057262/	http://www.rottentomatoes.com/tv/gotham/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181726475542	1
+http://www.rottentomatoes.com/tv/gotham/pictures/multiuse-1052448/	http://www.rottentomatoes.com/tv/gotham/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181726475542	1
+http://www.rottentomatoes.com/tv/gotham/pictures/multiuse-1052438/	http://www.rottentomatoes.com/tv/gotham/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181726475542	1
+http://www.rottentomatoes.com/tv/gotham/pictures/multiuse-1050361/	http://www.rottentomatoes.com/tv/gotham/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181726475542	1
+http://www.rottentomatoes.com/tv/gotham/pictures/multiuse-1050359/	http://www.rottentomatoes.com/tv/gotham/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181726475542	1
+http://www.rottentomatoes.com/tv/gotham/pictures/multiuse-1050223/	http://www.rottentomatoes.com/tv/gotham/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181726475542	1
+http://www.rottentomatoes.com/tv/gotham/pictures/multiuse-1050220/	http://www.rottentomatoes.com/tv/gotham/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181726475542	1
+http://www.rottentomatoes.com/tv/gotham/pictures/multiuse-1014940/	http://www.rottentomatoes.com/tv/gotham/	(16, '/html/body/div/div/div/div/div/div/div/a[]')	0.181726475542	1
+http://www.rottentomatoes.com/tv/gotham/s02/e14/pictures/multiuse-1057262/	http://www.rottentomatoes.com/tv/gotham/s02/e14/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000220363	1
+http://www.rottentomatoes.com/tv/gotham/s02/e13/pictures/multiuse-1052448/	http://www.rottentomatoes.com/tv/gotham/s02/e13/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000212236	1
+http://www.rottentomatoes.com/tv/gotham/s02/e13/pictures/multiuse-1050223/	http://www.rottentomatoes.com/tv/gotham/s02/e13/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000212236	1
+http://www.rottentomatoes.com/tv/gotham/s02/e12/pictures/multiuse-1050361/	http://www.rottentomatoes.com/tv/gotham/s02/e12/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000204058	1
+http://www.rottentomatoes.com/tv/gotham/s02/e12/pictures/multiuse-1050359/	http://www.rottentomatoes.com/tv/gotham/s02/e12/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000204058	1
+http://www.rottentomatoes.com/tv/gotham/s02/e12/pictures/multiuse-1050220/	http://www.rottentomatoes.com/tv/gotham/s02/e12/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000204058	1
+http://www.rottentomatoes.com/tv/gotham/s02/e11/pictures/multiuse-975760/	http://www.rottentomatoes.com/tv/gotham/s02/e11/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000195827	1
+http://www.rottentomatoes.com/tv/gotham/s02/e11/pictures/multiuse-975756/	http://www.rottentomatoes.com/tv/gotham/s02/e11/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000195827	1
+http://www.rottentomatoes.com/tv/gotham/s02/e11/pictures/multiuse-975754/	http://www.rottentomatoes.com/tv/gotham/s02/e11/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000195827	1
+http://www.rottentomatoes.com/tv/gotham/s02/e10/pictures/multiuse-967108/	http://www.rottentomatoes.com/tv/gotham/s02/e10/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000187544	1
+http://www.rottentomatoes.com/tv/gotham/s02/e10/pictures/multiuse-967106/	http://www.rottentomatoes.com/tv/gotham/s02/e10/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000187544	1
+http://www.rottentomatoes.com/tv/gotham/s02/e10/pictures/multiuse-967100/	http://www.rottentomatoes.com/tv/gotham/s02/e10/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000187544	1
+http://www.rottentomatoes.com/tv/gotham/s02/e07/pictures/multiuse-1005535/	http://www.rottentomatoes.com/tv/gotham/s02/e07/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000162375	1
+http://www.rottentomatoes.com/tv/gotham/s02/e07/pictures/multiuse-1005398/	http://www.rottentomatoes.com/tv/gotham/s02/e07/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000162375	1
+http://www.rottentomatoes.com/tv/gotham/s02/e07/pictures/tv-11900/	http://www.rottentomatoes.com/tv/gotham/s02/e07/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000162375	1
+http://www.rottentomatoes.com/tv/gotham/s02/e07/pictures/tv-11899/	http://www.rottentomatoes.com/tv/gotham/s02/e07/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000162375	1
+http://www.rottentomatoes.com/tv/gotham/s02/e07/pictures/tv-11898/	http://www.rottentomatoes.com/tv/gotham/s02/e07/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000162375	1
+http://www.rottentomatoes.com/tv/gotham/s02/e07/pictures/tv-11897/	http://www.rottentomatoes.com/tv/gotham/s02/e07/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000162375	1
+http://www.rottentomatoes.com/tv/gotham/s02/e07/pictures/tv-11896/	http://www.rottentomatoes.com/tv/gotham/s02/e07/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000162375	1
+http://www.rottentomatoes.com/tv/gotham/s02/e07/pictures/tv-11895/	http://www.rottentomatoes.com/tv/gotham/s02/e07/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000162375	1
+http://www.rottentomatoes.com/tv/gotham/s02/e06/pictures/multiuse-954496/	http://www.rottentomatoes.com/tv/gotham/s02/e06/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000153877	1
+http://www.rottentomatoes.com/tv/gotham/s02/e06/pictures/multiuse-952553/	http://www.rottentomatoes.com/tv/gotham/s02/e06/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000153877	1
+http://www.rottentomatoes.com/tv/gotham/s02/e06/pictures/multiuse-952551/	http://www.rottentomatoes.com/tv/gotham/s02/e06/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000153877	1
+http://www.rottentomatoes.com/tv/gotham/s02/e06/pictures/multiuse-952265/	http://www.rottentomatoes.com/tv/gotham/s02/e06/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000153877	1
+http://www.rottentomatoes.com/tv/gotham/s02/e06/pictures/tv-11890/	http://www.rottentomatoes.com/tv/gotham/s02/e06/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000153877	1
+http://www.rottentomatoes.com/tv/gotham/s02/e06/pictures/tv-11889/	http://www.rottentomatoes.com/tv/gotham/s02/e06/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000153877	1
+http://www.rottentomatoes.com/tv/gotham/s02/e05/pictures/tv-11880/	http://www.rottentomatoes.com/tv/gotham/s02/e05/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000145325	1
+http://www.rottentomatoes.com/tv/gotham/s02/e05/pictures/tv-11879/	http://www.rottentomatoes.com/tv/gotham/s02/e05/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000145325	1
+http://www.rottentomatoes.com/tv/gotham/s02/e05/pictures/tv-11878/	http://www.rottentomatoes.com/tv/gotham/s02/e05/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000145325	1
+http://www.rottentomatoes.com/tv/gotham/s02/e05/pictures/tv-11877/	http://www.rottentomatoes.com/tv/gotham/s02/e05/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000145325	1
+http://www.rottentomatoes.com/tv/gotham/s02/e05/pictures/tv-11876/	http://www.rottentomatoes.com/tv/gotham/s02/e05/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000145325	1
+http://www.rottentomatoes.com/tv/gotham/s02/e05/pictures/tv-11875/	http://www.rottentomatoes.com/tv/gotham/s02/e05/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000145325	1
+http://www.rottentomatoes.com/tv/gotham/s02/e04/pictures/multiuse-948800/	http://www.rottentomatoes.com/tv/gotham/s02/e04/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000136718	1
+http://www.rottentomatoes.com/tv/gotham/s02/e04/pictures/multiuse-948797/	http://www.rottentomatoes.com/tv/gotham/s02/e04/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000136718	1
+http://www.rottentomatoes.com/tv/gotham/s02/e04/pictures/multiuse-948796/	http://www.rottentomatoes.com/tv/gotham/s02/e04/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000136718	1
+http://www.rottentomatoes.com/tv/gotham/s02/e04/pictures/multiuse-948793/	http://www.rottentomatoes.com/tv/gotham/s02/e04/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000136718	1
+http://www.rottentomatoes.com/tv/gotham/s02/e04/pictures/tv-11757/	http://www.rottentomatoes.com/tv/gotham/s02/e04/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000136718	1
+http://www.rottentomatoes.com/tv/gotham/s02/e04/pictures/tv-11756/	http://www.rottentomatoes.com/tv/gotham/s02/e04/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000136718	1
+http://www.rottentomatoes.com/tv/gotham/s02/e04/pictures/tv-11755/	http://www.rottentomatoes.com/tv/gotham/s02/e04/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000136718	1
+http://www.rottentomatoes.com/tv/gotham/s02/e04/pictures/tv-11754/	http://www.rottentomatoes.com/tv/gotham/s02/e04/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000136718	1
+http://www.rottentomatoes.com/tv/gotham/s02/e03/pictures/multiuse-951604/	http://www.rottentomatoes.com/tv/gotham/s02/e03/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000128054	1
+http://www.rottentomatoes.com/tv/gotham/s02/e03/pictures/multiuse-949601/	http://www.rottentomatoes.com/tv/gotham/s02/e03/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000128054	1
+http://www.rottentomatoes.com/tv/gotham/s02/e03/pictures/multiuse-949489/	http://www.rottentomatoes.com/tv/gotham/s02/e03/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000128054	1
+http://www.rottentomatoes.com/tv/gotham/s02/e03/pictures/multiuse-949486/	http://www.rottentomatoes.com/tv/gotham/s02/e03/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000128054	1
+http://www.rottentomatoes.com/tv/gotham/s02/e02/pictures/multiuse-948603/	http://www.rottentomatoes.com/tv/gotham/s02/e02/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000119335	1
+http://www.rottentomatoes.com/tv/gotham/s02/e02/pictures/multiuse-948599/	http://www.rottentomatoes.com/tv/gotham/s02/e02/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000119335	1
+http://www.rottentomatoes.com/tv/gotham/s02/e02/pictures/multiuse-948597/	http://www.rottentomatoes.com/tv/gotham/s02/e02/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000119335	1
+http://www.rottentomatoes.com/tv/gotham/s02/e01/pictures/multiuse-948315/	http://www.rottentomatoes.com/tv/gotham/s02/e01/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000110559	3
+http://www.rottentomatoes.com/tv/gotham/s02/e01/pictures/multiuse-948313/	http://www.rottentomatoes.com/tv/gotham/s02/e01/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000110559	3
+http://www.rottentomatoes.com/tv/gotham/s02/e01/pictures/multiuse-948309/	http://www.rottentomatoes.com/tv/gotham/s02/e01/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000110559	3
+http://www.rottentomatoes.com/tv/gotham/s02/e01/pictures/multiuse-935743/	http://www.rottentomatoes.com/tv/gotham/s02/e01/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000110559	3
+http://www.rottentomatoes.com/tv/gotham/s02/e01/pictures/tv-10330/	http://www.rottentomatoes.com/tv/gotham/s02/e01/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000110559	3
+http://www.rottentomatoes.com/tv/gotham/s02/e01/pictures/tv-10329/	http://www.rottentomatoes.com/tv/gotham/s02/e01/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000110559	3
+http://www.rottentomatoes.com/tv/gotham/s02/pictures/multiuse-1057264/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000101725	1
+http://www.rottentomatoes.com/tv/gotham/s02/pictures/multiuse-1057262/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000101725	1
+http://www.rottentomatoes.com/tv/gotham/s02/pictures/multiuse-1052448/	http://www.rottentomatoes.com/tv/gotham/s02/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.137000101725	1
+http://www.rottentomatoes.com/m/the_big_short/pictures/multiuse-1002945/	http://www.rottentomatoes.com/m/the_big_short/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.136999871194	3
+http://www.rottentomatoes.com/m/the_big_short/pictures/multiuse-999629/	http://www.rottentomatoes.com/m/the_big_short/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.136999871194	3
+http://www.rottentomatoes.com/m/the_big_short/pictures/multiuse-1023157/	http://www.rottentomatoes.com/m/the_big_short/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.136999871194	3
+http://www.rottentomatoes.com/m/suffragette/pictures/movie-133352/	http://www.rottentomatoes.com/m/suffragette/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.136999818268	3
+http://www.rottentomatoes.com/m/suffragette/pictures/movie-133351/	http://www.rottentomatoes.com/m/suffragette/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.136999818268	3
+http://www.rottentomatoes.com/m/suffragette/pictures/multiuse-918550/	http://www.rottentomatoes.com/m/suffragette/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.136999818268	3
+http://www.rottentomatoes.com/m/gravity_2013/pictures/multiuse-68521/	http://www.rottentomatoes.com/m/gravity_2013/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.136999586945	1
+http://www.rottentomatoes.com/m/gravity_2013/pictures/multiuse-780866/	http://www.rottentomatoes.com/m/gravity_2013/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.136999586945	1
+http://www.rottentomatoes.com/m/gravity_2013/pictures/community-14141060/	http://www.rottentomatoes.com/m/gravity_2013/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.136999586945	1
+http://www.rottentomatoes.com/m/shaun_the_sheep_movie/	http://www.rottentomatoes.com/user/id/905876522/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.136508958169	8
+http://www.rottentomatoes.com/m/man_who_shot_liberty_valance/	http://www.rottentomatoes.com/user/id/905876522/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.136508958169	8
+http://www.rottentomatoes.com/m/other_guys/	http://www.rottentomatoes.com/user/id/905876522/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.136508958169	8
+http://www.rottentomatoes.com/m/chariots_of_fire/	http://www.rottentomatoes.com/user/id/905876522/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.136508958169	8
+http://www.rottentomatoes.com/m/foxcatcher/	http://www.rottentomatoes.com/user/id/910658680/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.136371991365	8
+http://www.rottentomatoes.com/m/the_hundred_foot_journey/	http://www.rottentomatoes.com/user/id/910658680/	(18, '/html/body/div/div/div/div/div/ul/li/a[]')	0.136371991365	8
+http://www.rottentomatoes.com/m/shaun_the_sheep_movie/pictures/movie-132479/	http://www.rottentomatoes.com/m/shaun_the_sheep_movie/	(8, '/html/body/div/div/div/div/div/div/div/div/a[]')	0.136293173258	1

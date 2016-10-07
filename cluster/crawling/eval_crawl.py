@@ -9,7 +9,12 @@ from collections import defaultdict,Counter
 import re
 import traceback
 import random,time
+import numpy as np
 from sample import sampler
+import matplotlib.pyplot as plt
+
+
+
 
 
 class eval_crawl:
@@ -87,9 +92,14 @@ class eval_crawl:
             file_path = "./results/bfs/{0}_{1}_0_{3}_size{4}.txt".format(self.dataset, self.date, self.cluster_rank, self.rank_algo,self.crawl_size)
         elif self.rank_algo == "TPM":
             file_path = "./results/evaluate/baselines/vidal_{0}_{1}_{2}_size{4}.txt".format(self.dataset, self.date, self.cluster_rank, self.rank_algo,self.crawl_size)
+        elif "sitemap" in self.rank_algo:
+            #try:
+            #file_path = "./results/evaluate/sitemap/{0}_{1}_{2}_target_{3}_size1001.txt".format(self.dataset, self.date, self.cluster_rank, self.rank_algo)
+            #except:
+            file_path = "./results/evaluate/sitemap/{0}_{1}_{2}_target_{3}_size{4}.txt".format(self.dataset, self.date, self.cluster_rank, self.rank_algo,self.crawl_size)
         else:
-            file_path = "./results/evaluate/target/{0}_{1}_{2}_{3}_size{4}.txt".format(self.dataset, self.date, self.cluster_rank, self.rank_algo,self.crawl_size)
-            print file_path , 'file path'
+            file_path = "./results/evaluate/target/{0}_{1}_{2}_{3}_size5001.txt".format(self.dataset, self.date, self.cluster_rank, self.rank_algo,self.crawl_size)
+        print file_path , 'file path'
         result_lines = open(file_path,"r").readlines()
 
         for index,line in enumerate(result_lines):
@@ -205,30 +215,65 @@ if __name__ == "__main__":
     parser.add_argument('crawl_size',help="crawling size")
     parser.add_argument('rank_algo',help="rank algo")
 
-    crawl_size = 1001
-    args = parser.parse_args()
-    our = eval_crawl(args.dataset,args.date,int(args.cluster),int(args.crawl_size),args.rank_algo,crawl_size)
-    bfs = eval_crawl(args.dataset,args.date,int(args.cluster),10001,"bfs",crawl_size)
-    tpm = eval_crawl(args.dataset,args.date,int(args.cluster),1001,"TPM",crawl_size)
-
-    crawl_num = 1001
-    our.eval(crawl_num,mode="match")
-    bfs.eval(crawl_num,mode="match")
-    tpm.eval(crawl_num,mode="match")
-    methods = [bfs,tpm,our]
-    recall = set()
-    for m in methods:
-        for url in m.url_list:
-            recall.add(url)
-    print len(recall)
 
 
+    for cluster_id in [0,1]:
+        p_1000 = []
+        p_500 = []
+        p_200 = []
+        p_100 = []
+        for dataset in ["asp","youtube","douban","hupu","stackexchange"]:
+            crawl_size = 2000
+            args = parser.parse_args()
+            our = eval_crawl(dataset,args.date,cluster_id,int(args.crawl_size),args.rank_algo,crawl_size)
+            #bfs = eval_crawl(dataset,args.date,int(args.cluster),10001,"bfs",crawl_size)
+            #tpm = eval_crawl(dataset,args.date,int(args.cluster),1001,"TPM",crawl_size)
+            sitemap100 = eval_crawl(dataset,args.date,cluster_id,2000,"sitemap100",crawl_size)
+            sitemap200 = eval_crawl(dataset,args.date,cluster_id,2000,"sitemap200",crawl_size)
+            sitemap500 = eval_crawl(dataset,args.date,cluster_id,2000,"sitemap500",crawl_size)
+            crawl_num = 3000
+            p_1000.append(our.eval(crawl_num,mode="match"))
+            #bfs.eval(crawl_num,mode="match")
+            #tpm.eval(crawl_num,mode="match")
+            p_500.append(sitemap500.eval(crawl_num,mode="match"))
+            p_200.append(sitemap200.eval(crawl_num,mode="match"))
+            p_100.append(sitemap100.eval(crawl_num,mode="match"))
 
+
+        a_1000= np.mean(np.array(p_1000))
+        a_500 =np.mean(np.array(p_500))
+        a_200 =np.mean(np.array(p_200))
+        a_100 =np.mean(np.array(p_100))
+
+        print a_1000,a_500,a_200,a_100, "average "
+
+        '''
+        methods = [our,sitemap100,sitemap200]
+        recall = set()
+        for m in methods:
+            for url in m.url_list:
+                recall.add(url)
+        print len(recall)
+
+        '''
+        print "p_1000", p_1000,np.mean(np.array(p_1000))
+        print "p_500", p_500,np.mean(np.array(p_500))
+        print "p_200", p_200,np.mean(np.array(p_200))
+        print "p_100", p_100,np.mean(np.array(p_100))
+
+        plt.plot([1000,500,200,100],[a_1000,a_500,a_200,a_100],label="cluster {}".format(cluster_id))
+    plt.xlabel("Sitemap Size")
+    plt.ylabel("Precision")
+    plt.legend(loc=4)
+    plt.show()
     #for url in recall:
     #    print "test", url
 
-    for m in methods:
-        calculate_recall(m,recall,1001)
+    #for m in methods:
+    #    calculate_recall(m,recall,1001)
+
+
+
 
     '''
     recall = calculate_recall(target_match_url_list,bfs_match_url_list)

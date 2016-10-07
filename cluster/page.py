@@ -131,6 +131,7 @@ class Page:
         tree= etree.HTML(str(self.contents))
         Etree = etree.ElementTree(tree)
         nodes = tree.xpath("//*[not(*)]")
+        #nodes = tree.xpath("//a")
         for node in nodes:
             # we do not consider index or predicate here
             xpath = Etree.getpath(node)
@@ -138,7 +139,6 @@ class Page:
             if not index:
                 xpath = self.removeIndex(xpath)
             #xpath = "/".join(xpath.split('/')[:-1]) # prune the leaf level
-
             #xpath = self.stemming(xpath)
             #if s_xpath != xpath:
             #    self.dfs_xpaths_list.append(s_xpath)
@@ -230,7 +230,10 @@ class Page:
         # for visualization
         tfidf_sum = sum(self.tfidf.values())
         for item in self.tfidf:
-            self.normtfidf[item] = float(self.tfidf[item])/tfidf_sum
+            if tfidf_sum !=0:
+                self.normtfidf[item] = float(self.tfidf[item])/tfidf_sum
+            else:
+                self.normtfidf[item] = 0
         '''
         onehot_sum = sum(self.onehot.values())
 

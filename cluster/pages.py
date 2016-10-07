@@ -14,13 +14,13 @@ from page import Page
 
 
 class allPages:
-    def __init__(self, folder_path, dataset, date="Mar15", mode="read"): # mode: {raw, read, write}
+    def __init__(self, folder_path, dataset, date="Mar15", num_samples=None, mode="write",debug=True): # mode: {raw, read, write}
         self.folder_path = folder_path
         self.dataset = dataset
         self.date = date
         print folder_path,dataset,date," creating allPages "
         #print folder_path
-        self.threshold = 0.004
+        self.threshold = 4.0
         self.pages = []
         self.path_list = []
         self.category = [] # prediction
@@ -31,17 +31,42 @@ class allPages:
         self.df = {}
         self.features = []
         self.mode = mode
-        if not os.path.exists("./{}/feature/".format(date)+dataset):
-            os.makedirs("./{}/feature/".format(date)+dataset)
+        self.num_samples = num_samples
+
+        if debug:
+            print "debug for pageCluster"
+            print "num_samples", num_samples, type(num_samples)
+            if num_samples is None:
+                feat_folder = "./{}/feature/".format(date) + dataset
+            else:
+                feat_folder = "./{0}/feature/{1}/".format(date,num_samples) + dataset
+                if not os.path.exists(feat_folder):
+                    if not os.path.exists("./{0}/feature/{1}/".format(date,num_samples)):
+                        os.mkdir("./{0}/feature/{1}/".format(date,num_samples))
+                    os.mkdir(feat_folder)
+        else:
+            if num_samples == None:
+                feat_folder = "../{}/feature/".format(date) + dataset
+            else:
+                feat_folder = "../{0}/feature/{1}/".format(date,num_samples) + dataset
+            if not os.path.exists(feat_folder):
+                if not os.path.exists("../{0}/feature/{1}/".format(date,num_samples)):
+                    os.mkdir("./{0}/feature/{1}/".format(date,num_samples))
+                os.mkdir(feat_folder)
+        print feat_folder, "feat folder"
+
+        if not os.path.exists(feat_folder):
+            os.makedirs(feat_folder)
         if mode == "read":
-            page_list = open("./{}/feature/".format(date)+dataset+"/pages.txt","r").readlines()
-            tf_idf_lines = open("./{}/feature/".format(date)+dataset+"/tf_idf.txt","r").readlines()
-            log_tf_idf_lines = open("./{}/feature/".format(date) + dataset + "/log_tf_idf.txt","r").readlines()
-            features = open("./{}/feature/".format(date) + dataset + "/xpaths.txt","r").readlines()
-            idf_file = open("./{}/feature/".format(date) + dataset  + "/idf.txt","r")
+            page_list = open(feat_folder+"/pages.txt","r").readlines()
+            tf_idf_lines = open(feat_folder+"/tf_idf.txt","r").readlines()
+            log_tf_idf_lines = open(feat_folder+ "/log_tf_idf.txt","r").readlines()
+            features = open(feat_folder + "/xpaths.txt","r").readlines()
+            idf_file = open(feat_folder + "/idf.txt","r")
             #file_size_file = open("./{}/feature/".format(date)+ dataset +"/size.txt","r")
 
-            for i in range(len(page_list)):
+            num_samples = len(page_list)
+            for i in range(num_samples):
 
                     pid = page_list[i].strip().split(":")[0]
                     file_path = ":".join(page_list[i].strip().split(":")[1:])
@@ -63,14 +88,16 @@ class allPages:
 
             self.idf = pickle.load(idf_file)
             #self.file_size_list = pickle.load(file_size_file)
-            self.category = [0 for i in range(len(page_list))]
+            self.category = [0 for i in range(num_samples)]
             self.get_ground_truth(dataset)
             self.num = len(page_list)
         elif mode == "c_baseline":
             print "it is the baseline of v.crescenzi"
             self.add_page_anchor(folder_path)
             self.get_ground_truth(dataset)
-
+        elif mode == "irobot":
+            print "it is for the baseline irobot with partial tree alignment "
+            self.get_ground_truth(dataset)
 
         else:
         # initialize data structure
@@ -82,7 +109,7 @@ class allPages:
             self.num = len(self.pages)
             #self.top_local_stop_structure_gt(0.9)
             self.updatetfidf()
-            self.filter_df(0.01,1.0)
+            #self.filter_df(0.01,1.0)
             #self.filter_dfs_xpaths_list()
             #self.Leung_baseline()  # binary feature
             self.selected_tfidf()
@@ -91,7 +118,7 @@ class allPages:
             
             if mode=="write":
                 print "write mode !"
-                xpath_file =  open("./{}/feature/".format(date)+dataset+"/xpaths.txt","w")
+                xpath_file =  open(feat_folder+"/xpaths.txt","w")
                 print len(self.pages)
                 # filtered xpath :  id xpath
                 for page in self.pages:
@@ -103,12 +130,14 @@ class allPages:
                     break
 
 
-                page_file =  open("./{}/feature/".format(date)+dataset + "/pages.txt","w")# id file_path
-                tf_idf_file =  open("./{}/feature/".format(date) + dataset + "/tf_idf.txt","w")  # pid features..
-                log_tf_idf_file = open("./{}/feature/".format(date) + dataset +"/log_tf_idf.txt","w")
+                page_file =  open(feat_folder + "/pages.txt","w")# id file_path
+                tf_idf_file =  open(feat_folder + "/tf_idf.txt","w")  # pid features..
+                log_tf_idf_file = open(feat_folder +"/log_tf_idf.txt","w")
                 page_id = 0
                 for page in self.pages:
-                    page_file.write(str(page_id)+":"+page.path+"\n")
+                    #print page.path, page.path.split("http")[1:]
+                    path = "http" + "http".join(page.path.split("http")[1:])
+                    page_file.write(str(page_id)+":"+path+"\n")
                     vector = []
                     for key in page.selected_tfidf:
                         vector.append(page.selected_tfidf[key])
@@ -119,9 +148,9 @@ class allPages:
                     log_tf_idf_file.write(str(page_id)+":" + " ".join(str(feat) for feat in vector)+"\n")
 
                     page_id += 1
-                idf_file = open("./{}/feature/".format(date) + dataset + "/idf.txt","w")
+                idf_file = open(feat_folder + "/idf.txt","w")
                 pickle.dump(self.idf,idf_file)
-                file_size_file = open("./{}/feature/".format(date)+dataset+"/size.txt","w")
+                file_size_file = open(feat_folder + "/size.txt","w")
                 pickle.dump(self.file_size_list,file_size_file)
 
         #self.update_bigram()
@@ -145,21 +174,19 @@ class allPages:
         for xpath in _page_.xpaths.keys(): # xpaths set
             self.xpaths_set.add(xpath)
 
-    def addPages(self,folder_path_list):
+    def addPages(self,folder_path):
+        print folder_path,"folder Path list"
         category_num = 0
-        for folder_path in folder_path_list:
-            folder_pages = []
-            for html_file in os.listdir(folder_path):
-                if ".DS_Store" not in html_file:
-                    file_path = folder_path + html_file
-                    print file_path
-                    file_page = Page(file_path)
-                    # the same number for pags & category
-                    self.pages.append(file_page)
-                    self.path_list.append(file_page.path)
-                    self.category.append(category_num)
-                    self.update_xpaths_set(file_page)
-            category_num+=1
+        for html_file in os.listdir(folder_path):
+            if ".DS_Store" not in html_file:
+                file_path = folder_path + html_file
+                file_page = Page(file_path)
+                # the same number for pags & category
+                self.pages.append(file_page)
+                self.path_list.append(file_page.path)
+                self.category.append(category_num)
+                self.update_xpaths_set(file_page)
+        category_num+=1
 
 
     def add_page_anchor(self,folder_path_list):
@@ -343,7 +370,8 @@ class allPages:
         N = self.num
         for key in self.idf:
             #print key
-            if float(self.df[key])/float(N) >= self.threshold:
+            #if float(self.df[key])/float(N) >= self.threshold:
+            if self.df[key] >= self.threshold:
                 for page in self.pages:
                     page.update_Leung(key)
 
@@ -365,7 +393,8 @@ class allPages:
     def selected_tfidf(self):
         N = self.num
         for key in self.idf:
-            if float(self.df[key])/float(N) >= self.threshold:
+            #if float(self.df[key])/float(N) >= self.threshold:
+            if self.df[key] >= self.threshold:
                 for page in self.pages:
                     page.update_selected_tfidf(key)
 

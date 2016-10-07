@@ -1,0 +1,56 @@
+getenv = true
+Universe = vanilla
+executable = /bos/usr0/keyangx/webStructure/cluster/crawling/crawl.sh
+arguments = youtube July30 0 0 2001 target 100
+Output = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_youtube.out
+Log = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_youtube.log
+Error = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_youtube.err
+Queue
+
+
+
+getenv = true
+Universe = vanilla
+executable = /bos/usr0/keyangx/webStructure/cluster/crawling/crawl.sh
+arguments = asp July30 0 0 2001 target 100
+Output = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_asp.out
+Log = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_asp.log
+Error = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_asp.err
+Queue
+
+getenv = true
+Universe = vanilla
+executable = /bos/usr0/keyangx/webStructure/cluster/crawling/crawl.sh
+arguments = stackexchange July30 0 0 2001 target 100
+Output = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_stackexhchange.out
+Log = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_stackexchange.log
+Error = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_stackexchange.err
+Queue
+
+getenv = true
+Universe = vanilla
+executable = /bos/usr0/keyangx/webStructure/cluster/crawling/crawl.sh
+arguments = hupu July30 0 0 2001 target 100
+Output = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_hupu.out
+Log = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_hupu.log
+Error = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_hupu.err
+Queue
+
+
+getenv = true
+Universe = vanilla
+executable = /bos/usr0/keyangx/webStructure/cluster/crawling/crawl.sh
+arguments = douban July30 0 0 2001 target 100
+Output = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_douban.out
+Log = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_douban.log
+Error = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_douban.err
+Queue
+
+getenv = true
+Universe = vanilla
+executable = /bos/usr0/keyangx/webStructure/cluster/crawling/crawl.sh
+arguments = rottentomatoes July30 0 0 2001 target 100
+Output = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_rottentomatoes.out
+Log = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_rottentomatoes.log
+Error = /bos/usr0/keyangx/webStructure/cluster/crawling/output/crawl_rottentomatoes.err
+Queue
